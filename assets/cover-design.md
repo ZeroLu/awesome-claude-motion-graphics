@@ -23,4 +23,3 @@ The 304-case and 17-category counts match the collection at publication. The con
 > "17" / "CLEAR CATEGORIES"
 > Small footer line: "Human-curated for quality. Organized for discovery."
 > The title and words human-curated are central to the purpose. Make this look like a highly polished real design studio's open-source project cover, with exceptional typography and composition. All letters perfectly readable; keep safe margins around every edge.
-

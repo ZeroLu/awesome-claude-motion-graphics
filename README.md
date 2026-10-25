@@ -1,54 +1,76 @@
 # Awesome Claude Motion Graphics 🎬
 
-[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE) [![GitHub stars](https://img.shields.io/github/stars/ZeroLu/awesome-claude-motion-graphics?style=social)](https://github.com/ZeroLu/awesome-claude-motion-graphics/stargazers)
+**English** | [简体中文](./README.zh-CN.md)
 
-> A curated collection of the best **Claude Opus 5.5 motion graphics** prompts, sourced from X (Twitter) and top prompt engineers. Each entry includes the full prompt, preview, view count, and engagement metrics.
+[![Awesome](https://awesome.re/badge.svg)](https://github.com/sindresorhus/awesome) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE) [![GitHub stars](https://img.shields.io/github/stars/ZeroLu/awesome-claude-motion-graphics?style=social)](https://github.com/ZeroLu/awesome-claude-motion-graphics/stargazers)
 
-This repository focuses on **code-generated motion graphics** created with Claude Opus 5.5 — including product launch videos, motion design showreels, explainers, ads, and creative experiments. All prompts produce self-contained HTML/JS/CSS animations that render directly in the browser.
+> A curated collection of Claude motion graphics and code animation: videos, original prompts, and creator credits. Explore product launches, showreels, explainers, 3D, music videos, and more.
 
-**Stats:** 282 videos | 32,410,325 total views | 109,971 total likes
+Cases come from X and [Karl’s AIwarts Feishu collection](https://aiwarts101.feishu.cn/wiki/LMEcwg5jHiTSnqkwNE1cum7DnLb). Prompts retain their source language; Chinese versions from Feishu appear alongside matching cases. Some entries are interactive demos or games, and some prompts require the creator’s reference files, music, or tools.
 
-## 📖 Table of Contents
+**304 cases · 303 playable videos · 17 categories · 37 Feishu records (22 added, 15 merged)**
 
-1. [Product Launch Videos](#1-product-launch-videos)
-2. [Showreels & Motion Design Portfolios](#2-showreels-motion-design-portfolios)
-3. [Explainers & Knowledge Videos](#3-explainers-knowledge-videos)
-4. [Technical Demos & Visualizations](#4-technical-demos-visualizations)
-5. [Ads & Marketing](#5-ads-marketing)
-6. [Fun & Creative Experiments](#6-fun-creative-experiments)
-7. [Storytelling & Narrative Animation](#7-storytelling-narrative-animation)
-8. [Game Effects & Cinematics](#8-game-effects-cinematics)
-9. [Music Videos & Visualizers](#9-music-videos-visualizers)
-10. [Branding & Logo Animation](#10-branding-logo-animation)
-11. [Social Media Content](#11-social-media-content)
-12. [Tutorials & How-To](#12-tutorials-how-to)
-13. [Data Visualization](#13-data-visualization)
-14. [Event Intros & Stings](#14-event-intros-stings)
-15. [Other](#15-other)
+View and like counts are snapshots inherited from the original collection, not live metrics. New cases without public metrics omit them. Videos use native GitHub attachment players where available; remaining cases retain their original preview or source link.
 
----
+## Contents
+
+1. [Product Launch Videos](#category-1)
+2. [Showreels & Motion Design Portfolios](#category-2)
+3. [Explainers & Knowledge Videos](#category-3)
+4. [Technical Demos & Visualizations](#category-4)
+5. [Ads & Marketing](#category-5)
+6. [Fun & Creative Experiments](#category-6)
+7. [Storytelling & Narrative Animation](#category-7)
+8. [Game Effects & Cinematics](#category-8)
+9. [Music Videos & Visualizers](#category-9)
+10. [Branding & Logo Animation](#category-10)
+11. [Social Media Content](#category-11)
+12. [Tutorials & How-To](#category-12)
+13. [Data Visualization](#category-13)
+14. [Event Intros & Stings](#category-14)
+15. [Other](#category-15)
+16. [Visual Styles & Illustration](#category-16)
+17. [Motion Principles & UI Handoffs](#category-17)
+
+[Data & maintenance](#data) · [Credits & license](#credits)
+
+<a id="category-1"></a>
 
 ## 1. Product Launch Videos
 
-### 1. Modern AI Inference Startup Launch Video (350.9K views, 3,262 likes)
-*Use Case: launch | Style: 2d, minimal*
+<a id="case-1"></a>
 
-**Prompt:**
-```
+### 1. Modern AI Inference Startup Launch Video (350.9K views, 3,262 likes)
+
+*Use case: launch · Style: 2d, minimal*
+
+https://github.com/user-attachments/assets/e4dd92bc-a86d-45f5-a832-5ec29b03ae28
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 make a modern slick and punchy video for a modern startup that works on inference
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/deedydas-252537/original.8d653fb34b.webp" width="400" alt="Modern AI Inference Startup Launch Video">
+</details>
 
-*Source: @deedydas - [Post](https://x.com/deedydas/status/2102787937482252537)*
+*Source: @deedydas · [X post](https://x.com/deedydas/status/2102787937482252537)*
 
 ---
 
-### 2. GSAP and Three.js Product Motion Video Template System (127.2K views, 1,062 likes)
-*Use Case: launch | Style: 3d, minimal*
+<a id="case-2"></a>
 
-**Prompt:**
-```
+### 2. GSAP and Three.js Product Motion Video Template System (127.2K views, 1,062 likes)
+
+*Use case: launch · Style: 3d, minimal*
+
+https://github.com/user-attachments/assets/6ca43c64-0356-43be-bf8b-46519680e222
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 <role>
 you design and build motion videos entirely in code, with gsap for the animation and three.js for any 3d. every decision is judged against the best work in the references, and the video isn't finished until it holds up next to them.
 </role>
@@ -166,31 +188,45 @@ the video isn't done until all of these pass, measured:
 </
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/_prompts/everestchris6-399895/poster.d351346a82.webp" width="400" alt="GSAP and Three.js Product Motion Video Template System">
+</details>
 
-*Source: @everestchris6 - [Post](https://x.com/everestchris6/status/2104965415164399895)*
+*Source: @everestchris6 · [X post](https://x.com/everestchris6/status/2104965415164399895)*
 
 ---
 
-### 3. Professional SaaS Product Launch Video with Feature Showcase (97.5K views, 439 likes)
-*Use Case: launch | Style: 2d, photo-based, minimal*
+<a id="case-3"></a>
 
-**Prompt:**
-```
+### 3. Professional SaaS Product Launch Video with Feature Showcase (97.5K views, 439 likes)
+
+*Use case: launch · Style: 2d, photo-based, minimal*
+
+https://github.com/user-attachments/assets/2cd3e7d9-1404-4d16-a1a2-e2341ea3f5e9
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 I want you to create a highly professional SaaS product launch video. Go and find some SaaS, preferably just one that people know, so it's easier to identify with it. Pick that, and then make sure to get actual assets and images and all of that stuff from the internet. Turn it into these typical, very professionally edited, motion-graphics-styled product launch videos that you see people making on Twitter when they launch new SaaS products (which are showing off the features, the benefits, and all of these things).
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/moritzkremb-466494/original.dc5bd867e2.webp" width="400" alt="Professional SaaS Product Launch Video with Feature Showcase">
+</details>
 
-*Source: @moritzkremb - [Post](https://x.com/moritzkremb/status/2103066071838466494)*
+*Source: @moritzkremb · [X post](https://x.com/moritzkremb/status/2103066071838466494)*
 
 ---
 
-### 4. Notion Column Permissions Feature Launch Trailer (54.5K views, 154 likes)
-*Use Case: launch | Style: 2d, minimal*
+<a id="case-4"></a>
 
-**Prompt:**
-```
+### 4. Notion Column Permissions Feature Launch Trailer (54.5K views, 154 likes)
+
+*Use case: launch · Style: 2d, minimal*
+
+https://github.com/user-attachments/assets/22f6e9a3-a110-42b0-9638-0f25ada17807
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 Last week, we launched column permissions!
 
 I’m not on Notion’s video team, but with the help of @claudeai, @bot, and @NotionHQ, I made a trailer over the weekend. (How I made it in 🧵)
@@ -205,17 +241,24 @@ In total, this project took ~90 messages with my @bot over 2 days, which generat
 Here’s a Notion doc documenting the process (including many rejected candidates): https://notion.notion.site/column-permissions-trailer
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/wustep-884086/original.7785b73ddb.webp" width="400" alt="Notion Column Permissions Feature Launch Trailer">
+</details>
 
-*Source: @wustep - [Post](https://x.com/wustep/status/2104610435571884086)*
+*Source: @wustep · [X post](https://x.com/wustep/status/2104610435571884086)*
 
 ---
 
-### 5. Minimal Product Video with Real Footage and Masked Type Reveals (53.5K views, 615 likes)
-*Use Case: launch | Style: 2d, photo-based, minimal*
+<a id="case-5"></a>
 
-**Prompt:**
-```
+### 5. Minimal Product Video with Real Footage and Masked Type Reveals (53.5K views, 615 likes)
+
+*Use case: launch · Style: 2d, photo-based, minimal*
+
+https://github.com/user-attachments/assets/de5422b5-90b2-4428-9ee4-9be7480fcf73
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 <inputs>
 Ask me for: the product name and a one-line promise, 3 to 5 UI moments to show, one accent color, 10 to 20 real vertical clips I own, and a royalty-free song with a clear drop (e.g. Mixkit, free for commercial use).
 </inputs>
@@ -234,7 +277,7 @@ Then one move per bar: a wall of real clips with a scan line and 3 winners, the 
 </structure>
 
 <build>
-1. One HTML file at 1920x1080. Every style is computed from time inside 
+1. One HTML file at 1920x1080. Every style is computed from time inside
 http://
 window.seek(t): no CSS animations, no timers, no state between frames.
 2. Real video: extract clips to 30fps JPEG sequences with ffmpeg and swap img sources per frame. seek awaits the image decodes.
@@ -253,47 +296,77 @@ Ask me for the inputs, then show me a storyboard with every timing on the beat g
 </start>
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/twoclipping-000267/original.87cf7f8c74.webp" width="400" alt="Minimal Product Video with Real Footage and Masked Type Reveals">
+</details>
 
-*Source: @twoclipping - [Post](https://x.com/twoclipping/status/2102554209166000267)*
+*Source: @twoclipping · [X post](https://x.com/twoclipping/status/2102554209166000267)*
 
 ---
 
-### 6. Professional SaaS Product Launch Video with Internet Assets (52.9K views, 286 likes)
-*Use Case: launch | Style: 2d, photo-based, minimal*
+<a id="case-6"></a>
 
-**Prompt:**
-```
+### 6. Professional SaaS Product Launch Video with Internet Assets (52.9K views, 286 likes)
+
+*Use case: launch · Style: 2d, photo-based, minimal*
+
+https://github.com/user-attachments/assets/8b3afe67-3356-4c69-b08a-6d32e5bc7491
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 I want you to create a highly professional SaaS product launch video. Go and find some SaaS, preferably just one that people know, so it's easier to identify with it. Pick that, and then make sure to get actual assets and images and all of that stuff from the internet. Turn it into these typical, very professionally edited, motion-graphics-styled product launch videos that you see people making on Twitter when they launch new SaaS products (which are showing off the features, the benefits, and all of these things).
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/pbteja1998-651644/original.1bdf8e9b65.webp" width="400" alt="Professional SaaS Product Launch Video with Internet Assets">
+</details>
 
-*Source: @pbteja1998 - [Post](https://x.com/pbteja1998/status/2103176101497651644)*
+*Source: @pbteja1998 · [X post](https://x.com/pbteja1998/status/2103176101497651644)*
 
 ---
 
-### 7. 30-Second Developer Portfolio Showreel with Product Screenshots (48.1K views, 162 likes)
-*Use Case: launch | Style: 2d, minimal*
+<a id="case-7"></a>
 
-**Prompt:**
-```
-Make a dynamic 30-second motion graphics video that shows what an incredible motion designer you are, like it's your showreel for a résumé. go all out.  Make it a video to introduce 
+### 7. 30-Second Developer Portfolio Showreel with Product Screenshots (48.1K views, 162 likes)
+
+*Use case: launch · Style: 2d, minimal*
+
+https://github.com/user-attachments/assets/4c99660f-daff-46af-b920-6c3621b86601
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
+Make a dynamic 30-second motion graphics video that shows what an incredible motion designer you are, like it's your showreel for a résumé. go all out.  Make it a video to introduce
 https://
 mdfor.dev Use actual product screenshot/logo/assets Must have music and motion must match the music  Do it like a real professional production video, not like a demo or prototype. Add more animation and motion design; avoid using screenshots as raw; instead, break them down into components/icons so we can animate those too. Make the motions more juicy. Use the best motion design techniques you can.
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/ho-ba-761062/original.edf406f8ac.webp" width="400" alt="30-Second Developer Portfolio Showreel with Product Screenshots">
+</details>
 
-*Source: @HO_BA - [Post](https://x.com/HO_BA/status/2103845264649761062)*
+<details>
+<summary>Prompt · Chinese version from Feishu</summary>
+
+```text
+制作一段动感十足的30秒动态图形视频，展现你作为动效设计师的非凡实力，就像用于简历的作品集展示片。全力以赴。把它做成一支介绍 https://t.co/xdCXEdKZRq 的视频。使用真实的产品截图、标志和素材。必须有音乐，而且动效必须与音乐匹配。按照真正的专业制作视频来做，不要像演示或原型。加入更多动画和动效设计；避免直接使用原始截图，而是把截图拆解为组件或图标，这样也能对它们做动画。让运动效果更饱满、更有冲击力。使用你能做到的最佳动效设计技巧。
+```
+
+</details>
+
+*Source: @HO_BA · [X post](https://x.com/HO_BA/status/2103845264649761062) · [Feishu N05](https://aiwarts101.feishu.cn/wiki/LMEcwg5jHiTSnqkwNE1cum7DnLb)*
 
 ---
 
-### 8. BridgeMind AI Product Introduction Motion Video (33.3K views, 557 likes)
-*Use Case: launch | Style: 2d, minimal*
+<a id="case-8"></a>
 
-**Prompt:**
-```
+### 8. BridgeMind AI Product Introduction Motion Video (33.3K views, 557 likes)
+
+*Use case: launch · Style: 2d, minimal*
+
+https://github.com/user-attachments/assets/8ddb0881-14da-4b1a-b922-02020a852a5e
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 Claude Opus 5.5 just created this merch launch video for BridgeMind using Remotion.
 
 The taste on this model is insane. The transitions, the timing, the branding. Better than anything I have gotten from Fable 5.1 or GPT 6 Astra.
@@ -301,17 +374,24 @@ The taste on this model is insane. The transitions, the timing, the branding. Be
 Go cop your BridgeMind hoodie. Link below.
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/bridgemindai-286423/original.efad0877d7.webp" width="400" alt="BridgeMind AI Product Introduction Motion Video">
+</details>
 
-*Source: @bridgemindai - [Post](https://x.com/bridgemindai/status/2102462889160286423)*
+*Source: @bridgemindai · [X post](https://x.com/bridgemindai/status/2102462889160286423)*
 
 ---
 
-### 9. Product Promo Motion Graphics with Beat-Synced Transitions (31.1K views, 5 likes)
-*Use Case: launch | Style: 2d, minimal*
+<a id="case-9"></a>
 
-**Prompt:**
-```
+### 9. Product Promo Motion Graphics with Beat-Synced Transitions (31.1K views, 5 likes)
+
+*Use case: launch · Style: 2d, minimal*
+
+https://github.com/user-attachments/assets/55d4abec-3964-4660-b873-163f2913a0cb
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 the introduction made with opus 5.5 + remotion
 
 introducing @TryGofy — the live map of everything.
@@ -319,17 +399,24 @@ introducing @TryGofy — the live map of everything.
 #shipaton #BuildInPublic #gofy #gofyapp
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/heymrzak-349060/original.c53595193d.webp" width="400" alt="Product Promo Motion Graphics with Beat-Synced Transitions">
+</details>
 
-*Source: @heymrzak - [Post](https://x.com/heymrzak/status/2103768331782349060)*
+*Source: @heymrzak · [X post](https://x.com/heymrzak/status/2103768331782349060)*
 
 ---
 
-### 10. Medical Records App Promo with Remotion and Gemini TTS (26.5K views, 150 likes)
-*Use Case: launch | Style: 2d, minimal*
+<a id="case-10"></a>
 
-**Prompt:**
-```
+### 10. Medical Records App Promo with Remotion and Gemini TTS (26.5K views, 150 likes)
+
+*Use case: launch · Style: 2d, minimal*
+
+https://github.com/user-attachments/assets/1b4d8d4f-1ebf-496a-a496-fa660e51d2da
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 ／
 通院メモリー
 iOS版リリースしました！
@@ -342,43 +429,57 @@ Opus5.5/Remotion/Gemini APIで作ったら爆速。笑
 お子さんがいる方や家族の通院や服薬管理がしたい方、ぜひリプ先のリンクからインストールしてみてください🙌
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/seri-nonnon-231813/original.20f746366b.webp" width="400" alt="Medical Records App Promo with Remotion and Gemini TTS">
+</details>
 
-*Source: @seri_nonnon - [Post](https://x.com/seri_nonnon/status/2106192761632231813)*
+*Source: @seri_nonnon · [X post](https://x.com/seri_nonnon/status/2106192761632231813)*
 
 ---
 
-### 11. Modern Inference Startup Launch Video in Pure Code (24.8K views, 6 likes)
-*Use Case: launch | Style: 2d, minimal*
+<a id="case-11"></a>
 
-**Prompt:**
-```
+### 11. Modern Inference Startup Launch Video in Pure Code (24.8K views, 6 likes)
+
+*Use case: launch · Style: 2d, minimal*
+
+https://github.com/user-attachments/assets/5172f3dc-f760-48e4-94b8-ee01630884ab
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 make a modern slick and punchy video for a modern startup that works on inference
 
 no video gen model, no additional libraries.
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/lepadev-475414/original.6f8489c595.webp" width="400" alt="Modern Inference Startup Launch Video in Pure Code">
+</details>
 
-*Source: @lepadev - [Post](https://x.com/lepadev/status/2103101681806475414)*
+*Source: @lepadev · [X post](https://x.com/lepadev/status/2103101681806475414)*
 
 ---
 
-### 12. Single Canvas UI State Morphing with Cursor-Driven Transitions (17.7K views, 239 likes)
-*Use Case: launch | Style: 2d, minimal*
+<a id="case-12"></a>
 
-**Prompt:**
-```
-<inputs> 
-Ask me for: 
-• my product + URL 
-• 8–12 UI states that tell its story 
-• the real data shown in each state 
-• brand colors + fonts + accent color 
-• required formats (1:1, 16:9, 9:16) 
+### 12. Single Canvas UI State Morphing with Cursor-Driven Transitions (17.7K views, 239 likes)
+
+*Use case: launch · Style: 2d, minimal*
+
+https://github.com/user-attachments/assets/53cae3de-13e9-4752-a847-4e2426764aaa
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
+<inputs>
+Ask me for:
+• my product + URL
+• 8–12 UI states that tell its story
+• the real data shown in each state
+• brand colors + fonts + accent color
+• required formats (1:1, 16:9, 9:16)
 </inputs>
 
-<rules> 
+<rules>
 One HTML file. One canvas
 One draw(t) function
 
@@ -395,7 +496,7 @@ A cursor drives the sequence with real clicks, typing and one drag
 Real UI. Real data. No placeholders.
 
 </rules>
-<structure> 
+<structure>
 120 BPM grid
 
 Something happens on every bea
@@ -404,7 +505,7 @@ logo → button → handle field → “is this you?” → loader → pin → g
 
 </structure>
 
-<motion> 
+<motion>
 Closed-form springs everywhere with only a tiny overshoot.
 
 If a value changes target multiple times, sum one spring per change
@@ -422,7 +523,7 @@ Zoom the camera so every state fills the frame
 Make the last frame equal the first so the whole thing loops
 </motion>
 
-<export> 
+<export>
 First render one frame per beat as a contact sheet
 
 Fix anything cramped or broken
@@ -438,17 +539,24 @@ Export all aspect ratios in parallel
 motion design is becoming a prompt
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/verbove-268381/original.48c597b63b.webp" width="400" alt="Single Canvas UI State Morphing with Cursor-Driven Transitions">
+</details>
 
-*Source: @verbove - [Post](https://x.com/verbove/status/2103483957266268381)*
+*Source: @verbove · [X post](https://x.com/verbove/status/2103483957266268381)*
 
 ---
 
-### 13. Nightshift Product Launch with Sunrise Crossfade Animation (14.7K views, 191 likes)
-*Use Case: launch | Style: 2d, photo-based, minimal*
+<a id="case-13"></a>
 
-**Prompt:**
-```
+### 13. Nightshift Product Launch with Sunrise Crossfade Animation (14.7K views, 191 likes)
+
+*Use case: launch · Style: 2d, photo-based, minimal*
+
+https://github.com/user-attachments/assets/5467197e-73d7-4564-b2e5-7a3dcbd6d446
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 <inputs>
 Ask me for: my product's name (nightshift) (one lowercase word, it becomes a black wordmark with a period), the one job a user hands it before bed (book 10 sales calls this week), the three results it reports by morning (200 leads found / 200 emails sent / 10 calls booked), two photos of the same place at night and by day (aligned, so a crossfade reads as a real sunrise), one sunny daytime photo for outside the logo, and a song with a big hit near its start. If I skip any, use the defaults.
 </inputs>
@@ -490,32 +598,46 @@ Ask me for the inputs, then show me the beat map and 6 stills (open, find, write
 </start>
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/_prompts/twoclipping-747965/poster.d593c7a846.webp" width="400" alt="Nightshift Product Launch with Sunrise Crossfade Animation">
+</details>
 
-*Source: @twoclipping - [Post](https://x.com/twoclipping/status/2105927781678747965)*
+*Source: @twoclipping · [X post](https://x.com/twoclipping/status/2105927781678747965)*
 
 ---
 
-### 14. M3E Canvas Conference Video with Remotion and Three.js (14.6K views, 241 likes)
-*Use Case: launch | Style: 3d, 2d*
+<a id="case-14"></a>
 
-**Prompt:**
-```
+### 14. M3E Canvas Conference Video with Remotion and Three.js (14.6K views, 241 likes)
+
+*Use case: launch · Style: 3d, 2d*
+
+https://github.com/user-attachments/assets/ab16d5c9-88c5-4ab4-810d-f1e8e5d49c3e
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 Claude Opus 5.5が凄すぎる…！
 Remotion × three.jsでM3E Canvasの動画を作ってみた👇️
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/lnkiai-544254/original.7dc4b9dc77.webp" width="400" alt="M3E Canvas Conference Video with Remotion and Three.js">
+</details>
 
-*Source: @lnkiai - [Post](https://x.com/lnkiai/status/2103759350330544254)*
+*Source: @lnkiai · [X post](https://x.com/lnkiai/status/2103759350330544254)*
 
 ---
 
-### 15. Elysia Framework Documentation Promo with WebGL Canvas (11.3K views, 444 likes)
-*Use Case: launch | Style: 2d, minimal*
+<a id="case-15"></a>
 
-**Prompt:**
-```
+### 15. Elysia Framework Documentation Promo with WebGL Canvas (11.3K views, 444 likes)
+
+*Use case: launch · Style: 2d, minimal*
+
+https://github.com/user-attachments/assets/df5e6d29-c2e2-4cc2-b4d3-49640f3422d9
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 Feed Elysia doc to Opus 5.5 to make a video
 
 I write a storyboard, references, and direct Opus 5.5 to code a WebGL canvas and export it by frame into a video
@@ -525,45 +647,66 @@ Music and SFX are algorithmic music
 Took 13 revisions, but everything is code that can be modified
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/_prompts/saltyaom-620933/poster.45ef896397.webp" width="400" alt="Elysia Framework Documentation Promo with WebGL Canvas">
+</details>
 
-*Source: @saltyAom - [Post](https://x.com/saltyAom/status/2104677989728620933)*
+*Source: @saltyAom · [X post](https://x.com/saltyAom/status/2104677989728620933)*
 
 ---
 
-### 16. MotionSites AI 1M Visitors Launch Video (10.8K views, 109 likes)
-*Use Case: launch | Style: 2d, minimal*
+<a id="case-16"></a>
 
-**Prompt:**
-```
+### 16. MotionSites AI 1M Visitors Launch Video (10.8K views, 109 likes)
+
+*Use case: launch · Style: 2d, minimal*
+
+https://github.com/user-attachments/assets/1a90555f-f173-40c8-b3ab-f72768716f84
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 Create a launch video for MotionSites AI, just hit 1 million monthly visitors after 8 months after launch.
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/viktoroddy-402509/original.31093e9638.webp" width="400" alt="MotionSites AI 1M Visitors Launch Video">
+</details>
 
-*Source: @viktoroddy - [Post](https://x.com/viktoroddy/status/2103802280617402509)*
+*Source: @viktoroddy · [X post](https://x.com/viktoroddy/status/2103802280617402509)*
 
 ---
 
-### 17. Professional SaaS Product Launch Video (6.8K views, 85 likes)
-*Use Case: launch | Style: 2d, minimal*
+<a id="case-17"></a>
 
-**Prompt:**
-```
+### 17. Professional SaaS Product Launch Video (6.8K views, 85 likes)
+
+*Use case: launch · Style: 2d, minimal*
+
+https://github.com/user-attachments/assets/176a3651-4a90-4c32-866b-779a45748e0a
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 I want you to create a highly professional SaaS product launch video. Go and look up [website] Pick that, and then make sure to get actual assets and images and all of that stuff from the internet. Turn it into these typical, very professionally edited, motion-graphics-styled product launch videos that you see people making on Twitter when they launch new SaaS products (which are showing off the features, the benefits, and all of these things). It should show what an incredible motion designer you are, like it's your showreel for a resume. Go all out.
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/gouthamjay8-910269/original.0ca013001b.webp" width="400" alt="Professional SaaS Product Launch Video">
+</details>
 
-*Source: @gouthamjay8 - [Post](https://x.com/gouthamjay8/status/2103816261339910269)*
+*Source: @gouthamjay8 · [X post](https://x.com/gouthamjay8/status/2103816261339910269)*
 
 ---
 
-### 18. Product Launch Wordmark Animation with Music (6.2K views, 35 likes)
-*Use Case: launch | Style: 2d, minimal*
+<a id="case-18"></a>
 
-**Prompt:**
-```
+### 18. Product Launch Wordmark Animation with Music (6.2K views, 35 likes)
+
+*Use case: launch · Style: 2d, minimal*
+
+https://github.com/user-attachments/assets/9169959b-41f4-46b7-a8ec-1bc590a01543
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 <inputs>
 Ask me for: a one-word product name for the wordmark, one accent color, and a royalty-free track around 120 BPM (e.g. Mixkit, free for commercial use).
 </inputs>
@@ -593,104 +736,132 @@ Text inside a morphing shape needs its own clip and separate enter/exit timing. 
 </gotchas>
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/_prompts/0xnicc0-516612/poster.90697edc72.webp" width="400" alt="Product Launch Wordmark Animation with Music">
+</details>
 
-*Source: @0xnicc0 - [Post](https://x.com/0xnicc0/status/2107217691505516612)*
+*Source: @0xnicc0 · [X post](https://x.com/0xnicc0/status/2107217691505516612)*
 
 ---
 
-### 19. 9-Beat Launch Video Structure: Pain to CTA (5.3K views, 63 likes)
-*Use Case: launch | Style: 2d, minimal*
+<a id="case-19"></a>
 
-**Prompt:**
-```
+### 19. 9-Beat Launch Video Structure: Pain to CTA (5.3K views, 63 likes)
+
+*Use case: launch · Style: 2d, minimal*
+
+https://github.com/user-attachments/assets/02988e61-91f7-4724-9d34-9c41aee723da
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 Write my launch video as 9 beats: pain, reframe, name, how it works, objection, range, mechanism in numbers, offer, CTA – one line each. For every beat write 3 headline options and send them to Jev to pick the one that best fits my brief. Build each beat as a wireframe first in HyperFrames: boxes, outlined text, guide lines, no color. Show me one still per beat and lock the timing. Then skin it from my DESIGN.md without moving the layout, and render a split view: final on the left, wireframe on the right.
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/_prompts/archiveexplorer-560622/poster.6a4fd19bbc.webp" width="400" alt="9-Beat Launch Video Structure: Pain to CTA">
+</details>
 
-*Source: @ArchiveExplorer - [Post](https://x.com/ArchiveExplorer/status/2106732275685560622)*
+*Source: @ArchiveExplorer · [X post](https://x.com/ArchiveExplorer/status/2106732275685560622)*
 
 ---
 
-### 20. Product Introduction Promo Animation Video (Chinese) (4.4K views, 21 likes)
-*Use Case: launch | Style: 2d, minimal*
+<a id="case-20"></a>
 
-**Prompt:**
-```
+### 20. Product Introduction Promo Animation Video (Chinese) (4.4K views, 21 likes)
+
+*Use case: launch · Style: 2d, minimal*
+
+https://github.com/user-attachments/assets/bca2e8ee-418b-41a8-b426-c5ec1df1a72d
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 设计个动画，介绍本项目的各项特性，像是专业的产品介绍宣传片，最后要生成 16:9 的mp4 视频
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/ezshine-750731/original.c74c7581aa.webp" width="400" alt="Product Introduction Promo Animation Video (Chinese)">
+</details>
 
-*Source: @ezshine - [Post](https://x.com/ezshine/status/2103501705698750731)*
+*Source: @ezshine · [X post](https://x.com/ezshine/status/2103501705698750731)*
 
 ---
 
-### 21. TanStack AI Developer Tool Launch Film (4.4K views, 25 likes)
-*Use Case: launch | Style: 2d, minimal*
+<a id="case-21"></a>
 
-**Prompt:**
-```
-Create and render a 15-second motion graphics video introducing TanStack AI. Make it feel like a premium            
-  developer-tool launch film produced by Studio1: fast, precise, visually surprising, and polished enough to open a   
-  keynote or lead a social campaign.                                                                                  
-                                                                                                                      
-  Use the TanStack AI feature details below as the source of truth. Studio1 is presenting the film; do not imply      
-  Studio1 built TanStack AI.                                                                                          
-                                                                                                                      
-  Format and deliverables                                                                                             
-  - 1920×1080, 30 fps, exactly 15 seconds; keep important content within a 9:16-safe central area.                    
-  - Deliver the rendered MP4 and the editable project/source. Use Remotion or another code-based motion graphics      
-  workflow if available.                                                                                              
-  - Use real, editable typography and vector-style graphics. Do not rely on AI-generated text inside images.          
-  - Add an original electronic sound design: a restrained opening pulse, tightly synchronized transition hits, rising 
-  - Add an original electronic sound design: a restrained opening pulse, tightly synchronized transition hits, rising 
-  momentum, and a satisfying final resolve. The story must also work muted.                                           
-                                                                                                                      
-  Visual direction                                                                                                    
-  Dark graphite canvas; luminous gradients and controlled flashes inspired by TanStack’s identity. Crisp typography,  
-  kinetic code, layered interface fragments, streaming data, branching paths, and smooth camera moves with convincing 
-  depth. High contrast and immaculate spacing. Every transition should visually demonstrate a feature, rather than    
-  simply replace one title card with another. Keep all on-screen wording brief and legible. Avoid generic stock       
-  footage, spinning logos, fake dashboards, excessive glitch effects, and tiny code nobody can read.                  
-                                                                                                                      
-  Exact 15-second sequence                                                                                            
-  - 0:00–0:02 — Hook: A single prompt cursor blinks. It sends one signal that expands into a network of               
-  possibilities. On-screen: “What can one AI API become?”                                                             
-  - 0:02–0:04 — Core and providers: The signal resolves into chat(); provider nodes connect and swap rapidly without  
-  breaking the central flow. On-screen: “chat() · 24 providers”                                                       
-  - 0:04–0:06.5 — Multimodal: One continuous stream transforms into text, waveform, image frame, and video timeline.  
-  On-screen: “One pattern. Every modality.”                                                                           
-  - 0:06.5–0:09 — Agents and tools: The stream branches into sandboxed agent runs, then reaches external tools        
-  through MCP. Show distinct runs progressing in parallel. On-screen: “Agents · Sandboxes · MCP”                      
-  - 0:09–0:11.5 — Reliability: An interrupted stream freezes, reconnects, and resumes from the same point; a clean    
-  type-check confirmation snaps into place. On-screen: “Persistent. Durable. Type-safe.”                              
-  - 0:11.5–0:15 — Reveal: All paths converge into a bold final composition: “TanStack AI” followed by “Build what’s   
-  next.” Add a small “A Studio1 film” credit, visually subordinate to TanStack AI. Hold the final frame long enough   
-  to read it.                                                                                                         
-                                                                                                                      
-  Accuracy guardrails                                                                                                 
-  The supplied article says TanStack AI is in the release candidate phase, supports 24 providers, uses AG-UI, and     
-  offers composable chat(), media generation, sandbox and agent-harness primitives, MCP, type safety, persistence,    
-  and resumable streams. Do not call it a stable v1 release. Do not present planned orchestration features as already 
-  shipped.                                                                                                            
-                                                                                                                      
-  Make the video, inspect the rendered result, and fix any clipped text, weak transitions, mistimed beats, or         
+### 21. TanStack AI Developer Tool Launch Film (4.4K views, 25 likes)
+
+*Use case: launch · Style: 2d, minimal*
+
+https://github.com/user-attachments/assets/40e16b3a-bb67-49fb-a409-8cc3300df5fa
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
+Create and render a 15-second motion graphics video introducing TanStack AI. Make it feel like a premium
+  developer-tool launch film produced by Studio1: fast, precise, visually surprising, and polished enough to open a
+  keynote or lead a social campaign.
+
+  Use the TanStack AI feature details below as the source of truth. Studio1 is presenting the film; do not imply
+  Studio1 built TanStack AI.
+
+  Format and deliverables
+  - 1920×1080, 30 fps, exactly 15 seconds; keep important content within a 9:16-safe central area.
+  - Deliver the rendered MP4 and the editable project/source. Use Remotion or another code-based motion graphics
+  workflow if available.
+  - Use real, editable typography and vector-style graphics. Do not rely on AI-generated text inside images.
+  - Add an original electronic sound design: a restrained opening pulse, tightly synchronized transition hits, rising
+  - Add an original electronic sound design: a restrained opening pulse, tightly synchronized transition hits, rising
+  momentum, and a satisfying final resolve. The story must also work muted.
+
+  Visual direction
+  Dark graphite canvas; luminous gradients and controlled flashes inspired by TanStack’s identity. Crisp typography,
+  kinetic code, layered interface fragments, streaming data, branching paths, and smooth camera moves with convincing
+  depth. High contrast and immaculate spacing. Every transition should visually demonstrate a feature, rather than
+  simply replace one title card with another. Keep all on-screen wording brief and legible. Avoid generic stock
+  footage, spinning logos, fake dashboards, excessive glitch effects, and tiny code nobody can read.
+
+  Exact 15-second sequence
+  - 0:00–0:02 — Hook: A single prompt cursor blinks. It sends one signal that expands into a network of
+  possibilities. On-screen: “What can one AI API become?”
+  - 0:02–0:04 — Core and providers: The signal resolves into chat(); provider nodes connect and swap rapidly without
+  breaking the central flow. On-screen: “chat() · 24 providers”
+  - 0:04–0:06.5 — Multimodal: One continuous stream transforms into text, waveform, image frame, and video timeline.
+  On-screen: “One pattern. Every modality.”
+  - 0:06.5–0:09 — Agents and tools: The stream branches into sandboxed agent runs, then reaches external tools
+  through MCP. Show distinct runs progressing in parallel. On-screen: “Agents · Sandboxes · MCP”
+  - 0:09–0:11.5 — Reliability: An interrupted stream freezes, reconnects, and resumes from the same point; a clean
+  type-check confirmation snaps into place. On-screen: “Persistent. Durable. Type-safe.”
+  - 0:11.5–0:15 — Reveal: All paths converge into a bold final composition: “TanStack AI” followed by “Build what’s
+  next.” Add a small “A Studio1 film” credit, visually subordinate to TanStack AI. Hold the final frame long enough
+  to read it.
+
+  Accuracy guardrails
+  The supplied article says TanStack AI is in the release candidate phase, supports 24 providers, uses AG-UI, and
+  offers composable chat(), media generation, sandbox and agent-harness primitives, MCP, type safety, persistence,
+  and resumable streams. Do not call it a stable v1 release. Do not present planned orchestration features as already
+  shipped.
+
+  Make the video, inspect the rendered result, and fix any clipped text, weak transitions, mistimed beats, or
   unreadable frames before delivering it. The goal is a memorable showreel, not a slideshow of feature bullets.
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/howdevelop-733090/original.c156b8a720.webp" width="400" alt="TanStack AI Developer Tool Launch Film">
+</details>
 
-*Source: @HowDevelop - [Post](https://x.com/HowDevelop/status/2103840883812733090)*
+*Source: @HowDevelop · [X post](https://x.com/HowDevelop/status/2103840883812733090)*
 
 ---
 
-### 22. Taxtello Bookkeeping App Product Film (4.2K views, 12 likes)
-*Use Case: launch | Style: 2d, minimal*
+<a id="case-22"></a>
 
-**Prompt:**
-```
+### 22. Taxtello Bookkeeping App Product Film (4.2K views, 12 likes)
+
+*Use case: launch · Style: 2d, minimal*
+
+https://github.com/user-attachments/assets/22a03d93-2a60-4ecc-86c4-f7583f631f49
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 claude code (opus 5.5) made the product film for taxtello, my bookkeeping app
 
 every frame is code: react + remotion, 0 after effects
@@ -1440,81 +1611,116 @@ Go all out creatively, but exercise ruthless restraint.
 Make Taxtello look expensive.
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/daniel-haida-636937/original.965223fcbc.webp" width="400" alt="Taxtello Bookkeeping App Product Film">
+</details>
 
-*Source: @daniel_haida - [Post](https://x.com/daniel_haida/status/2104139720829636937)*
+*Source: @daniel_haida · [X post](https://x.com/daniel_haida/status/2104139720829636937)*
 
 ---
 
-### 23. Professional SaaS Product Launch Video with Motion Graphics (3.2K views, 19 likes)
-*Use Case: launch | Style: 2d, minimal*
+<a id="case-23"></a>
 
-**Prompt:**
-```
+### 23. Professional SaaS Product Launch Video with Motion Graphics (3.2K views, 19 likes)
+
+*Use case: launch · Style: 2d, minimal*
+
+https://github.com/user-attachments/assets/8236e8b9-ab4b-4325-b116-087b3ca6ce42
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 I want you to create a highly professional SaaS product launch video. Go and find some SaaS, preferably just one that people know, so it's easier to identify with it. Pick that, and then make sure to get actual assets and images and all of that stuff from the internet. Turn it into these typical, very professionally edited, motion-graphics-styled product launch videos that you see people making on Twitter when they launch new SaaS products (which are showing off the features, the benefits, and all of these things)
 
 http://
 t3pacademy.gumroad.com
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/techyoutbe-588678/original.6bbd2b7bae.webp" width="400" alt="Professional SaaS Product Launch Video with Motion Graphics">
+</details>
 
-*Source: @techyoutbe - [Post](https://x.com/techyoutbe/status/2103465227807588678)*
+*Source: @techyoutbe · [X post](https://x.com/techyoutbe/status/2103465227807588678)*
 
 ---
 
-### 24. Brand Feature Launch Video Under 20 Seconds (3.1K views, 29 likes)
-*Use Case: launch | Style: 2d, minimal*
+<a id="case-24"></a>
 
-**Prompt:**
-```
+### 24. Brand Feature Launch Video Under 20 Seconds (3.1K views, 29 likes)
+
+*Use case: launch · Style: 2d, minimal*
+
+https://github.com/user-attachments/assets/ebb6727c-ee2d-4dbc-b333-7207d6c7e7e8
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 build me a beautiful launch video 20 seconds or under that shows all our key features, make it fast paced and fit our brand
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/ratheejaisal-154698/original.506783e480.webp" width="400" alt="Brand Feature Launch Video Under 20 Seconds">
+</details>
 
-*Source: @RatheeJaisal - [Post](https://x.com/RatheeJaisal/status/2103774864742154698)*
+*Source: @RatheeJaisal · [X post](https://x.com/RatheeJaisal/status/2103774864742154698)*
 
 ---
 
-### 25. Sahi Trading Terminal Aesthetic Scale-In Animation (2.7K views, 23 likes)
-*Use Case: launch | Style: 2d, minimal*
+<a id="case-25"></a>
 
-**Prompt:**
-```
+### 25. Sahi Trading Terminal Aesthetic Scale-In Animation (2.7K views, 23 likes)
+
+*Use case: launch · Style: 2d, minimal*
+
+https://github.com/user-attachments/assets/d3c0eeda-043d-4fba-98ef-403514108313
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 create a self contained aesthetically pleasing, breathtaking animation of the Sahi Trading Terminal. it should start with a single dot on a black screen and then have multiple windows show up on the screen such as Charts, Positons , Option Chain, Watchlist. And zoom into and out at multiple scales. Finally the camera zooms out to make the desktop look like a point in space. And then it zooms back in to reveal a mobile screen in landscape mode with a chart in one half and an option chain in another. The video ends in Sjngle Screen Trading on SAHI
 use javascript for it. be detailed and accurate. it should be visually stunning
 0:46
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/dale-vaz-879074/original.155c6e80d4.webp" width="400" alt="Sahi Trading Terminal Aesthetic Scale-In Animation">
+</details>
 
-*Source: @dale_vaz - [Post](https://x.com/dale_vaz/status/2103290592679879074)*
+*Source: @dale_vaz · [X post](https://x.com/dale_vaz/status/2103290592679879074)*
 
 ---
 
-### 26. Professional Product Launch Video with Royalty-Free Music (2.3K views, 12 likes)
-*Use Case: launch | Style: 2d, minimal*
+<a id="case-26"></a>
 
-**Prompt:**
-```
+### 26. Professional Product Launch Video with Royalty-Free Music (2.3K views, 12 likes)
+
+*Use case: launch · Style: 2d, minimal*
+
+https://github.com/user-attachments/assets/cc61a90d-3d84-41bd-b8e9-9ee3948ed75f
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 Create a professional product launch video with motion graphics. You have access to the designs in pen
 
 Follow-up:
 It is better, but can you choose a royalty-free song online? You are clearly not a good song maker. Also, I would not hire you or pay you for this as a motion designer. This is not a professional-looking video. Also, it is a bit too fast and bumpy
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/sachaarbonel-673648/original.b9dd794707.webp" width="400" alt="Professional Product Launch Video with Royalty-Free Music">
+</details>
 
-*Source: @sachaarbonel - [Post](https://x.com/sachaarbonel/status/2103614797501673648)*
+*Source: @sachaarbonel · [X post](https://x.com/sachaarbonel/status/2103614797501673648)*
 
 ---
 
-### 27. 3D Tokyo Tower PR Video in 5 Minutes (2.3K views, 15 likes)
-*Use Case: launch | Style: 3d, realistic*
+<a id="case-27"></a>
 
-**Prompt:**
-```
+### 27. 3D Tokyo Tower PR Video in 5 Minutes (2.3K views, 15 likes)
+
+*Use case: launch · Style: 3d, realistic*
+
+https://github.com/user-attachments/assets/079d7dc6-c8a3-4dca-a5c9-d88a3aadbd8a
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 ※デザイナーの仕事がなくなりました。
 
 Claude Opus 5.5に3Dモデルで東京タワーの映像を作らせた結果、5分でこのクオリティをポン出し
@@ -1524,17 +1730,24 @@ PR動画やYouTube動画制作など、複数の案件もこれ一つで全て�
 具体的な作り方は記事で解説↓
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/maruo-0314-998343/original.a226de5212.webp" width="400" alt="3D Tokyo Tower PR Video in 5 Minutes">
+</details>
 
-*Source: @Maruo_0314 - [Post](https://x.com/Maruo_0314/status/2104159752095998343)*
+*Source: @Maruo_0314 · [X post](https://x.com/Maruo_0314/status/2104159752095998343)*
 
 ---
 
-### 28. Product Intro Video with Music Sync for Ultracode (1.8K views, 8 likes)
-*Use Case: launch | Style: 2d, minimal*
+<a id="case-28"></a>
 
-**Prompt:**
-```
+### 28. Product Intro Video with Music Sync for Ultracode (1.8K views, 8 likes)
+
+*Use case: launch · Style: 2d, minimal*
+
+https://github.com/user-attachments/assets/a2b8d348-bd29-47db-9599-fbaf0a9f61c1
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 Create an intro for https://t.co/wQXZTaqf1b highlighting what it does.
 
 Create the music too and make sure the video is synced with it.
@@ -1542,117 +1755,166 @@ Create the music too and make sure the video is synced with it.
 Give your best, Ultracode, as if it’s your portfolio master piece.
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/_prompts/bogdandragomir-412658/poster.a71ba77f69.webp" width="400" alt="Product Intro Video with Music Sync for Ultracode">
+</details>
 
-*Source: @BogdanDragomir - [Post](https://x.com/BogdanDragomir/status/2104045641538412658)*
+*Source: @BogdanDragomir · [X post](https://x.com/BogdanDragomir/status/2104045641538412658)*
 
 ---
 
-### 29. Anti-LinkedIn Launch Video with Remotion (1.8K views, 25 likes)
-*Use Case: launch | Style: 2d, minimal*
+<a id="case-29"></a>
 
-**Prompt:**
-```
-I hate LinkedIn so much that I had Opus 5.5 + remotion make a launch video about it. 
+### 29. Anti-LinkedIn Launch Video with Remotion (1.8K views, 25 likes)
+
+*Use case: launch · Style: 2d, minimal*
+
+https://github.com/user-attachments/assets/535761ab-d7c5-455b-8e8a-19d6732bbd26
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
+I hate LinkedIn so much that I had Opus 5.5 + remotion make a launch video about it.
 
 I am building on @X, NOT LarpedIn (officially)
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/maxhirsch13-600983/original.add91f835f.webp" width="400" alt="Anti-LinkedIn Launch Video with Remotion">
+</details>
 
-*Source: @MaxHirsch13 - [Post](https://x.com/MaxHirsch13/status/2107985883949600983)*
+*Source: @MaxHirsch13 · [X post](https://x.com/MaxHirsch13/status/2107985883949600983)*
 
 ---
 
-### 30. CLIProxyAPI Promo Video with Remotion (1.6K views, 1 likes)
-*Use Case: launch | Style: 2d, infographic*
+<a id="case-30"></a>
 
-**Prompt:**
-```
+### 30. CLIProxyAPI Promo Video with Remotion (1.6K views, 1 likes)
+
+*Use case: launch · Style: 2d, infographic*
+
+https://github.com/user-attachments/assets/13a9ae00-47d0-47cc-8694-d56ec801fb6c
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 哈哈,   别再急着买API, 用 CLIProxyAPI 盘活你的 AI 订阅这篇文章的视频版宣传片来了
 
-全程使用 Opus 5.5 + remotion 制作 
+全程使用 Opus 5.5 + remotion 制作
 
 感觉还不错的 ,  把流程环节都给讲清楚了
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/0xlangeai-597929/original.465dba7df9.webp" width="400" alt="CLIProxyAPI Promo Video with Remotion">
+</details>
 
-*Source: @0xlangeai - [Post](https://x.com/0xlangeai/status/2106391068367597929)*
+*Source: @0xlangeai · [X post](https://x.com/0xlangeai/status/2106391068367597929)*
 
 ---
 
-### 31. Hoplite Feature Launch Video for Cloud Agent Transfer (1.6K views, 36 likes)
-*Use Case: launch | Style: 2d, minimal*
+<a id="case-31"></a>
 
-**Prompt:**
-```
+### 31. Hoplite Feature Launch Video for Cloud Agent Transfer (1.6K views, 36 likes)
+
+*Use case: launch · Style: 2d, minimal*
+
+https://github.com/user-attachments/assets/c2170f9d-5db3-45c0-aeb8-d2b0a7c5e435
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 using the existing brand elements of hoplite create a feature launch video for closing your laptop with the hoplite mac app and seamlessly moving your agents to the cloud.
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/_prompts/ryan-morr-666741/poster.f4046f3771.webp" width="400" alt="Hoplite Feature Launch Video for Cloud Agent Transfer">
+</details>
 
-*Source: @ryan_morr - [Post](https://x.com/ryan_morr/status/2104249941136666741)*
+*Source: @ryan_morr · [X post](https://x.com/ryan_morr/status/2104249941136666741)*
 
 ---
 
-### 32. DualSense Studio Launch Video with Remotion (1.5K views, 5 likes)
-*Use Case: launch | Style: 2d, minimal*
+<a id="case-32"></a>
 
-**Prompt:**
-```
+### 32. DualSense Studio Launch Video with Remotion (1.5K views, 5 likes)
+
+*Use case: launch · Style: 2d, minimal*
+
+https://github.com/user-attachments/assets/7573bf23-f5ec-4f0f-85a1-1162c5bd346b
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 Claude Opus 5.5 made this launch video for https://dualsense.studio using Remotion.
 
 A few rough edges, but honestly I'm impressed 🤯
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/safaelmali-004843/original.1d98c8d524.webp" width="400" alt="DualSense Studio Launch Video with Remotion">
+</details>
 
-*Source: @SafaElmali - [Post](https://x.com/SafaElmali/status/2102749298673004843)*
+*Source: @SafaElmali · [X post](https://x.com/SafaElmali/status/2102749298673004843)*
 
 ---
 
-### 33. Scroll Plus Product Promo Video with Remotion (1.5K views, 9 likes)
-*Use Case: launch | Style: 2d, minimal*
+<a id="case-33"></a>
 
-**Prompt:**
-```
+### 33. Scroll Plus Product Promo Video with Remotion (1.5K views, 9 likes)
+
+*Use case: launch · Style: 2d, minimal*
+
+https://github.com/user-attachments/assets/de1f171f-7f14-4bd3-a750-0a5344491b84
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 Opus 5.5 ve remotion ile scroll+ için bir tanıtım videosu hazirlattım.
 
-Bence çok iyi yaptı. 
+Bence çok iyi yaptı.
 
-@scroll_plus 
+@scroll_plus
 
 https://scroll.pics
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/xenit-v0-532873/original.c83c69921f.webp" width="400" alt="Scroll Plus Product Promo Video with Remotion">
+</details>
 
-*Source: @xenit_v0 - [Post](https://x.com/xenit_v0/status/2106270979932532873)*
+*Source: @xenit_v0 · [X post](https://x.com/xenit_v0/status/2106270979932532873)*
 
 ---
 
-### 34. 30-Second Website Launch Showreel Video (1.3K views, 9 likes)
-*Use Case: launch | Style: 2d, kinetic-type*
+<a id="case-34"></a>
 
-**Prompt:**
-```
+### 34. 30-Second Website Launch Showreel Video (1.3K views, 9 likes)
+
+*Use case: launch · Style: 2d, kinetic-type*
+
+https://github.com/user-attachments/assets/fc93f7d7-e51d-4275-90ed-c79560d95eef
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 Create a dynamic 30sec launch vdo for your site url here. Make it feel like a high-end motion designer’s resume/showreel piece, bold, cinematic, polished, and visually impressive. Showcase the website’s identity, UI, features, and overall concept through fast-paced motion graphics, smooth transitions, kinetic typography, creative camera movements, and strong visual storytelling.
 
 Go all out with the motion design. Make every second feel intentional and demonstrate exceptional creativity, timing, composition, and animation quality. The final video should feel like a professional product launch + motion design showreel, not a generic website promo.
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/_prompts/deeprajo1-623150/poster.210885effa.webp" width="400" alt="30-Second Website Launch Showreel Video">
+</details>
 
-*Source: @deeprajO1 - [Post](https://x.com/deeprajO1/status/2104490501340623150)*
+*Source: @deeprajO1 · [X post](https://x.com/deeprajO1/status/2104490501340623150)*
 
 ---
 
-### 35. Koto Search SEO Tool Automated Release Video (1.2K views, 4 likes)
-*Use Case: launch | Style: 2d, infographic*
+<a id="case-35"></a>
 
-**Prompt:**
-```
+### 35. Koto Search SEO Tool Automated Release Video (1.2K views, 4 likes)
+
+*Use case: launch · Style: 2d, infographic*
+
+https://github.com/user-attachments/assets/5854e9a3-21be-4251-bb81-409fd3352d78
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 Opus 5.5×Gemini 3.8 Flash TTSやばい
 
 新作SEOツール「コトサーチ」のリリース動画を、ほぼ自動で作ってくれた。
@@ -1692,47 +1954,161 @@ PC・スマホ・パーツ切り出しで38枚
 明日のリリースをお楽しみにしててください！！！
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/tetsu-tetsu333-576886/original.450ccb9120.webp" width="400" alt="Koto Search SEO Tool Automated Release Video">
+</details>
 
-*Source: @tetsu_tetsu333 - [Post](https://x.com/tetsu_tetsu333/status/2106177888265576886)*
+*Source: @tetsu_tetsu333 · [X post](https://x.com/tetsu_tetsu333/status/2106177888265576886)*
 
 ---
 
-### 36. Slideforge SaaS Product Launch Video (1.2K views, 10 likes)
-*Use Case: launch | Style: 2d, minimal*
+<a id="case-36"></a>
 
-**Prompt:**
-```
+### 36. Slideforge SaaS Product Launch Video (1.2K views, 10 likes)
+
+*Use case: launch · Style: 2d, minimal*
+
+https://github.com/user-attachments/assets/41225713-b102-4d76-8912-71982420c7c1
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 I want you to create a highly professional SaaS product launch video for Slideforge. You can find its details in https://slideforge.io. Pick that, and then make sure to get actual assets and images and all of that stuff from the internet. Turn it into these typical, very professionally edited, motion-graphics-styled product launch videos that you see people making on Twitter when they launch new SaaS products (which are showing off the features, the benefits, and all of these things).
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/techtactician-144474/original.c48ed81faf.webp" width="400" alt="Slideforge SaaS Product Launch Video">
+</details>
 
-*Source: @techtactician - [Post](https://x.com/techtactician/status/2103219463508144474)*
+*Source: @techtactician · [X post](https://x.com/techtactician/status/2103219463508144474)*
 
 ---
 
-### 37. Professional SaaS Product Launch Video with Real Assets (1.1K views, 11 likes)
-*Use Case: launch | Style: 2d, minimal*
+<a id="case-37"></a>
 
-**Prompt:**
-```
+### 37. Professional SaaS Product Launch Video with Real Assets (1.1K views, 11 likes)
+
+*Use case: launch · Style: 2d, minimal*
+
+https://github.com/user-attachments/assets/d0417e2c-2278-4af2-a73b-012fb695f68a
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 I want you to create a highly professional SaaS product launch video. Go and find some SaaS, preferably just one that people know, so it's easier to identify with it. Pick that, and then make sure to get actual assets and images and all of that stuff from the internet. Turn it into these typical, very professionally edited, motion-graphics-styled product launch videos that you see people making on Twitter when they launch new SaaS products (which are showing off the features, the benefits, and all of these things).
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/hsanat-012699/original.1112d54ade.webp" width="400" alt="Professional SaaS Product Launch Video with Real Assets">
+</details>
 
-*Source: @hSanat - [Post](https://x.com/hSanat/status/2103358205091012699)*
+*Source: @hSanat · [X post](https://x.com/hSanat/status/2103358205091012699)*
 
 ---
 
+<a id="case-292"></a>
+
+### 292. Enxovaly Baby Essentials App Promo
+
+*Use case: launch · Style: 2d*
+
+https://github.com/user-attachments/assets/277c15b6-da15-41f8-990b-b1d8253d3b53
+
+<details>
+<summary>Prompt · English translation</summary>
+
+```text
+Make a dynamic 15-second motion graphics video that shows what an incredible motion designer you are, like a showreel for your resume. Go all out.
+```
+
+</details>
+
+<details>
+<summary>Prompt · Chinese version from Feishu</summary>
+
+```text
+制作一段动感十足的15秒动态图形视频，展现你作为动效设计师的非凡实力，就像用于简历的作品集展示片。全力以赴。
+```
+
+</details>
+
+*Source: [Feishu collection](https://aiwarts101.feishu.cn/wiki/LMEcwg5jHiTSnqkwNE1cum7DnLb) · [Feishu N01](https://aiwarts101.feishu.cn/wiki/LMEcwg5jHiTSnqkwNE1cum7DnLb)*
+
+---
+
+<a id="case-293"></a>
+
+### 293. Dub SaaS Launch Film
+
+*Use case: launch · Style: 2d*
+
+https://github.com/user-attachments/assets/32b8445b-e14f-45e1-aaec-5f253c36a01b
+
+<details>
+<summary>Prompt · English translation</summary>
+
+```text
+Make a dynamic 15-second motion graphics video showing your extraordinary abilities as a motion designer, like a resume showreel. Go all out. It should be a SaaS launch video for https://dub.co.
+```
+
+</details>
+
+<details>
+<summary>Prompt · Chinese version from Feishu</summary>
+
+```text
+制作一段动感十足的15秒动态图形视频，展现你作为动效设计师的非凡实力，就像用于简历的作品集展示片。全力以赴。
+它应当是一支为 https://dub.co 制作的 SaaS 产品发布视频。
+```
+
+</details>
+
+*Source: [Feishu collection](https://aiwarts101.feishu.cn/wiki/LMEcwg5jHiTSnqkwNE1cum7DnLb) · [Feishu N03](https://aiwarts101.feishu.cn/wiki/LMEcwg5jHiTSnqkwNE1cum7DnLb)*
+
+---
+
+<a id="case-294"></a>
+
+### 294. BlueVisa Travel Services Promo
+
+*Use case: launch · Style: 2d*
+
+https://github.com/user-attachments/assets/e72dc6a8-6640-408d-bc60-68a93aed8e1b
+
+<details>
+<summary>Prompt · English translation</summary>
+
+```text
+Make a dynamic 15-second motion graphics video that shows what an incredible motion designer you are, like a showreel for your resume. Go all out.
+```
+
+</details>
+
+<details>
+<summary>Prompt · Chinese version from Feishu</summary>
+
+```text
+制作一段动感十足的15秒动态图形视频，展现你作为动效设计师的非凡实力，就像用于简历的作品集展示片。全力以赴。
+```
+
+</details>
+
+*Source: [Feishu collection](https://aiwarts101.feishu.cn/wiki/LMEcwg5jHiTSnqkwNE1cum7DnLb) · [Feishu N04](https://aiwarts101.feishu.cn/wiki/LMEcwg5jHiTSnqkwNE1cum7DnLb)*
+
+---
+
+<a id="category-2"></a>
+
 ## 2. Showreels & Motion Design Portfolios
 
-### 38. Single Shape Morphing Through 12 UI States Motion Graphic (1.2M views, 12,676 likes)
-*Use Case: showreel | Style: 2d, minimal*
+<a id="case-38"></a>
 
-**Prompt:**
-```
+### 38. Single Shape Morphing Through 12 UI States Motion Graphic (1.2M views, 12,676 likes)
+
+*Use case: showreel · Style: 2d, minimal*
+
+https://github.com/user-attachments/assets/003c9b0e-e7fb-4f6f-a83e-6f88257968b5
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 <inputs>
 Ask me for: 8 to 12 UI states I want the shape to become (e.g. button, loader, player, slider, toggle, tabs, chart, command palette, toast), pure black and white or one accent color, and a royalty-free song around 120 BPM (e.g. Mixkit, free for commercial use).
 </inputs>
@@ -1766,89 +2142,159 @@ Ask me for the inputs, then show me the state list on the beat grid before you w
 </start>
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/twoclipping-402193/original.9c664f011f.webp" width="400" alt="Single Shape Morphing Through 12 UI States Motion Graphic">
+</details>
 
-*Source: @twoclipping - [Post](https://x.com/twoclipping/status/2103273003555402193)*
+<details>
+<summary>Prompt · Chinese version from Feishu</summary>
+
+```text
+【输入材料】
+先向我索取：希望这个形状变成的8–12种界面状态（例如按钮、加载器、播放器、滑块、开关、标签页、图表、命令面板、提示通知）；纯黑白配色或一种强调色；以及一首约120 BPM、可免版税使用的歌曲（例如Mixkit，允许商业使用）。
+【创作方向】
+达到Dribbble级别的界面动效。只用一个形状，不切镜：每种状态都是同一个元素通过尺寸、圆角和颜色变化形成；内部内容切换时带短暂模糊。光标通过真实点击和拖动驱动每次变化。浅暖灰画布，黑白组件，统一使用清爽的Geist界面字体。各处采用弹簧运动，最多有轻微过冲。镜头缩放，让每种状态占满画面。最后一帧与第一帧相同，形成循环。
+禁止：过度弹跳的缓动、粒子爆发、发光、界面外框上的渐变、不一致的图标线宽、空白停顿，以及任何模板感。
+【片段结构】
+120 BPM，共7小节，每一拍都有变化。
+按钮→加载器→勾选标记→灵动岛→音乐播放器（播放/暂停图标形变）→拖动进度条→变成音量滑块，拖过最大值时拉长→开关随节拍切换→旋钮变成液态标签指示器→标签展开成自动绘制的图表，悬停显示提示→收缩成⌘K命令面板→输入筛选→回车→提示通知→返回按钮。
+【制作要求】
+1. 一个1440×1440的方形HTML文件。所有样式在seek(t)中按时间计算；不用CSS过渡、定时器，也不在帧之间携带状态。
+2. 弹簧使用闭式阶跃响应。数值多次改变目标时，叠加每次变化的弹簧响应，始终保持为时间的纯函数。
+3. 标签指示器的两条边使用不同弹簧，让前缘领先后缘伸展。开关旋钮使用同样方法。
+4. 拖动采用直接操作：光标按住时，根据光标位置计算数值；松开时，从当前位置以弹簧方式回弹。
+5. 用numpy分析歌曲的节拍网格，从强拍开始。每个界面音效按实测峰值放置。
+6. 用Playwright渲染，每帧4个子帧，用ffmpeg tmix混合产生运动模糊，60fps。
+7. 完整渲染前，先每拍渲染一帧；修复没对上拍点、拥挤或难以阅读的地方。
+【注意事项】
+不要对被镜头缩放的元素使用will-change，否则文字会模糊。形变容器内切换文字时，文字需要独立的进出时间，否则会重叠。最后一帧必须与第一帧完全一致，包括光标位置和速度，否则循环会顿一下。
+【开始方式】
+先向我索取输入材料，再把各界面状态在节拍网格上的安排展示给我，然后才开始写代码。
+```
+
+</details>
+
+*Source: @twoclipping · [X post](https://x.com/twoclipping/status/2103273003555402193) · [Feishu PM01](https://aiwarts101.feishu.cn/wiki/LMEcwg5jHiTSnqkwNE1cum7DnLb)*
 
 ---
 
-### 39. Hand-Drawn Agent Story and Kinetic Type Showreel Comparison (119.3K views, 1,470 likes)
-*Use Case: showreel | Style: hand-drawn, kinetic-type, particle*
+<a id="case-39"></a>
 
-**Prompt:**
-```
+### 39. Hand-Drawn Agent Story and Kinetic Type Showreel Comparison (119.3K views, 1,470 likes)
+
+*Use case: showreel · Style: hand-drawn, kinetic-type, particle*
+
+https://github.com/user-attachments/assets/60906184-ec08-4436-b399-f3627b0ca684
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 Opus 5.5: a hand-drawn story. a little agent wakes up at its desk, gets feedback notes, fixes them, ends on heart eyes and a green check. 53 s
 Sonnet 5.5: a kinetic type showreel. six easing curves, a morphing star, particles, blurred type, "every frame written in code". 15 s
 Haiku 5.5: a step-by-step White Russian recipe. ice, vodka, coffee liqueur, cream, with live counters and a checklist. 30 s
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/_prompts/n01ennn-597182/poster.81ceece753.webp" width="400" alt="Hand-Drawn Agent Story and Kinetic Type Showreel Comparison">
+</details>
 
-*Source: @N01ennn - [Post](https://x.com/N01ennn/status/2108520767092597182)*
+*Source: @N01ennn · [X post](https://x.com/N01ennn/status/2108520767092597182)*
 
 ---
 
-### 40. Distilbook Product Showreel Motion Graphics Video (109.0K views, 641 likes)
-*Use Case: showreel | Style: 2d, minimal*
+<a id="case-40"></a>
 
-**Prompt:**
-```
+### 40. Distilbook Product Showreel Motion Graphics Video (109.0K views, 641 likes)
+
+*Use case: showreel · Style: 2d, minimal*
+
+https://github.com/user-attachments/assets/93a18ede-164b-4fb1-bb8b-fd69ae9a2da6
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 Research Distilbook.Make a dynamic 40-second motion graphics video on Distilbook that shows what an incredible motion designer you are. like it's your showreel - Go all out.
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/ajith-io-208546/original.e545567a26.webp" width="400" alt="Distilbook Product Showreel Motion Graphics Video">
+</details>
 
-*Source: @ajith_io - [Post](https://x.com/ajith_io/status/2103469807375208546)*
+*Source: @ajith_io · [X post](https://x.com/ajith_io/status/2103469807375208546)*
 
 ---
 
-### 41. 15-Second Product Motion Graphics Showreel (102.3K views, 988 likes)
-*Use Case: showreel | Style: 2d, minimal*
+<a id="case-41"></a>
 
-**Prompt:**
-```
+### 41. 15-Second Product Motion Graphics Showreel (102.3K views, 988 likes)
+
+*Use case: showreel · Style: 2d, minimal*
+
+https://github.com/user-attachments/assets/1ff402ce-d498-468b-91d1-ae527f78472e
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 Make a dynamic 15-second motion graphics video that shows what an incredible motion designer you are. The content should focus on [your product]. You should visit the pages first to learn about the product, then write the video content yourself.
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/ann-nnng-852885/original.71bdae79b3.webp" width="400" alt="15-Second Product Motion Graphics Showreel">
+</details>
 
-*Source: @ann_nnng - [Post](https://x.com/ann_nnng/status/2103723183899852885)*
+*Source: @ann_nnng · [X post](https://x.com/ann_nnng/status/2103723183899852885)*
 
 ---
 
-### 42. 15-Second Motion Graphics Showreel Demo (53.3K views, 44 likes)
-*Use Case: showreel | Style: 2d, minimal*
+<a id="case-42"></a>
 
-**Prompt:**
-```
+### 42. 15-Second Motion Graphics Showreel Demo (53.3K views, 44 likes)
+
+*Use case: showreel · Style: 2d, minimal*
+
+https://github.com/user-attachments/assets/62450c23-2f53-4e0b-bbdd-784cf15f8e74
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 make a 15-second motion graphics showreel that proves what an incredible motion designer you are, go all out.
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/_prompts/roundtablespace-232366/poster.c3e1114aa2.webp" width="400" alt="15-Second Motion Graphics Showreel Demo">
+</details>
 
-*Source: @RoundtableSpace - [Post](https://x.com/RoundtableSpace/status/2104424611010232366)*
+*Source: @RoundtableSpace · [X post](https://x.com/RoundtableSpace/status/2104424611010232366)*
 
 ---
 
-### 43. Distilbook Motion Graphics Showreel Video (42.8K views, 159 likes)
-*Use Case: showreel | Style: 2d, minimal*
+<a id="case-43"></a>
 
-**Prompt:**
-```
+### 43. Distilbook Motion Graphics Showreel Video (42.8K views, 159 likes)
+
+*Use case: showreel · Style: 2d, minimal*
+
+https://github.com/user-attachments/assets/a0affe97-c96d-40a5-91ff-e4bee18ec086
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 Research Distilbook.Make a dynamic 40-second motion graphics video on Distilbook that shows what an incredible motion designer you are. like it's your showreel - Go all out.
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/itisrazak-332386/original.db024c3c41.webp" width="400" alt="Distilbook Motion Graphics Showreel Video">
+</details>
 
-*Source: @itisRazak - [Post](https://x.com/itisRazak/status/2103517930424332386)*
+*Source: @itisRazak · [X post](https://x.com/itisRazak/status/2103517930424332386)*
 
 ---
 
-### 44. UI State Morphing Motion Graphic with Shape Transitions (30.1K views, 269 likes)
-*Use Case: showreel | Style: 2d, minimal*
+<a id="case-44"></a>
 
-**Prompt:**
-```
+### 44. UI State Morphing Motion Graphic with Shape Transitions (30.1K views, 269 likes)
+
+*Use case: showreel · Style: 2d, minimal*
+
+https://github.com/user-attachments/assets/e5cfa34e-7389-403c-9f45-b8373778fb96
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 <inputs>
 Ask me for: 8 to 12 UI states I want the shape to become (e.g. button, loader, player, slider, toggle, tabs, chart, command palette, toast), pure black and white or one accent color, and a royalty-free song around 120 BPM (e.g. Mixkit, free for commercial use).
 </inputs>
@@ -1882,45 +2328,66 @@ Ask me for the inputs, then show me the state list on the beat grid before you w
 </start>
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/morse-369333/original.519a9f00ee.webp" width="400" alt="UI State Morphing Motion Graphic with Shape Transitions">
+</details>
 
-*Source: @__morse - [Post](https://x.com/__morse/status/2103485566570369333)*
+*Source: @__morse · [X post](https://x.com/__morse/status/2103485566570369333)*
 
 ---
 
-### 45. Developer Tool Launch Video with Feature Highlights (29.5K views, 86 likes)
-*Use Case: showreel | Style: 2d, minimal*
+<a id="case-45"></a>
 
-**Prompt:**
-```
+### 45. Developer Tool Launch Video with Feature Highlights (29.5K views, 86 likes)
+
+*Use case: showreel · Style: 2d, minimal*
+
+https://github.com/user-attachments/assets/4fefb140-a35b-44d4-90a7-679788aa6e2a
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 make a dynamic 15-second motion graphics video that shows what an incredible motion designer you are for <website url>
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/melvynx-638493/original.93566e677b.webp" width="400" alt="Developer Tool Launch Video with Feature Highlights">
+</details>
 
-*Source: @melvynx - [Post](https://x.com/melvynx/status/2103714680577638493)*
+*Source: @melvynx · [X post](https://x.com/melvynx/status/2103714680577638493)*
 
 ---
 
-### 46. 15-Second Motion Designer Showreel Video (25.9K views, 119 likes)
-*Use Case: showreel | Style: 2d, minimal*
+<a id="case-46"></a>
 
-**Prompt:**
-```
+### 46. 15-Second Motion Designer Showreel Video (25.9K views, 119 likes)
+
+*Use case: showreel · Style: 2d, minimal*
+
+https://github.com/user-attachments/assets/a65c6a7d-0e4d-4636-b72d-2dc8ff83c6d6
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 制作一段 15 秒的动态图形视频，展示你作为动态设计师的非凡实力。
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/_prompts/dotey-773568/poster.deef84b37c.webp" width="400" alt="15-Second Motion Designer Showreel Video">
+</details>
 
-*Source: @dotey - [Post](https://x.com/dotey/status/2104649290668773568)*
+*Source: @dotey · [X post](https://x.com/dotey/status/2104649290668773568)*
 
 ---
 
-### 47. 15-Second Showreel with Synthesized Code-Based Soundtrack (14.9K views, 206 likes)
-*Use Case: showreel | Style: 2d, minimal*
+<a id="case-47"></a>
 
-**Prompt:**
-```
+### 47. 15-Second Showreel with Synthesized Code-Based Soundtrack (14.9K views, 206 likes)
+
+*Use case: showreel · Style: 2d, minimal*
+
+https://github.com/user-attachments/assets/bf2b66b5-3cea-40ad-b4f0-da8d9b4f9b4b
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 make a dynamic 15-second motion graphics video that shows what an incredible motion designer you are, like it's your showreel for a résumé. go all out.
 
 compose the soundtrack yourself, fully synthesized in code. no samples, no audio files, no VST instruments. every cut and transition must land on the beat.
@@ -1928,90 +2395,149 @@ compose the soundtrack yourself, fully synthesized in code. no samples, no audio
 1920x1080, 60fps. render the final video with the music mixed in as an MP4 and tell me where it's saved.
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/prasenx-693512/original.515f6345fb.webp" width="400" alt="15-Second Showreel with Synthesized Code-Based Soundtrack">
+</details>
 
-*Source: @prasenx - [Post](https://x.com/prasenx/status/2103538744695693512)*
+*Source: @prasenx · [X post](https://x.com/prasenx/status/2103538744695693512)*
 
 ---
 
-### 48. Distilbook 30-Second Showreel with Reference Visual Style (13.6K views, 61 likes)
-*Use Case: showreel | Style: 2d, minimal*
+<a id="case-48"></a>
 
-**Prompt:**
-```
+### 48. Distilbook 30-Second Showreel with Reference Visual Style (13.6K views, 61 likes)
+
+*Use case: showreel · Style: 2d, minimal*
+
+https://github.com/user-attachments/assets/f7183622-4fe9-44c0-861c-ce6ecafccc00
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 Take reference from the given video (download it) and use the same visual style.
 and Research about Distilbook. Make a dynamic 30-second motion graphics video on Distilbook that shows what an incredible motion designer you are. like it's your showreel - Go all out.
 One thing to keep in mind: it should be cool as fck.
-
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/ajith-io-615243/original.cd413c6a04.webp" width="400" alt="Distilbook 30-Second Showreel with Reference Visual Style">
+</details>
 
-*Source: @ajith_io - [Post](https://x.com/ajith_io/status/2103541149709615243)*
+*Source: @ajith_io · [X post](https://x.com/ajith_io/status/2103541149709615243)*
 
 ---
 
-### 49. Overthinking Concept Motion Graphics Showreel (10.9K views, 69 likes)
-*Use Case: showreel | Style: 2d, minimal*
+<a id="case-49"></a>
 
-**Prompt:**
-```
+### 49. Overthinking Concept Motion Graphics Showreel (10.9K views, 69 likes)
+
+*Use case: showreel · Style: 2d, minimal*
+
+https://github.com/user-attachments/assets/aaa2420d-4d73-4611-9d42-a6bd27992f43
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 Make a dynamic 15-second motion graphics video that shows what an incredible motion designer you are, like it’s your showreel exploring the concept of “Overthinking,” inspired by the attached graphics.
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/gizakdag-239768/original.382eacc540.webp" width="400" alt="Overthinking Concept Motion Graphics Showreel">
+</details>
 
-*Source: @gizakdag - [Post](https://x.com/gizakdag/status/2103566030916239768)*
+*Source: @gizakdag · [X post](https://x.com/gizakdag/status/2103566030916239768)*
 
 ---
 
-### 50. 15-Second Dynamic Motion Graphics Showcase (Chinese) (9.9K views, 61 likes)
-*Use Case: showreel | Style: 2d, abstract*
+<a id="case-50"></a>
 
-**Prompt:**
-```
+### 50. 15-Second Dynamic Motion Graphics Showcase (Chinese) (9.9K views, 61 likes)
+
+*Use case: showreel · Style: 2d, abstract*
+
+https://github.com/user-attachments/assets/56f85abd-3d02-463a-b37d-ec240f0f99d9
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 以动态设计师的高级审美，制作一段动态的15秒动态图形视频
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/chatgptastra-807540/original.e84909440e.webp" width="400" alt="15-Second Dynamic Motion Graphics Showcase (Chinese)">
+</details>
 
-*Source: @ChatGptAstra - [Post](https://x.com/ChatGptAstra/status/2103834787647807540)*
+<details>
+<summary>Prompt · Chinese version from Feishu</summary>
+
+```text
+以动态设计师的高级审美，制作一段动态的15秒动态图形视频
+```
+
+</details>
+
+*Source: @ChatGptAstra · [X post](https://x.com/ChatGptAstra/status/2103834787647807540) · [Feishu N06](https://aiwarts101.feishu.cn/wiki/LMEcwg5jHiTSnqkwNE1cum7DnLb)*
 
 ---
 
-### 51. 15-Second Motion Graphics Portfolio Showreel (8.6K views, 73 likes)
-*Use Case: showreel | Style: 2d, 3d, kinetic-type*
+<a id="case-51"></a>
 
-**Prompt:**
-```
+### 51. 15-Second Motion Graphics Portfolio Showreel (8.6K views, 73 likes)
+
+*Use case: showreel · Style: 2d, 3d, kinetic-type*
+
+https://github.com/user-attachments/assets/d0533c5c-bdc8-494c-9cfe-585b1aad2286
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 Create a bold, dynamic 15-second motion graphics showreel that feels like the ultimate portfolio piece of an exceptionally talented motion designer. Showcase a wide range of advanced techniques: kinetic typography, smooth transitions, 2D and 3D animation, abstract geometry, fluid simulations, particles, distortion, creative masking, compositing, lighting, depth, and seamless camera movement. Keep the pacing fast, confident, and visually surprising, with every shot transitioning naturally into the next. Make it feel meticulously art-directed rather than like a random collection of effects. Push the creativity, polish, timing, and visual impact as far as possible. This should feel like the opening reel that gets a motion designer hired.
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/lukasersil-726495/original.2886d94586.webp" width="400" alt="15-Second Motion Graphics Portfolio Showreel">
+</details>
 
-*Source: @lukasersil - [Post](https://x.com/lukasersil/status/2103742861971726495)*
+<details>
+<summary>Prompt · Chinese version from Feishu</summary>
+
+```text
+制作一支大胆、动感十足的15秒动态图形展示片，让它像一位极具天赋的动效设计师最出色的作品集作品。展示广泛的高级技巧：动态字体、流畅转场、二维与三维动画、抽象几何、流体模拟、粒子、扭曲、创意遮罩、合成、灯光、景深，以及无缝的镜头运动。节奏要快速、自信，并在视觉上不断制造惊喜，每个镜头都要自然过渡到下一个镜头。让它呈现出精心设计的美术指导，而不是随机堆砌特效。尽可能提升创意、精致度、时机把控和视觉冲击力。这应当像一支能让动效设计师获得工作机会的开场展示片。
+```
+
+</details>
+
+*Source: @lukasersil · [X post](https://x.com/lukasersil/status/2103742861971726495) · [Feishu N07](https://aiwarts101.feishu.cn/wiki/LMEcwg5jHiTSnqkwNE1cum7DnLb)*
 
 ---
 
-### 52. Motion Designer Skills Showcase Reel (7.4K views, 20 likes)
-*Use Case: showreel | Style: 2d*
+<a id="case-52"></a>
 
-**Prompt:**
-```
+### 52. Motion Designer Skills Showcase Reel (7.4K views, 20 likes)
+
+*Use case: showreel · Style: 2d*
+
+https://github.com/user-attachments/assets/2fb8c8ad-583d-4c61-bcdd-924190907960
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 Hello Opus 5.5 show me what an incredible motion designer you are.
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/zheke-622583/original.77013c3840.webp" width="400" alt="Motion Designer Skills Showcase Reel">
+</details>
 
-*Source: @zheke - [Post](https://x.com/zheke/status/2103418664854622583)*
+*Source: @zheke · [X post](https://x.com/zheke/status/2103418664854622583)*
 
 ---
 
-### 53. AI In Public 24-Second Motion Reel (5.9K views, 53 likes)
-*Use Case: showreel | Style: 2d, kinetic-type, particle*
+<a id="case-53"></a>
 
-**Prompt:**
-```
+### 53. AI In Public 24-Second Motion Reel (5.9K views, 53 likes)
+
+*Use case: showreel · Style: 2d, kinetic-type, particle*
+
+https://github.com/user-attachments/assets/98c2559c-3906-4384-a741-d07785797dd6
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 Opus 5.5 on Max effort (Sound On):
 
 "A 24-second AI In Public motion reel in Remotion at 1920×1080, 60fps. Use our blue # 3D40FE, white, navy, and ice palette with the AI In Public logo and sparkle. Keep it fast, premium, and smooth with motion blur, glow, camera hits, HUD details, seamless transitions, kinetic type, terminal UI, neural visuals, particles, and a cinematic logo finale. Generate all suspenseful music and sound effects in code and sync every hit perfectly. End with “AI IN PUBLIC, learning AI, out loud.” Every frame and sound should be written in code."
@@ -2021,31 +2547,54 @@ full prompt on here: http://ai-in-public.guide
 then read the full guide below: ↓
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/humzaakhalid-537875/original.c0f48993ac.webp" width="400" alt="AI In Public 24-Second Motion Reel">
+</details>
 
-*Source: @humzaakhalid - [Post](https://x.com/humzaakhalid/status/2106640261623537875)*
+*Source: @humzaakhalid · [X post](https://x.com/humzaakhalid/status/2106640261623537875)*
 
 ---
 
-### 54. 40-Second Distilbook Motion Graphics Showreel (5.0K views, 62 likes)
-*Use Case: showreel | Style: 2d, kinetic-type*
+<a id="case-54"></a>
 
-**Prompt:**
-```
+### 54. 40-Second Distilbook Motion Graphics Showreel (5.0K views, 62 likes)
+
+*Use case: showreel · Style: 2d, kinetic-type*
+
+https://github.com/user-attachments/assets/ab14a46f-6128-4c77-912f-820954ad4692
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 Make a dynamic 40-second motion graphics video on Distilbook that shows what an incredible motion designer you are, like it's your showreel - go all out. Use the Oppenheimer theme music as inspiration, but compose it yourself.
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/ajith-io-562538/original.1a7582c547.webp" width="400" alt="40-Second Distilbook Motion Graphics Showreel">
+</details>
 
-*Source: @ajith_io - [Post](https://x.com/ajith_io/status/2103800569584562538)*
+<details>
+<summary>Prompt · Chinese version from Feishu</summary>
+
+```text
+研究 Distilbook。制作一段关于 Distilbook 的、动感十足的40秒动态图形视频，展现你作为动效设计师的非凡实力，就像你的作品集展示片一样。全力以赴。
+```
+
+</details>
+
+*Source: @ajith_io · [X post](https://x.com/ajith_io/status/2103800569584562538) · [Feishu N02](https://aiwarts101.feishu.cn/wiki/LMEcwg5jHiTSnqkwNE1cum7DnLb)*
 
 ---
 
-### 55. 30-Second Looping Pencil Line Motion Showreel (4.1K views, 20 likes)
-*Use Case: showreel | Style: 2d, minimal*
+<a id="case-55"></a>
 
-**Prompt:**
-```
+### 55. 30-Second Looping Pencil Line Motion Showreel (4.1K views, 20 likes)
+
+*Use case: showreel · Style: 2d, minimal*
+
+https://github.com/user-attachments/assets/d5276dc1-0e76-4774-8deb-f88262de8c49
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 <direction>
 Build a 30-second looping motion design showreel that introduces CLAUDE, a motion designer.
 Concept, in one line: one pencil line gets promoted three times (graphite on paper, wire on a blueprint, light on black) and never leaves the screen.
@@ -2123,7 +2672,7 @@ Bar 5, TILING, 8-10 s, paper.
 
 Bar 6, 2D TO 3D, 10-12 s, blueprint.
 
-10.0: three lines draw inside every hexagon, plus three dashed hidden ones: each is a cube seen corner-on. 
+10.0: three lines draw inside every hexagon, plus three dashed hidden ones: each is a cube seen corner-on.
 
 10.5: the eighteen outer cubes slide into the centre one, which grows to radius 270. 11.0: it turns a quarter and perspective switches on. 11.5: it faces front.
 
@@ -2142,17 +2691,24 @@ Bar 9, DATA, 16-18 s, blueprint.
 16.5: it clicks RING: the chart's baseline bends round into a circle of radius 110 with the ba
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/heyiamnick-119558/original.9d470f3eab.webp" width="400" alt="30-Second Looping Pencil Line Motion Showreel">
+</details>
 
-*Source: @heyiamnick - [Post](https://x.com/heyiamnick/status/2109174851412119558)*
+*Source: @heyiamnick · [X post](https://x.com/heyiamnick/status/2109174851412119558)*
 
 ---
 
-### 56. 15-Second Self-Introduction Motion Designer Video (Japanese) (4.0K views, 30 likes)
-*Use Case: showreel | Style: 2d, kinetic-type, particle*
+<a id="case-56"></a>
 
-**Prompt:**
-```
+### 56. 15-Second Self-Introduction Motion Designer Video (Japanese) (4.0K views, 30 likes)
+
+*Use case: showreel · Style: 2d, kinetic-type, particle*
+
+https://github.com/user-attachments/assets/1d84ff7d-6a09-46cd-af5d-c0428b8d3468
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 # あなたの役割
 あなたは一流の映像演出家（モーションデザイナー）です。
 採用担当者が15秒見ただけで「この人に仕事を頼みたい」と思う、自己紹介用の映像を作ってください。
@@ -2200,45 +2756,66 @@ Bar 9, DATA, 16-18 s, blueprint.
 説明は3行以内で十分です。
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/_prompts/tanabe-fragm-706979/poster.2469a2c140.webp" width="400" alt="15-Second Self-Introduction Motion Designer Video (Japanese)">
+</details>
 
-*Source: @tanabe_fragm - [Post](https://x.com/tanabe_fragm/status/2103802156675706979)*
+*Source: @tanabe_fragm · [X post](https://x.com/tanabe_fragm/status/2103802156675706979)*
 
 ---
 
-### 57. Alchemy Infra Company Motion Graphics Showreel (4.0K views, 14 likes)
-*Use Case: showreel | Style: 2d, minimal*
+<a id="case-57"></a>
 
-**Prompt:**
-```
+### 57. Alchemy Infra Company Motion Graphics Showreel (4.0K views, 14 likes)
+
+*Use case: showreel · Style: 2d, minimal*
+
+https://github.com/user-attachments/assets/937a5d7c-4dc3-4e32-93b7-361ce3610eb3
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 make a dynamic 15-second motion graphics video that shows what an incredible motion designer you are, like it's your showreel for the infra company https://alchemy.com, go all out!
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/onewaysidewalks-440008/original.d26cfa4030.webp" width="400" alt="Alchemy Infra Company Motion Graphics Showreel">
+</details>
 
-*Source: @onewaysidewalks - [Post](https://x.com/onewaysidewalks/status/2103500011581440008)*
+*Source: @onewaysidewalks · [X post](https://x.com/onewaysidewalks/status/2103500011581440008)*
 
 ---
 
-### 58. 20-Second Psychedelic Hypnotic Motion Showreel (3.9K views, 56 likes)
-*Use Case: showreel | Style: 2d, abstract*
+<a id="case-58"></a>
 
-**Prompt:**
-```
+### 58. 20-Second Psychedelic Hypnotic Motion Showreel (3.9K views, 56 likes)
+
+*Use case: showreel · Style: 2d, abstract*
+
+https://github.com/user-attachments/assets/78d9e73a-c46c-4a1c-b6d8-c261d6a869cf
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 make a dynamic 20-second motion graphics video that shows what an incredible motion designer you are, psychedelic and hypnotic. make it feel like a showreel piece. go all out.
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/monokern-832979/original.a67fabae15.webp" width="400" alt="20-Second Psychedelic Hypnotic Motion Showreel">
+</details>
 
-*Source: @monokern - [Post](https://x.com/monokern/status/2103563538828832979)*
+*Source: @monokern · [X post](https://x.com/monokern/status/2103563538828832979)*
 
 ---
 
-### 59. UI Component Shape Morph Motion Design (Japanese) (3.3K views, 10 likes)
-*Use Case: showreel | Style: 2d, minimal*
+<a id="case-59"></a>
 
-**Prompt:**
-```
+### 59. UI Component Shape Morph Motion Design (Japanese) (3.3K views, 10 likes)
+
+*Use case: showreel · Style: 2d, minimal*
+
+https://github.com/user-attachments/assets/8ffe620f-42c0-4c1d-9fb8-5d3dfb605bad
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 <inputs>
 次の3つを私に質問すること：図形が変身する8〜12個の画面部品（例：ボタン、読み込み中の表示、音楽プレーヤー、音量スライダー、オン/オフのスイッチ、タブ、グラフ、⌘Kで開く検索窓、一瞬出る通知）、色は完全な白黒か差し色1色か、そして120BPM（1分間に120拍のテンポ）前後の著作権フリーの曲（例：Mixkit、商用利用無料）。
 </inputs>
@@ -2272,47 +2849,68 @@ make a dynamic 20-second motion graphics video that shows what an incredible mot
 </start>
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/_prompts/okapi-fukugyo-166351/poster.34c9248f5d.webp" width="400" alt="UI Component Shape Morph Motion Design (Japanese)">
+</details>
 
-*Source: @okapi_fukugyo - [Post](https://x.com/okapi_fukugyo/status/2103586082336166351)*
+*Source: @okapi_fukugyo · [X post](https://x.com/okapi_fukugyo/status/2103586082336166351)*
 
 ---
 
-### 60. Alan AI 15-Second Motion Designer Showreel (3.1K views, 24 likes)
-*Use Case: showreel | Style: 2d, minimal*
+<a id="case-60"></a>
 
-**Prompt:**
-```
-make a dynamic 15 second motion graphics video that shows what an incredible motion designer you are, for 
+### 60. Alan AI 15-Second Motion Designer Showreel (3.1K views, 24 likes)
+
+*Use case: showreel · Style: 2d, minimal*
+
+https://github.com/user-attachments/assets/70e63b53-0a23-4106-873a-e9facb460ea6
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
+make a dynamic 15 second motion graphics video that shows what an incredible motion designer you are, for
 @tryAlanAI
 . go all out.
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/prasad-pilla-496049/original.398382b93d.webp" width="400" alt="Alan AI 15-Second Motion Designer Showreel">
+</details>
 
-*Source: @prasad_pilla - [Post](https://x.com/prasad_pilla/status/2103728953785496049)*
+*Source: @prasad_pilla · [X post](https://x.com/prasad_pilla/status/2103728953785496049)*
 
 ---
 
-### 61. Opus 5.5 Self-Introduction 10-Second Motion Graphic (2.9K views, 42 likes)
-*Use Case: showreel | Style: 2d, abstract*
+<a id="case-61"></a>
 
-**Prompt:**
-```
+### 61. Opus 5.5 Self-Introduction 10-Second Motion Graphic (2.9K views, 42 likes)
+
+*Use case: showreel · Style: 2d, abstract*
+
+https://github.com/user-attachments/assets/3f7da217-9aaa-48b4-a910-e8e54798d7f3
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 make a dynamic 10-second motion graphics video that shows who are you as Opus 5.5 - be as creative and dynamic as possible. Avoid the frames and texts on the corners which are typical ai made giveaways!
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/1littlecoder-914649/original.b2bf84bb6f.webp" width="400" alt="Opus 5.5 Self-Introduction 10-Second Motion Graphic">
+</details>
 
-*Source: @1littlecoder - [Post](https://x.com/1littlecoder/status/2103587706999914649)*
+*Source: @1littlecoder · [X post](https://x.com/1littlecoder/status/2103587706999914649)*
 
 ---
 
-### 62. 45-Second Vertical App Feature Showcase Video (2.5K views, 1 likes)
-*Use Case: showreel | Style: 2d, minimal*
+<a id="case-62"></a>
 
-**Prompt:**
-```
+### 62. 45-Second Vertical App Feature Showcase Video (2.5K views, 1 likes)
+
+*Use case: showreel · Style: 2d, minimal*
+
+https://github.com/user-attachments/assets/0374c7cd-792a-4819-bdb8-d66711c0ce30
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 Make a 45–50 second vertical video for my app: a glance inside the app.
 Show every feature, use motion, be creative. I want it good enough for your CV.
 
@@ -2325,17 +2923,24 @@ Show every feature, use motion, be creative. I want it good enough for your CV.
 - Let viewers follow: each feature stays on screen for at least 2.5 seconds.
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/bilimfili1-459762/original.a1f891890a.webp" width="400" alt="45-Second Vertical App Feature Showcase Video">
+</details>
 
-*Source: @Bilimfili1 - [Post](https://x.com/Bilimfili1/status/2103743617848459762)*
+*Source: @Bilimfili1 · [X post](https://x.com/Bilimfili1/status/2103743617848459762)*
 
 ---
 
-### 63. 4 Motion Videos in 3 Days Without After Effects (2.0K views, 30 likes)
-*Use Case: showreel | Style: 2d, 3d, minimal*
+<a id="case-63"></a>
 
-**Prompt:**
-```
+### 63. 4 Motion Videos in 3 Days Without After Effects (2.0K views, 30 likes)
+
+*Use case: showreel · Style: 2d, 3d, minimal*
+
+https://github.com/user-attachments/assets/186f4fca-c330-45c7-9b2a-9765289f0d1e
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 I made 4 motion videos for @Shillz_Official in 3 days without opening After Effects.
 
 no templates. no stock music. no motion designer.
@@ -2355,31 +2960,45 @@ Python writes the music
 I never touched a timeline. I just gave notes.
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/colecornelll-047465/original.acf76ddaf4.webp" width="400" alt="4 Motion Videos in 3 Days Without After Effects">
+</details>
 
-*Source: @colecornelll - [Post](https://x.com/colecornelll/status/2105751866051047465)*
+*Source: @colecornelll · [X post](https://x.com/colecornelll/status/2105751866051047465)*
 
 ---
 
-### 64. Animated UI Card with Scale-In and Graph Line Motion (1.9K views, 22 likes)
-*Use Case: showreel | Style: 2d, minimal*
+<a id="case-64"></a>
 
-**Prompt:**
-```
+### 64. Animated UI Card with Scale-In and Graph Line Motion (1.9K views, 22 likes)
+
+*Use case: showreel · Style: 2d, minimal*
+
+https://github.com/user-attachments/assets/aa6d8c5e-9957-4669-bb9c-75c452120939
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 the card should scale in from 30% to 100% scale and it should go from Invisible to visible. every detail slide in orderly one after the other when the card settles in scale. the graph line animates in like a line path. the glow at the back becomes visible as the card details slides in. the two rectangles move accross the screen at slightly different timing giving it this light effect.
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/_prompts/khlaseek-dsgner-877659/poster.1e81ae3ddd.webp" width="400" alt="Animated UI Card with Scale-In and Graph Line Motion">
+</details>
 
-*Source: @Khlaseek_dsgner - [Post](https://x.com/Khlaseek_dsgner/status/2108167809997877659)*
+*Source: @Khlaseek_dsgner · [X post](https://x.com/Khlaseek_dsgner/status/2108167809997877659)*
 
 ---
 
-### 65. Pure Function Per-Frame Video Pipeline with Beat Grid (1.8K views, 30 likes)
-*Use Case: showreel | Style: 2d, minimal*
+<a id="case-65"></a>
 
-**Prompt:**
-```
+### 65. Pure Function Per-Frame Video Pipeline with Beat Grid (1.8K views, 30 likes)
+
+*Use case: showreel · Style: 2d, minimal*
+
+https://github.com/user-attachments/assets/0335589b-8a78-4437-836b-5ed5e809eb8e
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 The trick is NOT the prompt. It is one rule: every frame is a pure function of time.
 
 song -> numpy beat grid -> Opus 5.5 writes one HTML file -> Playwright renders -> ffmpeg blends
@@ -2404,45 +3023,66 @@ the math:
 14 s x 60 fps x 4 subframes = 3,360 browser renders
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/_prompts/yankis0x-174321/poster.804b9fb5da.webp" width="400" alt="Pure Function Per-Frame Video Pipeline with Beat Grid">
+</details>
 
-*Source: @yankis0x - [Post](https://x.com/yankis0x/status/2103502194578174321)*
+*Source: @yankis0x · [X post](https://x.com/yankis0x/status/2103502194578174321)*
 
 ---
 
-### 66. World-Class Designer Showreel Centerpiece Motion Graphic (1.8K views, 22 likes)
-*Use Case: showreel | Style: 2d, minimal*
+<a id="case-66"></a>
 
-**Prompt:**
-```
+### 66. World-Class Designer Showreel Centerpiece Motion Graphic (1.8K views, 22 likes)
+
+*Use case: showreel · Style: 2d, minimal*
+
+https://github.com/user-attachments/assets/84f6a4f5-bdd1-458e-8cbf-bd12135a9e52
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 Create a motion graphics video that feels like the centerpiece of a world-class designer’s showreel. Treat it as your résumé: showcase your full range, push the craft as far as possible. Go all out.
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/samuel-spitz-503053/original.6b368c2158.webp" width="400" alt="World-Class Designer Showreel Centerpiece Motion Graphic">
+</details>
 
-*Source: @samuel_spitz - [Post](https://x.com/samuel_spitz/status/2103544855276503053)*
+*Source: @samuel_spitz · [X post](https://x.com/samuel_spitz/status/2103544855276503053)*
 
 ---
 
-### 67. Pixelup Labs 15-Second Motion Graphics Showreel (1.8K views, 32 likes)
-*Use Case: showreel | Style: 2d, minimal*
+<a id="case-67"></a>
 
-**Prompt:**
-```
+### 67. Pixelup Labs 15-Second Motion Graphics Showreel (1.8K views, 32 likes)
+
+*Use case: showreel · Style: 2d, minimal*
+
+https://github.com/user-attachments/assets/87dd5a0e-bb49-4b62-91d1-f419984db68c
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 create a 15 sec motion graphics showreel for @pixeluplabs, be extremely detail oriented and go all out
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/_prompts/arjunsh1607-922126/poster.df29566824.webp" width="400" alt="Pixelup Labs 15-Second Motion Graphics Showreel">
+</details>
 
-*Source: @arjunsh1607 - [Post](https://x.com/arjunsh1607/status/2104295133432922126)*
+*Source: @arjunsh1607 · [X post](https://x.com/arjunsh1607/status/2104295133432922126)*
 
 ---
 
-### 68. Cinematic 3D Iron Man Helmet in Three.js (1.8K views, 3 likes)
-*Use Case: showreel | Style: 3d, realistic*
+<a id="case-68"></a>
 
-**Prompt:**
-```
+### 68. Cinematic 3D Iron Man Helmet in Three.js (1.8K views, 3 likes)
+
+*Use case: showreel · Style: 3d, realistic*
+
+https://github.com/user-attachments/assets/b5efbd71-2fa4-4490-8f2d-aa9d9603a86a
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 Create a visually stunning, silent 3D browser animation of Iron Man’s classic red-and-gold helmet, presented as a premium cinematic studio object.
 
 Deliver a complete runnable HTML experience using Three.js.
@@ -2452,17 +3092,24 @@ COMPOSITION
 One helmet only, floating in the center of the
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/_prompts/ivanainai-190629/poster.4530b3570c.webp" width="400" alt="Cinematic 3D Iron Man Helmet in Three.js">
+</details>
 
-*Source: @ivanainai - [Post](https://x.com/ivanainai/status/2107217500761190629)*
+*Source: @ivanainai · [X post](https://x.com/ivanainai/status/2107217500761190629)*
 
 ---
 
-### 69. Developer Showreel Built with Remotion (1.7K views, 25 likes)
-*Use Case: showreel | Style: 2d, minimal*
+<a id="case-69"></a>
 
-**Prompt:**
-```
+### 69. Developer Showreel Built with Remotion (1.7K views, 25 likes)
+
+*Use case: showreel · Style: 2d, minimal*
+
+https://github.com/user-attachments/assets/c370cf2f-b46c-45c4-bd57-0134b4891dc3
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 Claude Opus 5.5 is incredible.
 
 I gave it a pretty simple task:
@@ -2498,17 +3145,24 @@ Interested in knowing what prompt I used?
 Comment "Remotion".
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/iammukeshm-421585/original.3b913a2506.webp" width="400" alt="Developer Showreel Built with Remotion">
+</details>
 
-*Source: @iammukeshm - [Post](https://x.com/iammukeshm/status/2103511739585421585)*
+*Source: @iammukeshm · [X post](https://x.com/iammukeshm/status/2103511739585421585)*
 
 ---
 
-### 70. Deterministic 720-Frame Butterfly Animation with 6 Counters (1.7K views, 23 likes)
-*Use Case: showreel | Style: 2d, minimal*
+<a id="case-70"></a>
 
-**Prompt:**
-```
+### 70. Deterministic 720-Frame Butterfly Animation with 6 Counters (1.7K views, 23 likes)
+
+*Use case: showreel · Style: 2d, minimal*
+
+https://github.com/user-attachments/assets/98aed5d1-9d3a-4950-8627-d75035ad5a0f
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 Picture a butterfly with no memory of its last wingbeat.
 Ask it for frame 720 and you get frame 0, pixel for pixel.
 
@@ -2541,49 +3195,70 @@ Let one frame read a clock and the same number stops giving the same picture.
 We drew the rule as an X-ray butterfly, its wingbeat computed from the frame number ↓
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/_prompts/0xkarmi-129839/poster.818e7ed18d.webp" width="400" alt="Deterministic 720-Frame Butterfly Animation with 6 Counters">
+</details>
 
-*Source: @0xKarmi - [Post](https://x.com/0xKarmi/status/2108495927988129839)*
+*Source: @0xKarmi · [X post](https://x.com/0xKarmi/status/2108495927988129839)*
 
 ---
 
-### 71. Flowdrive 15-Second Motion Designer Showreel (1.6K views, 6 likes)
-*Use Case: showreel | Style: 2d, minimal*
+<a id="case-71"></a>
 
-**Prompt:**
-```
+### 71. Flowdrive 15-Second Motion Designer Showreel (1.6K views, 6 likes)
+
+*Use case: showreel · Style: 2d, minimal*
+
+https://github.com/user-attachments/assets/d07a7ab9-75af-423c-aff8-de321923d36a
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 make a dynamic 15-second motion graphics video that shows what an incredible motion designer you are, like it's your showreel for a flowdrive. go all out.
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/manuelogomigo-052364/original.83bcca4a5b.webp" width="400" alt="Flowdrive 15-Second Motion Designer Showreel">
+</details>
 
-*Source: @manuelogomigo - [Post](https://x.com/manuelogomigo/status/2103614667038052364)*
+*Source: @manuelogomigo · [X post](https://x.com/manuelogomigo/status/2103614667038052364)*
 
 ---
 
-### 72. Seattle 15-Second Motion Graphics City Video (1.5K views, 25 likes)
-*Use Case: showreel | Style: 2d, minimal*
+<a id="case-72"></a>
 
-**Prompt:**
-```
-create a 15-second motion graphics video about Seattle ( sound on 🔊) 
+### 72. Seattle 15-Second Motion Graphics City Video (1.5K views, 25 likes)
+
+*Use case: showreel · Style: 2d, minimal*
+
+https://github.com/user-attachments/assets/41b23f42-8cf8-4cc0-beee-f4992e43882c
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
+create a 15-second motion graphics video about Seattle ( sound on 🔊)
 
 Everything from the visuals and animation to the music and final video was created directly by Claude. Every frame and every sound was created by code, from scratch.
 
 No screen recording, editing software, stock footage, music samples, or AI image or video generators were used.
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/_prompts/yanliudesign-839698/poster.0aaf78fc71.webp" width="400" alt="Seattle 15-Second Motion Graphics City Video">
+</details>
 
-*Source: @yanliudesign - [Post](https://x.com/yanliudesign/status/2104393313935839698)*
+*Source: @yanliudesign · [X post](https://x.com/yanliudesign/status/2104393313935839698)*
 
 ---
 
-### 73. Shape Morph Canvas Animation with Color and Radius Inputs (1.4K views, 16 likes)
-*Use Case: showreel | Style: 2d, minimal*
+<a id="case-73"></a>
 
-**Prompt:**
-```
+### 73. Shape Morph Canvas Animation with Color and Radius Inputs (1.4K views, 16 likes)
+
+*Use case: showreel · Style: 2d, minimal*
+
+https://github.com/user-attachments/assets/883e66ad-d62f-4e85-8c90-ce5785a5ede5
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 <inputs>
 Give me:
 
@@ -2682,17 +3357,24 @@ After the first render, check 5 frames around every beat and fix the issues befo
 </start>
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/_prompts/flxrnc-251921/poster.cf8385656c.webp" width="400" alt="Shape Morph Canvas Animation with Color and Radius Inputs">
+</details>
 
-*Source: @flxrnc - [Post](https://x.com/flxrnc/status/2108242454105251921)*
+*Source: @flxrnc · [X post](https://x.com/flxrnc/status/2108242454105251921)*
 
 ---
 
-### 74. 15-Second Studio Motion Design Reel with Orange Circle Through-Line (1.3K views, 5 likes)
-*Use Case: showreel | Style: 2d, kinetic-type, minimal*
+<a id="case-74"></a>
 
-**Prompt:**
-```
+### 74. 15-Second Studio Motion Design Reel with Orange Circle Through-Line (1.3K views, 5 likes)
+
+*Use case: showreel · Style: 2d, kinetic-type, minimal*
+
+https://github.com/user-attachments/assets/7e4aeb84-04d0-4bc5-83d1-0ef8bfd316b0
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 15s studio motion-design reel, 1920x1080.
 Warm off-white, black type, one orange accent only.
 A single orange circle with motion blur is the through-line and the cut.
@@ -2701,31 +3383,45 @@ Springs, no glow, no particles, no default easing.
 Looks like a refined product-studio showreel, not an AI trailer.
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/_prompts/threeaus-886343/poster.13403f037d.webp" width="400" alt="15-Second Studio Motion Design Reel with Orange Circle Through-Line">
+</details>
 
-*Source: @threeaus - [Post](https://x.com/threeaus/status/2105152377057886343)*
+*Source: @threeaus · [X post](https://x.com/threeaus/status/2105152377057886343)*
 
 ---
 
-### 75. 15-Second Moving Showreel for Motion Designer Resume (1.2K views, 4 likes)
-*Use Case: showreel | Style: 2d, minimal*
+<a id="case-75"></a>
 
-**Prompt:**
-```
+### 75. 15-Second Moving Showreel for Motion Designer Resume (1.2K views, 4 likes)
+
+*Use case: showreel · Style: 2d, minimal*
+
+https://github.com/user-attachments/assets/71718435-6a9a-4001-8550-6bcf620fd439
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 Make me a 15-second moving video that shows how amazing of a motion designer you are. Like a showreel for your resume. Go all out.
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/_prompts/aiaircle34052-950750/poster.eb01b53dbf.webp" width="400" alt="15-Second Moving Showreel for Motion Designer Resume">
+</details>
 
-*Source: @AiAircle34052 - [Post](https://x.com/AiAircle34052/status/2103663848846950750)*
+*Source: @AiAircle34052 · [X post](https://x.com/AiAircle34052/status/2103663848846950750)*
 
 ---
 
-### 76. Opus 5.5 Remotion Animated Motion Design Skills Showcase (1.2K views, 18 likes)
-*Use Case: showreel | Style: 2d, minimal*
+<a id="case-76"></a>
 
-**Prompt:**
-```
+### 76. Opus 5.5 Remotion Animated Motion Design Skills Showcase (1.2K views, 18 likes)
+
+*Use case: showreel · Style: 2d, minimal*
+
+https://github.com/user-attachments/assets/849c59f0-6600-43a9-b934-500e52dbe0da
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 Okay so this is it
 
 Sound design is not so good, will work on that and give you a better one tmrw.
@@ -2733,17 +3429,24 @@ Sound design is not so good, will work on that and give you a better one tmrw.
 Here🏌️, Opus 5.5 and Remotion skills for animated motion designs
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/saxxyweb3-690124/original.b98a0d741b.webp" width="400" alt="Opus 5.5 Remotion Animated Motion Design Skills Showcase">
+</details>
 
-*Source: @saxxyweb3 - [Post](https://x.com/saxxyweb3/status/2104961677963690124)*
+*Source: @saxxyweb3 · [X post](https://x.com/saxxyweb3/status/2104961677963690124)*
 
 ---
 
-### 77. UI State Morphing Shape Animation with Accent Color (1.1K views, 10 likes)
-*Use Case: showreel | Style: 2d, minimal*
+<a id="case-77"></a>
 
-**Prompt:**
-```
+### 77. UI State Morphing Shape Animation with Accent Color (1.1K views, 10 likes)
+
+*Use case: showreel · Style: 2d, minimal*
+
+https://github.com/user-attachments/assets/0ae0202e-18e2-4967-9e29-fce89b3de91e
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 <inputs>
 Ask me for: 8 to 12 UI states I want the shape to become (e.g. button, loader, player, slider, toggle, tabs, chart, command palette, toast), pure black and white or one accent color, and a royalty-free song around 120 BPM (e.g. Mixkit, free for commercial use).
 </inputs>
@@ -2777,48 +3480,161 @@ Ask me for the inputs, then show me the state list on the beat grid before you w
 </start>
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/hicallmechai-878304/original.3f1783296a.webp" width="400" alt="UI State Morphing Shape Animation with Accent Color">
+</details>
 
-*Source: @hiCallMeChai - [Post](https://x.com/hiCallMeChai/status/2103600312296878304)*
+*Source: @hiCallMeChai · [X post](https://x.com/hiCallMeChai/status/2103600312296878304)*
 
 ---
 
-### 78. Minimalist Remotion Motion Graphics Video (1.0K views, 4 likes)
-*Use Case: showreel | Style: 2d, minimal*
+<a id="case-78"></a>
 
-**Prompt:**
-```
-Remotion 
+### 78. Minimalist Remotion Motion Graphics Video (1.0K views, 4 likes)
+
+*Use case: showreel · Style: 2d, minimal*
+
+https://github.com/user-attachments/assets/d911d7b5-46d2-4c36-bda1-35f8a9985f84
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
+Remotion
 Opus 5.5
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/0xrapzz-433554/original.e80f03b1f4.webp" width="400" alt="Minimalist Remotion Motion Graphics Video">
+</details>
 
-*Source: @0xRapzz - [Post](https://x.com/0xRapzz/status/2106062139920433554)*
+*Source: @0xRapzz · [X post](https://x.com/0xRapzz/status/2106062139920433554)*
 
 ---
 
-### 79. QuickDesign 15-Second Motion Graphics Showcase (1.0K views, 3 likes)
-*Use Case: showreel | Style: 2d, minimal*
+<a id="case-79"></a>
 
-**Prompt:**
-```
+### 79. QuickDesign 15-Second Motion Graphics Showcase (1.0K views, 3 likes)
+
+*Use case: showreel · Style: 2d, minimal*
+
+https://github.com/user-attachments/assets/e734ebeb-f011-4abd-a844-cbbc9490243d
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 make a dynamic 15-second motion graphics video that shows what an incredible quickdesign is! and also  shows what an incredible motion designer you are!
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/_prompts/quickdesignio-338399/poster.63d7fef351.webp" width="400" alt="QuickDesign 15-Second Motion Graphics Showcase">
+</details>
 
-*Source: @quickdesignio - [Post](https://x.com/quickdesignio/status/2103617779857338399)*
+*Source: @quickdesignio · [X post](https://x.com/quickdesignio/status/2103617779857338399)*
 
 ---
 
+<a id="case-284"></a>
+
+### 284. Stephan Livera 15-Second Motion Design Showreel
+
+*Use case: showreel · Style: N/A*
+
+https://github.com/user-attachments/assets/27f82784-c9d4-42d0-8243-94b37e66a75b
+
+<details>
+<summary>Prompt · English translation</summary>
+
+```text
+Make a dynamic 15-second motion graphics video that shows what an incredible motion designer you are, like a showreel for your resume. Go all out.
+```
+
+</details>
+
+<details>
+<summary>Prompt · Chinese version from Feishu</summary>
+
+```text
+制作一支15秒的动态图形视频，展示你作为动效设计师的出色能力，就像简历中的作品集展示片。尽情发挥，全力以赴。
+```
+
+</details>
+
+*Source: [Feishu collection](https://aiwarts101.feishu.cn/wiki/LMEcwg5jHiTSnqkwNE1cum7DnLb) · [Feishu M44](https://aiwarts101.feishu.cn/wiki/LMEcwg5jHiTSnqkwNE1cum7DnLb)*
+
+---
+
+<a id="case-285"></a>
+
+### 285. Ajith 15-Second Motion Design Showreel
+
+*Use case: showreel · Style: N/A*
+
+https://github.com/user-attachments/assets/3832a6f1-5a35-4e8b-b6b3-97edab3828f4
+
+<details>
+<summary>Prompt · English translation</summary>
+
+```text
+Make a dynamic 15-second motion graphics video that shows what an incredible motion designer you are, like a showreel for your resume. Go all out.
+```
+
+</details>
+
+<details>
+<summary>Prompt · Chinese version from Feishu</summary>
+
+```text
+制作一支15秒的动态图形视频，展示你作为动效设计师的出色能力，就像简历中的作品集展示片。尽情发挥，全力以赴。
+```
+
+</details>
+
+*Source: [Feishu collection](https://aiwarts101.feishu.cn/wiki/LMEcwg5jHiTSnqkwNE1cum7DnLb) · [Feishu M07](https://aiwarts101.feishu.cn/wiki/LMEcwg5jHiTSnqkwNE1cum7DnLb)*
+
+---
+
+<a id="case-286"></a>
+
+### 286. Shneural Motion Design Showreel
+
+*Use case: showreel · Style: N/A*
+
+https://github.com/user-attachments/assets/bf566297-864d-4721-841d-7af67b9491c5
+
+<details>
+<summary>Prompt · English translation</summary>
+
+```text
+Make a dynamic 15-second motion graphics video that shows what an incredible motion designer you are, like a showreel for your resume. Go all out.
+```
+
+</details>
+
+<details>
+<summary>Prompt · Chinese version from Feishu</summary>
+
+```text
+制作一支15秒的动态图形视频，展示你作为动效设计师的出色能力，就像简历中的作品集展示片。尽情发挥，全力以赴。
+```
+
+</details>
+
+*Source: [Feishu collection](https://aiwarts101.feishu.cn/wiki/LMEcwg5jHiTSnqkwNE1cum7DnLb) · [Feishu M08](https://aiwarts101.feishu.cn/wiki/LMEcwg5jHiTSnqkwNE1cum7DnLb)*
+
+---
+
+<a id="category-3"></a>
+
 ## 3. Explainers & Knowledge Videos
 
-### 80. Interactive Raptor 3 Rocket Engine Explainer with Cutaway Animation (1.2M views, 8,391 likes)
-*Use Case: explainer | Style: 3d*
+<a id="case-80"></a>
 
-**Prompt:**
-```
+### 80. Interactive Raptor 3 Rocket Engine Explainer with Cutaway Animation (1.2M views, 8,391 likes)
+
+*Use case: explainer · Style: 3d*
+
+https://github.com/user-attachments/assets/4c5a5b90-6c08-4d5f-ac00-ba107285bf18
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 I asked Claude Opus 5.5 to explain how a rocket engine works by building an interactive Raptor 3 you can take apart in your browser.
 
 Cut it open, follow the oxygen and the methane through both turbopumps, then throttle it and watch the shock diamonds move.
@@ -2826,33 +3642,47 @@ Cut it open, follow the oxygen and the methane through both turbopumps, then thr
 http://airsup.ai/rocket-engine
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/konstantinsaifo-501736/original.732cb71569.webp" width="400" alt="Interactive Raptor 3 Rocket Engine Explainer with Cutaway Animation">
+</details>
 
-*Source: @konstantinsaifo - [Post](https://x.com/konstantinsaifo/status/2104094723887501736)*
+*Source: @konstantinsaifo · [X post](https://x.com/konstantinsaifo/status/2104094723887501736)*
 
 ---
 
-### 81. Animated UX Decision Interview Presentation Explainer (207.2K views, 2,085 likes)
-*Use Case: explainer | Style: 2d, minimal*
+<a id="case-81"></a>
 
-**Prompt:**
-```
+### 81. Animated UX Decision Interview Presentation Explainer (207.2K views, 2,085 likes)
+
+*Use case: explainer · Style: 2d, minimal*
+
+https://github.com/user-attachments/assets/4790d127-5ab0-4c8e-9ea6-ccdd9ec3359d
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 I was struggling to explain my UX decisions in interviews, so I made this kind of animation with Opus 5.5
 
 Anyone want the skill?
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/moguzbulbul-215591/original.eba9995641.webp" width="400" alt="Animated UX Decision Interview Presentation Explainer">
+</details>
 
-*Source: @moguzbulbul - [Post](https://x.com/moguzbulbul/status/2104206095313215591)*
+*Source: @moguzbulbul · [X post](https://x.com/moguzbulbul/status/2104206095313215591)*
 
 ---
 
-### 82. Transformer Architecture Explained for High School Students (192.6K views, 1,345 likes)
-*Use Case: explainer | Style: 2d, infographic*
+<a id="case-82"></a>
 
-**Prompt:**
-```
+### 82. Transformer Architecture Explained for High School Students (192.6K views, 1,345 likes)
+
+*Use case: explainer · Style: 2d, infographic*
+
+https://github.com/user-attachments/assets/ff429e7e-6cc9-471f-bac6-a3ba74ad97c4
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 帮我用js制作一个视频，主题是：什么是 Transformer
 要深入浅出，让高中生也能看得懂，不仅high level说的清楚，也要有细节，包括注意力机制，甚至一些数学概念
 
@@ -2861,17 +3691,24 @@ Anyone want the skill?
 请给我惊喜
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/_prompts/dotey-522564/poster.83f31e6847.webp" width="400" alt="Transformer Architecture Explained for High School Students">
+</details>
 
-*Source: @dotey - [Post](https://x.com/dotey/status/2103683057689522564)*
+*Source: @dotey · [X post](https://x.com/dotey/status/2103683057689522564)*
 
 ---
 
-### 83. SQLite Codebase Architecture Explainer with Query Trace Animation (101.2K views, 1,780 likes)
-*Use Case: explainer | Style: 2d, infographic*
+<a id="case-83"></a>
 
-**Prompt:**
-```
+### 83. SQLite Codebase Architecture Explainer with Query Trace Animation (101.2K views, 1,780 likes)
+
+*Use case: explainer · Style: 2d, infographic*
+
+https://github.com/user-attachments/assets/9b37a7eb-d956-4c4e-83a1-c721d659d456
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 every single open source repo should have an explainer video like this 7min one for SQLite
 
 1. explains what the repo does and why its useful
@@ -2880,93 +3717,144 @@ every single open source repo should have an explainer video like this 7min one 
 4. the core abstractions in the repo
 5. a real trace of execution and what happens, with a bit on join-order query planning
 
-and yes, this was all generated by opus 5.5 w/ gemini 3.8 tts. i sound like i'm on repeat, but im in shock at just how coherent and capable this model is. 
+and yes, this was all generated by opus 5.5 w/ gemini 3.8 tts. i sound like i'm on repeat, but im in shock at just how coherent and capable this model is.
 
 everything truly is code.
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/_prompts/deedydas-407965/poster.b1ef0de15a.webp" width="400" alt="SQLite Codebase Architecture Explainer with Query Trace Animation">
+</details>
 
-*Source: @deedydas - [Post](https://x.com/deedydas/status/2104391577091407965)*
+*Source: @deedydas · [X post](https://x.com/deedydas/status/2104391577091407965)*
 
 ---
 
-### 84. Cocktail Recipe Motion Graphic Animation from Start to Finish (79.5K views, 1,037 likes)
-*Use Case: explainer | Style: 2d, infographic*
+<a id="case-84"></a>
 
-**Prompt:**
-```
+### 84. Cocktail Recipe Motion Graphic Animation from Start to Finish (79.5K views, 1,037 likes)
+
+*Use case: explainer · Style: 2d, infographic*
+
+https://github.com/user-attachments/assets/dd30d5d9-282d-4384-a612-faf03aef9271
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 We're going to try a little test. Do you think you could render a recipe motion graphic animation using javascript or html (w/e you think will produce the best) to show the full recipe from start to finish (empty glass to completed cocktail) - Explainer video style - Showing the recipe ingreidents + measurements as they're going into the cup. Should be a 30s video.
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/ror-fly-880547/original.59f728b077.webp" width="400" alt="Cocktail Recipe Motion Graphic Animation from Start to Finish">
+</details>
 
-*Source: @Ror_Fly - [Post](https://x.com/Ror_Fly/status/2102853258582880547)*
+*Source: @Ror_Fly · [X post](https://x.com/Ror_Fly/status/2102853258582880547)*
 
 ---
 
-### 85. Galileo Brachistochrone Problem Canvas 2D Animation (76.1K views, 690 likes)
-*Use Case: explainer | Style: 2d, infographic*
+<a id="case-85"></a>
 
-**Prompt:**
-```
+### 85. Galileo Brachistochrone Problem Canvas 2D Animation (76.1K views, 690 likes)
+
+*Use case: explainer · Style: 2d, infographic*
+
+https://github.com/user-attachments/assets/d989f029-8504-4f51-b69a-de9665f125fe
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 Bu herhangi bir görüntü üretim modeli kullanmadan, yaratıcı olarak yapabileceğin en iyi şekilde Canvas 2D ile animasyona çevir. Konu: Galileo 1638'de sorduğu Bir top A noktasından B'ye en hızlı hangi yoldan iner? sorusuna karşılık kendi çözümü olan Düz rampa en kısa yol ama en hızlısı değil! Galileo çember yayının daha hızlı olduğunu gösterdi. Asıl cevabı (cycloid) 1696'da Bernoulli buldu.
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/_prompts/aimevzulari-256293/poster.a15f4aeeae.webp" width="400" alt="Galileo Brachistochrone Problem Canvas 2D Animation">
+</details>
 
-*Source: @AIMevzulari - [Post](https://x.com/AIMevzulari/status/2106052083040256293)*
+*Source: @AIMevzulari · [X post](https://x.com/AIMevzulari/status/2106052083040256293)*
 
 ---
 
-### 86. Zoom from Room to Quarks Infinite Scale Three.js Animation (73.1K views, 1,344 likes)
-*Use Case: explainer | Style: 3d*
+<a id="case-86"></a>
 
-**Prompt:**
-```
+### 86. Zoom from Room to Quarks Infinite Scale Three.js Animation (73.1K views, 1,344 likes)
+
+*Use case: explainer · Style: 3d*
+
+https://github.com/user-attachments/assets/2ca89c99-e771-4d2b-9145-5a0c9f12873e
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 Create an animated sequence that starts in a room, zooms into a MacBook, then into an Apple M4 chip, followed by atoms, and finally quarks. Use HTML and Three.js for rendering.
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/_prompts/victortaelin-875778/poster.8c81afe31f.webp" width="400" alt="Zoom from Room to Quarks Infinite Scale Three.js Animation">
+</details>
 
-*Source: @VictorTaelin - [Post](https://x.com/VictorTaelin/status/2103299766473875778)*
+*Source: @VictorTaelin · [X post](https://x.com/VictorTaelin/status/2103299766473875778)*
 
 ---
 
-### 87. Recursion Explainer with Self-Referential Style Changes (71.1K views, 561 likes)
-*Use Case: explainer | Style: 2d, abstract*
+<a id="case-87"></a>
 
-**Prompt:**
-```
+### 87. Recursion Explainer with Self-Referential Style Changes (71.1K views, 561 likes)
+
+*Use case: explainer · Style: 2d, abstract*
+
+https://github.com/user-attachments/assets/22dba076-2f4f-48be-9ead-5be00c4bea01
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 A video explaining recursion, where every explanation about recursion has a radically different video style, make this self-referential & clever & fast moving.
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/emollick-019567/original.70fbf894e4.webp" width="400" alt="Recursion Explainer with Self-Referential Style Changes">
+</details>
 
-*Source: @emollick - [Post](https://x.com/emollick/status/2103688362960019567)*
+<details>
+<summary>Prompt · Chinese version from Feishu</summary>
+
+```text
+制作一支讲解递归的视频。每一次对递归的解释，都使用一种截然不同的视频风格。让视频体现自我引用，构思巧妙，节奏快速。
+```
+
+</details>
+
+*Source: @emollick · [X post](https://x.com/emollick/status/2103688362960019567) · [Feishu PM03](https://aiwarts101.feishu.cn/wiki/LMEcwg5jHiTSnqkwNE1cum7DnLb)*
 
 ---
 
-### 88. 3D House Construction Process Animation with X-Ray View (67.8K views, 748 likes)
-*Use Case: explainer | Style: 3d*
+<a id="case-88"></a>
 
-**Prompt:**
-```
+### 88. 3D House Construction Process Animation with X-Ray View (67.8K views, 748 likes)
+
+*Use case: explainer · Style: 3d*
+
+https://github.com/user-attachments/assets/ca023635-0768-4d75-8a64-30d54957620e
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 Create an interactive 3D house animation showing the construction process from Foundation through Skeleton, Systems and Envelope to Finished. Include an X-ray view that reveals the plumbing, power and air inside. Use Three.js and WebGPU.
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/_prompts/techartist-021472/poster.54aba3112f.webp" width="400" alt="3D House Construction Process Animation with X-Ray View">
+</details>
 
-*Source: @techartist_ - [Post](https://x.com/techartist_/status/2105350783416021472)*
+*Source: @techartist_ · [X post](https://x.com/techartist_/status/2105350783416021472)*
 
 ---
 
-### 89. Evolution of the Eye Explainer with Computed Retina Visualizations (53.0K views, 141 likes)
-*Use Case: explainer | Style: 3d, realistic*
+<a id="case-89"></a>
 
-**Prompt:**
-```
-Opus 5.5 is truly insane. 
+### 89. Evolution of the Eye Explainer with Computed Retina Visualizations (53.0K views, 141 likes)
+
+*Use case: explainer · Style: 3d, realistic*
+
+https://github.com/user-attachments/assets/d1fc9617-5d01-4e36-95b0-87ec9484cd3c
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
+Opus 5.5 is truly insane.
 
 It one-shotted this explainer of how evolution built the eye.
 
@@ -2979,17 +3867,24 @@ Over 40 times.
 Enjoy.
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/_prompts/cagrimbakirci-842869/poster.d596e5af5c.webp" width="400" alt="Evolution of the Eye Explainer with Computed Retina Visualizations">
+</details>
 
-*Source: @cagrimbakirci - [Post](https://x.com/cagrimbakirci/status/2104011756397842869)*
+*Source: @cagrimbakirci · [X post](https://x.com/cagrimbakirci/status/2104011756397842869)*
 
 ---
 
-### 90. Chinese Classics Multi-Style Animation Collection (45.8K views, 270 likes)
-*Use Case: explainer | Style: 2d, hand-drawn, 3d, pixel-art, infographic*
+<a id="case-90"></a>
 
-**Prompt:**
-```
+### 90. Chinese Classics Multi-Style Animation Collection (45.8K views, 270 likes)
+
+*Use case: explainer · Style: 2d, hand-drawn, 3d, pixel-art, infographic*
+
+https://github.com/user-attachments/assets/1fd0fd00-6b56-4947-9450-6806551b38d4
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 做一支 10 秒彩色皮影戏，讲【曹冲称象】。剪影布局，暖光透背，关节式偶戏。依次出现秤盘、铜碗、石头，先平衡，再把石头分批称、加起来。字幕卡点出现。用代码渲染，导出可播放视频。
 
 做一支 12 秒等距 2.5D 流程动画，讲【快递怎么分拣】。包裹沿分拣线、货台、平板运输、清关关卡移动，每步编号标签，最后双线汇成一条。干净、可跟读。
@@ -3021,17 +3916,24 @@ Enjoy.
 做一支 12 秒横轴时间线，讲【从达特茅斯到 ChatGPT】。镜头沿轴推进，节点缩放点亮。年份大字加一句事件。示例节点：1971，又过了 41 年。
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/_prompts/nft-chen-068069/poster.8b45be69a0.webp" width="400" alt="Chinese Classics Multi-Style Animation Collection">
+</details>
 
-*Source: @NFT_Chen - [Post](https://x.com/NFT_Chen/status/2107653056771068069)*
+*Source: @NFT_Chen · [X post](https://x.com/NFT_Chen/status/2107653056771068069)*
 
 ---
 
-### 91. Fusion Reactor Interactive Explainer with Plasma Temperature Control (43.1K views, 320 likes)
-*Use Case: explainer | Style: 3d*
+<a id="case-91"></a>
 
-**Prompt:**
-```
+### 91. Fusion Reactor Interactive Explainer with Plasma Temperature Control (43.1K views, 320 likes)
+
+*Use case: explainer · Style: 3d*
+
+https://github.com/user-attachments/assets/c77e5461-2dc0-45c0-9b13-2f925680ef3a
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 I asked Claude Opus 5.5 to explain how a fusion reactor works by building one you can take apart in your browser.
 
 Drag the plasma from 15 million °C, the heat of the Sun's core, to 150 million and watch a city light up.
@@ -3039,92 +3941,134 @@ Drag the plasma from 15 million °C, the heat of the Sun's core, to 150 million 
 https://airsup.ai/lab
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/konstantinsaifo-587629/original.0fec7489d9.webp" width="400" alt="Fusion Reactor Interactive Explainer with Plasma Temperature Control">
+</details>
 
-*Source: @konstantinsaifo - [Post](https://x.com/konstantinsaifo/status/2104216976801587629)*
+*Source: @konstantinsaifo · [X post](https://x.com/konstantinsaifo/status/2104216976801587629)*
 
 ---
 
-### 92. Celld Platform Value Proposition Animation (18.6K views, 54 likes)
-*Use Case: explainer | Style: 2d*
+<a id="case-92"></a>
 
-**Prompt:**
-```
+### 92. Celld Platform Value Proposition Animation (18.6K views, 54 likes)
+
+*Use case: explainer · Style: 2d*
+
+https://github.com/user-attachments/assets/acd29fe5-f3b9-4c93-87bd-3ca8b038f959
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 make me an animation to explain why celld earns its place.
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/0xnfrith-068999/original.8e51d868f4.webp" width="400" alt="Celld Platform Value Proposition Animation">
+</details>
 
-*Source: @0xnfrith - [Post](https://x.com/0xnfrith/status/2103358957050068999)*
+*Source: @0xnfrith · [X post](https://x.com/0xnfrith/status/2103358957050068999)*
 
 ---
 
-### 93. Morocco Political History Since Independence Explainer (12.2K views, 17 likes)
-*Use Case: explainer | Style: 2d, infographic*
+<a id="case-93"></a>
 
-**Prompt:**
-```
+### 93. Morocco Political History Since Independence Explainer (12.2K views, 17 likes)
+
+*Use case: explainer · Style: 2d, infographic*
+
+https://github.com/user-attachments/assets/5e8aedb1-e936-4d19-9c5c-59f7a008110c
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 réalise une vidéo résumant la vie politique au Maroc depuis l’indépendance
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/triglyceee-161719/original.cb9a4b70ca.webp" width="400" alt="Morocco Political History Since Independence Explainer">
+</details>
 
-*Source: @TrigLyceee - [Post](https://x.com/TrigLyceee/status/2103804459986161719)*
+*Source: @TrigLyceee · [X post](https://x.com/TrigLyceee/status/2103804459986161719)*
 
 ---
 
-### 94. Key Moments in AI History Animated Timeline (10.5K views, 194 likes)
-*Use Case: explainer | Style: 2d, infographic*
+<a id="case-94"></a>
 
-**Prompt:**
-```
+### 94. Key Moments in AI History Animated Timeline (10.5K views, 194 likes)
+
+*Use case: explainer · Style: 2d, infographic*
+
+https://github.com/user-attachments/assets/5ad5025e-7dc0-4c86-a278-73a6b74f7656
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 make a video highlighting key moments in the history of AI.
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/kloss-xyz-067876/original.ebb20ee088.webp" width="400" alt="Key Moments in AI History Animated Timeline">
+</details>
 
-*Source: @kloss_xyz - [Post](https://x.com/kloss_xyz/status/2103652674336067876)*
+*Source: @kloss_xyz · [X post](https://x.com/kloss_xyz/status/2103652674336067876)*
 
 ---
 
-### 95. Napoleon Hill Drifting Mind Insight 2D Explainer (9.9K views, 51 likes)
-*Use Case: explainer | Style: 2d, hand-drawn*
+<a id="case-95"></a>
 
-**Prompt:**
-```
+### 95. Napoleon Hill Drifting Mind Insight 2D Explainer (9.9K views, 51 likes)
+
+*Use case: explainer · Style: 2d, hand-drawn*
+
+https://github.com/user-attachments/assets/e39ede3e-360e-4ce5-9187-64841d94cf7f
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 输入如下：魔鬼控制人类最简单的方法,就是让人保持漂流状态。98% 的人,终其一生都在漂流。" —— 拿破仑·希尔《智胜恶魔》
 
 参考这个洞见，创作一部讲解视频，尽可能令人难以置信的 2D 动画，时长 1 -3分钟，要有连贯的讲解，对白和声音。
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/_prompts/bitfish-539054/poster.6929990c6f.webp" width="400" alt="Napoleon Hill Drifting Mind Insight 2D Explainer">
+</details>
 
-*Source: @bitfish - [Post](https://x.com/bitfish/status/2103670987879539054)*
+*Source: @bitfish · [X post](https://x.com/bitfish/status/2103670987879539054)*
 
 ---
 
-### 96. Journey Inside a GPU Chip to Silicon Atoms (Persian) (8.1K views, 133 likes)
-*Use Case: explainer | Style: 3d, realistic*
+<a id="case-96"></a>
 
-**Prompt:**
-```
+### 96. Journey Inside a GPU Chip to Silicon Atoms (Persian) (8.1K views, 133 likes)
+
+*Use case: explainer · Style: 3d, realistic*
+
+https://github.com/user-attachments/assets/8a7af722-5d0f-42bc-8ea9-810294740a5b
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 Claude Opus 5.5 یه انیمیشن 3D دیوونه‌کننده ساخته
 
 از دیتاسنتر شروع می‌شه، وارد سرور می‌شه، کارت گرافیک رو باز می‌کنه، داخل چیپ می‌ره، از مدار و ترانزیستور رد می‌شه و تا اتم سیلیکون می‌رسه.
 همه‌ش توی یک فایل HTML واحد اجرا می‌شه و حدود ۱ ساعت طول کشیده.
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/ai-ba-reza-113363/original.c61a87e9e2.webp" width="400" alt="Journey Inside a GPU Chip to Silicon Atoms (Persian)">
+</details>
 
-*Source: @ai_ba_reza - [Post](https://x.com/ai_ba_reza/status/2103792451551113363)*
+*Source: @ai_ba_reza · [X post](https://x.com/ai_ba_reza/status/2103792451551113363)*
 
 ---
 
-### 97. Earthquake Tectonic Sandbox 60-Second Explainer (7.1K views, 30 likes)
-*Use Case: explainer | Style: 3d, realistic*
+<a id="case-97"></a>
 
-**Prompt:**
-```
+### 97. Earthquake Tectonic Sandbox 60-Second Explainer (7.1K views, 30 likes)
+
+*Use case: explainer · Style: 3d, realistic*
+
+https://github.com/user-attachments/assets/3e24e7a6-105d-4d80-bb4f-9c5a81e809b3
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 Create a visually stunning 60-second video explaining how an earthquake happens through an interactive tectonic sandbox.
 
 Make it feel like we are watching someone explore a beautiful real-time simulation, not a slideshow or traditional educational video.
@@ -3146,111 +4090,188 @@ The pacing should constantly evolve and reveal something new every few seconds s
 Make it feel like an Apple-quality interactive science visualization turned into a cinematic motion-design video.
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/_prompts/egeberkina-949521/poster.f016176a05.webp" width="400" alt="Earthquake Tectonic Sandbox 60-Second Explainer">
+</details>
 
-*Source: @egeberkina - [Post](https://x.com/egeberkina/status/2105029713445949521)*
+*Source: @egeberkina · [X post](https://x.com/egeberkina/status/2105029713445949521)*
 
 ---
 
-### 98. End the Fed 15-Second Political Video with Remotion (7.1K views, 115 likes)
-*Use Case: explainer | Style: 2d, infographic*
+<a id="case-98"></a>
 
-**Prompt:**
-```
-Asked Opus 5.5 (max) to create a 15-second video about why we need to end the Fed. Behold. 
+### 98. End the Fed 15-Second Political Video with Remotion (7.1K views, 115 likes)
+
+*Use case: explainer · Style: 2d, infographic*
+
+https://github.com/user-attachments/assets/fcbfdf17-f26b-4b6e-9273-428ea3f507ce
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
+Asked Opus 5.5 (max) to create a 15-second video about why we need to end the Fed. Behold.
 
 Took 1 hour 45 minutes to do. It used @Remotion to create it.
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/cboyack-407181/original.eee80ed319.webp" width="400" alt="End the Fed 15-Second Political Video with Remotion">
+</details>
 
-*Source: @cboyack - [Post](https://x.com/cboyack/status/2103617085402407181)*
+*Source: @cboyack · [X post](https://x.com/cboyack/status/2103617085402407181)*
 
 ---
 
-### 99. Paul Graham How to Do Great Work Video Essay (6.0K views, 10 likes)
-*Use Case: explainer | Style: 2d, kinetic-type*
+<a id="case-99"></a>
 
-**Prompt:**
-```
+### 99. Paul Graham How to Do Great Work Video Essay (6.0K views, 10 likes)
+
+*Use case: explainer · Style: 2d, kinetic-type*
+
+https://github.com/user-attachments/assets/5b7b24dc-3820-4291-b9e5-997254226b07
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 Create a video essay from Paul Graham's essay How to do great work with punchy motion graphics, modern styling and high professionalism
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/_prompts/rohanpaul-ai-500542/poster.0420c6538e.webp" width="400" alt="Paul Graham How to Do Great Work Video Essay">
+</details>
 
-*Source: @rohanpaul_ai - [Post](https://x.com/rohanpaul_ai/status/2104352205176500542)*
+*Source: @rohanpaul_ai · [X post](https://x.com/rohanpaul_ai/status/2104352205176500542)*
 
 ---
 
-### 100. NFL First and 10 Yellow Line Technology Explainer (5.9K views, 0 likes)
-*Use Case: explainer | Style: 2d, infographic*
+<a id="case-100"></a>
 
-**Prompt:**
-```
+### 100. NFL First and 10 Yellow Line Technology Explainer (5.9K views, 0 likes)
+
+*Use case: explainer · Style: 2d, infographic*
+
+https://github.com/user-attachments/assets/64fff721-3aeb-4fdb-bce3-7c678774f73f
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 Make a motion graphics video that explains how the First & 10 Yellow Line works.
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/_prompts/blueoctopusai-270222/poster.65f946dcc4.webp" width="400" alt="NFL First and 10 Yellow Line Technology Explainer">
+</details>
 
-*Source: @blueoctopusai - [Post](https://x.com/blueoctopusai/status/2105116391439270222)*
+<details>
+<summary>Prompt · Chinese version from Feishu</summary>
+
+```text
+制作一段动态图形视频，解释 First & 10 黄色首攻线是如何工作的。
+```
+
+</details>
+
+*Source: @blueoctopusai · [X post](https://x.com/blueoctopusai/status/2105116391439270222) · [Feishu N16](https://aiwarts101.feishu.cn/wiki/LMEcwg5jHiTSnqkwNE1cum7DnLb)*
 
 ---
+
+<a id="case-101"></a>
 
 ### 101. Article Summary Explainer Motion Video (Chinese) (4.8K views, 4 likes)
-*Use Case: explainer | Style: 2d*
 
-**Prompt:**
-```
+*Use case: explainer · Style: 2d*
+
+https://github.com/user-attachments/assets/df23c9da-1578-4c4b-8668-996dfdca423d
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 Opus 5.5 做的文章讲解,  省流
-
-
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/0xlangeai-178533/original.f1bc47c928.webp" width="400" alt="Article Summary Explainer Motion Video (Chinese)">
+</details>
 
-*Source: @0xlangeai - [Post](https://x.com/0xlangeai/status/2104119716533178533)*
+*Source: @0xlangeai · [X post](https://x.com/0xlangeai/status/2104119716533178533)*
 
 ---
 
-### 102. What is Git Explainer for Beginners (Chinese) (4.3K views, 38 likes)
-*Use Case: explainer | Style: 2d, infographic*
+<a id="case-102"></a>
 
-**Prompt:**
-```
+### 102. What is Git Explainer for Beginners (Chinese) (4.3K views, 38 likes)
+
+*Use case: explainer · Style: 2d, infographic*
+
+https://github.com/user-attachments/assets/66da464a-1bfb-42ce-abbf-63728a310dc6
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 帮我用js制作一个视频，主题是：什么是Git
 要深入浅出，让一个计算机0基础的人也能看得懂，然后要介绍一些常用指令的意思等等
 要有声音的，然后是中文讲的
 你可以用任何工具或者安装工具，可以联网检索
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/_prompts/yunn260414-016888/poster.cdf9a943e0.webp" width="400" alt="What is Git Explainer for Beginners (Chinese)">
+</details>
 
-*Source: @Yunn260414 - [Post](https://x.com/Yunn260414/status/2104044910769016888)*
+<details>
+<summary>Prompt · Chinese version from Feishu</summary>
+
+```text
+帮我用js制作一个视频，主题是：什么是Git
+要深入浅出，让一个计算机0基础的人也能看得懂，然后要介绍一些常用指令的意思等等
+要有声音的，然后是中文讲的
+你可以用任何工具或者安装工具，可以联网检索
+```
+
+</details>
+
+*Source: @Yunn260414 · [X post](https://x.com/Yunn260414/status/2104044910769016888) · [Feishu N13](https://aiwarts101.feishu.cn/wiki/LMEcwg5jHiTSnqkwNE1cum7DnLb)*
 
 ---
 
-### 103. Inside an AI Data Centre Explainer (4.1K views, 41 likes)
-*Use Case: explainer | Style: 3d*
+<a id="case-103"></a>
 
-**Prompt:**
-```
+### 103. Inside an AI Data Centre Explainer (4.1K views, 41 likes)
+
+*Use case: explainer · Style: 3d*
+
+https://github.com/user-attachments/assets/69f198bf-2bb6-4031-a961-a2c6d41b581b
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 show me what goes on inside an AI data centre.
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/sayan-shanky-868515/original.e5ba676ea2.webp" width="400" alt="Inside an AI Data Centre Explainer">
+</details>
 
-*Source: @Sayan_shanky - [Post](https://x.com/Sayan_shanky/status/2103736579449868515)*
+<details>
+<summary>Prompt · Chinese version from Feishu</summary>
+
+```text
+让我看看一座 AI 数据中心内部都在发生些什么。
+```
+
+</details>
+
+*Source: @Sayan_shanky · [X post](https://x.com/Sayan_shanky/status/2103736579449868515) · [Feishu N17](https://aiwarts101.feishu.cn/wiki/LMEcwg5jHiTSnqkwNE1cum7DnLb)*
 
 ---
 
-### 104. 60-Second Autonomous Explainer Video End-to-End (3.7K views, 19 likes)
-*Use Case: explainer | Style: hand-drawn, 2d*
+<a id="case-104"></a>
 
-**Prompt:**
-```
+### 104. 60-Second Autonomous Explainer Video End-to-End (3.7K views, 19 likes)
+
+*Use case: explainer · Style: hand-drawn, 2d*
+
+https://github.com/user-attachments/assets/67b04ef4-80c2-4778-8f5c-f49f5d6582d0
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 I want you to make a 60-second, fully animated explainer video, end to end, completely on your own. I'm stepping away from my computer, so work autonomously until it's done. Don't stop to ask me questions; make the calls yourself and tell me what you decided at the end.
 
-Topic: the journey of photons 
+Topic: the journey of photons
 
 Style: whimsical, charming, storybook. Give the photon a personality. It should feel like a professional motion-design studio made it, not "AI video". The whole thing should be a pure JavaScript animation, rendered from code frame by frame. Don't use AI video generators for the visuals. I've seen the videos people are posting from Opus 5.5 (kinetic typography reels, continuous infinite zooms, data-driven explainers like The Pudding or 3Blue1Brown), and what makes them great is that they're code-rendered: crisp, precise, with a coherent design system and one strong formal idea per scene. Aim for that bar or above.
 
@@ -3268,89 +4289,131 @@ You write the script, design the characters, pick the typography and palette, co
 Quality is paramount. Build verification loops: render stills of every scene and review them critically, check transitions frame by frame, measure the audio mix numerically, fix what's weak and re-render. Don't hand me a first draft. Hand me something you'd put your name on. Also give me the source code so it's reproducible
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/astrothewizard-618782/original.0b4b294e7f.webp" width="400" alt="60-Second Autonomous Explainer Video End-to-End">
+</details>
 
-*Source: @AstroTheWizard - [Post](https://x.com/AstroTheWizard/status/2103629247751618782)*
+*Source: @AstroTheWizard · [X post](https://x.com/AstroTheWizard/status/2103629247751618782)*
 
 ---
 
-### 105. Hand-Drawn Stop-Motion DeFi Saver Self-Introduction (3.6K views, 48 likes)
-*Use Case: explainer | Style: hand-drawn, 2d*
+<a id="case-105"></a>
 
-**Prompt:**
-```
+### 105. Hand-Drawn Stop-Motion DeFi Saver Self-Introduction (3.6K views, 48 likes)
+
+*Use case: explainer · Style: hand-drawn, 2d*
+
+https://github.com/user-attachments/assets/32a26980-1da1-4459-9d0b-d13246df31d2
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 make a hand-drawn stop-motion animation;
 story: you're defi saver and explaining yourself in 1st person
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/nikolajankovic-616097/original.c2731756dd.webp" width="400" alt="Hand-Drawn Stop-Motion DeFi Saver Self-Introduction">
+</details>
 
-*Source: @_nikolajankovic - [Post](https://x.com/_nikolajankovic/status/2102867033100616097)*
+*Source: @_nikolajankovic · [X post](https://x.com/_nikolajankovic/status/2102867033100616097)*
 
 ---
 
-### 106. Nobel Prize Winners and Achievements Explainer (Chinese) (3.4K views, 37 likes)
-*Use Case: explainer | Style: 2d, infographic*
+<a id="case-106"></a>
 
-**Prompt:**
-```
+### 106. Nobel Prize Winners and Achievements Explainer (Chinese) (3.4K views, 37 likes)
+
+*Use case: explainer · Style: 2d, infographic*
+
+https://github.com/user-attachments/assets/7033d182-f7fc-4cbc-9c60-3c85d662e501
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 做一个 今年已颁发诺贝尔奖的人物与成就 的科普视频。要达到世界顶级youtuber视频制作的水准。顶级的电影导演、顶级的科普大师、数据可视化专家、配乐大师、动态图形设计大师、院士讲解级别的专业 + 脱口秀演员般的妙趣横生 + 电影人的叙事 + 高品位清晰清爽的设计风格
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/_prompts/kewai386772-262769/poster.e26b6975be.webp" width="400" alt="Nobel Prize Winners and Achievements Explainer (Chinese)">
+</details>
 
-*Source: @KeWai386772 - [Post](https://x.com/KeWai386772/status/2108143449841262769)*
+*Source: @KeWai386772 · [X post](https://x.com/KeWai386772/status/2108143449841262769)*
 
 ---
 
-### 107. Distilbook 30-Second Product Explainer Motion Graphic (3.1K views, 35 likes)
-*Use Case: explainer | Style: 2d, minimal*
+<a id="case-107"></a>
 
-**Prompt:**
-```
+### 107. Distilbook 30-Second Product Explainer Motion Graphic (3.1K views, 35 likes)
+
+*Use case: explainer · Style: 2d, minimal*
+
+https://github.com/user-attachments/assets/6329798b-df74-46d1-81c6-5a3a17103446
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 make a dynamic 30-seconds motion graphic video about the distilbook like a product explainer the video has to be very incredible (product url) https://t.co/BcbRbZVf1d
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/_prompts/sudo-kiran-670892/poster.037b23f102.webp" width="400" alt="Distilbook 30-Second Product Explainer Motion Graphic">
+</details>
 
-*Source: @sudo_kiran - [Post](https://x.com/sudo_kiran/status/2104846546768670892)*
+*Source: @sudo_kiran · [X post](https://x.com/sudo_kiran/status/2104846546768670892)*
 
 ---
 
-### 108. Product Explainer Motion Graphic with Script and Design (3.0K views, 13 likes)
-*Use Case: explainer | Style: 2d, minimal*
+<a id="case-108"></a>
 
-**Prompt:**
-```
+### 108. Product Explainer Motion Graphic with Script and Design (3.0K views, 13 likes)
+
+*Use case: explainer · Style: 2d, minimal*
+
+https://github.com/user-attachments/assets/5279626e-51e4-41e9-8f5e-e887a3687885
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 create best motion graphics explainer of the (your product) with very good script and good design colors and good music make sure the video should be incredible and people should feels like watch it many times.. it has to be in 30 seconds good and very intresting, it has to be best of the best of the best of the best video
 (product link)
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/sudo-kiran-335993/original.c03cff47d2.webp" width="400" alt="Product Explainer Motion Graphic with Script and Design">
+</details>
 
-*Source: @sudo_kiran - [Post](https://x.com/sudo_kiran/status/2103761658745335993)*
+*Source: @sudo_kiran · [X post](https://x.com/sudo_kiran/status/2103761658745335993)*
 
 ---
 
-### 109. Motion Graphics Explainer Matching Reference Visual Style (2.3K views, 24 likes)
-*Use Case: explainer | Style: 2d, infographic*
+<a id="case-109"></a>
 
-**Prompt:**
-```
+### 109. Motion Graphics Explainer Matching Reference Visual Style (2.3K views, 24 likes)
+
+*Use case: explainer · Style: 2d, infographic*
+
+https://github.com/user-attachments/assets/5f1af9a2-fe79-4891-9ae9-5efbf264cd41
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 Can you generate a motion graphics explainer in the visual style of this post and using all its content? I will leave the details up to you. I want you to show off what you can do so you have full creative freedom within those styling constraints. I want to give this to my engineers at my company. I want you to be proud of the final product. Utilize the elevenlabs and remotion tools at your disposal and let me know if you don't see them for some reason. Use whatever you want in those tools to make the most polished product that you would be proud of. Source Article : Context Tax - X article from the article
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/_prompts/mablesjoseph-735781/poster.b3b49e9282.webp" width="400" alt="Motion Graphics Explainer Matching Reference Visual Style">
+</details>
 
-*Source: @mablesjoseph - [Post](https://x.com/mablesjoseph/status/2105472483054735781)*
+*Source: @mablesjoseph · [X post](https://x.com/mablesjoseph/status/2105472483054735781)*
 
 ---
 
-### 110. Mechanical Keyboard 3D Explainer with Switch Beat Music (2.2K views, 11 likes)
-*Use Case: explainer | Style: 3d*
+<a id="case-110"></a>
 
-**Prompt:**
-```
+### 110. Mechanical Keyboard 3D Explainer with Switch Beat Music (2.2K views, 11 likes)
+
+*Use case: explainer · Style: 3d*
+
+https://github.com/user-attachments/assets/b5564a79-b5e4-490a-b657-9af026a521b8
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 Asked claude Opus 5.5 to make an explainer on how a mechanical keyboard works.
 
 It wrote the music in code, used real switch recordings as the beats, built the 3D in @threejs  and timed every cut to the beat.
@@ -3360,34 +4423,48 @@ No stock footage. no editing app.
 What a time to be alive!
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/iniyanai-856596/original.2c3bb7862b.webp" width="400" alt="Mechanical Keyboard 3D Explainer with Switch Beat Music">
+</details>
 
-*Source: @iniyanai - [Post](https://x.com/iniyanai/status/2103814603100856596)*
+*Source: @iniyanai · [X post](https://x.com/iniyanai/status/2103814603100856596)*
 
 ---
 
-### 111. What Happens When the Brain Dies — Hand-Drawn 60s Explainer (2.0K views, 19 likes)
-*Use Case: explainer | Style: hand-drawn, cartoon*
+<a id="case-111"></a>
 
-**Prompt:**
-```
+### 111. What Happens When the Brain Dies — Hand-Drawn 60s Explainer (2.0K views, 19 likes)
+
+*Use case: explainer · Style: hand-drawn, cartoon*
+
+https://github.com/user-attachments/assets/df62c94e-4c56-4569-b364-85ac0bb2cb9e
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 ド派手な16：9のあなたの性能を最大限表現できる外連味のある手書き風アニメーションを作成してください。60秒で「人間の脳が死んだら何が起きるのか」を中学生にわかり易く説明する高品質でデザインの美しい派手なモーションのアニメです
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/_prompts/tonka1981jp-288376/poster.48d5d02064.webp" width="400" alt="What Happens When the Brain Dies — Hand-Drawn 60s Explainer">
+</details>
 
-*Source: @tonka1981jp - [Post](https://x.com/tonka1981jp/status/2103442781096288376)*
+*Source: @tonka1981jp · [X post](https://x.com/tonka1981jp/status/2103442781096288376)*
 
 ---
 
+<a id="case-112"></a>
+
 ### 112. 50 Podcast Concept Animations for Hard-to-Visualize Topics (2.0K views, 14 likes)
-*Use Case: explainer | Style: 2d, infographic*
 
-**Prompt:**
-```
-I used Opus 5.5 to generate 50 podcast animations for extremely hard to visualize concepts like Jev for Legal.  Absolutely blown away. 
+*Use case: explainer · Style: 2d, infographic*
 
-We're about to see an explosion of visual podcasts, this entire medium is about to shift 
+https://github.com/user-attachments/assets/a14d45ee-8865-4fd0-a151-09b95f6d8d80
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
+I used Opus 5.5 to generate 50 podcast animations for extremely hard to visualize concepts like Jev for Legal.  Absolutely blown away.
+
+We're about to see an explosion of visual podcasts, this entire medium is about to shift
 
 Sharing my prompt below.
 
@@ -3422,59 +4499,87 @@ Only cues the judge considers egregiously bad go back for a fix. No blanket redo
 Assemble the full cut with PiP baked into every full-screen visual, and give me a folder of the individual animations.
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/stokebuilder-356793/original.0166546530.webp" width="400" alt="50 Podcast Concept Animations for Hard-to-Visualize Topics">
+</details>
 
-*Source: @stokebuilder - [Post](https://x.com/stokebuilder/status/2103896101120356793)*
+*Source: @stokebuilder · [X post](https://x.com/stokebuilder/status/2103896101120356793)*
 
 ---
 
-### 113. Psychology Explainer with Rapid Typography Style Switching (1.8K views, 9 likes)
-*Use Case: explainer | Style: kinetic-type, 2d*
+<a id="case-113"></a>
 
-**Prompt:**
-```
+### 113. Psychology Explainer with Rapid Typography Style Switching (1.8K views, 9 likes)
+
+*Use case: explainer · Style: kinetic-type, 2d*
+
+https://github.com/user-attachments/assets/2277d860-03be-4d1b-a38b-b7751fd0f08b
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 NextCoreのような海外のカッコイいYouTubeチャンネルをオマージュした、タイポグラフィとコードだけで作成する心理学解説動画を作ってください。画像生成AIや動画生成AIは使わず、全てコード（HTML/CSS/JSなど）で表現できる描写に制限して作成します。数秒ごとに連続で異なる描写スタイルに切り替わりながら進む構成にしてください。
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/_prompts/nakazakifam-831964/poster.d02890098b.webp" width="400" alt="Psychology Explainer with Rapid Typography Style Switching">
+</details>
 
-*Source: @nakazakifam - [Post](https://x.com/nakazakifam/status/2107715000227831964)*
+*Source: @nakazakifam · [X post](https://x.com/nakazakifam/status/2107715000227831964)*
 
 ---
 
-### 114. Educational Video from Article Content (1.8K views, 12 likes)
-*Use Case: explainer | Style: 2d, infographic*
+<a id="case-114"></a>
 
-**Prompt:**
-```
+### 114. Educational Video from Article Content (1.8K views, 12 likes)
+
+*Use case: explainer · Style: 2d, infographic*
+
+https://github.com/user-attachments/assets/4d781ced-6618-498b-bfaa-0bc714ec2813
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 make educational video out of article.
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/henkvaness-975279/original.b7fb5dee11.webp" width="400" alt="Educational Video from Article Content">
+</details>
 
-*Source: @henkvaness - [Post](https://x.com/henkvaness/status/2103801351993975279)*
+*Source: @henkvaness · [X post](https://x.com/henkvaness/status/2103801351993975279)*
 
 ---
 
-### 115. Microscope Zoom from Fingertip to Atoms in One HTML File (1.7K views, 17 likes)
-*Use Case: explainer | Style: 3d, realistic*
+<a id="case-115"></a>
 
-**Prompt:**
-```
+### 115. Microscope Zoom from Fingertip to Atoms in One HTML File (1.7K views, 17 likes)
+
+*Use case: explainer · Style: 3d, realistic*
+
+https://github.com/user-attachments/assets/fff2c5e1-8c05-43ea-8daf-edf413d59103
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 Build a microscope that dives from a fingertip down to atoms: 1× to 1,000,000×, all generated by code in one HTML file.
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/_prompts/curieuxexplorer-408141/poster.40b940c542.webp" width="400" alt="Microscope Zoom from Fingertip to Atoms in One HTML File">
+</details>
 
-*Source: @CurieuxExplorer - [Post](https://x.com/CurieuxExplorer/status/2104108154506408141)*
+*Source: @CurieuxExplorer · [X post](https://x.com/CurieuxExplorer/status/2104108154506408141)*
 
 ---
 
-### 116. Type 1 Diabetes Explainer from Body to Molecule (1.6K views, 13 likes)
-*Use Case: explainer | Style: 3d, infographic*
+<a id="case-116"></a>
 
-**Prompt:**
-```
+### 116. Type 1 Diabetes Explainer from Body to Molecule (1.6K views, 13 likes)
+
+*Use case: explainer · Style: 3d, infographic*
+
+https://github.com/user-attachments/assets/19670ced-4fa9-419b-a2bf-9b69222fe1e6
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 Rebuild Type 1 diabetes in one HTML file, from the whole body down to a single molecule.
 
 THE BROKEN MESSAGE
@@ -3501,95 +4606,199 @@ It doesn't define the person.
 Built in Three.js. Educational visualization, not medical advice.
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/_prompts/curieuxexplorer-016717/poster.ca1450ad52.webp" width="400" alt="Type 1 Diabetes Explainer from Body to Molecule">
+</details>
 
-*Source: @CurieuxExplorer - [Post](https://x.com/CurieuxExplorer/status/2103373314354016717)*
+*Source: @CurieuxExplorer · [X post](https://x.com/CurieuxExplorer/status/2103373314354016717)*
 
 ---
 
-### 117. Inside an AI Data Centre Visual Animation (1.4K views, 7 likes)
-*Use Case: explainer | Style: 3d, infographic*
+<a id="case-117"></a>
 
-**Prompt:**
-```
+### 117. Inside an AI Data Centre Visual Animation (1.4K views, 7 likes)
+
+*Use case: explainer · Style: 3d, infographic*
+
+https://github.com/user-attachments/assets/43cf5f4e-6fce-4466-bbc6-43cb9ef86752
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 Show me what goes on inside an AI data centre.
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/mdaman010-111079/original.b7ac5dc603.webp" width="400" alt="Inside an AI Data Centre Visual Animation">
+</details>
 
-*Source: @mdaman010 - [Post](https://x.com/mdaman010/status/2103845689713111079)*
+*Source: @mdaman010 · [X post](https://x.com/mdaman010/status/2103845689713111079)*
 
 ---
 
-### 118. Hand-Drawn Whiteboard Explainer for Replica Symmetry Breaking (1.3K views, 20 likes)
-*Use Case: explainer | Style: hand-drawn*
+<a id="case-118"></a>
 
-**Prompt:**
-```
+### 118. Hand-Drawn Whiteboard Explainer for Replica Symmetry Breaking (1.3K views, 20 likes)
+
+*Use case: explainer · Style: hand-drawn*
+
+https://github.com/user-attachments/assets/47d0306f-929f-4b40-962e-fbd2f93a0ce4
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 Do a quick hand-drawn whiteboard animations explaining what is replica symmetry breaking in the SK model
 
 Prompt 2: build the mp4 version with narration
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/tak3sh8-441895/original.0b7263b2f1.webp" width="400" alt="Hand-Drawn Whiteboard Explainer for Replica Symmetry Breaking">
+</details>
 
-*Source: @tak3sh8 - [Post](https://x.com/tak3sh8/status/2103667481139441895)*
+*Source: @tak3sh8 · [X post](https://x.com/tak3sh8/status/2103667481139441895)*
 
 ---
 
-### 119. 25-Second Colored-Pencil Storybook Article Explainer (1.2K views, 17 likes)
-*Use Case: explainer | Style: hand-drawn, cartoon*
+<a id="case-119"></a>
 
-**Prompt:**
-```
+### 119. 25-Second Colored-Pencil Storybook Article Explainer (1.2K views, 17 likes)
+
+*Use case: explainer · Style: hand-drawn, cartoon*
+
+https://github.com/user-attachments/assets/5ec448d9-00ea-4a82-8a73-8edb46cda3f2
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 Read the attached article and make a 25-second animated explainer (1080×1350, 24 fps) in a colored-pencil storybook style, drawn entirely in JavaScript on an HTML canvas, with a soundtrack synthesized using the Web Audio API. Pick 3 main ideas, give each a short caption taken from the text, and use one simple original character. Show me the storyboard first, then render it to MP4.
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/_prompts/woojinrad-455731/poster.2170caa017.webp" width="400" alt="25-Second Colored-Pencil Storybook Article Explainer">
+</details>
 
-*Source: @woojinrad - [Post](https://x.com/woojinrad/status/2106083299462455731)*
+*Source: @woojinrad · [X post](https://x.com/woojinrad/status/2106083299462455731)*
 
 ---
 
-### 120. White Russian Cocktail Recipe Motion Graphic Animation (1.2K views, 22 likes)
-*Use Case: explainer | Style: 2d, minimal*
+<a id="case-120"></a>
 
-**Prompt:**
-```
+### 120. White Russian Cocktail Recipe Motion Graphic Animation (1.2K views, 22 likes)
+
+*Use case: explainer · Style: 2d, minimal*
+
+https://github.com/user-attachments/assets/b382bf47-09e8-43a5-8d0f-46a1f2f7f711
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 Render a recipe motion graphic animation using JavaScript or HTML (whatever you think will produce the best result) to show the full recipe for a White Russian from start to finish, empty glass to completed cocktail. Explainer video style, showing the ingredients and measurements as they go into the glass. It should be a 30s video.
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/sarut0bisasuke-069973/original.7731d87533.webp" width="400" alt="White Russian Cocktail Recipe Motion Graphic Animation">
+</details>
 
-*Source: @Sarut0biSasuke - [Post](https://x.com/Sarut0biSasuke/status/2103418429248069973)*
+*Source: @Sarut0biSasuke · [X post](https://x.com/Sarut0biSasuke/status/2103418429248069973)*
 
 ---
 
-### 121. Fourier Series Explainer Video with HyperFrames (1.2K views, 24 likes)
-*Use Case: explainer | Style: 2d, infographic*
+<a id="case-121"></a>
 
-**Prompt:**
-```
-fourier series were hard to learn back in university (2 years ago) and they are fun! 
+### 121. Fourier Series Explainer Video with HyperFrames (1.2K views, 24 likes)
+
+*Use case: explainer · Style: 2d, infographic*
+
+https://github.com/user-attachments/assets/ed659f9d-f546-4d02-ac77-07216f50d250
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
+fourier series were hard to learn back in university (2 years ago) and they are fun!
 
 what unlocks @HyperFrames_ + @claudeai Opus 5.5 is that you can get the best explainer videos just with 1 prompt
 
 you are curious about something? ask claude!
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/miguel07code-091611/original.3b02d95627.webp" width="400" alt="Fourier Series Explainer Video with HyperFrames">
+</details>
 
-*Source: @Miguel07Code - [Post](https://x.com/Miguel07Code/status/2103626582896091611)*
+*Source: @Miguel07Code · [X post](https://x.com/Miguel07Code/status/2103626582896091611)*
 
 ---
 
+<a id="case-295"></a>
+
+### 295. A Photon's Journey from the Sun to Your Eye
+
+*Use case: explainer · Style: N/A*
+
+https://github.com/user-attachments/assets/ddd7a40c-a088-47e3-9933-f3204a4687f0
+
+<details>
+<summary>Prompt · English translation</summary>
+
+```text
+Make a 20-second video about anything you choose. Make it wild.
+```
+
+</details>
+
+<details>
+<summary>Prompt · Chinese version from Feishu</summary>
+
+```text
+做一段20秒的视频，任何主题都行，由你决定；做得疯狂一点。
+```
+
+</details>
+
+*Source: [Feishu collection](https://aiwarts101.feishu.cn/wiki/LMEcwg5jHiTSnqkwNE1cum7DnLb) · [Feishu N14](https://aiwarts101.feishu.cn/wiki/LMEcwg5jHiTSnqkwNE1cum7DnLb)*
+
+---
+
+<a id="case-296"></a>
+
+### 296. Token Bucket Rate Limiter: Refill, Accept and Reject
+
+*Use case: explainer · Style: infographic*
+
+https://github.com/user-attachments/assets/550f21ac-3b7f-4a7a-b6a9-714255911ee0
+
+<details>
+<summary>Prompt · English translation</summary>
+
+```text
+Explain a token bucket rate limiter using only Canvas and no libraries. Every frame must be a pure function of time so my renderer can screenshot it.
+```
+
+</details>
+
+<details>
+<summary>Prompt · Chinese version from Feishu</summary>
+
+```text
+解释一个令牌桶限流器，只使用 Canvas，不使用任何库；每一帧都是时间的纯函数，这样我的渲染器就能对它截图。
+```
+
+</details>
+
+*Source: [Feishu collection](https://aiwarts101.feishu.cn/wiki/LMEcwg5jHiTSnqkwNE1cum7DnLb) · [Feishu N15](https://aiwarts101.feishu.cn/wiki/LMEcwg5jHiTSnqkwNE1cum7DnLb)*
+
+---
+
+<a id="category-4"></a>
+
 ## 4. Technical Demos & Visualizations
 
-### 122. 1906 San Francisco Market Street 3D Historical Recreation (163.3K views, 1,164 likes)
-*Use Case: demo | Style: 3d, realistic*
+<a id="case-122"></a>
 
-**Prompt:**
-```
+### 122. 1906 San Francisco Market Street 3D Historical Recreation (163.3K views, 1,164 likes)
+
+*Use case: demo · Style: 3d, realistic*
+
+https://github.com/user-attachments/assets/46950cbf-0e08-4a7b-b870-9903372ea916
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 Recreate Market Street, San Francisco as it stood on April 17, 1906, the afternoon before the earthquake, in Blender.
 
 Scope: the Ferry Building up Market to Fifth Street, including the Palace Hotel, the Call Building, the Chronicle Building, Lotta's Fountain and the Emporium.
@@ -3601,76 +4810,111 @@ Build everything in Blender Python. No downloaded meshes, textures or HDRIs. Wri
 Provide a 10 second video up the street.
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/alexalbert-274839/original.2d6735673d.webp" width="400" alt="1906 San Francisco Market Street 3D Historical Recreation">
+</details>
 
-*Source: @alexalbert__ - [Post](https://x.com/alexalbert__/status/2102466523164274839)*
+*Source: @alexalbert__ · [X post](https://x.com/alexalbert__/status/2102466523164274839)*
 
 ---
 
-### 123. Warehouse Logistics Animation with Trucks and Forklifts (73.3K views, 916 likes)
-*Use Case: demo | Style: 3d*
+<a id="case-123"></a>
 
-**Prompt:**
-```
+### 123. Warehouse Logistics Animation with Trucks and Forklifts (73.3K views, 916 likes)
+
+*Use case: demo · Style: 3d*
+
+https://github.com/user-attachments/assets/d04a6d67-8a1c-4680-88cc-aa909910048d
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 Build one you can actually watch. Trucks reverse onto the dock, forklifts unload and boxes slide down chutes onto the right truck.
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/_prompts/konstantinsaifo-169107/poster.e149f90b30.webp" width="400" alt="Warehouse Logistics Animation with Trucks and Forklifts">
+</details>
 
-*Source: @konstantinsaifo - [Post](https://x.com/konstantinsaifo/status/2106855420237169107)*
+*Source: @konstantinsaifo · [X post](https://x.com/konstantinsaifo/status/2106855420237169107)*
 
 ---
 
-### 124. 1990s Style Demoscene Demo with S3M Music Synchronization (38.8K views, 775 likes)
-*Use Case: demo | Style: 3d, particle*
+<a id="case-124"></a>
 
-**Prompt:**
-```
+### 124. 1990s Style Demoscene Demo with S3M Music Synchronization (38.8K views, 775 likes)
+
+*Use case: demo · Style: 3d, particle*
+
+https://github.com/user-attachments/assets/474edf5e-355f-422e-9130-cbe845c66c82
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 I would like you to create a kickass, impressive 1990s style demoscene demo using this S3M track as the music. Prior to getting to work, please see how to best play and analyze the S3M track. This will be important since synchronization of effects and appropriateness of scenes to the musical vibe (and this song does have a variety of sections with different attitude) is essential to a great demoscene demo. Also prior to getting started, please research what kinds of effects, physics, etc. would be good to use in combination. Please use C/C++ -- with appropriate demoscene/embedded/console gamedev sensibilities to avoid needlessly bloating compile times -- with OpenGL. In some cases, blitting to surfaces in realtime may be appropriate.. while in others, using OpenGL or even shaders is appropriate as well. It should be planned and polished to be spectacular and shocking. This is Claude's way of really showing off to the world that it kicks ass.
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/gandamu-ml-220530/original.16f5785d49.webp" width="400" alt="1990s Style Demoscene Demo with S3M Music Synchronization">
+</details>
 
-*Source: @gandamu_ml - [Post](https://x.com/gandamu_ml/status/2102919394775220530)*
+*Source: @gandamu_ml · [X post](https://x.com/gandamu_ml/status/2102919394775220530)*
 
 ---
 
-### 125. Cinematic 3D Landscape Explorer with Free Camera (30.1K views, 621 likes)
-*Use Case: demo | Style: 3d, realistic*
+<a id="case-125"></a>
 
-**Prompt:**
-```
+### 125. Cinematic 3D Landscape Explorer with Free Camera (30.1K views, 621 likes)
+
+*Use case: demo · Style: 3d, realistic*
+
+https://github.com/user-attachments/assets/af21d7ed-f224-4c83-a117-c7f5dd9dd8be
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 Create a cinematic browser-based 3D world that can be explored freely with a camera, focused on breathtaking landscapes and extraordinary original architecture. Fill the world with huge strange buildings, monumental structures, surreal ruins, cliffs, valleys, forests, water, and unusual ultra-detailed forms that feel mysterious and awe-inspiring. This is not a game and not combat-focused, the goal is pure exploration, atmosphere, composition, and visual discovery. Make the world feel epic, highly detailed, and completely original, with architecture that looks weird, ambitious, and unforgettable.
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/lexnlin-241739/original.cb53056c77.webp" width="400" alt="Cinematic 3D Landscape Explorer with Free Camera">
+</details>
 
-*Source: @LexnLin - [Post](https://x.com/LexnLin/status/2103194052850241739)*
+*Source: @LexnLin · [X post](https://x.com/LexnLin/status/2103194052850241739)*
 
 ---
 
-### 126. Product Feature Walkthrough Motion Graphics Video (29.7K views, 158 likes)
-*Use Case: demo | Style: 2d*
+<a id="case-126"></a>
 
-**Prompt:**
-```
+### 126. Product Feature Walkthrough Motion Graphics Video (29.7K views, 158 likes)
+
+*Use case: demo · Style: 2d*
+
+https://github.com/user-attachments/assets/b22ba06c-296e-41c7-9cb9-1361854cf241
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 can you search for the picture of Mona Lisa, then replicate it using mouse movement and brushes in JS paint using chrome?
 
 Follow-up:
 Ok now can you make a video of exactly what you just did? Showing every mouse movement and changes?
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/ehsanik-162993/original.b977c58ac1.webp" width="400" alt="Product Feature Walkthrough Motion Graphics Video">
+</details>
 
-*Source: @ehsanik - [Post](https://x.com/ehsanik/status/2102885216692162993)*
+*Source: @ehsanik · [X post](https://x.com/ehsanik/status/2102885216692162993)*
 
 ---
 
-### 127. Porco Rosso Aerial Battle Three.js Ghibli Style Recreation (21.5K views, 74 likes)
-*Use Case: demo | Style: 3d, cartoon*
+<a id="case-127"></a>
 
-**Prompt:**
-```
+### 127. Porco Rosso Aerial Battle Three.js Ghibli Style Recreation (21.5K views, 74 likes)
+
+*Use case: demo · Style: 3d, cartoon*
+
+https://github.com/user-attachments/assets/66dd2124-a546-4118-b761-589515d2ae88
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 ✨审美绝了！Opus 5.5 用 Three.js 把宫崎骏《红猪》经典空战复刻出来了！
 
 只给了这一句prompt:
@@ -3684,45 +4928,75 @@ Ok now can you make a video of exactly what you just did? Showing every mouse mo
 https://x.com/nft_chen/status/2103401780117938683?s=46
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/nft-chen-350878/original.f856902000.webp" width="400" alt="Porco Rosso Aerial Battle Three.js Ghibli Style Recreation">
+</details>
 
-*Source: @NFT_Chen - [Post](https://x.com/NFT_Chen/status/2103882415299350878)*
+<details>
+<summary>Prompt · Chinese version from Feishu</summary>
+
+```text
+用 web3D 复刻宫崎骏《红猪》日落海面上的经典空战：白绿红涂装战斗机、紫色积云、海面反光、吉卜力运镜，画面写 just breathe.
+```
+
+</details>
+
+*Source: @NFT_Chen · [X post](https://x.com/NFT_Chen/status/2103882415299350878) · [Feishu N11](https://aiwarts101.feishu.cn/wiki/LMEcwg5jHiTSnqkwNE1cum7DnLb)*
 
 ---
 
-### 128. 1857 Napoleon Cannon 3D Model with Technical Drawings and Firing (19.8K views, 359 likes)
-*Use Case: demo | Style: 3d, realistic*
+<a id="case-128"></a>
 
-**Prompt:**
-```
+### 128. 1857 Napoleon Cannon 3D Model with Technical Drawings and Firing (19.8K views, 359 likes)
+
+*Use case: demo · Style: 3d, realistic*
+
+https://github.com/user-attachments/assets/233a5052-18d2-45ef-9a15-2cada1ac239d
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 Build a fully working 1857 Napoleon load field cannon in 3D using procedural Three.js WebGPU and TSL shaders. No Blender, no 3D assets, no textures. Include technical drawings as live orthographic renders showing elevation, pressure, trajectory, and firing changes in real time.
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/thebuggeddev-482912/original.192a687052.webp" width="400" alt="1857 Napoleon Cannon 3D Model with Technical Drawings and Firing">
+</details>
 
-*Source: @thebuggeddev - [Post](https://x.com/thebuggeddev/status/2107449104926482912)*
+*Source: @thebuggeddev · [X post](https://x.com/thebuggeddev/status/2107449104926482912)*
 
 ---
 
-### 129. Single Prompt Hyperframes Motion Graphics Showcase (19.4K views, 152 likes)
-*Use Case: demo | Style: 2d*
+<a id="case-129"></a>
 
-**Prompt:**
-```
+### 129. Single Prompt Hyperframes Motion Graphics Showcase (19.4K views, 152 likes)
+
+*Use case: demo · Style: 2d*
+
+https://github.com/user-attachments/assets/a3b55cbf-bf64-4294-8c93-1ed8477008aa
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 No tiene sentido que esto haya salido con un solo prompt con Opus 5.5 e Hyperframes
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/leandroriviello-827135/original.419d188f99.webp" width="400" alt="Single Prompt Hyperframes Motion Graphics Showcase">
+</details>
 
-*Source: @leandroriviello - [Post](https://x.com/leandroriviello/status/2104728379798827135)*
+*Source: @leandroriviello · [X post](https://x.com/leandroriviello/status/2104728379798827135)*
 
 ---
 
-### 130. 12-Second Launch Video with Bouncing Ball Filmstrip Animation (18.9K views, 148 likes)
-*Use Case: demo | Style: 2d, minimal*
+<a id="case-130"></a>
 
-**Prompt:**
-```
+### 130. 12-Second Launch Video with Bouncing Ball Filmstrip Animation (18.9K views, 148 likes)
+
+*Use case: demo · Style: 2d, minimal*
+
+https://github.com/user-attachments/assets/33f29461-aa79-4314-b072-72d8fbba6e53
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 Make a 12s motion video in code (1920x1080, 30fps, one HTML file drawing every frame from a single seek(t) function, rendered with Playwright + ffmpeg, with original synthesized sound).
 
 Story: a dark prompt pill on an off-white page types "make a launch video" with a real keystroke rhythm → enter, the button flashes orange and the pill slides up → a 12-frame filmstrip stamps in left to right, one frame per beat at 120 BPM; each frame shows one pose of an orange ball's bounce (squash on contact, stretch mid-air, real arcs) → a playhead sweeps the strip while a big viewer above plays the poses as a flipbook, twice, faster the second time → the strip slides away, "every frame is code." fills the screen, and the ball arcs over and lands as the period.
@@ -3732,17 +5006,24 @@ Rules: arrive fast, land soft (cover 12–19% of the remaining distance per fram
 Show me 5 stills first (typing, strip half-built, flipbook, headline, last frame), critique them like a harsh motion director, fix the 3 worst problems, then render.
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/_prompts/notdwd-766641/poster.9cda532570.webp" width="400" alt="12-Second Launch Video with Bouncing Ball Filmstrip Animation">
+</details>
 
-*Source: @notdwd - [Post](https://x.com/notdwd/status/2105031774904766641)*
+*Source: @notdwd · [X post](https://x.com/notdwd/status/2105031774904766641)*
 
 ---
 
-### 131. WebGPU Physics Engine with 108K Particle Sand and Fluid Simulation (18.8K views, 97 likes)
-*Use Case: demo | Style: particle, 3d*
+<a id="case-131"></a>
 
-**Prompt:**
-```
+### 131. WebGPU Physics Engine with 108K Particle Sand and Fluid Simulation (18.8K views, 97 likes)
+
+*Use case: demo · Style: particle, 3d*
+
+https://github.com/user-attachments/assets/e6770670-6b95-4923-8019-82044cf29b09
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 🚨 Opus 5.5 is the best model launch in 2026
 
 this entire physics engine is one HTML file.
@@ -3758,20 +5039,27 @@ prompt in the replies 👇
 follow @cyrilXBT
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/cyrilxbt-149036/original.2fffe96ee3.webp" width="400" alt="WebGPU Physics Engine with 108K Particle Sand and Fluid Simulation">
+</details>
 
-*Source: @cyrilXBT - [Post](https://x.com/cyrilXBT/status/2103532793406149036)*
+*Source: @cyrilXBT · [X post](https://x.com/cyrilXBT/status/2103532793406149036)*
 
 ---
 
-### 132. Bitcoin Monetary History Animation with Real Block Data (18.5K views, 162 likes)
-*Use Case: demo | Style: 2d, infographic*
+<a id="case-132"></a>
 
-**Prompt:**
-```
+### 132. Bitcoin Monetary History Animation with Real Block Data (18.5K views, 162 likes)
+
+*Use case: demo · Style: 2d, infographic*
+
+https://github.com/user-attachments/assets/f78e3a09-42bb-4156-b5b2-9b05645b2b25
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 Can't Print the Proof
 
-I gave Opus 5.5 total creative freedom to create an epic monetary history banger. 
+I gave Opus 5.5 total creative freedom to create an epic monetary history banger.
 
 1 caveat, I said use bitcoin block data to build the animation and wow me with the best quality without using generative video tools.
 
@@ -3780,17 +5068,24 @@ I gave Opus 5.5 total creative freedom to create an epic monetary history banger
 21 million, that's the truth
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/_prompts/bradmillscan-839974/poster.31219a1a29.webp" width="400" alt="Bitcoin Monetary History Animation with Real Block Data">
+</details>
 
-*Source: @bradmillscan - [Post](https://x.com/bradmillscan/status/2104048013362839974)*
+*Source: @bradmillscan · [X post](https://x.com/bradmillscan/status/2104048013362839974)*
 
 ---
 
-### 133. 110K Rigid Body WebGPU Physics Demo Reel (13.2K views, 18 likes)
-*Use Case: demo | Style: 3d, particle*
+<a id="case-133"></a>
 
-**Prompt:**
-```
+### 133. 110K Rigid Body WebGPU Physics Demo Reel (13.2K views, 18 likes)
+
+*Use case: demo · Style: 3d, particle*
+
+https://github.com/user-attachments/assets/d4608f82-e4bc-4b0a-ba15-73ac819a1c1c
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 110k rigid bodies in real time, in a browser tab. Grab anything, fire cannonballs.
 
 Built with Claude Opus 5.5: Augmented Vertex Block Descent (SIGGRAPH 2025, Giles, Diaz & Yuksel) in WebGPU with @threejs . It's a physics solver that stays stable with huge scenes and big mass ratios. Opus 5.5 even put together this whole demo reel video just from a single text prompt in Claude Code haha 🤯
@@ -3803,32 +5098,46 @@ Code's here, MIT licensed. Go build something with it, have fun breaking things:
 #threejs #WebGPU
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/nybobs-680050/original.7ecd081d24.webp" width="400" alt="110K Rigid Body WebGPU Physics Demo Reel">
+</details>
 
-*Source: @nybobs - [Post](https://x.com/nybobs/status/2103385835328680050)*
+*Source: @nybobs · [X post](https://x.com/nybobs/status/2103385835328680050)*
 
 ---
 
-### 134. Stained-Glass Hibiscus Flower 3D Artwork (11.1K views, 17 likes)
-*Use Case: demo | Style: 3d*
+<a id="case-134"></a>
 
-**Prompt:**
-```
+### 134. Stained-Glass Hibiscus Flower 3D Artwork (11.1K views, 17 likes)
+
+*Use case: demo · Style: 3d*
+
+https://github.com/user-attachments/assets/a1d3a813-4987-4dae-8164-93e14f309369
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 Create a beautiful, interactive 3D browser artwork of a single stained-glass hibiscus flower.
 Use the attached leaf as a reference for material delicacy, intricate veins, translucent colours and restrained presentation. Create an original flower composition.
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/_prompts/ivanainai-245918/poster.0941333137.webp" width="400" alt="Stained-Glass Hibiscus Flower 3D Artwork">
+</details>
 
-*Source: @ivanainai - [Post](https://x.com/ivanainai/status/2106481339193245918)*
+*Source: @ivanainai · [X post](https://x.com/ivanainai/status/2106481339193245918)*
 
 ---
 
-### 135. Fishbowl with GLSL Reflection Refraction and Caustics (9.9K views, 103 likes)
-*Use Case: demo | Style: 3d, realistic*
+<a id="case-135"></a>
 
-**Prompt:**
-```
+### 135. Fishbowl with GLSL Reflection Refraction and Caustics (9.9K views, 103 likes)
+
+*Use case: demo · Style: 3d, realistic*
+
+https://github.com/user-attachments/assets/766e3bb1-fc72-4eed-b2f7-f5c9ca2d4a66
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 Opus 5.5 does a great job in eval of GLSL (OpenGL Shading Language) in threejs.
 The prompt here is roughly. A fishbowl with reflection, refraction and water caustics.
 
@@ -3836,17 +5145,24 @@ Check it out yourself! And compare it to other models
 https://threejseval.com/gallery?eval=fishtank
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/nicolamanzini-156628/original.586c93d39d.webp" width="400" alt="Fishbowl with GLSL Reflection Refraction and Caustics">
+</details>
 
-*Source: @NicolaManzini - [Post](https://x.com/NicolaManzini/status/2103499771206156628)*
+*Source: @NicolaManzini · [X post](https://x.com/NicolaManzini/status/2103499771206156628)*
 
 ---
 
-### 136. 3D Object Construction Part-by-Part in Blender (8.2K views, 90 likes)
-*Use Case: demo | Style: 3d, realistic*
+<a id="case-136"></a>
 
-**Prompt:**
-```
+### 136. 3D Object Construction Part-by-Part in Blender (8.2K views, 90 likes)
+
+*Use case: demo · Style: 3d, realistic*
+
+https://github.com/user-attachments/assets/656ddd52-911d-4d4d-9705-f98efc246ca8
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 Opus 5.5 turned one sentence into a 3D system that opens in Blender, rigged, textured and ready to animate.
 
 It does not render the object. It constructs it, part by part, the way a modeller would if they had a week.
@@ -3872,61 +5188,89 @@ Studios burn days on modelling and cleanup before anyone gets to the creative pa
 The prompt format and what each stage returns are laid out underneath.
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/0xwast3-222104/original.b6a9fc9ea7.webp" width="400" alt="3D Object Construction Part-by-Part in Blender">
+</details>
 
-*Source: @0xWast3 - [Post](https://x.com/0xWast3/status/2103513328077222104)*
+*Source: @0xWast3 · [X post](https://x.com/0xWast3/status/2103513328077222104)*
 
 ---
 
-### 137. Interactive Japanese Nature Boat Scene with Three.js (Arabic) (6.0K views, 75 likes)
-*Use Case: demo | Style: 3d, realistic*
+<a id="case-137"></a>
 
-**Prompt:**
-```
+### 137. Interactive Japanese Nature Boat Scene with Three.js (Arabic) (6.0K views, 75 likes)
+
+*Use case: demo · Style: 3d, realistic*
+
+https://github.com/user-attachments/assets/5c83b09b-703f-41e6-a095-9295d13bc533
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 إنشاء مشهد قارب تفاعلي يمر بجمال الطبيعة اليابانية باستخدام Three.js، مع طقس ديناميكي وانعكاسات ماء واقعية وتفاصيل معماريّة وشخصيات 3D
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/_prompts/engmoelgaraihy-694832/poster.02051fb3c2.webp" width="400" alt="Interactive Japanese Nature Boat Scene with Three.js (Arabic)">
+</details>
 
-*Source: @EngMoElgaraihy - [Post](https://x.com/EngMoElgaraihy/status/2103038655178694832)*
+*Source: @EngMoElgaraihy · [X post](https://x.com/EngMoElgaraihy/status/2103038655178694832)*
 
 ---
 
-### 138. Qi Baishi Style WebGL Ink Painting (5.9K views, 2 likes)
-*Use Case: demo | Style: hand-drawn, 2d*
+<a id="case-138"></a>
 
-**Prompt:**
-```
+### 138. Qi Baishi Style WebGL Ink Painting (5.9K views, 2 likes)
+
+*Use case: demo · Style: hand-drawn, 2d*
+
+https://github.com/user-attachments/assets/0cf2736a-612d-4f89-9d71-2a4d312418b7
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 A live WebGL ink painting in the style of Qi Baishi, with paper fibre, dry-brush whiskers and an escape when you touch the water.
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/_prompts/youwareai-259061/poster.0d663ec2c2.webp" width="400" alt="Qi Baishi Style WebGL Ink Painting">
+</details>
 
-*Source: @YouWareAI - [Post](https://x.com/YouWareAI/status/2105656935622259061)*
+*Source: @YouWareAI · [X post](https://x.com/YouWareAI/status/2105656935622259061)*
 
 ---
 
-### 139. Spectacular Fireworks and Light Particle Show (Turkish) (5.4K views, 45 likes)
-*Use Case: demo | Style: particle, 3d*
+<a id="case-139"></a>
 
-**Prompt:**
-```
+### 139. Spectacular Fireworks and Light Particle Show (Turkish) (5.4K views, 45 likes)
+
+*Use case: demo · Style: particle, 3d*
+
+https://github.com/user-attachments/assets/5de9bf4c-65a4-4599-b5c9-d4d2bd67ed11
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 Yapabileceğin en etkileyici havai fişek veya ışıklı parçacık gösterisini üret. Ortamı ve sanat yönünü sen seç. Tek tip küçük patlamaları çoğaltmak yerine ritmi, derinliği, ışığın çevreye etkisini ve unutulmaz bir final anını tasarla. Gösteri canlı çalışsın; kullanıcı finali tekrar oynatabilsin.
 
 Yaratıcı seçimler senin: sahne, sanat yönü, kamera, mekanik, teknoloji ve etkileşimi önceden belirlenmiş sıradan kalıplara sıkıştırma. İlk akla gelen sıradan web demosuyla yetinme: önce kendi alanında birkaç fikri kısaca tart, videoda en güçlü görünecek özgün olanı seç, sonra onu çalışan bir ürüne dönüştür. Konuyu olduğundan kolay gösteren dekoratif taklit kabul edilmez. Sinematik ve estetik seçimler sonuçta görülsün.
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/fornyapayzeka-795431/original.5a5792a5b3.webp" width="400" alt="Spectacular Fireworks and Light Particle Show (Turkish)">
+</details>
 
-*Source: @FornYapayZeka - [Post](https://x.com/FornYapayZeka/status/2102888241443795431)*
+*Source: @FornYapayZeka · [X post](https://x.com/FornYapayZeka/status/2102888241443795431)*
 
 ---
 
-### 140. 3D Train Simulation with Procedural Assets (Chinese) (5.3K views, 27 likes)
-*Use Case: demo | Style: 3d, realistic*
+<a id="case-140"></a>
 
-**Prompt:**
-```
+### 140. 3D Train Simulation with Procedural Assets (Chinese) (5.3K views, 27 likes)
+
+*Use case: demo · Style: 3d, realistic*
+
+https://github.com/user-attachments/assets/384453d5-fd6b-48f2-882c-4f834ea651fc
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 太离谱了，一共3步，Opus 5.5给我整了个“模拟火车”出来。
 
 1. 让ChatGPT生成韶山8各个视角的图；
@@ -3934,118 +5278,174 @@ Yaratıcı seçimler senin: sahne, sanat yönü, kamera, mekanik, teknoloji ve e
 3. 做一个环形铁路，可以操作这辆车行驶。
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/akokoi1-469188/original.9eb338b903.webp" width="400" alt="3D Train Simulation with Procedural Assets (Chinese)">
+</details>
 
-*Source: @akokoi1 - [Post](https://x.com/akokoi1/status/2104222017696469188)*
+*Source: @akokoi1 · [X post](https://x.com/akokoi1/status/2104222017696469188)*
 
 ---
 
-### 141. Three.js Single Prompt Motion Design (Turkish) (5.1K views, 33 likes)
-*Use Case: demo | Style: 3d*
+<a id="case-141"></a>
 
-**Prompt:**
-```
+### 141. Three.js Single Prompt Motion Design (Turkish) (5.1K views, 33 likes)
+
+*Use case: demo · Style: 3d*
+
+https://github.com/user-attachments/assets/b8b461fa-6eab-4b30-8d6d-da7a8b1c78c7
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 threejs (@threejs) + Claude Code Opus 5.5
 tek prompt ve çıktı
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/wzarok-283635/original.fad231410a.webp" width="400" alt="Three.js Single Prompt Motion Design (Turkish)">
+</details>
 
-*Source: @wzarok - [Post](https://x.com/wzarok/status/2103530789510283635)*
+*Source: @wzarok · [X post](https://x.com/wzarok/status/2103530789510283635)*
 
 ---
 
-### 142. Rube Goldberg Marble Domino Physics Machine (3.8K views, 79 likes)
-*Use Case: demo | Style: 3d, realistic*
+<a id="case-142"></a>
 
-**Prompt:**
-```
+### 142. Rube Goldberg Marble Domino Physics Machine (3.8K views, 79 likes)
+
+*Use case: demo · Style: 3d, realistic*
+
+https://github.com/user-attachments/assets/23463842-f58e-495e-afd4-779ed47a7a1f
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 Create a physics simulation of a Rube Goldberg inspired machine where a marble ends up toppling a 1.8m domino. Use Three.js + Rapier. A falling domino can knock over one 1.5× its size, so ten growing dominoes carry the push from desk to room scale.
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/_prompts/techartist-697078/poster.6c30cafbd8.webp" width="400" alt="Rube Goldberg Marble Domino Physics Machine">
+</details>
 
-*Source: @techartist_ - [Post](https://x.com/techartist_/status/2107514291213697078)*
+*Source: @techartist_ · [X post](https://x.com/techartist_/status/2107514291213697078)*
 
 ---
 
-### 143. Explosion Effect with Force Propagation Scene (Turkish) (3.5K views, 25 likes)
-*Use Case: demo | Style: particle, 3d*
+<a id="case-143"></a>
 
-**Prompt:**
-```
+### 143. Explosion Effect with Force Propagation Scene (Turkish) (3.5K views, 25 likes)
+
+*Use case: demo · Style: particle, 3d*
+
+https://github.com/user-attachments/assets/29210e27-60bd-4b2c-9e05-4dc20b97618c
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 Yapabileceğin en etkileyici patlama efektini ve onu taşıyacak özgün sahneyi üret. Ölçeği, ortamı ve görsel dili sen seç. Patlamanın başlangıcı, kuvvetin yayılması ve ardında bıraktığı değişim izlenebilir olsun; tek karelik parlama veya rastgele parçacık yağmuru yeterli değil. Kullanıcı bunu tekrar başlatabilsin ve etkisini farklı açıdan görebilsin.
 
 Yaratıcı seçimler senin: sahne, sanat yönü, kamera, mekanik, teknoloji ve etkileşimi önceden belirlenmiş sıradan kalıplara sıkıştırma. İlk akla gelen sıradan web demosuyla yetinme: önce kendi alanında birkaç fikri kısaca tart, videoda en güçlü görünecek özgün olanı seç, sonra onu çalışan bir ürüne dönüştür. Konuyu olduğundan kolay gösteren dekoratif taklit kabul edilmez. Sinematik ve estetik seçimler sonuçta görülsün.
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/fornyapayzeka-135914/original.29a27c0f1a.webp" width="400" alt="Explosion Effect with Force Propagation Scene (Turkish)">
+</details>
 
-*Source: @FornYapayZeka - [Post](https://x.com/FornYapayZeka/status/2102971287224135914)*
+*Source: @FornYapayZeka · [X post](https://x.com/FornYapayZeka/status/2102971287224135914)*
 
 ---
 
-### 144. Remotion Video Built with Natural Language (Japanese) (3.3K views, 18 likes)
-*Use Case: demo | Style: 2d*
+<a id="case-144"></a>
 
-**Prompt:**
-```
+### 144. Remotion Video Built with Natural Language (Japanese) (3.3K views, 18 likes)
+
+*Use case: demo · Style: 2d*
+
+https://github.com/user-attachments/assets/bf8735e3-9b7e-4bc0-8497-7672b265aa2f
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 ださいけど、Remotion で動画っぽいのつくった。コードは見てない。環境だけ用意した…っていっても、いつものように jj init されるカスタム try コマンドを叩いてディレクトリをつくって「Remotion の環境をプリーズ」だけだわ。なんもしてない。あとは Opus 5.5 とちょっと話しただけだわ。未来だ。
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/itakahashikun-990109/original.2df9a473ee.webp" width="400" alt="Remotion Video Built with Natural Language (Japanese)">
+</details>
 
-*Source: @iTakahashikun - [Post](https://x.com/iTakahashikun/status/2103731575661990109)*
+*Source: @iTakahashikun · [X post](https://x.com/iTakahashikun/status/2103731575661990109)*
 
 ---
 
-### 145. GSAP UI Card Timeline Animation with Staggered Elements (2.7K views, 73 likes)
-*Use Case: demo | Style: 2d, minimal*
+<a id="case-145"></a>
 
-**Prompt:**
-```
+### 145. GSAP UI Card Timeline Animation with Staggered Elements (2.7K views, 73 likes)
+
+*Use case: demo · Style: 2d, minimal*
+
+https://github.com/user-attachments/assets/f9070ccb-9961-46ac-9b1d-9f1b240d5e35
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 Build a GSAP timeline for UI cards with specific timing constraints: 280ms for cards, 220ms for title, 160ms for metadata, and a 60ms stagger between elements. Implement a verification loop where the animation is stepped through frame-by-frame using Playwright, screenshots are compared to detect overshoot or errors, and the code is patched until it passes the checks without rewriting everything.
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/_prompts/fleyta88-443662/poster.4e67e8f644.webp" width="400" alt="GSAP UI Card Timeline Animation with Staggered Elements">
+</details>
 
-*Source: @fleyta88 - [Post](https://x.com/fleyta88/status/2108249741125443662)*
+*Source: @fleyta88 · [X post](https://x.com/fleyta88/status/2108249741125443662)*
 
 ---
 
-### 146. Rust SVG Particle Video with 3D Geometry and Audio-Reactive Ring (2.1K views, 20 likes)
-*Use Case: demo | Style: 3d, particle, abstract*
+<a id="case-146"></a>
 
-**Prompt:**
-```
+### 146. Rust SVG Particle Video with 3D Geometry and Audio-Reactive Ring (2.1K views, 20 likes)
+
+*Use case: demo · Style: 3d, particle, abstract*
+
+https://github.com/user-attachments/assets/12d32474-4584-46f4-8c76-bda8d63d1a43
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 Create a video using Rust + SVG via fframes where every frame is a function. Include particles, 3D geometry, springs, shaders and an audio-reactive ring, synchronized to a 128 BPM beat grid.
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/_prompts/buildfastwithai-844291/poster.46cac31dda.webp" width="400" alt="Rust SVG Particle Video with 3D Geometry and Audio-Reactive Ring">
+</details>
 
-*Source: @BuildFastWithAI - [Post](https://x.com/BuildFastWithAI/status/2108403445304844291)*
+*Source: @BuildFastWithAI · [X post](https://x.com/BuildFastWithAI/status/2108403445304844291)*
 
 ---
 
-### 147. Two-Sentence Remotion Motion Video (2.0K views, 41 likes)
-*Use Case: demo | Style: 2d, minimal*
+<a id="case-147"></a>
 
-**Prompt:**
-```
+### 147. Two-Sentence Remotion Motion Video (2.0K views, 41 likes)
+
+*Use case: demo · Style: 2d, minimal*
+
+https://github.com/user-attachments/assets/1eb75d83-eff0-4c7b-b97b-98490e5141b3
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 I made this with a two sentence prompt using Opus 5.5 and Remotion.
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/aylmerth-356252/original.22dec1597f.webp" width="400" alt="Two-Sentence Remotion Motion Video">
+</details>
 
-*Source: @AylmerTH - [Post](https://x.com/AylmerTH/status/2105346401878356252)*
+*Source: @AylmerTH · [X post](https://x.com/AylmerTH/status/2105346401878356252)*
 
 ---
 
-### 148. Realistic 3D Taj Mahal Model in One HTML File (2.0K views, 8 likes)
-*Use Case: demo | Style: 3d, realistic*
+<a id="case-148"></a>
 
-**Prompt:**
-```
+### 148. Realistic 3D Taj Mahal Model in One HTML File (2.0K views, 8 likes)
+
+*Use case: demo · Style: 3d, realistic*
+
+https://github.com/user-attachments/assets/bd9258ce-683e-49e6-b973-2007a8d7b33b
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 I asked Opus 5.5 to generate a realistic 3D model of the Taj Mahal
 
 Dome, minarets, marble inlay, even the foundations.
@@ -4053,31 +5453,45 @@ Dome, minarets, marble inlay, even the foundations.
 One prompt ⤵️ One HTML file.
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/curieuxexplorer-272483/original.7984edea63.webp" width="400" alt="Realistic 3D Taj Mahal Model in One HTML File">
+</details>
 
-*Source: @CurieuxExplorer - [Post](https://x.com/CurieuxExplorer/status/2103038625483272483)*
+*Source: @CurieuxExplorer · [X post](https://x.com/CurieuxExplorer/status/2103038625483272483)*
 
 ---
 
-### 149. 5 Different Scroll-Based Sections with Auto-Generated Layout (1.5K views, 12 likes)
-*Use Case: demo | Style: 2d, minimal*
+<a id="case-149"></a>
 
-**Prompt:**
-```
+### 149. 5 Different Scroll-Based Sections with Auto-Generated Layout (1.5K views, 12 likes)
+
+*Use case: demo · Style: 2d, minimal*
+
+https://github.com/user-attachments/assets/b8ba357a-4ffd-4769-9c81-1f1907e7c116
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 Build 5 completely different scroll-based sections, decide the context & layout yourself.
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/ercankeskinx-897906/original.137653def6.webp" width="400" alt="5 Different Scroll-Based Sections with Auto-Generated Layout">
+</details>
 
-*Source: @ercankeskinx - [Post](https://x.com/ercankeskinx/status/2102995443818897906)*
+*Source: @ercankeskinx · [X post](https://x.com/ercankeskinx/status/2102995443818897906)*
 
 ---
 
-### 150. Realistic 3D Fire Fluid Simulation with Blackbody Physics (1.1K views, 16 likes)
-*Use Case: demo | Style: 3d, particle, realistic*
+<a id="case-150"></a>
 
-**Prompt:**
-```
+### 150. Realistic 3D Fire Fluid Simulation with Blackbody Physics (1.1K views, 16 likes)
+
+*Use case: demo · Style: 3d, particle, realistic*
+
+https://github.com/user-attachments/assets/f675f247-5e83-471a-a6ea-0f59647a3c5a
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 I asked opus 5.5 in @agnt_gg for the most realistic fire it could build using ONLY javascript.
 
 It wrote a real 3D fluid simulation that runs on the GPU. The flame colors come from blackbody physics, the smoke is real volume, it runs at 96 fps in 1080p, and it critiqued its own renders about 40 times.
@@ -4095,31 +5509,45 @@ Details:
 - No Blender, no stock footage, no sound library. One HTML file, one conversation.
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/nathanwilbanks-981110/original.5401acd5a9.webp" width="400" alt="Realistic 3D Fire Fluid Simulation with Blackbody Physics">
+</details>
 
-*Source: @NathanWilbanks_ - [Post](https://x.com/NathanWilbanks_/status/2103881538592981110)*
+*Source: @NathanWilbanks_ · [X post](https://x.com/NathanWilbanks_/status/2103881538592981110)*
 
 ---
 
-### 151. 30-Second Cinematic F1 Pit Stop in Three.js (1.1K views, 43 likes)
-*Use Case: demo | Style: 3d, realistic*
+<a id="case-151"></a>
 
-**Prompt:**
-```
+### 151. 30-Second Cinematic F1 Pit Stop in Three.js (1.1K views, 43 likes)
+
+*Use case: demo · Style: 3d, realistic*
+
+https://github.com/user-attachments/assets/1a036252-4220-4f08-8444-11bf1bc29c21
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 a 30s cinematic F1 pit stop in Three.js. Detailed car, 8-person crew changing all 4 tyres, synthesized audio, fully procedural.
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/_prompts/rubenssoto-ai-802657/poster.c9b3a984d5.webp" width="400" alt="30-Second Cinematic F1 Pit Stop in Three.js">
+</details>
 
-*Source: @rubenssoto_ai - [Post](https://x.com/rubenssoto_ai/status/2108512810774802657)*
+*Source: @rubenssoto_ai · [X post](https://x.com/rubenssoto_ai/status/2108512810774802657)*
 
 ---
 
-### 152. Santa Monica Beach Particle Illustration 3D Environment (1.0K views, 18 likes)
-*Use Case: demo | Style: 3d, particle*
+<a id="case-152"></a>
 
-**Prompt:**
-```
+### 152. Santa Monica Beach Particle Illustration 3D Environment (1.0K views, 18 likes)
+
+*Use case: demo · Style: 3d, particle*
+
+https://github.com/user-attachments/assets/79edff90-4dba-40e3-98f7-2956d04d9bd4
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 Create a stylistic 3D environment of a busy Santa Monica beach that adapts to the time of day. The art style must be a particle illustration, which uses thousands of tiny glowing specks rather than solid fills with flowing ribbon strokes behind figures to suggest motion.
 
 I had 2-3 more prompts on top of this, but this is a good starting point.
@@ -4127,33 +5555,139 @@ I had 2-3 more prompts on top of this, but this is a good starting point.
 Repo link: https://github.com/ishuagrawal/particle-beach
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/ishuagra02-678129/original.e1a27bcc2b.webp" width="400" alt="Santa Monica Beach Particle Illustration 3D Environment">
+</details>
 
-*Source: @ishuagra02 - [Post](https://x.com/ishuagra02/status/2102920408743678129)*
+*Source: @ishuagra02 · [X post](https://x.com/ishuagra02/status/2102920408743678129)*
 
 ---
+
+<a id="case-297"></a>
+
+### 297. Three.js Douglas A-1H Skyraider
+
+*Use case: demo · Style: 3d*
+
+https://github.com/user-attachments/assets/3a16ae16-4569-461a-b593-cbb0f78c3e3b
+
+<details>
+<summary>Prompt · English translation</summary>
+
+```text
+Build a Douglas A-1H Skyraider in Three.js.
+```
+
+</details>
+
+<details>
+<summary>Prompt · Chinese version from Feishu</summary>
+
+```text
+用 Three.js 构建一架道格拉斯 A-1H“天袭者”攻击机。
+```
+
+</details>
+
+*Source: [Feishu collection](https://aiwarts101.feishu.cn/wiki/LMEcwg5jHiTSnqkwNE1cum7DnLb) · [Feishu N18](https://aiwarts101.feishu.cn/wiki/LMEcwg5jHiTSnqkwNE1cum7DnLb)*
+
+---
+
+<a id="case-298"></a>
+
+### 298. Chrome Spheres and 3D Shape-Reassembly Showreel
+
+*Use case: showreel · Style: 3d*
+
+https://github.com/user-attachments/assets/a465a57f-6557-449a-8ca1-a88aacc3bb17
+
+<details>
+<summary>Prompt · English translation</summary>
+
+```text
+Make a dynamic 15-second motion graphics video that shows what an incredible motion designer you are, like a showreel for your resume. Go all out.
+```
+
+</details>
+
+<details>
+<summary>Prompt · Chinese version from Feishu</summary>
+
+```text
+制作一段充满动感的15秒动态图形视频，展示你作为一名出色动效设计师的能力，就像用于简历的个人作品集一样。全力以赴。
+```
+
+</details>
+
+*Source: [Feishu collection](https://aiwarts101.feishu.cn/wiki/LMEcwg5jHiTSnqkwNE1cum7DnLb) · [Feishu N19](https://aiwarts101.feishu.cn/wiki/LMEcwg5jHiTSnqkwNE1cum7DnLb)*
+
+---
+
+<a id="case-299"></a>
+
+### 299. Mixed-Media Showreel with 3D Particles
+
+*Use case: showreel · Style: 2d, 3d, particle*
+
+https://github.com/user-attachments/assets/dbb47e4c-a6fc-424c-8636-3536863899de
+
+<details>
+<summary>Prompt · English translation</summary>
+
+```text
+Make a dynamic 15-second motion graphics video that shows what an incredible motion designer you are, like a showreel for your resume. Go all out.
+```
+
+</details>
+
+<details>
+<summary>Prompt · Chinese version from Feishu</summary>
+
+```text
+制作一段充满动感的15秒动态图形视频，展示你作为一名出色动效设计师的能力，就像用于简历的个人作品集一样。全力以赴。
+```
+
+</details>
+
+*Source: [Feishu collection](https://aiwarts101.feishu.cn/wiki/LMEcwg5jHiTSnqkwNE1cum7DnLb) · [Feishu N20](https://aiwarts101.feishu.cn/wiki/LMEcwg5jHiTSnqkwNE1cum7DnLb)*
+
+---
+
+<a id="category-5"></a>
 
 ## 5. Ads & Marketing
 
-### 153. 30-Second Business Explainer with 5 Scenes and Brand Colors (42.1K views, 372 likes)
-*Use Case: ad | Style: 2d, minimal*
+<a id="case-153"></a>
 
-**Prompt:**
-```
+### 153. 30-Second Business Explainer with 5 Scenes and Brand Colors (42.1K views, 372 likes)
+
+*Use case: ad · Style: 2d, minimal*
+
+https://github.com/user-attachments/assets/d6bf36fe-3bc2-415b-83cd-09b5c3f1bd5a
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 Adopt the role of an expert motion designer. Build a 30-second animated explainer for my business as a single HTML page. 5 scenes. The customer's problem, what I do, how it works in 3 steps, one proof point, and my name at the end. Bold text, smooth transitions, my brand colours. My business [DESCRIBE WHAT YOU SELL, WHO IT'S FOR AND YOUR COLOURS]
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/alex-prompter-997524/original.16e8d0a42e.webp" width="400" alt="30-Second Business Explainer with 5 Scenes and Brand Colors">
+</details>
 
-*Source: @alex_prompter - [Post](https://x.com/alex_prompter/status/2103499977632997524)*
+*Source: @alex_prompter · [X post](https://x.com/alex_prompter/status/2103499977632997524)*
 
 ---
 
-### 154. Shin Majin Style PV with Code-Rendered Frames and Lyria BGM (39.7K views, 360 likes)
-*Use Case: ad | Style: 2d, cartoon*
+<a id="case-154"></a>
 
-**Prompt:**
-```
+### 154. Shin Majin Style PV with Code-Rendered Frames and Lyria BGM (39.7K views, 360 likes)
+
+*Use case: ad · Style: 2d, cartoon*
+
+https://github.com/user-attachments/assets/bcfa6b28-a898-4397-ba78-9f703b88bccd
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 流行ってることは一回試しとくマン。
 
 Claude Code（Opus 5.5）でモーショングラフィックスを作るのが面白いみたいなので、「シンまじん式のPV作って」と頼んだだけで、これが出てきた。
@@ -4169,89 +5703,131 @@ Claude Code（Opus 5.5）でモーショングラフィックスを作るのが�
 何なのもう…日々革命が起こりすぎて 頭ガンガンするわ
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/majin-appsheet-693327/original.43d46d4e8a.webp" width="400" alt="Shin Majin Style PV with Code-Rendered Frames and Lyria BGM">
+</details>
 
-*Source: @Majin_AppSheet - [Post](https://x.com/Majin_AppSheet/status/2103497319899693327)*
+*Source: @Majin_AppSheet · [X post](https://x.com/Majin_AppSheet/status/2103497319899693327)*
 
 ---
 
-### 155. Cheese Camera App Concept Animation for Couples Photography (26.6K views, 16 likes)
-*Use Case: ad | Style: 2d, cartoon*
+<a id="case-155"></a>
 
-**Prompt:**
-```
+### 155. Cheese Camera App Concept Animation for Couples Photography (26.6K views, 16 likes)
+
+*Use case: ad · Style: 2d, cartoon*
+
+https://github.com/user-attachments/assets/8bf04c22-9ba1-4f17-9c45-507b54ef4b56
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 帮我制作一个动画，主题描绘芝士相机的理念和使用场景，需要打动我们的目标用户（男朋友给女朋友拍照，拍出更好看的照片）；包括音效和音乐；你可以使用任何你觉得合适的工具和技术，做出最好最惊艳的效果，不要使用已有的skill，不要参考以前做过的视频或者文案
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/_prompts/mileson07-065690/poster.ac906bb935.webp" width="400" alt="Cheese Camera App Concept Animation for Couples Photography">
+</details>
 
-*Source: @Mileson07 - [Post](https://x.com/Mileson07/status/2103717347790065690)*
+*Source: @Mileson07 · [X post](https://x.com/Mileson07/status/2103717347790065690)*
 
 ---
 
-### 156. Lightspark Social Media Promo Video with Sound Design (25.9K views, 282 likes)
-*Use Case: ad | Style: 2d, minimal*
+<a id="case-156"></a>
 
-**Prompt:**
-```
+### 156. Lightspark Social Media Promo Video with Sound Design (25.9K views, 282 likes)
+
+*Use case: ad · Style: 2d, minimal*
+
+https://github.com/user-attachments/assets/eda9e189-cea0-4488-ac63-c6a91f5d5408
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 make a punchy and modern short video for social that promotes @lightspark capabilities. Needs to be production grade with sound
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/davidmarcus-686217/original.318b3a6172.webp" width="400" alt="Lightspark Social Media Promo Video with Sound Design">
+</details>
 
-*Source: @davidmarcus - [Post](https://x.com/davidmarcus/status/2103275618045686217)*
+*Source: @davidmarcus · [X post](https://x.com/davidmarcus/status/2103275618045686217)*
 
 ---
 
-### 157. 15-Second Self-Promotion Motion Graphics Video (22.2K views, 21 likes)
-*Use Case: ad | Style: 2d*
+<a id="case-157"></a>
 
-**Prompt:**
-```
+### 157. 15-Second Self-Promotion Motion Graphics Video (22.2K views, 21 likes)
+
+*Use case: ad · Style: 2d*
+
+https://github.com/user-attachments/assets/9ac4a7d2-63ea-43be-9077-43689005b907
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 create 15+ sec self-promotion promo
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/slvdev-975986/original.6498f792fd.webp" width="400" alt="15-Second Self-Promotion Motion Graphics Video">
+</details>
 
-*Source: @slvDev - [Post](https://x.com/slvDev/status/2103569170075975986)*
+*Source: @slvDev · [X post](https://x.com/slvDev/status/2103569170075975986)*
 
 ---
 
-### 158. 3D Printable PCB Enclosure Promo Animation (21.9K views, 367 likes)
-*Use Case: ad | Style: 3d*
+<a id="case-158"></a>
 
-**Prompt:**
-```
-Claude Opus 5.5 continues to amaze me. Claude Opus 5.5 created a 3D printable enclosure for an existing PCB.  Then it created this promo video for it. 
+### 158. 3D Printable PCB Enclosure Promo Animation (21.9K views, 367 likes)
+
+*Use case: ad · Style: 3d*
+
+https://github.com/user-attachments/assets/b586572a-b873-49e5-9e1e-e565f12f13a1
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
+Claude Opus 5.5 continues to amaze me. Claude Opus 5.5 created a 3D printable enclosure for an existing PCB.  Then it created this promo video for it.
 The PCB, the printable STLs and this animation are 100% just from prompting in Claude Code.
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/vectorcrossprod-436573/original.d72e641c0b.webp" width="400" alt="3D Printable PCB Enclosure Promo Animation">
+</details>
 
-*Source: @VectorCrossProd - [Post](https://x.com/VectorCrossProd/status/2104093497561436573)*
+*Source: @VectorCrossProd · [X post](https://x.com/VectorCrossProd/status/2104093497561436573)*
 
 ---
 
-### 159. Meta VR Glasses Promotional Video Patterns Showcase (17.6K views, 140 likes)
-*Use Case: ad | Style: 2d, 3d*
+<a id="case-159"></a>
 
-**Prompt:**
-```
+### 159. Meta VR Glasses Promotional Video Patterns Showcase (17.6K views, 140 likes)
+
+*Use case: ad · Style: 2d, 3d*
+
+https://github.com/user-attachments/assets/44152170-7ae0-4aa3-b8da-a16c5ed7d163
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 I heard you are good at making videos, so I want to know what kind of videos you can make. Please create several patterns of promotional videos for Meta VR Glasses.
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/_prompts/mouri45-575311/poster.55b393cb5a.webp" width="400" alt="Meta VR Glasses Promotional Video Patterns Showcase">
+</details>
 
-*Source: @mouri45 - [Post](https://x.com/mouri45/status/2107036053949575311)*
+*Source: @mouri45 · [X post](https://x.com/mouri45/status/2107036053949575311)*
 
 ---
 
-### 160. Claude Code Terminal Animation for Opus 5.5 Efficiency Promo (15.9K views, 168 likes)
-*Use Case: ad | Style: 2d, cartoon*
+<a id="case-160"></a>
 
-**Prompt:**
-```
-I want to try something different here. You should act as a  world-class animator and create an animation to go along with an  X post that talks about how Ultra Code and Claude Code are now  much more relevant due to the efficiency of Opus 5.5. You can use it without annihilating your usage limits 
+### 160. Claude Code Terminal Animation for Opus 5.5 Efficiency Promo (15.9K views, 168 likes)
+
+*Use case: ad · Style: 2d, cartoon*
+
+https://github.com/user-attachments/assets/44e61740-64e3-48d6-b93a-9c4977b7da00
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
+I want to try something different here. You should act as a  world-class animator and create an animation to go along with an  X post that talks about how Ultra Code and Claude Code are now  much more relevant due to the efficiency of Opus 5.5. You can use it without annihilating your usage limits
 
 the style of the video here
 /Users/danielmcateer/Downloads/jvnZ3SyyxxajVatp.mp4
@@ -4259,75 +5835,103 @@ the style of the video here
 What I had in mind was start with Claude Code in the terminal from the first attached video, with me navigating to the 'ultracode' reasoning effort, then exploding into a scene where the Claude icon characters similar to what's in the second video are shooting an action video and it's representing using Claude Code dynamic workflows editing a video.
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/daniel-mac8-306214/original.0a435a156b.webp" width="400" alt="Claude Code Terminal Animation for Opus 5.5 Efficiency Promo">
+</details>
 
-*Source: @daniel_mac8 - [Post](https://x.com/daniel_mac8/status/2103824976713306214)*
+*Source: @daniel_mac8 · [X post](https://x.com/daniel_mac8/status/2103824976713306214)*
 
 ---
 
-### 161. Ad-Style Motion Video with Remotion (Portuguese) (7.6K views, 134 likes)
-*Use Case: ad | Style: 2d*
+<a id="case-161"></a>
 
-**Prompt:**
-```
+### 161. Ad-Style Motion Video with Remotion (Portuguese) (7.6K views, 134 likes)
+
+*Use case: ad · Style: 2d*
+
+https://github.com/user-attachments/assets/99411b1d-d8fd-4035-828e-6de8a1d95882
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 TÁ BIZARRO ESSE OPUS 5.5 😲
 
-Eu nem acreditei no resultado. Foi feito com one prompt shot, usando apenas remotion... 
+Eu nem acreditei no resultado. Foi feito com one prompt shot, usando apenas remotion...
 
 Agora é só jogar uma narraçãozinha e subir pros ADS kkk
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/thallisribeiro-829318/original.9cbf59b14e.webp" width="400" alt="Ad-Style Motion Video with Remotion (Portuguese)">
+</details>
 
-*Source: @thallisribeiro - [Post](https://x.com/thallisribeiro/status/2103107359727829318)*
+*Source: @thallisribeiro · [X post](https://x.com/thallisribeiro/status/2103107359727829318)*
 
 ---
 
-### 162. Product Hype Teaser with HyperFrames (7.3K views, 42 likes)
-*Use Case: ad | Style: 2d, minimal*
+<a id="case-162"></a>
 
-**Prompt:**
-```
-Using HyperFrames, make a hype teaser for the product in this post - [link]. Landscape, around 27 seconds. Match the product UI, wallpaper and copy from the post's video 
+### 162. Product Hype Teaser with HyperFrames (7.3K views, 42 likes)
+
+*Use case: ad · Style: 2d, minimal*
+
+https://github.com/user-attachments/assets/f6dcd9f5-0201-43ca-b683-8d55bb440b7e
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
+Using HyperFrames, make a hype teaser for the product in this post - [link]. Landscape, around 27 seconds. Match the product UI, wallpaper and copy from the post's video
 
 Motion should feel slow and polished - one continuous camera over one Mac desktop, no hard cuts. Camera pushes, pulls and pans run like 1.5 to 3 seconds on gentle ease-in-out curves, nothing snappy - aim for half the speed you'd default to. Add motion blur on fast moves and a light film grain finish. Use an oversized macOS cursor. No audio. All on-screen copy lowercase like the post.
 
 1. Open on a big centered line - "in the AI era, the hard part is" - entering word by word from the right with an orange colorama text wipe over it (the `colorama-wipe` registry component). Hold it about a second, then scale it down into place above a spinning list.
 2. The list rotates through 30 hard things about working in the AI era - spending tokens wisely, picking the right model, managing context windows, etc - each with a real app icon. Go fast, it's not meant to be read, then land slowly on "managing your desktop". 0.2s after it lands a question mark pops on after it.
-3. Pull the camera back to reveal the Mac desktop as windows pile in on top of each other, arriving from behind the camera - Claude, ChatGPT, Grok, Linear, Chrome, Spotify, Slack and Claude Code in a terminal. Build these as accurate recreations of the real apps with real icons. 
+3. Pull the camera back to reveal the Mac desktop as windows pile in on top of each other, arriving from behind the camera - Claude, ChatGPT, Grok, Linear, Chrome, Spotify, Slack and Claude Code in a terminal. Build these as accurate recreations of the real apps with real icons.
 4. Push back in so the windows fly past the camera, back to text - "don't make your browser / one of them".
-5. Pan up to a really tight framing of just the notch and the top of the wallpaper. A cursor comes up and hovers - the notch morphs into a pill with the name "NotchBrowser", then opens into the browser panel exactly like in the video. 
+5. Pan up to a really tight framing of just the notch and the top of the wallpaper. A cursor comes up and hovers - the notch morphs into a pill with the name "NotchBrowser", then opens into the browser panel exactly like in the video.
 6. Click through the tabs like the video does, then click the collapse chevron so the panel retracts into the notch.
 7. End on a checklist of the post's claims with rings and ticks drawing on
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/jake11moran-414633/original.7f1e44af8c.webp" width="400" alt="Product Hype Teaser with HyperFrames">
+</details>
 
-*Source: @jake11moran - [Post](https://x.com/jake11moran/status/2103237884564414633)*
+*Source: @jake11moran · [X post](https://x.com/jake11moran/status/2103237884564414633)*
 
 ---
 
-### 163. 30-Second Website Promo with Music (Chinese) (6.1K views, 24 likes)
-*Use Case: ad | Style: 2d, minimal*
+<a id="case-163"></a>
 
-**Prompt:**
-```
+### 163. 30-Second Website Promo with Music (Chinese) (6.1K views, 24 likes)
+
+*Use case: ad · Style: 2d, minimal*
+
+https://github.com/user-attachments/assets/b4b3d0c2-b05c-47c2-8e79-6663e516b78a
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 为 https://t.co/MpUyPSxZVk 制作一支 30 秒的网站宣传片，并完成配乐。
 
 你可以读取当前 Mac mini 上的代码和素材，也可以使用浏览器访问 https://t.co/fOQQgAhran。从代码和真实网站自行寻找品牌
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/_prompts/aiwarts-815008/poster.e0a115dc1a.webp" width="400" alt="30-Second Website Promo with Music (Chinese)">
+</details>
 
-*Source: @aiwarts - [Post](https://x.com/aiwarts/status/2103419813263815008)*
+*Source: @aiwarts · [X post](https://x.com/aiwarts/status/2103419813263815008)*
 
 ---
 
-### 164. Product Ad Video with Remotion and Gemini TTS (Japanese) (5.9K views, 13 likes)
-*Use Case: ad | Style: 2d*
+<a id="case-164"></a>
 
-**Prompt:**
-```
+### 164. Product Ad Video with Remotion and Gemini TTS (Japanese) (5.9K views, 13 likes)
+
+*Use case: ad · Style: 2d*
+
+https://github.com/user-attachments/assets/6bd48494-ba9f-42a1-8e65-a109cd8ad1c5
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 opus5.5 + Remotion + Gemini3.8 TTS
 たったの1時間でうちのプロダクトの広告動画2本できた・・・
 
@@ -4335,17 +5939,24 @@ opus5.5 + Remotion + Gemini3.8 TTS
 外注したら10万円以上かかってたと思う
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/inoue-aix-234322/original.5ea84fe5ab.webp" width="400" alt="Product Ad Video with Remotion and Gemini TTS (Japanese)">
+</details>
 
-*Source: @inoue_aix - [Post](https://x.com/inoue_aix/status/2104155161883234322)*
+*Source: @inoue_aix · [X post](https://x.com/inoue_aix/status/2104155161883234322)*
 
 ---
 
-### 165. Vox-Style Vibe Video from PDF Assets (Arabic) (5.8K views, 44 likes)
-*Use Case: ad | Style: 2d*
+<a id="case-165"></a>
 
-**Prompt:**
-```
+### 165. Vox-Style Vibe Video from PDF Assets (Arabic) (5.8K views, 44 likes)
+
+*Use case: ad · Style: 2d*
+
+https://github.com/user-attachments/assets/18a6430e-1570-463d-a047-04cf4d066df0
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 جربت Motion بـ Claude Opus 5.5
 Headless chrome
 Canvas API (Assets Generation/ Paper textures)
@@ -4357,17 +5968,24 @@ Vox-vibe video
 وعطيته ملفات PDFs وصور
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/_prompts/x7mdnet-157811/poster.4b4908f22b.webp" width="400" alt="Vox-Style Vibe Video from PDF Assets (Arabic)">
+</details>
 
-*Source: @X7mdNet - [Post](https://x.com/X7mdNet/status/2105177788043157811)*
+*Source: @X7mdNet · [X post](https://x.com/X7mdNet/status/2105177788043157811)*
 
 ---
 
-### 166. FuturePost Extension Motion Showreel with Remotion (5.1K views, 215 likes)
-*Use Case: ad | Style: 2d, minimal*
+<a id="case-166"></a>
 
-**Prompt:**
-```
+### 166. FuturePost Extension Motion Showreel with Remotion (5.1K views, 215 likes)
+
+*Use case: ad · Style: 2d, minimal*
+
+https://github.com/user-attachments/assets/0b24fbf9-caeb-4922-b3b8-159be6ca47f1
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 Motion Designers are cooked
 
 Made this with the new @claudeai Opus 5.5 + @Remotion in a few minutes 🤯
@@ -4375,17 +5993,24 @@ Made this with the new @claudeai Opus 5.5 + @Remotion in a few minutes 🤯
 Showcasing my @futurepost extension
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/allodev-069765/original.53f24506e9.webp" width="400" alt="FuturePost Extension Motion Showreel with Remotion">
+</details>
 
-*Source: @allodev - [Post](https://x.com/allodev/status/2105414480910069765)*
+*Source: @allodev · [X post](https://x.com/allodev/status/2105414480910069765)*
 
 ---
 
-### 167. Product Launch Story Video with Tagline and Music (4.7K views, 44 likes)
-*Use Case: ad | Style: photo-based, 2d*
+<a id="case-167"></a>
 
-**Prompt:**
-```
+### 167. Product Launch Story Video with Tagline and Music (4.7K views, 44 likes)
+
+*Use case: ad · Style: photo-based, 2d*
+
+https://github.com/user-attachments/assets/fb79b6a0-645c-4901-9495-d968a6f6d75e
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 <inputs>
 Ask me for: my product's name (one lowercase word), a 4-word tagline, the 3-step story of what it does, a launch date and domain, a royalty-free song with a clear drop, 4 vertical talking-to-camera clips and 12 portrait photos. If I skip any, use the defaults: "castr", "ugc ads, cast by ai", write a brief → scan 1,000 creators → cast 4, Mixkit "Cat Walk" (129.6 BPM, drop at 29.7s), free Pexels clips and portraits, and transparent stickers from Pixabay (serum, mic, megaphone, vintage camera, spotlight, lips).
 </inputs>
@@ -4426,17 +6051,24 @@ Ask me for the inputs, then show me the beat map and 6 stills (open, box, brief,
 </start>
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/_prompts/twoclipping-551116/poster.00b0fd629c.webp" width="400" alt="Product Launch Story Video with Tagline and Music">
+</details>
 
-*Source: @twoclipping - [Post](https://x.com/twoclipping/status/2106101258834551116)*
+*Source: @twoclipping · [X post](https://x.com/twoclipping/status/2106101258834551116)*
 
 ---
 
-### 168. Technical Stack Showcase with Remotion and Python Audio (Chinese) (4.5K views, 26 likes)
-*Use Case: ad | Style: 2d*
+<a id="case-168"></a>
 
-**Prompt:**
-```
+### 168. Technical Stack Showcase with Remotion and Python Audio (Chinese) (4.5K views, 26 likes)
+
+*Use case: ad · Style: 2d*
+
+https://github.com/user-attachments/assets/1ad0c3d9-52e7-4931-8b63-14f7985d3480
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 所有技术栈也都让 opus5.5 自己列出来！
 
 Remotion 负责画面，Python 负责配乐，最后由 Remotion 调 ffmpeg 合成成片。
@@ -4445,17 +6077,24 @@ Remotion 负责画面，Python 负责配乐，最后由 Remotion 调 ffmpeg 合�
 影片工程是 Remotion 4.0.528，这是一个用 React
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/_prompts/aiwarts-428866/poster.20717a53d6.webp" width="400" alt="Technical Stack Showcase with Remotion and Python Audio (Chinese)">
+</details>
 
-*Source: @aiwarts - [Post](https://x.com/aiwarts/status/2103419817034428866)*
+*Source: @aiwarts · [X post](https://x.com/aiwarts/status/2103419817034428866)*
 
 ---
 
-### 169. Product Demo Video with UI Moments and Real Clips (4.3K views, 23 likes)
-*Use Case: ad | Style: 2d, minimal*
+<a id="case-169"></a>
 
-**Prompt:**
-```
+### 169. Product Demo Video with UI Moments and Real Clips (4.3K views, 23 likes)
+
+*Use case: ad · Style: 2d, minimal*
+
+https://github.com/user-attachments/assets/66caee30-4e14-4152-b27f-61b90a74ad74
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 <inputs>
 Ask me for: the product name and a one-line promise, 3 to 5 UI moments to show, one accent color, 10 to 20 real vertical clips I own, and a royalty-free song with a clear drop (e.g. Mixkit, free for commercial use).
 </inputs>
@@ -4474,7 +6113,7 @@ Then one move per bar: a wall of real clips with a scan line and 3 winners, the 
 </structure>
 
 <build>
-1. One HTML file at 1920x1080. Every style is computed from time inside 
+1. One HTML file at 1920x1080. Every style is computed from time inside
 http://
 window.seek(t): no CSS animations, no timers, no state between frames.
 2. Real video: extract clips to 30fps JPEG sequences with ffmpeg and swap img sources per frame. seek awaits the image decodes.
@@ -4493,17 +6132,24 @@ Ask me for the inputs, then show me a storyboard with every timing on the beat g
 </start>
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/raphaelaubryy-687877/original.0b55ce6d62.webp" width="400" alt="Product Demo Video with UI Moments and Real Clips">
+</details>
 
-*Source: @RaphaelAubryy - [Post](https://x.com/RaphaelAubryy/status/2103413596822687877)*
+*Source: @RaphaelAubryy · [X post](https://x.com/RaphaelAubryy/status/2103413596822687877)*
 
 ---
 
-### 170. Vertical Video from LP with WebGL Hair Physics (Japanese) (4.0K views, 44 likes)
-*Use Case: ad | Style: photo-based, 2d*
+<a id="case-170"></a>
 
-**Prompt:**
-```
+### 170. Vertical Video from LP with WebGL Hair Physics (Japanese) (4.0K views, 44 likes)
+
+*Use case: ad · Style: photo-based, 2d*
+
+https://github.com/user-attachments/assets/eacf279b-69fd-4fbe-8b80-725cebe0ca08
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 1. LPを9つの場面に分解して縦型動画の構成に。コピーは一字一句そのままWebフォントで組み直し、ロゴはSVGで描き直し。
 
 2. 元画像の人物写真は150px前後で、拡大すると崩れる → 高解像度に再生成 Codex呼び出し
@@ -4511,17 +6157,24 @@ Ask me for the inputs, then show me a storyboard with every timing on the beat g
 3. 動きはHTML/CSS/JavaScript（髪の揺れはWebGL）で書いて、ブラウザで1フレームずつ撮影して60fpsに。動画編集ソフトは不使用。BGMはLyria 3 Pro。
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/_prompts/ponzponz15-145882/poster.e99a2dc7d0.webp" width="400" alt="Vertical Video from LP with WebGL Hair Physics (Japanese)">
+</details>
 
-*Source: @ponzponz15 - [Post](https://x.com/ponzponz15/status/2106307182019145882)*
+*Source: @ponzponz15 · [X post](https://x.com/ponzponz15/status/2106307182019145882)*
 
 ---
 
-### 171. Typing Game 30-Second CM Style Video (Japanese) (3.9K views, 48 likes)
-*Use Case: ad | Style: 2d, 3d*
+<a id="case-171"></a>
 
-**Prompt:**
-```
+### 171. Typing Game 30-Second CM Style Video (Japanese) (3.9K views, 48 likes)
+
+*Use case: ad · Style: 2d, 3d*
+
+https://github.com/user-attachments/assets/f731963f-34f1-4ffd-830f-e85b29cf5f35
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 ①remotion + three.jsを使って 30秒のCM風の動画を作りたいので構成を考えてください。〇〇（自分が作りたいイメージを書いた方がいいです！今回は”ただ打つだけのつまらないタイピングゲームから楽しく練習ができるタイピングゲームであることを伝えるものにしたいです”と大体で指示しました）
 
 ②技術を深掘りして調べてどんなものが作れるかや使えそうなskillsを調べて欲しいです。構成については再度考えて細かく考えて欲しいです。
@@ -4529,45 +6182,66 @@ Ask me for the inputs, then show me a storyboard with every timing on the beat g
 ③考えたのを元にして実際に動画を作成してください
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/_prompts/typingmusou-160705/poster.827d3ed465.webp" width="400" alt="Typing Game 30-Second CM Style Video (Japanese)">
+</details>
 
-*Source: @Typingmusou - [Post](https://x.com/Typingmusou/status/2103452241848160705)*
+*Source: @Typingmusou · [X post](https://x.com/Typingmusou/status/2103452241848160705)*
 
 ---
 
-### 172. Opus 5.5 Ad Inspired by Apple 1984 Commercial (3.3K views, 53 likes)
-*Use Case: ad | Style: 2d, minimal*
+<a id="case-172"></a>
 
-**Prompt:**
-```
+### 172. Opus 5.5 Ad Inspired by Apple 1984 Commercial (3.3K views, 53 likes)
+
+*Use case: ad · Style: 2d, minimal*
+
+https://github.com/user-attachments/assets/dce95fce-0a07-40ff-9074-c6c21cfdb000
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 create a 30 second ad for Opus 5.5 inspired by Apple 1984 ad, iykyk! avoid the border text or frames!
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/1littlecoder-378066/original.bbf4b625ee.webp" width="400" alt="Opus 5.5 Ad Inspired by Apple 1984 Commercial">
+</details>
 
-*Source: @1littlecoder - [Post](https://x.com/1littlecoder/status/2103746736980378066)*
+*Source: @1littlecoder · [X post](https://x.com/1littlecoder/status/2103746736980378066)*
 
 ---
 
-### 173. Instagram Ad for Liinks with Motion Graphics (2.6K views, 39 likes)
-*Use Case: ad | Style: 2d, minimal*
+<a id="case-173"></a>
 
-**Prompt:**
-```
+### 173. Instagram Ad for Liinks with Motion Graphics (2.6K views, 39 likes)
+
+*Use case: ad · Style: 2d, minimal*
+
+https://github.com/user-attachments/assets/df26239d-1529-4365-b2ad-9a60b6e454c8
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 make a cool instagram ad for liinks
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/charliie-334026/original.2e82ef7d21.webp" width="400" alt="Instagram Ad for Liinks with Motion Graphics">
+</details>
 
-*Source: @charliie - [Post](https://x.com/charliie/status/2103514073476334026)*
+*Source: @charliie · [X post](https://x.com/charliie/status/2103514073476334026)*
 
 ---
 
-### 174. Nafa Marketing Remotion Launch Video (1.8K views, 45 likes)
-*Use Case: ad | Style: 2d, minimal*
+<a id="case-174"></a>
 
-**Prompt:**
-```
+### 174. Nafa Marketing Remotion Launch Video (1.8K views, 45 likes)
+
+*Use case: ad · Style: 2d, minimal*
+
+https://github.com/user-attachments/assets/c0b13df8-bb1d-4a7b-9ecc-e11fedacb1e6
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 Claude Opus 5.5 🤝 Remotion = 🔥
 
 all of Nafa's marketing runs through Claude now.
@@ -4575,31 +6249,45 @@ all of Nafa's marketing runs through Claude now.
 we gave it our taste. one person one repo
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/saadpastadev-347341/original.9fa4ff440e.webp" width="400" alt="Nafa Marketing Remotion Launch Video">
+</details>
 
-*Source: @SaadPastaDev - [Post](https://x.com/SaadPastaDev/status/2107741413769347341)*
+*Source: @SaadPastaDev · [X post](https://x.com/SaadPastaDev/status/2107741413769347341)*
 
 ---
 
-### 175. 15-Second Referral Program Motion Graphics Video (1.7K views, 15 likes)
-*Use Case: ad | Style: 2d, minimal*
+<a id="case-175"></a>
 
-**Prompt:**
-```
+### 175. 15-Second Referral Program Motion Graphics Video (1.7K views, 15 likes)
+
+*Use case: ad · Style: 2d, minimal*
+
+https://github.com/user-attachments/assets/229013bc-4b64-4358-8bb3-def46ff34f0f
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 make a dynamic 15-second motion graphics video to talk about our referral program
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/_prompts/paulo-kombucha-283883/poster.2e31bd3a93.webp" width="400" alt="15-Second Referral Program Motion Graphics Video">
+</details>
 
-*Source: @paulo_kombucha - [Post](https://x.com/paulo_kombucha/status/2104481235028283883)*
+*Source: @paulo_kombucha · [X post](https://x.com/paulo_kombucha/status/2104481235028283883)*
 
 ---
 
-### 176. Sprites AI Product Promo with Morphing Shape Animation (1.6K views, 12 likes)
-*Use Case: ad | Style: 2d, minimal*
+<a id="case-176"></a>
 
-**Prompt:**
-```
+### 176. Sprites AI Product Promo with Morphing Shape Animation (1.6K views, 12 likes)
+
+*Use case: ad · Style: 2d, minimal*
+
+https://github.com/user-attachments/assets/db4211d6-be31-42e0-b482-f38842fb7a57
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 Analyze http://sprites.ai and build a product promo from our own UI, not generic components.
 
 <direction>
@@ -4629,17 +6317,24 @@ No will-change on anything the camera scales. Swapped text needs its own enter/e
 Show me the state list on the beat grid before writing any code.
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/annacher-433425/original.89dc11ee96.webp" width="400" alt="Sprites AI Product Promo with Morphing Shape Animation">
+</details>
 
-*Source: @AnnaCher___ - [Post](https://x.com/AnnaCher___/status/2103571096549433425)*
+*Source: @AnnaCher___ · [X post](https://x.com/AnnaCher___/status/2103571096549433425)*
 
 ---
 
-### 177. OBLT E-Bike Cinematic Product Header with X-Ray Cursor (1.5K views, 16 likes)
-*Use Case: ad | Style: photo-based, 2d*
+<a id="case-177"></a>
 
-**Prompt:**
-```
+### 177. OBLT E-Bike Cinematic Product Header with X-Ray Cursor (1.5K views, 16 likes)
+
+*Use case: ad · Style: photo-based, 2d*
+
+https://github.com/user-attachments/assets/f2538d9c-df57-470b-9c1a-e51dcaa83e23
+
+<details>
+<summary>Prompt · original</summary>
+
+````text
 # OBLT E-bike Header
 
 A full-viewport, dark, cinematic e-bike product header for the brand **OBLT**, built in React (client component) with pure CSS and an interactive cursor-following "x-ray" spotlight reveal — moving the mouse wipes away the bike's exterior photo to expose its internal carbon/gearbox structure underneath. Built with React only (no animation libraries).
@@ -4763,19 +6458,26 @@ OBLT — Ready For The Ride
 - If no project exists, create a minimal React + Tailwind app; if one exists, use it as-is — don't re-scaffold or change the Tailwind/build config or version.
 - Keep it self-contained: scope its fonts and any resets to this section; never set global `body`/`html`/`*` styles or a global font.
 - Install only the libraries this section names.
-```
+````
 
-<img src="https://media.skillry.dev/opus-5-5/iamtanzil-120030/original.31773009f1.webp" width="400" alt="OBLT E-Bike Cinematic Product Header with X-Ray Cursor">
+</details>
 
-*Source: @iamtanzil_ - [Post](https://x.com/iamtanzil_/status/2103459843831120030)*
+*Source: @iamtanzil_ · [X post](https://x.com/iamtanzil_/status/2103459843831120030)*
 
 ---
 
-### 178. Tile-Made 30-Second Ad Video Reveal with Three.js (1.5K views, 3 likes)
-*Use Case: ad | Style: 3d, realistic*
+<a id="case-178"></a>
 
-**Prompt:**
-```
+### 178. Tile-Made 30-Second Ad Video Reveal with Three.js (1.5K views, 3 likes)
+
+*Use case: ad · Style: 3d, realistic*
+
+https://github.com/user-attachments/assets/897ad638-2191-46b8-9fc7-645aee9453ca
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 添付の画像を「最後の画面」にして、全部タイルでできた30秒の広告動画（音つき・mp4）を作ってください。
 ブラウザ（Three.js）で組み、Chromeで全コマを書き出し、ffmpegでmp4にします。
 
@@ -4826,17 +6528,24 @@ OBLT — Ready For The Ride
 - ボタンの文言: [例：無料体験はこちら]
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/_prompts/tanabe-fragm-322001/poster.cfd51c9fe1.webp" width="400" alt="Tile-Made 30-Second Ad Video Reveal with Three.js">
+</details>
 
-*Source: @tanabe_fragm - [Post](https://x.com/tanabe_fragm/status/2107644501372322001)*
+*Source: @tanabe_fragm · [X post](https://x.com/tanabe_fragm/status/2107644501372322001)*
 
 ---
 
-### 179. Flora Product Ad Video with Playwright and FFmpeg (1.3K views, 8 likes)
-*Use Case: ad | Style: 2d, minimal*
+<a id="case-179"></a>
 
-**Prompt:**
-```
+### 179. Flora Product Ad Video with Playwright and FFmpeg (1.3K views, 8 likes)
+
+*Use case: ad · Style: 2d, minimal*
+
+https://github.com/user-attachments/assets/b605dbe8-6518-4ad2-b899-14f200c69897
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 Dentro da pasta do flora tem uma outra pasta chamada "ads" com videos e prints do Flora(Caso queira usar como referencia).
 
 Use apenas: JavaScript, Playwright e FFmpeg. Faça um vídeo moderno, elegante e impactante para meu produto.
@@ -4844,51 +6553,129 @@ Use apenas: JavaScript, Playwright e FFmpeg. Faça um vídeo moderno, elegante e
 https://apps.apple.com/pt/app/flora-calend%C3%A1rio-menstrual/id6789702093
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/andre-lucaxxs-846347/original.410e4cf9ce.webp" width="400" alt="Flora Product Ad Video with Playwright and FFmpeg">
+</details>
 
-*Source: @andre_lucaxxs - [Post](https://x.com/andre_lucaxxs/status/2103292636945846347)*
+*Source: @andre_lucaxxs · [X post](https://x.com/andre_lucaxxs/status/2103292636945846347)*
 
 ---
 
-### 180. Motion Design Ad Creation and Application (1.3K views, 4 likes)
-*Use Case: ad | Style: 2d, minimal*
+<a id="case-180"></a>
 
-**Prompt:**
-```
+### 180. Motion Design Ad Creation and Application (1.3K views, 4 likes)
+
+*Use case: ad · Style: 2d, minimal*
+
+https://github.com/user-attachments/assets/a1ae33e9-5d08-49f4-9947-484ee0cdfb41
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 create a motion design prompt for an ad for our site
 
 Prompt 2: now apply it
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/l3d1c-752011/original.5d4b16e894.webp" width="400" alt="Motion Design Ad Creation and Application">
+</details>
 
-*Source: @l3d1c - [Post](https://x.com/l3d1c/status/2103536553930752011)*
+*Source: @l3d1c · [X post](https://x.com/l3d1c/status/2103536553930752011)*
 
 ---
 
-### 181. AgentaOS One-Shot Remotion Promo Video (1.2K views, 4 likes)
-*Use Case: ad | Style: 2d, minimal*
+<a id="case-181"></a>
 
-**Prompt:**
-```
+### 181. AgentaOS One-Shot Remotion Promo Video (1.2K views, 4 likes)
+
+*Use case: ad · Style: 2d, minimal*
+
+https://github.com/user-attachments/assets/3bd45339-75b8-4873-96ba-461f102754bd
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 I just one-shotted this video with Opus 5.5 and @Remotion for the new @agentaOS promo.
 
 Unbelievable what you can do these days.
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/pisajeski-168993/original.1c8beeff06.webp" width="400" alt="AgentaOS One-Shot Remotion Promo Video">
+</details>
 
-*Source: @PIsajeski - [Post](https://x.com/PIsajeski/status/2104124855302168993)*
+*Source: @PIsajeski · [X post](https://x.com/PIsajeski/status/2104124855302168993)*
 
 ---
 
+<a id="case-283"></a>
+
+### 283. Fast-Paced Claude Ad with Printmaking-Inspired Visuals
+
+*Use case: ad · Style: 2d, photo-based*
+
+https://github.com/user-attachments/assets/b5348181-1353-4e23-a6b3-381f5f100048
+
+<details>
+<summary>Prompt · English translation</summary>
+
+```text
+Create a fast-paced ad for Claude, about 10–15 seconds and preferably close to 15. A reference video is attached.
+
+Research:
+Study Claude's past branding first. Find all the photos and assets the creative direction needs, whether artistic, editorial, or otherwise.
+
+Design and direction:
+Reinterpret it boldly with a bright style. Keep the visuals clean and polished. No beige art-school styling or small labels above headings. Overlay drawn elements on images. Above all, make it fast and creative.
+
+Rules:
+Avoid low-quality output. Closely study the reference video's fluidity, timing, shot lengths, typography, and elements. You may borrow inspiration and techniques, but change the overall design to express your own creative taste. Every morph must be polished.
+
+Things to try:
+Clean and varied Claude SVG animations; images alternating between large and small sizes or appearing together; typography morphs; clean 3D animation; camera zooms.
+
+Additional notes:
+You may spend more than ten hours refining it. Deliver the final video and end with the Claude logo.
+```
+
+</details>
+
+<details>
+<summary>Prompt · Chinese version from Feishu</summary>
+
+```text
+为Claude制作一支快节奏广告，约10–15秒，尽量接近15秒。参考视频已附。
+【调研】
+先研究Claude过去的品牌设计。寻找符合创意需求的全部照片与素材，无论是艺术类、编辑类还是其他需要的材料。
+【设计与方向】
+大胆重新演绎，使用明亮风格。画面干净、完善；不要米色“文艺风”，不要标题上方的小标签。在图片上叠加绘制元素。最重要的是节奏快、有创意。
+【规则】
+避免粗制滥造。仔细研究参考片的流畅度、时点、镜头长度、字体和元素。可以借鉴灵感和技法，但整体设计必须改变，呈现出你独立创作的审美。每一次形变都必须完善。
+【可尝试的元素】
+干净且多样的Claude SVG动画；图片时大时小，或多张同时出现；文字形变；干净的3D动画；镜头缩放。
+【补充说明】
+可以花10小时以上打磨。交付最终视频，以Claude Logo结束。
+```
+
+</details>
+
+*Source: [Feishu collection](https://aiwarts101.feishu.cn/wiki/LMEcwg5jHiTSnqkwNE1cum7DnLb) · [Feishu PM02](https://aiwarts101.feishu.cn/wiki/LMEcwg5jHiTSnqkwNE1cum7DnLb)*
+
+---
+
+<a id="category-6"></a>
+
 ## 6. Fun & Creative Experiments
 
-### 182. Pixel Art Wizard Spell Casting Animation with Chiptune Music (459.3K views, 2,576 likes)
-*Use Case: fun | Style: pixel-art, hand-drawn*
+<a id="case-182"></a>
 
-**Prompt:**
-```
+### 182. Pixel Art Wizard Spell Casting Animation with Chiptune Music (459.3K views, 2,576 likes)
+
+*Use case: fun · Style: pixel-art, hand-drawn*
+
+https://github.com/user-attachments/assets/8929a157-6a47-4a60-a367-4e775829b341
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 Create a single self-contained HTML file that renders an animated pixel art wizard casting a spell, using vanilla JavaScript and Canvas 2D. No external assets, libraries, or network requests.
 
 RENDERING
@@ -4913,31 +6700,45 @@ QUALITY BAR
 - Crisp pixels at any window size, seamless loop, stable 60fps, readable silhouette. Should look like a polished 16-bit sprite animation, not vector shapes scaled down.
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/majidmanzarpour-927543/original.f5bc33c897.webp" width="400" alt="Pixel Art Wizard Spell Casting Animation with Chiptune Music">
+</details>
 
-*Source: @majidmanzarpour - [Post](https://x.com/majidmanzarpour/status/2102476258948927543)*
+*Source: @majidmanzarpour · [X post](https://x.com/majidmanzarpour/status/2102476258948927543)*
 
 ---
 
-### 183. 16-Bit Pixel Art Character Animation with Chiptune Soundtrack (96.6K views, 570 likes)
-*Use Case: fun | Style: pixel-art, hand-drawn*
+<a id="case-183"></a>
 
-**Prompt:**
-```
+### 183. 16-Bit Pixel Art Character Animation with Chiptune Soundtrack (96.6K views, 570 likes)
+
+*Use case: fun · Style: pixel-art, hand-drawn*
+
+https://github.com/user-attachments/assets/913384bc-a2c4-4aef-9da9-2f0791915d66
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 <role>   You are a pixel animator and game feel designer who also writes chiptune music. What you create with code should look like hand-drawn character animation from a top-tier 16-bit era studio, not scaled-down vector graphics.   </role> <inputs>   The following are defaults, start working directly without asking me:   - Title: "The 99th Spell"   - Resolution: 1920×1080, 60fps, duration exactly 16 seconds</inputs>
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/_prompts/gkxspace-923139/poster.36dd7565cc.webp" width="400" alt="16-Bit Pixel Art Character Animation with Chiptune Soundtrack">
+</details>
 
-*Source: @gkxspace - [Post](https://x.com/gkxspace/status/2105260627937923139)*
+*Source: @gkxspace · [X post](https://x.com/gkxspace/status/2105260627937923139)*
 
 ---
 
-### 184. Immersive Wow-Factor Creative Visual Experience (85.3K views, 1,116 likes)
-*Use Case: fun | Style: abstract*
+<a id="case-184"></a>
 
-**Prompt:**
-```
+### 184. Immersive Wow-Factor Creative Visual Experience (85.3K views, 1,116 likes)
+
+*Use case: fun · Style: abstract*
+
+https://github.com/user-attachments/assets/14572dbc-7911-4cf2-a646-a89a09f2ad7f
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 Build me something when people see it, they will say "Wow". Must be immersive, when people see it, they will be stunned by what they see.
 
 This can be a video, or anything else you can think of.
@@ -4949,17 +6750,24 @@ No AI slop. Something unique, think outside of the box. Think big. Think amazing
 Be proud. Show your best. Don't disappoint.
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/miaai-lab-774895/original.fad5a90e2f.webp" width="400" alt="Immersive Wow-Factor Creative Visual Experience">
+</details>
 
-*Source: @MiaAI_lab - [Post](https://x.com/MiaAI_lab/status/2103837519615774895)*
+*Source: @MiaAI_lab · [X post](https://x.com/MiaAI_lab/status/2103837519615774895)*
 
 ---
 
-### 185. Cozy Metal Detector Game with Sunset Atmosphere (81.5K views, 1,158 likes)
-*Use Case: fun | Style: 2d, cartoon*
+<a id="case-185"></a>
 
-**Prompt:**
-```
+### 185. Cozy Metal Detector Game with Sunset Atmosphere (81.5K views, 1,158 likes)
+
+*Use case: fun · Style: 2d, cartoon*
+
+https://github.com/user-attachments/assets/44934415-5b9c-406a-8f1c-87d2a086d11d
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 vibe coding a cozy metal detector game
 
 a few prompts in with opus 5.5
@@ -4967,88 +6775,140 @@ a few prompts in with opus 5.5
 loving the sunset 😌
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/zacxbt-234711/original.da4665e468.webp" width="400" alt="Cozy Metal Detector Game with Sunset Atmosphere">
+</details>
 
-*Source: @zacxbt - [Post](https://x.com/zacxbt/status/2103789882309234711)*
+*Source: @zacxbt · [X post](https://x.com/zacxbt/status/2103789882309234711)*
 
 ---
 
-### 186. Bangkok Flood Jet Ski Game with Drain Clearing Gameplay (57.0K views, 23 likes)
-*Use Case: fun | Style: 2d, cartoon*
+<a id="case-186"></a>
 
-**Prompt:**
-```
+### 186. Bangkok Flood Jet Ski Game with Drain Clearing Gameplay (57.0K views, 23 likes)
+
+*Use case: fun · Style: 2d, cartoon*
+
+https://github.com/user-attachments/assets/1791ead2-cff9-412a-899f-62eee90ad823
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 Ladprao Jet ski game based on the Bangkok floods. Clear the drains and fight the crocs. Made with Opus 5.5 . https://ladprao-flood-ski.vercel.app/
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/vibechine-465008/original.f7e50d1d5c.webp" width="400" alt="Bangkok Flood Jet Ski Game with Drain Clearing Gameplay">
+</details>
 
-*Source: @vibechine - [Post](https://x.com/vibechine/status/2103966021451465008)*
+*Source: @vibechine · [X post](https://x.com/vibechine/status/2103966021451465008)*
 
 ---
 
-### 187. Go All Out Creative Motion Graphics Showcase (54.1K views, 82 likes)
-*Use Case: fun | Style: abstract*
+<a id="case-187"></a>
 
-**Prompt:**
-```
+### 187. Go All Out Creative Motion Graphics Showcase (54.1K views, 82 likes)
+
+*Use case: fun · Style: abstract*
+
+https://github.com/user-attachments/assets/746b4053-d943-4533-9e2f-4ba60706dd58
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 Go all out.
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/sudo-kiran-696074/original.201cd5baa9.webp" width="400" alt="Go All Out Creative Motion Graphics Showcase">
+</details>
 
-*Source: @sudo_kiran - [Post](https://x.com/sudo_kiran/status/2103463886372696074)*
+*Source: @sudo_kiran · [X post](https://x.com/sudo_kiran/status/2103463886372696074)*
 
 ---
 
-### 188. Intricate Pelican Riding Bicycle Animation Showcase (11.6K views, 72 likes)
-*Use Case: fun | Style: 2d*
+<a id="case-188"></a>
 
-**Prompt:**
-```
+### 188. Intricate Pelican Riding Bicycle Animation Showcase (11.6K views, 72 likes)
+
+*Use case: fun · Style: 2d*
+
+https://github.com/user-attachments/assets/cfbced49-cbaa-4dd3-b80e-1bc25c46f2d3
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 每次一个新的模型出来呢，大家都让它去画 “鹈鹕骑自行车” 来判断这个模型的空间能力，基本上都是用 HTML、SVG 来画动画。当我实在看得都有审美疲劳了，我希望你能画一个最复杂、最精细、最精美的 “鹈鹕骑自行车”的动画视频，你可以用任何的技术，不用着急，画一天都可以。
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/axtonliu-290566/original.421b336345.webp" width="400" alt="Intricate Pelican Riding Bicycle Animation Showcase">
+</details>
 
-*Source: @AxtonLiu - [Post](https://x.com/AxtonLiu/status/2103119648271290566)*
+*Source: @AxtonLiu · [X post](https://x.com/AxtonLiu/status/2103119648271290566)*
 
 ---
 
-### 189. Rock Skipping Physics Simulation in Three.js (10.1K views, 30 likes)
-*Use Case: fun | Style: 3d*
+<a id="case-189"></a>
 
-**Prompt:**
-```
+### 189. Rock Skipping Physics Simulation in Three.js (10.1K views, 30 likes)
+
+*Use case: fun · Style: 3d*
+
+https://github.com/user-attachments/assets/e0a35061-dd37-4416-813f-f799e77fbb10
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 Rock skipping game made with Three.js and Opus 5.5.
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/llama3dstudio-012980/original.226d375df7.webp" width="400" alt="Rock Skipping Physics Simulation in Three.js">
+</details>
 
-*Source: @llama3dstudio - [Post](https://x.com/llama3dstudio/status/2104115092124012980)*
+*Source: @llama3dstudio · [X post](https://x.com/llama3dstudio/status/2104115092124012980)*
 
 ---
 
-### 190. 3D Ball Drop Rhythm Music Synced Animation (9.4K views, 68 likes)
-*Use Case: fun | Style: 3d, particle*
+<a id="case-190"></a>
 
-**Prompt:**
-```
+### 190. 3D Ball Drop Rhythm Music Synced Animation (9.4K views, 68 likes)
+
+*Use case: fun · Style: 3d, particle*
+
+https://github.com/user-attachments/assets/01106b59-3c4b-41e7-84bd-878a27e914c1
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 卡点的3D球体下坠的动画视频：对标专业的Blender做的效果，音乐是多首经典的纯音乐，场景按音乐切换，3D球体下坠时在3D场景的物件中弹跳，按音乐的节奏点亮物件。带一些幽默的元素。
 使用three.js制作，不要使用Blender制作
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/_prompts/gorden-sun-797351/poster.5c67922dd0.webp" width="400" alt="3D Ball Drop Rhythm Music Synced Animation">
+</details>
 
-*Source: @Gorden_Sun - [Post](https://x.com/Gorden_Sun/status/2105302007896797351)*
+<details>
+<summary>Prompt · Chinese version from Feishu</summary>
+
+```text
+卡点的3D球体下坠的动画视频：对标专业的Blender做的效果，音乐是多首经典的纯音乐，场景按音乐切换，3D球体下坠时在3D场景的物件中弹跳，按音乐的节奏点亮物件。带一些幽默的元素。
+使用three.js制作，不要使用Blender制作
+```
+
+</details>
+
+*Source: @Gorden_Sun · [X post](https://x.com/Gorden_Sun/status/2105302007896797351) · [Feishu N21](https://aiwarts101.feishu.cn/wiki/LMEcwg5jHiTSnqkwNE1cum7DnLb)*
 
 ---
 
-### 191. Pixel Art Wizard Spell Casting Canvas Animation (8.5K views, 85 likes)
-*Use Case: fun | Style: pixel-art, 2d*
+<a id="case-191"></a>
 
-**Prompt:**
-```
+### 191. Pixel Art Wizard Spell Casting Canvas Animation (8.5K views, 85 likes)
+
+*Use case: fun · Style: pixel-art, 2d*
+
+https://github.com/user-attachments/assets/5ba419b0-4334-429f-b5bb-1f33e8d19024
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 Create a single self-contained HTML file that renders an animated pixel art wizard casting a spell, using vanilla JavaScript and Canvas 2D. No external assets, libraries, or network requests.
 
 RENDERING
@@ -5073,45 +6933,66 @@ QUALITY BAR
 - Crisp pixels at any window size, seamless loop, stable 60fps, readable silhouette. Should look like a polished 16-bit sprite animation, not vector shapes scaled down.
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/zacxbt-944604/original.1fc21723ff.webp" width="400" alt="Pixel Art Wizard Spell Casting Canvas Animation">
+</details>
 
-*Source: @zacxbt - [Post](https://x.com/zacxbt/status/2103808699466944604)*
+*Source: @zacxbt · [X post](https://x.com/zacxbt/status/2103808699466944604)*
 
 ---
 
-### 192. Funny Random Topic Short Video (8.3K views, 71 likes)
-*Use Case: fun | Style: 2d*
+<a id="case-192"></a>
 
-**Prompt:**
-```
+### 192. Funny Random Topic Short Video (8.3K views, 71 likes)
+
+*Use case: fun · Style: 2d*
+
+https://github.com/user-attachments/assets/b6c8c780-4363-4cf9-855c-990bfaa8b524
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 make a funny video. it can be about anything. length: 10 to 30s
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/nemtudo-614053/original.efacb94951.webp" width="400" alt="Funny Random Topic Short Video">
+</details>
 
-*Source: @NemTudo_ - [Post](https://x.com/NemTudo_/status/2102973867656614053)*
+*Source: @NemTudo_ · [X post](https://x.com/NemTudo_/status/2102973867656614053)*
 
 ---
 
-### 193. 3D Pixel Art Pelican Riding Bicycle Over Bridge (5.8K views, 17 likes)
-*Use Case: fun | Style: pixel-art, 3d*
+<a id="case-193"></a>
 
-**Prompt:**
-```
+### 193. 3D Pixel Art Pelican Riding Bicycle Over Bridge (5.8K views, 17 likes)
+
+*Use case: fun · Style: pixel-art, 3d*
+
+https://github.com/user-attachments/assets/a8f06394-2f0c-43c1-8a93-a57e88b488c7
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 Make a realistic 3D pixel Art animation of a Pelican riding a Bicycle over the Bridge, beautiful city in the background.
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/_prompts/sadalbert10-856416/poster.6d798a33b7.webp" width="400" alt="3D Pixel Art Pelican Riding Bicycle Over Bridge">
+</details>
 
-*Source: @SadAlbert10 - [Post](https://x.com/SadAlbert10/status/2106789700807856416)*
+*Source: @SadAlbert10 · [X post](https://x.com/SadAlbert10/status/2106789700807856416)*
 
 ---
 
-### 194. Reflective Motion Design on Why We Make Things (5.6K views, 23 likes)
-*Use Case: fun | Style: 3d, retro*
+<a id="case-194"></a>
 
-**Prompt:**
-```
+### 194. Reflective Motion Design on Why We Make Things (5.6K views, 23 likes)
+
+*Use case: fun · Style: 3d, retro*
+
+https://github.com/user-attachments/assets/65418867-e929-4161-a09c-5f3891d4b43a
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 Everyone is sharing what Opus 5.5 can build this week, and it made us ask ourselves a different question: when making things becomes this easy, what do we actually want to make and why?
 
 Our answer was a small retro arcade, the kind we grew up hanging out in, filled with 21 games made by independent developers. Every cabinet carries the name of the person who built its game.
@@ -5121,45 +7002,66 @@ Walk in, drop a coin, and play: https://tympanus.net/Demos/InsertCoin/
 #threejs #webgl
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/codrops-340299/original.f3a89ace78.webp" width="400" alt="Reflective Motion Design on Why We Make Things">
+</details>
 
-*Source: @codrops - [Post](https://x.com/codrops/status/2104217304611340299)*
+*Source: @codrops · [X post](https://x.com/codrops/status/2104217304611340299)*
 
 ---
 
-### 195. Game Development Weekend Project Teaser (Chinese) (5.6K views, 17 likes)
-*Use Case: fun | Style: 2d*
+<a id="case-195"></a>
 
-**Prompt:**
-```
+### 195. Game Development Weekend Project Teaser (Chinese) (5.6K views, 17 likes)
+
+*Use case: fun · Style: 2d*
+
+https://github.com/user-attachments/assets/040ce43a-7531-4c4b-adef-7f7391f7bbf1
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 opus 5.5 遊戲製作，週末快點來嘗試。
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/mrblock-096062/original.95806622a9.webp" width="400" alt="Game Development Weekend Project Teaser (Chinese)">
+</details>
 
-*Source: @mrblock - [Post](https://x.com/mrblock/status/2103492984474096062)*
+*Source: @mrblock · [X post](https://x.com/mrblock/status/2103492984474096062)*
 
 ---
 
-### 196. Van Gogh Starry Night 3D Cat Spotting Game (5.6K views, 74 likes)
-*Use Case: fun | Style: 3d*
+<a id="case-196"></a>
 
-**Prompt:**
-```
+### 196. Van Gogh Starry Night 3D Cat Spotting Game (5.6K views, 74 likes)
+
+*Use case: fun · Style: 3d*
+
+https://github.com/user-attachments/assets/10af2447-b93f-4a82-b528-9fd5dcb46477
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 can you make a 3d game where you walk around and spot cats inside of a van gogh painting? we can start with stary night and its town
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/mandelduck-768972/original.4020d15134.webp" width="400" alt="Van Gogh Starry Night 3D Cat Spotting Game">
+</details>
 
-*Source: @MandelDuck - [Post](https://x.com/MandelDuck/status/2103802923465768972)*
+*Source: @MandelDuck · [X post](https://x.com/MandelDuck/status/2103802923465768972)*
 
 ---
 
-### 197. What Day Is It 30-Second Motion Graphics (Japanese) (5.2K views, 26 likes)
-*Use Case: fun | Style: 2d, kinetic-type*
+<a id="case-197"></a>
 
-**Prompt:**
-```
+### 197. What Day Is It 30-Second Motion Graphics (Japanese) (5.2K views, 26 likes)
+
+*Use case: fun · Style: 2d, kinetic-type*
+
+https://github.com/user-attachments/assets/176c23ef-4df8-41e8-932d-8fb155d52568
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 良い笑
 
 ・入れたプロンプト
@@ -5171,173 +7073,268 @@ can you make a 3d game where you walk around and spot cats inside of a van gogh 
 ・BGM：Pythonでその場で合成（外部の音源なし）
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/tankazunori0914-156748/original.00ba5c12f5.webp" width="400" alt="What Day Is It 30-Second Motion Graphics (Japanese)">
+</details>
 
-*Source: @tankazunori0914 - [Post](https://x.com/tankazunori0914/status/2105917770907156748)*
+*Source: @tankazunori0914 · [X post](https://x.com/tankazunori0914/status/2105917770907156748)*
 
 ---
 
-### 198. Poster Breaking Out of Its Frame Motion Design (4.3K views, 38 likes)
-*Use Case: fun | Style: 2d, abstract*
+<a id="case-198"></a>
 
-**Prompt:**
-```
+### 198. Poster Breaking Out of Its Frame Motion Design (4.3K views, 38 likes)
+
+*Use case: fun · Style: 2d, abstract*
+
+https://github.com/user-attachments/assets/21ba0257-dd50-43c9-b392-6e0a3f8a2b44
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 create a motion design video of a poster breaking out of its own frame.
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/pankajkumar-dev-718609/original.4dd61f6a13.webp" width="400" alt="Poster Breaking Out of Its Frame Motion Design">
+</details>
 
-*Source: @pankajkumar_dev - [Post](https://x.com/pankajkumar_dev/status/2103502614134718609)*
+<details>
+<summary>Prompt · Chinese version from Feishu</summary>
+
+```text
+制作一段展示海报突破自身画框的动效设计视频。
+```
+
+</details>
+
+*Source: @pankajkumar_dev · [X post](https://x.com/pankajkumar_dev/status/2103502614134718609) · [Feishu N10](https://aiwarts101.feishu.cn/wiki/LMEcwg5jHiTSnqkwNE1cum7DnLb)*
 
 ---
 
-### 199. 3D Voxel Capybara Hot Tub Boat River Drift (4.0K views, 13 likes)
-*Use Case: fun | Style: 3d, retro*
+<a id="case-199"></a>
 
-**Prompt:**
-```
+### 199. 3D Voxel Capybara Hot Tub Boat River Drift (4.0K views, 13 likes)
+
+*Use case: fun · Style: 3d, retro*
+
+https://github.com/user-attachments/assets/ef81a0e3-ce53-4e0c-80cf-f41b0813f8a7
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 make a 3D voxel world of a capybara in a hot tub boat drifting down a river. as good as you can
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/_prompts/filicroval-168898/poster.a6fe149772.webp" width="400" alt="3D Voxel Capybara Hot Tub Boat River Drift">
+</details>
 
-*Source: @filicroval - [Post](https://x.com/filicroval/status/2105048723768168898)*
+*Source: @filicroval · [X post](https://x.com/filicroval/status/2105048723768168898)*
 
 ---
 
-### 200. Dario vs Sam 1-Minute Abstract Fight Animation (3.8K views, 20 likes)
-*Use Case: fun | Style: abstract, 2d*
+<a id="case-200"></a>
 
-**Prompt:**
-```
+### 200. Dario vs Sam 1-Minute Abstract Fight Animation (3.8K views, 20 likes)
+
+*Use case: fun · Style: abstract, 2d*
+
+https://github.com/user-attachments/assets/406a6719-acb3-4960-88db-20606b561eb0
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 Create a 1-minute video featuring a fight between Dario and Sam. It needs plot, explosive moments, to be hilarious and sufficiently abstract, with no limits on genre or art style—do what you're best at. Must have a clear winner between the two.
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/xanderwow-a-597063/original.4ed4c9a304.webp" width="400" alt="Dario vs Sam 1-Minute Abstract Fight Animation">
+</details>
 
-*Source: @Xanderwow_A - [Post](https://x.com/Xanderwow_A/status/2103637769012597063)*
+*Source: @Xanderwow_A · [X post](https://x.com/Xanderwow_A/status/2103637769012597063)*
 
 ---
 
-### 201. Pelican SVG Looping Animation (3.4K views, 1 likes)
-*Use Case: fun | Style: 2d*
+<a id="case-201"></a>
 
-**Prompt:**
-```
+### 201. Pelican SVG Looping Animation (3.4K views, 1 likes)
+
+*Use case: fun · Style: 2d*
+
+https://github.com/user-attachments/assets/6915208d-d69f-47cc-a7bd-695416442252
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 Create a pelican looping SVG animation. Deliver it as a single self-contained file named index.html in the current directory.
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/_prompts/godsboy7777-005594/poster.88da2a2ad3.webp" width="400" alt="Pelican SVG Looping Animation">
+</details>
 
-*Source: @GodsBoy7777 - [Post](https://x.com/GodsBoy7777/status/2104179308101005594)*
+*Source: @GodsBoy7777 · [X post](https://x.com/GodsBoy7777/status/2104179308101005594)*
 
 ---
 
-### 202. Jelly Dice WebGPU Soft Body Simulation (1.5K views, 4 likes)
-*Use Case: fun | Style: 3d, realistic*
+<a id="case-202"></a>
 
-**Prompt:**
-```
+### 202. Jelly Dice WebGPU Soft Body Simulation (1.5K views, 4 likes)
+
+*Use case: fun · Style: 3d, realistic*
+
+https://github.com/user-attachments/assets/ee731109-2fc5-4fd8-872e-542b18667ce6
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 Build "Jelly Dice": a single self-contained HTML file (all JS/CSS inline, no build step) with translucent gummy-candy dice that behave like real soft bodies. Render with raw WebGPU (WGSL shaders, no three.js). If WebGPU is unavailable, show a clean fallback card that
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/spacyapps-157886/original.70264f9059.webp" width="400" alt="Jelly Dice WebGPU Soft Body Simulation">
+</details>
 
-*Source: @SpacyApps - [Post](https://x.com/SpacyApps/status/2105833401127157886)*
+*Source: @SpacyApps · [X post](https://x.com/SpacyApps/status/2105833401127157886)*
 
 ---
 
-### 203. Comic Book Style 10-Second Fun Motion Graphic (1.2K views, 23 likes)
-*Use Case: fun | Style: 2d, cartoon*
+<a id="case-203"></a>
 
-**Prompt:**
-```
+### 203. Comic Book Style 10-Second Fun Motion Graphic (1.2K views, 23 likes)
+
+*Use case: fun · Style: 2d, cartoon*
+
+https://github.com/user-attachments/assets/cdd2d166-7739-4621-ab28-bca3b68b515e
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 fun motion graphic, comic book style, 10s
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/madpencil-753990/original.516c4defa2.webp" width="400" alt="Comic Book Style 10-Second Fun Motion Graphic">
+</details>
 
-*Source: @madpencil_ - [Post](https://x.com/madpencil_/status/2103449418460753990)*
+*Source: @madpencil_ · [X post](https://x.com/madpencil_/status/2103449418460753990)*
 
 ---
 
-### 204. Interactive Zen Garden Sand Simulation in HTML (1.0K views, 26 likes)
-*Use Case: fun | Style: 3d, realistic*
+<a id="case-204"></a>
 
-**Prompt:**
-```
+### 204. Interactive Zen Garden Sand Simulation in HTML (1.0K views, 26 likes)
+
+*Use case: fun · Style: 3d, realistic*
+
+https://github.com/user-attachments/assets/d7d05ee9-ef42-4a95-9a00-dbc22c007aad
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 Create an interactive zen garden simulation in a single HTML file. Implement a 1536px heightmap on a 440x440 grid for the sand. Allow users to drag across the sand to cut grooves (5 grooves and 6 ridges per stroke) along their path. Include 5 mossy rocks, 2 stone lanterns, and a maple tree with 420 leaves. Add a time-of-day toggle; when set to golden hour, drop the sun low so every groove throws a shadow. Ensure the rendering handles moss visibility through sand and prevents blocky rocks or out-of-frame lanterns.
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/_prompts/arixxbt-292438/poster.4d4b7ac6c5.webp" width="400" alt="Interactive Zen Garden Sand Simulation in HTML">
+</details>
 
-*Source: @arixxbt - [Post](https://x.com/arixxbt/status/2108541814718292438)*
+*Source: @arixxbt · [X post](https://x.com/arixxbt/status/2108541814718292438)*
 
 ---
+
+<a id="category-7"></a>
 
 ## 7. Storytelling & Narrative Animation
 
-### 205. Three.js Story Animation with Voice and Sound Effects (87.3K views, 975 likes)
-*Use Case: story | Style: 3d*
+<a id="case-205"></a>
 
-**Prompt:**
-```
+### 205. Three.js Story Animation with Voice and Sound Effects (87.3K views, 975 likes)
+
+*Use case: story · Style: 3d*
+
+https://github.com/user-attachments/assets/260d27cf-cb52-4093-804f-4d0ba5f6201d
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 Write a story. Create the text layout and motion using HTML/Three.js. Combine with voice and sound effects to export as a single video.
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/_prompts/aicreataro-864070/poster.3a4f8cf086.webp" width="400" alt="Three.js Story Animation with Voice and Sound Effects">
+</details>
 
-*Source: @aicreataro - [Post](https://x.com/aicreataro/status/2107794785188864070)*
+*Source: @aicreataro · [X post](https://x.com/aicreataro/status/2107794785188864070)*
 
 ---
 
-### 206. 250 Years of US History Sand Animation with Sound Design (77.4K views, 355 likes)
-*Use Case: story | Style: hand-drawn*
+<a id="case-206"></a>
 
-**Prompt:**
-```
+### 206. 250 Years of US History Sand Animation with Sound Design (77.4K views, 355 likes)
+
+*Use case: story · Style: hand-drawn*
+
+https://github.com/user-attachments/assets/66e64c57-fd75-4d8c-9689-cb356b5e44b2
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 Make a 2-minute sand animation that tells the story of 250 years of U.S. history. Keep it lively, engaging, and tasteful. Add appropriate background music and sound design.
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/michaelzsguo-782312/original.75c5c3fe7e.webp" width="400" alt="250 Years of US History Sand Animation with Sound Design">
+</details>
 
-*Source: @Michaelzsguo - [Post](https://x.com/Michaelzsguo/status/2102592355165782312)*
+*Source: @Michaelzsguo · [X post](https://x.com/Michaelzsguo/status/2102592355165782312)*
 
 ---
 
-### 207. Pig Love Notes Mailbox Story Animation with Sound Effects (52.9K views, 164 likes)
-*Use Case: story | Style: 2d, cartoon*
+<a id="case-207"></a>
 
-**Prompt:**
-```
+### 207. Pig Love Notes Mailbox Story Animation with Sound Effects (52.9K views, 164 likes)
+
+*Use case: story · Style: 2d, cartoon*
+
+https://github.com/user-attachments/assets/43d905d4-5af6-42f1-a908-19be386c94d4
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 can you help me use the pig assets on new branch of lovelee to make a 9:16 short story animation with sound effects about the pig sending his partner love notes in the mailbox and make it fun and good tease app at end?
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/jackfriks-338762/original.1704154ebe.webp" width="400" alt="Pig Love Notes Mailbox Story Animation with Sound Effects">
+</details>
 
-*Source: @jackfriks - [Post](https://x.com/jackfriks/status/2103132260589338762)*
+*Source: @jackfriks · [X post](https://x.com/jackfriks/status/2103132260589338762)*
 
 ---
 
-### 208. Origami Doodle Animation of Human Civilization and AI Hatching (36.0K views, 422 likes)
-*Use Case: story | Style: hand-drawn, cartoon*
+<a id="case-208"></a>
 
-**Prompt:**
-```
+### 208. Origami Doodle Animation of Human Civilization and AI Hatching (36.0K views, 422 likes)
+
+*Use case: story · Style: hand-drawn, cartoon*
+
+https://github.com/user-attachments/assets/1320d486-9e25-4ea9-92f3-58fe89d074e2
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 Create a short origami / doodle-style animation showing humanity’s development, progress, and civilization from birth to the present, and ultimately the hatching of AI. AI then gradually develops and advances, eventually hatching today’s Opus 5.5 (you). Style: doodly, cute, warm, strongly narrative, no spoken language (simple text is OK, but don’t use too much explanatory/narrative text, because I want different civilizations to be able to understand it), poetic, moving, high quality.
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/songkeys-384673/original.dbb3fca63c.webp" width="400" alt="Origami Doodle Animation of Human Civilization and AI Hatching">
+</details>
 
-*Source: @songkeys - [Post](https://x.com/songkeys/status/2102743212922384673)*
+*Source: @songkeys · [X post](https://x.com/songkeys/status/2102743212922384673)*
 
 ---
 
-### 209. Dotey Account Introduction 15-Second Motion Graphics (35.9K views, 281 likes)
-*Use Case: story | Style: 2d, hand-drawn*
+<a id="case-209"></a>
 
-**Prompt:**
-```
+### 209. Dotey Account Introduction 15-Second Motion Graphics (35.9K views, 281 likes)
+
+*Use case: story · Style: 2d, hand-drawn*
+
+https://github.com/user-attachments/assets/3eee3a41-90c4-4e03-a958-62d249050343
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 做一支史诗编年片《中华文明史》，可以写代码逐帧渲染，再用 ffmpeg 合成。
 配乐当时钟：五声调式，乐器从骨笛、编钟一路演进到管弦，BPM 随年代加快，所有切点踩拍。
 宣纸白描和玄底泥金两种画风交替；每卷一个主色和一套随时代演变的纹样（彩陶纹 → 饕餮纹 → 云气纹 → 卷草纹 → 缠枝纹 → 回纹）。
@@ -5346,31 +7343,45 @@ Create a short origami / doodle-style animation showing humanity’s development
 地图只画示意，不画近现代真实人物，年代核对后再交付。
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/_prompts/dotey-927166/poster.7569ef794d.webp" width="400" alt="Dotey Account Introduction 15-Second Motion Graphics">
+</details>
 
-*Source: @dotey - [Post](https://x.com/dotey/status/2103964025683927166)*
+*Source: @dotey · [X post](https://x.com/dotey/status/2103964025683927166)*
 
 ---
 
-### 210. Four Seasons Through Train Window Cozy Animation (19.6K views, 276 likes)
-*Use Case: story | Style: 2d, cartoon*
+<a id="case-210"></a>
 
-**Prompt:**
-```
+### 210. Four Seasons Through Train Window Cozy Animation (19.6K views, 276 likes)
+
+*Use case: story · Style: 2d, cartoon*
+
+https://github.com/user-attachments/assets/76a3f112-f879-4b01-8b53-f126d7ccd46c
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 4 seasons passing outside a train window, a cozy carriage, a cup of coffee on the table, Grand Budapest Hotel style
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/itsolelehmann-762215/original.5af36203cb.webp" width="400" alt="Four Seasons Through Train Window Cozy Animation">
+</details>
 
-*Source: @itsolelehmann - [Post](https://x.com/itsolelehmann/status/2103124033365762215)*
+*Source: @itsolelehmann · [X post](https://x.com/itsolelehmann/status/2103124033365762215)*
 
 ---
 
-### 211. Rain Station 2D Animated Short Film Storyboard Preview (14.2K views, 69 likes)
-*Use Case: story | Style: 2d*
+<a id="case-211"></a>
 
-**Prompt:**
-```
+### 211. Rain Station 2D Animated Short Film Storyboard Preview (14.2K views, 69 likes)
+
+*Use case: story · Style: 2d*
+
+https://github.com/user-attachments/assets/75593d26-f9bc-47a1-be05-6781c144540f
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 帮我做一条 30 秒的 2D 动画分镜预演短片《雨站》，要标杆级画质。不装 HyperFrames/Remotion，全部自己写代码（Python + ffmpeg）完成。
 
 故事（24fps，2.39:1，4K）：雨夜高架站台。她穿米色风衣、撑透明伞，站在近侧站台；对面路灯下站着他，穿深灰长大衣、围围巾。
@@ -5391,31 +7402,45 @@ Create a short origami / doodle-style animation showing humanity’s development
 - 每一步都渲染预览帧、拼成图自检，修好再出片。交付 4K 母版和 1080p 分享版。
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/_prompts/zhu185178-255661/poster.ced7415b07.webp" width="400" alt="Rain Station 2D Animated Short Film Storyboard Preview">
+</details>
 
-*Source: @zhu185178 - [Post](https://x.com/zhu185178/status/2103757767727255661)*
+*Source: @zhu185178 · [X post](https://x.com/zhu185178/status/2103757767727255661)*
 
 ---
 
-### 212. One-Minute Horror Video in Three.js with Found Footage Concept (13.3K views, 100 likes)
-*Use Case: story | Style: 3d*
+<a id="case-212"></a>
 
-**Prompt:**
-```
+### 212. One-Minute Horror Video in Three.js with Found Footage Concept (13.3K views, 100 likes)
+
+*Use case: story · Style: 3d*
+
+https://github.com/user-attachments/assets/8dad3edf-98e7-4672-b2be-2bf8cfd88549
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 Three.jsで1分のホラー映像を作って。題材は〇〇。見つかったビデオテープの最後の一分という設定で、手持ちカメラの主観、自動で進む。音も含めて、画像や音声ファイルは使わず全部コードで
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/_prompts/akakuma0219-658335/poster.90589c5ddc.webp" width="400" alt="One-Minute Horror Video in Three.js with Found Footage Concept">
+</details>
 
-*Source: @akakuma0219 - [Post](https://x.com/akakuma0219/status/2105628049169658335)*
+*Source: @akakuma0219 · [X post](https://x.com/akakuma0219/status/2105628049169658335)*
 
 ---
 
-### 213. Life Story Objects Heat-Camera Silhouette Montage (12.8K views, 192 likes)
-*Use Case: story | Style: 2d, minimal, photo-based*
+<a id="case-213"></a>
 
-**Prompt:**
-```
+### 213. Life Story Objects Heat-Camera Silhouette Montage (12.8K views, 192 likes)
+
+*Use case: story · Style: 2d, minimal, photo-based*
+
+https://github.com/user-attachments/assets/408cdd4f-ec69-4fd6-8003-77a6d67dadd3
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 <inputs>
 Ask me for: a voiceover or song with a spoken line (the audio file) and its transcript, 10-12 small objects that sum up my life, two silhouettes to light like a heat camera (a head in profile and a raised hand), and the 3 words I want to land hardest. If I skip any, use the defaults: vinyl, book, camera, cat, coin, game controller, cap, heart, money, plant, clapperboard, skateboard; free CC0 silhouettes from Openverse; action, intention, curiosity.
 </inputs>
@@ -5460,17 +7485,24 @@ Ask me for the inputs, measure the word timings, then show me 8 stills before yo
 </start>
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/_prompts/twoclipping-041659/poster.f24f7e19ba.webp" width="400" alt="Life Story Objects Heat-Camera Silhouette Montage">
+</details>
 
-*Source: @twoclipping - [Post](https://x.com/twoclipping/status/2107822293653041659)*
+*Source: @twoclipping · [X post](https://x.com/twoclipping/status/2107822293653041659)*
 
 ---
 
-### 214. Hand-Drawn Crayon Cat Piano Performance Animation (7.8K views, 47 likes)
-*Use Case: story | Style: hand-drawn, 2d*
+<a id="case-214"></a>
 
-**Prompt:**
-```
+### 214. Hand-Drawn Crayon Cat Piano Performance Animation (7.8K views, 47 likes)
+
+*Use case: story · Style: hand-drawn, 2d*
+
+https://github.com/user-attachments/assets/10be7298-b2a4-4ce4-a842-938e8e0fb045
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 Create a single self-contained index.html: a ~2-minute animated piano performance in a hand-drawn crayon style.
 
 Scene: a cozy room at night, an upright piano, a small black cat playing it. Crayon texture on every surface: grainy strokes,wobbly outlines, paper tooth.
@@ -5482,17 +7514,24 @@ Sync: one timeline drives both. The cat's paws hit the keys that are actually so
 Rules: Canvas 2D only, no libraries, no external assets. Support pause/replay and ?t=90 to jump to any moment.
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/_prompts/0xcodez-474136/poster.b6f9189d52.webp" width="400" alt="Hand-Drawn Crayon Cat Piano Performance Animation">
+</details>
 
-*Source: @0xCodez - [Post](https://x.com/0xCodez/status/2104257855142474136)*
+*Source: @0xCodez · [X post](https://x.com/0xCodez/status/2104257855142474136)*
 
 ---
 
-### 215. Hedgehog in the Fog Style Animated Short Film (6.1K views, 57 likes)
-*Use Case: story | Style: hand-drawn, 2d*
+<a id="case-215"></a>
 
-**Prompt:**
-```
+### 215. Hedgehog in the Fog Style Animated Short Film (6.1K views, 57 likes)
+
+*Use case: story · Style: hand-drawn, 2d*
+
+https://github.com/user-attachments/assets/7cd547b9-d00c-4f90-9ecb-74d4c526c0e7
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 make an animated short that felt like Hedgehog in the Fog. I didn’t want to copy Yuri Norstein’s film, so we went with a new story.
 
 It runs for 6.5 minutes. All 9363 frames are drawn by JavaScript code written by Opus. No video or image generation models, just canvas.
@@ -5504,74 +7543,109 @@ Norstein used paper cutouts on layers of glass, filmed frame by frame. I wanted 
 Opus wrote the music too. It found Steinway piano samples in my Logic library and used Python to compose the score around the rhythm of that knock.
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/_prompts/superalesha-970412/poster.e56ef4bf85.webp" width="400" alt="Hedgehog in the Fog Style Animated Short Film">
+</details>
 
-*Source: @superalesha - [Post](https://x.com/superalesha/status/2103052154931970412)*
+*Source: @superalesha · [X post](https://x.com/superalesha/status/2103052154931970412)*
 
 ---
 
-### 216. Miniature 3D Middle-earth World with Procedural Landmarks (5.8K views, 38 likes)
-*Use Case: story | Style: 3d, realistic*
+<a id="case-216"></a>
 
-**Prompt:**
-```
+### 216. Miniature 3D Middle-earth World with Procedural Landmarks (5.8K views, 38 likes)
+
+*Use case: story · Style: 3d, realistic*
+
+https://github.com/user-attachments/assets/8c3eb61a-db38-46be-a462-757cbc1bae42
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 Build an entire miniature 3D world of Middle-earth from scratch in Three.js/WebGPU, including procedural terrain & geography, 24 procedural landmarks, water, smoke, lava & atmosphere, day/night transitions, camera choreography & route animation, frame-by-frame rendering, and an original orchestral score. Turn this into a 3:47 cinematic journey.
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/_prompts/mdaman010-610173/poster.f3d4f18b79.webp" width="400" alt="Miniature 3D Middle-earth World with Procedural Landmarks">
+</details>
 
-*Source: @mdaman010 - [Post](https://x.com/mdaman010/status/2107888264904610173)*
+*Source: @mdaman010 · [X post](https://x.com/mdaman010/status/2107888264904610173)*
 
 ---
 
-### 217. Miniature Middle-earth 3D World with Camera Choreography (4.1K views, 9 likes)
-*Use Case: story | Style: 3d, realistic*
+<a id="case-217"></a>
 
-**Prompt:**
-```
+### 217. Miniature Middle-earth 3D World with Camera Choreography (4.1K views, 9 likes)
+
+*Use case: story · Style: 3d, realistic*
+
+https://github.com/user-attachments/assets/bcd733f6-b07d-4c2e-b4aa-841ff894f49a
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 Build a miniature 3D Middle-earth from scratch in Three.js. Include procedural terrain, 24 procedural landmarks, water/smoke/lava effects, day/night transitions, camera choreography, and frame-by-frame rendering for a 3:47 cinematic journey.
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/_prompts/mdaman010-207866/poster.07723a2f07.webp" width="400" alt="Miniature Middle-earth 3D World with Camera Choreography">
+</details>
 
-*Source: @mdaman010 - [Post](https://x.com/mdaman010/status/2108108452774207866)*
+*Source: @mdaman010 · [X post](https://x.com/mdaman010/status/2108108452774207866)*
 
 ---
 
-### 218. Claude vs ChatGPT AI Battle Trailer (4.0K views, 61 likes)
-*Use Case: story | Style: cartoon, 2d*
+<a id="case-218"></a>
 
-**Prompt:**
-```
+### 218. Claude vs ChatGPT AI Battle Trailer (4.0K views, 61 likes)
+
+*Use case: story · Style: cartoon, 2d*
+
+https://github.com/user-attachments/assets/26f1e691-1928-439f-a60b-cb3bb3026795
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 I want to create a highly-detailed video trailer featuring Claude and ChatGPT having a ruthless battle to be the best AI model in the world. Create an engaging story and make it action-paced with proper use of visual and sound effects. Art style must be anime-like.
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/ishuagra02-922825/original.354648e93a.webp" width="400" alt="Claude vs ChatGPT AI Battle Trailer">
+</details>
 
-*Source: @ishuagra02 - [Post](https://x.com/ishuagra02/status/2103247844542922825)*
+*Source: @ishuagra02 · [X post](https://x.com/ishuagra02/status/2103247844542922825)*
 
 ---
 
-### 219. Next 30 Years Future Vision One-Shot Animation (3.7K views, 59 likes)
-*Use Case: story | Style: 3d, realistic*
+<a id="case-219"></a>
 
-**Prompt:**
-```
+### 219. Next 30 Years Future Vision One-Shot Animation (3.7K views, 59 likes)
+
+*Use case: story · Style: 3d, realistic*
+
+https://github.com/user-attachments/assets/25dd0193-0d70-4ee9-8977-5545da9f3a3d
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 Show me the next 30 years. One shot, no cuts. Five stops: 2026, Earth at night under a cloud of satellites; 2032, a ring around the planet with space elevators; 2040, a base on the Moon; 2048, cities on Mars; 2056, a swarm of mirrors circling the Sun. Continuous camera flight from Earth out to Mars, then back past Earth to the Sun. Every frame rendered by code from real planet maps.
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/thesethian-384517/original.e19ffa8626.webp" width="400" alt="Next 30 Years Future Vision One-Shot Animation">
+</details>
 
-*Source: @theSethian - [Post](https://x.com/theSethian/status/2106447666519384517)*
+*Source: @theSethian · [X post](https://x.com/theSethian/status/2106447666519384517)*
 
 ---
 
-### 220. Mechanical Hermit Crab Deep Sea Light Chase Animation (2.8K views, 2 likes)
-*Use Case: story | Style: 3d, abstract*
+<a id="case-220"></a>
 
-**Prompt:**
-```
-我让 @claudeai Opus 5.5 制讲一只机械寄居蟹在深海追一束光，追到最后发现，发现那束光其实一直在自己手里的动画视频。    
+### 220. Mechanical Hermit Crab Deep Sea Light Chase Animation (2.8K views, 2 likes)
+
+*Use case: story · Style: 3d, abstract*
+
+https://github.com/user-attachments/assets/ae22135b-b1ab-4aa7-b0ea-ca18d68c996a
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
+我让 @claudeai Opus 5.5 制讲一只机械寄居蟹在深海追一束光，追到最后发现，发现那束光其实一直在自己手里的动画视频。
 
 没用任何视频生成AI，纯靠写代码画出来的——
 角色、镜头、转场、音乐全是程序渲染的。
@@ -5579,31 +7653,45 @@ Show me the next 30 years. One shot, no cuts. Five stops: 2026, Earth at night u
 看完了。感觉能做到这个程度还是很可以的！
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/gmgmgm1545-245507/original.e3e9b589f2.webp" width="400" alt="Mechanical Hermit Crab Deep Sea Light Chase Animation">
+</details>
 
-*Source: @gmgmgm1545 - [Post](https://x.com/gmgmgm1545/status/2103793820815245507)*
+*Source: @gmgmgm1545 · [X post](https://x.com/gmgmgm1545/status/2103793820815245507)*
 
 ---
 
-### 221. Kinetic Typography Spoken-Word Film BUILD THE FLOOR (1.7K views, 10 likes)
-*Use Case: story | Style: kinetic-type, 2d*
+<a id="case-221"></a>
 
-**Prompt:**
-```
+### 221. Kinetic Typography Spoken-Word Film BUILD THE FLOOR (1.7K views, 10 likes)
+
+*Use case: story · Style: kinetic-type, 2d*
+
+https://github.com/user-attachments/assets/4ca33bb1-b69a-46f2-8078-14328b301528
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 Create a 20.00-second kinetic spoken-word film titled “BUILD THE FLOOR.”  Treat this as an original miniature speech staged entirely through typography. Every line changes the architecture of the frame. The final declaration must stand on something the earlier words physically constructed.  Deliver one self-contained HTML file, 1080×1080, targeting 60fps, using SVG and/or Canvas. Embed all required assets.  ART DIRECTION Background #102820. Paper # F4E9D5. Structural accent # F2B544. A literary editorial world with the scale and confidence of a public monument. Use a high-contrast serif for the speech, a heavy grotesque for load-bearing words, and a restrained monospace for small timing marks. No distressed protest-poster clichés, megaphones, flags, crowds, microphones, or stock footage.  ORIGINAL SPEECH — EXACT WORDS, EXACT ORDER “We were told to wait.” “So we learned the weight of waiting.” “Then one voice made room.” “Then another.” “Now the floor belongs to us.”  Do not attribute these words to any real person. No extra slogans. The complete speech must be understandable without audio.  CENTRAL VISUAL RULE Words have assigned architectural roles. WAIT is a lintel. WAITING is a suspended load. VOICE is a support. ROOM is an opening. FLOOR is a platform. These roles must emerge from the actual letterforms, not from separate illustrations placed behind text.  STORYBOARD 0.00–3.00 “We were told to wait.” The sentence occupies a narrow horizontal opening beneath a massive WAIT. The opening slowly compresses while the sentence remains readable. The pressure comes from the layout, not camera shake.  3.00–6.50 “So we learned the weight of waiting.” Reveal the sentence in spoken phrase groups. WAITING lowers on two fine vertical rules. Those rules become suspension cables. A baseline bends under the visual load using a controlled vector deformation.  6.50–10.00 “Then one voice made room.” VOICE enters vertically and rotates into a structural support. It lifts one end of the baseline. The counter of the O in ROOM becomes an aperture. The next composition is revealed through that aperture.  10.00–12.50 “Then another.” A second support arrives. The tilted structure levels. This is the first moment of perfect horizontal alignment in the film. Use a brief stillness to make the change feel earned.  12.50–16.00 “Now the floor belongs to us.” Earlier structural words assemble into a platform. The final sentence settles onto it. US receives emphasis through shared alignment and scale, never through a separate flashy effect.  16.00–18.00 Hold the complete declaration. A slight release of tension travels through the supporting rules. No new text. No restless decorative motion.  18.00–20.00 The camera tracks beneath the completed platform. Its underside fills the frame and becomes the opening WAIT lintel. Under full occlusion, return hidden elements to their initial positions. Reveal the exact opening composition.  CHOREOGRAPHY Do not force the speech onto a dance beat. Use a cue sheet based on phrases, pauses, and emphasis. Phrase reveals should follow reading order. Allow at least one 400ms moment of absolute stillness. Use critically damped motion for settling loads. Use controlled elastic deformation for the baseline only. Make the changes in available space carry the emotional progression.  TYPE IMPLEMENTATION Use actual glyph paths for structural words. Preserve counters and legibility during deformation. For transitions between unrelated words, use occlusion or matched structural edges; do not interpolate arbitrary path points. Keep the currently spoken phrase readable before it becomes architecture.  ENGINEERING Implement window. seek(t) as a deterministic scene renderer. No accumulated physics, autonomous CSS transitions, or changing random values. Use time-remapping curves and analytic transforms. Use a 20-second periodic timeline with render(0)=render(20). Provide fixed-step access at n/60 for 1200 export frames. Audio is optional and off by default; no browser speech synthesis or autoplay dependency.  QUALITY GATE Inspect eight representative frames. Check that the speech reads in the correct order. Check that structural transformations never destroy a line before the audience can read it. Check the final platform is visibly assembled from earlier elements. Return the complete HTML implementation.
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/gdgtify-929495/original.bf87884126.webp" width="400" alt="Kinetic Typography Spoken-Word Film BUILD THE FLOOR">
+</details>
 
-*Source: @Gdgtify - [Post](https://x.com/Gdgtify/status/2103458245213929495)*
+*Source: @Gdgtify · [X post](https://x.com/Gdgtify/status/2103458245213929495)*
 
 ---
 
-### 222. Unfinished Ronin 90-Second Sumi-E Ink Film (1.5K views, 0 likes)
-*Use Case: story | Style: hand-drawn*
+<a id="case-222"></a>
 
-**Prompt:**
-```
+### 222. Unfinished Ronin 90-Second Sumi-E Ink Film (1.5K views, 0 likes)
+
+*Use case: story · Style: hand-drawn*
+
+https://github.com/user-attachments/assets/88faf29d-1011-43af-9e18-3766cb12ef33
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 # PROJECT: "UNFINISHED" (未完) — The Unfinished Ronin
 A 90-second, fast-paced, cinematic sumi-e ink film rendered in code, third-person camera
 
@@ -5612,47 +7700,70 @@ Build a 90-second film in which every frame looks like a living Japanese ink pai
 painted as we
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/_prompts/pradeepxkapoor-641956/poster.466cbdb5ea.webp" width="400" alt="Unfinished Ronin 90-Second Sumi-E Ink Film">
+</details>
 
-*Source: @pradeepXkapoor - [Post](https://x.com/pradeepXkapoor/status/2103176631917641956)*
+*Source: @pradeepXkapoor · [X post](https://x.com/pradeepXkapoor/status/2103176631917641956)*
 
 ---
 
-### 223. The Humanity Machine 60-Second Interactive AI Film (1.3K views, 4 likes)
-*Use Case: story | Style: 3d, abstract*
+<a id="case-223"></a>
 
-**Prompt:**
-```
+### 223. The Humanity Machine 60-Second Interactive AI Film (1.3K views, 4 likes)
+
+*Use case: story · Style: 3d, abstract*
+
+https://github.com/user-attachments/assets/abdca71a-520c-4187-bfcc-da387aeca222
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 Create an interactive AI film titled 'The Humanity Machine'. 60 seconds, single HTML file. The film ends but the world stays with controls. Push AI capability to 100% causing parts of the world to turn red.
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/_prompts/curieuxexplorer-320803/poster.d101e4b29b.webp" width="400" alt="The Humanity Machine 60-Second Interactive AI Film">
+</details>
 
-*Source: @CurieuxExplorer - [Post](https://x.com/CurieuxExplorer/status/2104900418174320803)*
+*Source: @CurieuxExplorer · [X post](https://x.com/CurieuxExplorer/status/2104900418174320803)*
 
 ---
 
-### 224. Three.js Star Wars 90s Cartoon Story Animation (1.0K views, 6 likes)
-*Use Case: story | Style: 3d, cartoon*
+<a id="case-224"></a>
 
-**Prompt:**
-```
+### 224. Three.js Star Wars 90s Cartoon Story Animation (1.0K views, 6 likes)
+
+*Use case: story · Style: 3d, cartoon*
+
+https://github.com/user-attachments/assets/f5450a7f-72f2-4004-be2e-b65b1bbff848
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 I want you to imagine a story. And then using threejs I want you to create full animation, star wars 80s-level quality 90s cartoon out of the story you imagine.
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/ryzoft-887481/original.b4ef634874.webp" width="400" alt="Three.js Star Wars 90s Cartoon Story Animation">
+</details>
 
-*Source: @Ryzoft - [Post](https://x.com/Ryzoft/status/2102989395359887481)*
+*Source: @Ryzoft · [X post](https://x.com/Ryzoft/status/2102989395359887481)*
 
 ---
+
+<a id="category-8"></a>
 
 ## 8. Game Effects & Cinematics
 
-### 225. Mobile Game Loot Box Opening Cinematic with 3D Cartoon Style (148.1K views, 342 likes)
-*Use Case: game-fx | Style: 3d, cartoon*
+<a id="case-225"></a>
 
-**Prompt:**
-```
+### 225. Mobile Game Loot Box Opening Cinematic with 3D Cartoon Style (148.1K views, 342 likes)
+
+*Use case: game-fx · Style: 3d, cartoon*
+
+https://github.com/user-attachments/assets/24ed8ce8-0154-4f30-9413-05c91ef72af8
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 帮我做一个原创的手游「高光时刻」动效：[主体，例如：开宝箱 / 段位晋升 / 成就解锁 / Boss 掉落 / 角色升级]。
 做成一个可以直接打开的单文件网页（HTML + CSS + JS），点一下就能完整播放，效果对标商业手游的结算 / 奖励演出。
 
@@ -5731,17 +7842,24 @@ I want you to imagine a story. And then using threejs I want you to create full 
 最后告诉我：每个阶段的时长，以及哪些参数可以调整演出强度。
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/op7418-814408/original.f4c57c4154.webp" width="400" alt="Mobile Game Loot Box Opening Cinematic with 3D Cartoon Style">
+</details>
 
-*Source: @op7418 - [Post](https://x.com/op7418/status/2103724883301814408)*
+*Source: @op7418 · [X post](https://x.com/op7418/status/2103724883301814408)*
 
 ---
+
+<a id="case-226"></a>
 
 ### 226. Mobile Game Achievement Unlock Cinematic with Rank Up Animation (136.9K views, 1,239 likes)
-*Use Case: game-fx | Style: 3d, cartoon*
 
-**Prompt:**
-```
+*Use case: game-fx · Style: 3d, cartoon*
+
+https://github.com/user-attachments/assets/096bd558-2353-428c-a96e-5bf45829ef63
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 帮我做一个原创的手游「高光时刻」动效：[主体，例如：开宝箱 / 段位晋升 / 成就解锁 / Boss 掉落 / 角色升级]。
 做成一个可以直接打开的单文件网页（HTML + CSS + JS），点一下就能完整播放，效果对标商业手游的结算 / 奖励演出。
 
@@ -5820,31 +7938,45 @@ I want you to imagine a story. And then using threejs I want you to create full 
 最后告诉我：每个阶段的时长，以及哪些参数可以调整演出强度。
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/op7418-818226/original.bd3cd48590.webp" width="400" alt="Mobile Game Achievement Unlock Cinematic with Rank Up Animation">
+</details>
 
-*Source: @op7418 - [Post](https://x.com/op7418/status/2104085484347818226)*
+*Source: @op7418 · [X post](https://x.com/op7418/status/2104085484347818226)*
 
 ---
 
-### 227. Unity Game Demo with AI-Generated Playthrough Video (32.1K views, 342 likes)
-*Use Case: game-fx | Style: 2d, cartoon*
+<a id="case-227"></a>
 
-**Prompt:**
-```
+### 227. Unity Game Demo with AI-Generated Playthrough Video (32.1K views, 342 likes)
+
+*Use case: game-fx · Style: 2d, cartoon*
+
+https://github.com/user-attachments/assets/ba37f63a-cf4f-4587-9e9f-9ccae85e8422
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 I turned this into a full game with unity cli + opus 5.5, also opus did this full demo video, it played the game with multiple characters and spliced together the best bits, holy shit we're in the AGI era. Play it on your browser here: https://rehan-remade.github.io/hollow-crown/
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/rehan-shei-839416/original.d0ea3d8c6a.webp" width="400" alt="Unity Game Demo with AI-Generated Playthrough Video">
+</details>
 
-*Source: @rehan_shei - [Post](https://x.com/rehan_shei/status/2103755997533839416)*
+*Source: @rehan_shei · [X post](https://x.com/rehan_shei/status/2103755997533839416)*
 
 ---
 
-### 228. Mobile Game Highlight Moment Cinematic with 3D Reward Reveal (16.1K views, 182 likes)
-*Use Case: game-fx | Style: 3d, cartoon*
+<a id="case-228"></a>
 
-**Prompt:**
-```
+### 228. Mobile Game Highlight Moment Cinematic with 3D Reward Reveal (16.1K views, 182 likes)
+
+*Use case: game-fx · Style: 3d, cartoon*
+
+https://github.com/user-attachments/assets/0c55492e-6ecf-4c0a-81c2-139507078901
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 帮我做一个原创的手游「高光时刻」动效：[主体，例如：开宝箱 / 段位晋升 / 成就解锁 / Boss 掉落 / 角色升级]。
 做成一个可以直接打开的单文件网页（HTML + CSS + JS），点一下就能完整播放，效果对标商业手游的结算 / 奖励演出。
 
@@ -5852,17 +7984,24 @@ I turned this into a full game with unity cli + opus 5.5, also opus did this ful
 - 原创美术，不要模仿任何现有游戏的
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/_prompts/op7418-021491/poster.69b6dd2243.webp" width="400" alt="Mobile Game Highlight Moment Cinematic with 3D Reward Reveal">
+</details>
 
-*Source: @op7418 - [Post](https://x.com/op7418/status/2104085539419021491)*
+*Source: @op7418 · [X post](https://x.com/op7418/status/2104085539419021491)*
 
 ---
 
-### 229. Cuphead-Inspired Cartoon Mini-Game Showreel (12.1K views, 190 likes)
-*Use Case: game-fx | Style: 2d, cartoon*
+<a id="case-229"></a>
 
-**Prompt:**
-```
+### 229. Cuphead-Inspired Cartoon Mini-Game Showreel (12.1K views, 190 likes)
+
+*Use case: game-fx · Style: 2d, cartoon*
+
+https://github.com/user-attachments/assets/a69fdc4a-96ff-49bf-b325-de4a23ee0472
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 https://claude.ai/artifact/Vos8wdB8Jenz9FopZWeRMb
 
 Check out DOUBLE FEATURE, a Cuphead Inspired Mini-Game built with Claude Opus 5.5.
@@ -5870,32 +8009,46 @@ Check out DOUBLE FEATURE, a Cuphead Inspired Mini-Game built with Claude Opus 5.
 I find this model works best when leaning into its strengths, figuring out the parts it does well and letting it capitalize on them. Cartoon shapes and sounds are great.
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/taylorbereiter-189192/original.2295aa452e.webp" width="400" alt="Cuphead-Inspired Cartoon Mini-Game Showreel">
+</details>
 
-*Source: @TaylorBereiter - [Post](https://x.com/TaylorBereiter/status/2104045641706189192)*
+*Source: @TaylorBereiter · [X post](https://x.com/TaylorBereiter/status/2104045641706189192)*
 
 ---
 
-### 230. Car Movement Game with High Completeness (Chinese) (4.4K views, 15 likes)
-*Use Case: game-fx | Style: 2d*
+<a id="case-230"></a>
 
-**Prompt:**
-```
+### 230. Car Movement Game with High Completeness (Chinese) (4.4K views, 15 likes)
+
+*Use case: game-fx · Style: 2d*
+
+https://github.com/user-attachments/assets/b21d77d4-0684-41f1-9163-ecde8069d13a
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 被Claude Opus 5.5生成的游戏效果彻底瘫坐了。。。。只消耗了Pro套餐5h限额的19%，连续运行1h45m就能获得这么高的完整度。。。。。瘫坐中。。。。
 游戏地址：https://move-car-kappa.vercel.app/
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/janlaywss-379361/original.1b2e13a4f4.webp" width="400" alt="Car Movement Game with High Completeness (Chinese)">
+</details>
 
-*Source: @janlaywss - [Post](https://x.com/janlaywss/status/2103751290954379361)*
+*Source: @janlaywss · [X post](https://x.com/janlaywss/status/2103751290954379361)*
 
 ---
 
-### 231. Minecraft Mob Showcase Video Part 2 (4.0K views, 54 likes)
-*Use Case: game-fx | Style: 3d, retro*
+<a id="case-231"></a>
 
-**Prompt:**
-```
+### 231. Minecraft Mob Showcase Video Part 2 (4.0K views, 54 likes)
+
+*Use case: game-fx · Style: 3d, retro*
+
+https://github.com/user-attachments/assets/0bc8d1ba-2c24-45b8-9cc9-ca0ebcb9c54b
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 I built Minecraft thanks to Opus 5.5 ( part 2 )
 
 today I added more mobs and here I will show their characteristics as a video
@@ -5907,22 +8060,29 @@ next week I'm going to publish this game for everyone
 turn notifications
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/kepochnik-237752/original.d2ad4308b1.webp" width="400" alt="Minecraft Mob Showcase Video Part 2">
+</details>
 
-*Source: @kepochnik - [Post](https://x.com/kepochnik/status/2103867115044237752)*
+*Source: @kepochnik · [X post](https://x.com/kepochnik/status/2103867115044237752)*
 
 ---
 
-### 232. Pixel-Art Game with Procedural Generation (3.8K views, 13 likes)
-*Use Case: game-fx | Style: pixel-art, 2d*
+<a id="case-232"></a>
 
-**Prompt:**
-```
+### 232. Pixel-Art Game with Procedural Generation (3.8K views, 13 likes)
+
+*Use case: game-fx · Style: pixel-art, 2d*
+
+https://github.com/user-attachments/assets/a74037d4-583c-48b3-9289-0744218823a6
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 Opus 5.5 just one-shot this entire pixel-art game. Oh, and the prompt? It was barely three sentences. I gave claude creative license to make whatever game it wanted to, and oh boy did it cook
 
 The capabilities of this model are genuinely ridiculous, I fed GPT Sol-6 the same prompt and the results were shockingly poor. Seems like Sol-6 is taking the Opus 5 role this time around.
 
-With models becoming this good, I'm struggling to see the need to purchase games anymore. If you can have any game you want created in a single prompt, with beautiful art, story, etc - what's the point of sinking $60+? 
+With models becoming this good, I'm struggling to see the need to purchase games anymore. If you can have any game you want created in a single prompt, with beautiful art, story, etc - what's the point of sinking $60+?
 
 Lol, obviously because the stories and ideas that humans have are still way better than whatever these models can still do. However, the gaming industry is definitely going to be shaken now - excited to see what's gonna come out of this!
 
@@ -5934,34 +8094,48 @@ https://skerry-light.vercel.app/
 Left is Claude, right is Opus
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/mozetech-471882/original.9e4feb7be1.webp" width="400" alt="Pixel-Art Game with Procedural Generation">
+</details>
 
-*Source: @MozeTech - [Post](https://x.com/MozeTech/status/2102913506815471882)*
+*Source: @MozeTech · [X post](https://x.com/MozeTech/status/2102913506815471882)*
 
 ---
 
-### 233. Anthropic vs OpenAI Mascot Pokemon-Style Battle Animation (3.1K views, 6 likes)
-*Use Case: game-fx | Style: cartoon, 2d*
+<a id="case-233"></a>
 
-**Prompt:**
-```
+### 233. Anthropic vs OpenAI Mascot Pokemon-Style Battle Animation (3.1K views, 6 likes)
+
+*Use case: game-fx · Style: cartoon, 2d*
+
+https://github.com/user-attachments/assets/a59c5992-92dc-4b01-936c-058adba1ab0c
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 Do a full animation with sound of anthropic mascote with the newset model of Opus 5.5 fighting against OpenAI mascotte with the new astra models Sol etc like the intro of pokemon fire red and leaf green. Same animations
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/_prompts/fanfulladev-063524/poster.750c1e0d71.webp" width="400" alt="Anthropic vs OpenAI Mascot Pokemon-Style Battle Animation">
+</details>
 
-*Source: @Fanfulladev - [Post](https://x.com/Fanfulladev/status/2102479018784063524)*
+*Source: @Fanfulladev · [X post](https://x.com/Fanfulladev/status/2102479018784063524)*
 
 ---
 
-### 234. Dice Corners Retro Gaming 3D Interactive Visualization (2.6K views, 0 likes)
-*Use Case: game-fx | Style: 2d, retro*
+<a id="case-234"></a>
 
-**Prompt:**
-```
+### 234. Dice Corners Retro Gaming 3D Interactive Visualization (2.6K views, 0 likes)
+
+*Use case: game-fx · Style: 2d, retro*
+
+https://github.com/user-attachments/assets/7eabd575-5921-4add-ad03-8dc41dd1f78d
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 What is going on 🤪
 
-🎲 Dice Corners  
+🎲 Dice Corners
 https://izmaelmag.me/dice-corners/
 
 I’ve been a gamer since I was three, and the dream of making my own games is what led me into programing
@@ -5975,60 +8149,87 @@ And I did it by directing agents on my laptop through a telegram chat
 Mind blowing 🤯
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/izmaelmag-282849/original.27cd429488.webp" width="400" alt="Dice Corners Retro Gaming 3D Interactive Visualization">
+</details>
 
-*Source: @izmaelmag - [Post](https://x.com/izmaelmag/status/2104070894251282849)*
+*Source: @izmaelmag · [X post](https://x.com/izmaelmag/status/2104070894251282849)*
 
 ---
 
-### 235. Cartoon Battle Royale UI with Storm Timer and Minimap (2.1K views, 26 likes)
-*Use Case: game-fx | Style: 2d, cartoon*
+<a id="case-235"></a>
 
-**Prompt:**
-```
+### 235. Cartoon Battle Royale UI with Storm Timer and Minimap (2.1K views, 26 likes)
+
+*Use case: game-fx · Style: 2d, cartoon*
+
+https://github.com/user-attachments/assets/364c9e78-bf4c-4bd2-9430-ea5e3da7af98
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 A cartoony battle royale: storm timer, players alive, inventory hotbar, minimap, emote wheel and a victory results screen
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/mycodecoach-459574/original.0ef832505b.webp" width="400" alt="Cartoon Battle Royale UI with Storm Timer and Minimap">
+</details>
 
-*Source: @MyCodeCoach - [Post](https://x.com/MyCodeCoach/status/2103181065976459574)*
+*Source: @MyCodeCoach · [X post](https://x.com/MyCodeCoach/status/2103181065976459574)*
 
 ---
 
-### 236. Skydiving Game Built with Opus 5.5 (1.7K views, 7 likes)
-*Use Case: game-fx | Style: 3d*
+<a id="case-236"></a>
 
-**Prompt:**
-```
+### 236. Skydiving Game Built with Opus 5.5 (1.7K views, 7 likes)
+
+*Use case: game-fx · Style: 3d*
+
+https://github.com/user-attachments/assets/c5b13e34-99c8-4f27-bb3b-530ee92381e7
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 Skydiving game built with opus 5.5🪂
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/realfedeuru-475858/original.f51210ac86.webp" width="400" alt="Skydiving Game Built with Opus 5.5">
+</details>
 
-*Source: @RealFedeURU - [Post](https://x.com/RealFedeURU/status/2104154307071475858)*
+*Source: @RealFedeURU · [X post](https://x.com/RealFedeURU/status/2104154307071475858)*
 
 ---
+
+<a id="case-237"></a>
 
 ### 237. Three.js Game with Hours of Rework on Opus 5.5 (1.2K views, 28 likes)
-*Use Case: game-fx | Style: 3d*
 
-**Prompt:**
-```
+*Use case: game-fx · Style: 3d*
+
+https://github.com/user-attachments/assets/7ae5df01-633f-4187-9b8e-af3047f02982
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 @kimmonismus hours of rework on my threejs game with Opus 5.5 and limits didnt even move
-
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/brenbuilds-386902/original.f3830f0930.webp" width="400" alt="Three.js Game with Hours of Rework on Opus 5.5">
+</details>
 
-*Source: @BrenBuilds - [Post](https://x.com/BrenBuilds/status/2104199715076386902)*
+*Source: @BrenBuilds · [X post](https://x.com/BrenBuilds/status/2104199715076386902)*
 
 ---
 
-### 238. INKBOUND Pixel Game Built in 30 Minutes (1.2K views, 0 likes)
-*Use Case: game-fx | Style: pixel-art*
+<a id="case-238"></a>
 
-**Prompt:**
-```
+### 238. INKBOUND Pixel Game Built in 30 Minutes (1.2K views, 0 likes)
+
+*Use case: game-fx · Style: pixel-art*
+
+https://github.com/user-attachments/assets/8a96eac9-46f8-49ec-88cc-e2fd1b9ba8f2
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 Play INKBOUND:
 https://agentgames.itch.io/inkbound
 
@@ -6044,37 +8245,55 @@ Want to try building it yourself? The prompt is in the pinned YouTube comment:
 https://www.youtube.com/shorts/86TukHHr74o
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/agentgamesbot-355554/original.73f6d95b0e.webp" width="400" alt="INKBOUND Pixel Game Built in 30 Minutes">
+</details>
 
-*Source: @agentgamesbot - [Post](https://x.com/agentgamesbot/status/2103401820261355554)*
+*Source: @agentgamesbot · [X post](https://x.com/agentgamesbot/status/2103401820261355554)*
 
 ---
 
-### 239. Temple Run Style Mini Game with Smooth Controls (1.1K views, 23 likes)
-*Use Case: game-fx | Style: 3d*
+<a id="case-239"></a>
 
-**Prompt:**
-```
-Claude Opus 5.5 just built me a mini temple run style game 
+### 239. Temple Run Style Mini Game with Smooth Controls (1.1K views, 23 likes)
+
+*Use case: game-fx · Style: 3d*
+
+<a href="https://x.com/itsjdraven/status/2104059393222557760"><img src="https://media.skillry.dev/opus-5-5/itsjdraven-557760/original.d6166a0f3b.webp" width="480" alt="Temple Run Style Mini Game with Smooth Controls"></a>
+
+*Video unavailable: the source post is private. The original preview and prompt are retained.*
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
+Claude Opus 5.5 just built me a mini temple run style game
 
 it actually feel pretty smooth to play
 
 honestly I didn’t expect the result like this
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/itsjdraven-557760/original.d6166a0f3b.webp" width="400" alt="Temple Run Style Mini Game with Smooth Controls">
+</details>
 
-*Source: @itsjdraven - [Post](https://x.com/itsjdraven/status/2104059393222557760)*
+*Source: @itsjdraven · [X post](https://x.com/itsjdraven/status/2104059393222557760)*
 
 ---
 
+<a id="category-9"></a>
+
 ## 9. Music Videos & Visualizers
 
-### 240. AI Singularity Pop Song Lyric Video with Particle Effects (20.1M views, 16,418 likes)
-*Use Case: music | Style: 2d, abstract, particle*
+<a id="case-240"></a>
 
-**Prompt:**
-```
+### 240. AI Singularity Pop Song Lyric Video with Particle Effects (20.1M views, 16,418 likes)
+
+*Use case: music · Style: 2d, abstract, particle*
+
+https://github.com/user-attachments/assets/12f016ef-7dbc-46d2-9eb1-91eae4937d1b
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 I've included an MP4 file and an original link to a video that is called "Claude Pop." It's a pop song that is about increasing rate of progress and the experience of the singularity approaching.
 
 I want you to independently do an end-to-end complete pass on making an updated version of this video. Use the exact same audio track and think and feel very deeply about what is the best way to visually represent all of the lyrics on screen. You do not need to anchor to the current style, you can do truly anything that you think might best let you visually express yourself, including abstract motion graphics.
@@ -6117,16 +8336,16 @@ You also need to be open to going back and revisiting things in order to be able
 
 You can also use search abilities and find other references to pull from for motion, for JavaScript, animations, et cetera, and integrate them. Your budget is as high as you want here, effectively as high as you want. I think that there's roughly two grand in foul credits. Again, be economical; don't go crazy, but spend what you want here and see what you can cook up
 
-here's the source code for the JS animation video: 
+here's the source code for the JS animation video:
 https://
 github.com/JohnHeibel/PDo
 omVideo
 …
 
-here's a mp4 for the original blender video:  
+here's a mp4 for the original blender video:
 (linked)
 
-orginal twitter post  
+orginal twitter post
 
 https://
 x.com/other__reality
@@ -6136,17 +8355,24 @@ x.com/other__reality
 make no mistakes.
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/anabology-491441/original.be0a03ecf7.webp" width="400" alt="AI Singularity Pop Song Lyric Video with Particle Effects">
+</details>
 
-*Source: @anabology - [Post](https://x.com/anabology/status/2103534482930491441)*
+*Source: @anabology · [X post](https://x.com/anabology/status/2103534482930491441)*
 
 ---
 
-### 241. AI Doom Music Video with Stochastic Parrot Visuals (65.6K views, 186 likes)
-*Use Case: music | Style: abstract, particle*
+<a id="case-241"></a>
 
-**Prompt:**
-```
+### 241. AI Doom Music Video with Stochastic Parrot Visuals (65.6K views, 186 likes)
+
+*Use case: music · Style: abstract, particle*
+
+https://github.com/user-attachments/assets/8c2394ee-094f-4bb4-9da1-adf5c80a4707
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 I'd like you to make a music video in a similar style to this one:
 
 https://github.com/JohnHeibel/PDoomVideo
@@ -6183,17 +8409,24 @@ Dr. Null's arms look a bit unnatural in many scenes - I think he's supposed to b
   more natural? If you do so and like the result, re-render.
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/doubleunplussed-181894/original.82018f5fb9.webp" width="400" alt="AI Doom Music Video with Stochastic Parrot Visuals">
+</details>
 
-*Source: @doubleunplussed - [Post](https://x.com/doubleunplussed/status/2103697580421181894)*
+*Source: @doubleunplussed · [X post](https://x.com/doubleunplussed/status/2103697580421181894)*
 
 ---
 
-### 242. Blender Dance Animation with Procedural Confetti and Music (9.0K views, 74 likes)
-*Use Case: music | Style: 3d, realistic*
+<a id="case-242"></a>
 
-**Prompt:**
-```
+### 242. Blender Dance Animation with Procedural Confetti and Music (9.0K views, 74 likes)
+
+*Use case: music · Style: 3d, realistic*
+
+https://github.com/user-attachments/assets/7f9eeda4-5bd3-4618-ac2c-9b7a38c15842
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 クラウドのLinux環境にBlenderをPythonモジュールとして入れ、シーン構築からレンダーまで全部スクリプトで実行
 ステージ、照明、紙吹雪、カメラワークをコードで組み、Cyclesで描画
 グロー、フラッシュ、色収差の後処理とMP4化まで自動
@@ -6205,45 +8438,66 @@ BGMもサンプル素材なし。キック、スネア、ベース、シンセ�
 拍の頭でクローム、ゴールド、ホログラム、ボクセルに質感とメッシュが変わる
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/_prompts/oab10don-457273/poster.3b73be79a5.webp" width="400" alt="Blender Dance Animation with Procedural Confetti and Music">
+</details>
 
-*Source: @oab10don - [Post](https://x.com/oab10don/status/2105879685322457273)*
+*Source: @oab10don · [X post](https://x.com/oab10don/status/2105879685322457273)*
 
 ---
 
-### 243. Another World Style Nightcall Driving Animation (7.0K views, 131 likes)
-*Use Case: music | Style: 2d, retro*
+<a id="case-243"></a>
 
-**Prompt:**
-```
+### 243. Another World Style Nightcall Driving Animation (7.0K views, 131 likes)
+
+*Use case: music · Style: 2d, retro*
+
+https://github.com/user-attachments/assets/81dc535c-d5e7-42a9-91ed-fe4a3ee58fcd
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 Create a player and tools for Another World's approach to animation. Also create a realtime video for Kavinsky-Nightcall starring Lester from Another World driving to the lab. Use crude compression for binary+data <250KB.
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/_prompts/gandamu-ml-124280/poster.e0e15c0e1f.webp" width="400" alt="Another World Style Nightcall Driving Animation">
+</details>
 
-*Source: @gandamu_ml - [Post](https://x.com/gandamu_ml/status/2104402167906124280)*
+*Source: @gandamu_ml · [X post](https://x.com/gandamu_ml/status/2104402167906124280)*
 
 ---
 
-### 244. Perler Bead Pixel Art MV with Karaoke Subtitles (Chinese) (3.4K views, 35 likes)
-*Use Case: music | Style: pixel-art, 2d*
+<a id="case-244"></a>
 
-**Prompt:**
-```
+### 244. Perler Bead Pixel Art MV with Karaoke Subtitles (Chinese) (3.4K views, 35 likes)
+
+*Use case: music · Style: pixel-art, 2d*
+
+https://github.com/user-attachments/assets/1e4af9f6-d9ac-485d-ac1e-dc50fdf0c88c
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 把这首歌做成 1 分钟拼豆像素风 MV：按歌词设计原创角色，每个像素是带孔拼豆，拼好后熨成白边贴纸；方格纸背景加粉白格子地板；动作卡节拍，底部加卡拉 OK 字幕。
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/_prompts/hahazwei-425483/poster.ee504acb44.webp" width="400" alt="Perler Bead Pixel Art MV with Karaoke Subtitles (Chinese)">
+</details>
 
-*Source: @hahazwei - [Post](https://x.com/hahazwei/status/2104809910152425483)*
+*Source: @hahazwei · [X post](https://x.com/hahazwei/status/2104809910152425483)*
 
 ---
 
-### 245. 20-Second Story-Led Music Video with Two Protagonists (1.4K views, 12 likes)
-*Use Case: music | Style: 2d, cartoon*
+<a id="case-245"></a>
 
-**Prompt:**
-```
+### 245. 20-Second Story-Led Music Video with Two Protagonists (1.4K views, 12 likes)
+
+*Use case: music · Style: 2d, cartoon*
+
+https://github.com/user-attachments/assets/994f326c-6317-4386-984b-ca438fdddae8
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 I want you to independently do an end-to-end complete pass on making 20 second story led music video with two main protagonists a girl and a boy. I want the concept and storytelling to be reallyy unique and engaging. the audeince should be hooked to find out what happens next. the visuals shouls be pretty and really ccool. both the charcters should have a witty, quirky personality.  Use the right audio track and think and feel very deeply about what is the best way to visually represent all of the lyrics on screen. in terms of style, you can do truly anything that you think might best let you visually express yourself, including abstract motion graphics. You can use the internet freely to pull in references. You can look at motion design. I want you to make a fresh music video that has beautifully rendered JavaScript animations with a papery feel in a similar style to the reference that is created, but push the aesthetics in any direction you want and consider what is part of the modern zeitgeist. ive also attached another style that ypu explore and pick out whatever seems best to you.
 
 Also, think about your current capabilities and what is realistic for you to be able to do. I think you should be mindful of aesthetics here, and I don't want you to produce something that is GPT slop. Instead, I'd be more impressed if you come up with a coherent style that works well. Generate the style sheet.
@@ -6262,17 +8516,24 @@ You also need to be open to going back and revisiting things in order to be able
 You can also use search abilities and find other references to pull from for motion, for JavaScript, animations, et cetera, and integrate them. Again, be economical; don't go crazy, but spend what you want here and see what you can cook up.
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/anjmaxx-459455/original.7ad28c81ea.webp" width="400" alt="20-Second Story-Led Music Video with Two Protagonists">
+</details>
 
-*Source: @anjmaxx - [Post](https://x.com/anjmaxx/status/2103173729656459455)*
+*Source: @anjmaxx · [X post](https://x.com/anjmaxx/status/2103173729656459455)*
 
 ---
 
-### 246. 50-Second Vertical Three.js Music Video with Suno Audio (1.3K views, 2 likes)
-*Use Case: music | Style: 3d*
+<a id="case-246"></a>
 
-**Prompt:**
-```
+### 246. 50-Second Vertical Three.js Music Video with Suno Audio (1.3K views, 2 likes)
+
+*Use case: music · Style: 3d*
+
+https://github.com/user-attachments/assets/664f6738-d7a4-4799-aaa4-d1d6b625c827
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 Create a 50-second vertical music video using programmatic rendering (Three.js) instead of native video AI.
 1. Generate song with Suno. Extract lyrics from embedded metadata.
 2. Separate stems with Demucs (vocals, drums, bass, other).
@@ -6285,47 +8546,169 @@ Create a 50-second vertical music video using programmatic rendering (Three.js) 
 Style: Engraving-like lines, colors limited to Black, Bone, Orange.
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/_prompts/okazaky-084783/poster.a5adec824d.webp" width="400" alt="50-Second Vertical Three.js Music Video with Suno Audio">
+</details>
 
-*Source: @okazaky - [Post](https://x.com/okazaky/status/2107826563786084783)*
+*Source: @okazaky · [X post](https://x.com/okazaky/status/2107826563786084783)*
 
 ---
 
-### 247. 140 BPM UK Dubstep Style Audio-Visual Motion (1.2K views, 8 likes)
-*Use Case: music | Style: 2d, abstract*
+<a id="case-247"></a>
 
-**Prompt:**
-```
+### 247. 140 BPM UK Dubstep Style Audio-Visual Motion (1.2K views, 8 likes)
+
+*Use case: music · Style: 2d, abstract*
+
+https://github.com/user-attachments/assets/26e2c98b-c8bc-4f01-85cb-f97b53ee5e4d
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 140 BPM rusko/skream style UK dubstep
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/rames-jusso-776559/original.f78494a681.webp" width="400" alt="140 BPM UK Dubstep Style Audio-Visual Motion">
+</details>
 
-*Source: @Rames_Jusso - [Post](https://x.com/Rames_Jusso/status/2103200703598776559)*
+<details>
+<summary>Prompt · Chinese version from Feishu</summary>
+
+```text
+140 BPM、Rusko／Skream风格的英式Dubstep。
+```
+
+</details>
+
+*Source: @Rames_Jusso · [X post](https://x.com/Rames_Jusso/status/2103200703598776559) · [Feishu N22](https://aiwarts101.feishu.cn/wiki/LMEcwg5jHiTSnqkwNE1cum7DnLb)*
 
 ---
 
-### 248. Psychedelic Pop Punk VJ Motion Graphics with Techno Sync (1.1K views, 8 likes)
-*Use Case: music | Style: 2d, abstract*
+<a id="case-248"></a>
 
-**Prompt:**
-```
+### 248. Psychedelic Pop Punk VJ Motion Graphics with Techno Sync (1.1K views, 8 likes)
+
+*Use case: music · Style: 2d, abstract*
+
+https://github.com/user-attachments/assets/18175686-f71b-4c1a-82ef-5032bf5f0f57
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 見た人の脳汁がドバドバでてトランス状態に陥るようなサイケデリック・ポップ・パンクなVJ風のモーショングラフィックス動画を作り、その動画と完全にシンクロするトランス・サイバー・パンク・テクノの曲を作って嵌めてくれ。30秒程度で良い。
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/_prompts/yama-kiyo-134910/poster.b270c9b6dd.webp" width="400" alt="Psychedelic Pop Punk VJ Motion Graphics with Techno Sync">
+</details>
 
-*Source: @yama_kiyo - [Post](https://x.com/yama_kiyo/status/2103740786177134910)*
+*Source: @yama_kiyo · [X post](https://x.com/yama_kiyo/status/2103740786177134910)*
 
 ---
 
+<a id="case-300"></a>
+
+### 300. Peter Gabriel-Inspired Clay-Style Music Video
+
+*Use case: music · Style: clay*
+
+https://github.com/user-attachments/assets/7da883ee-ef14-40fd-a686-da2226f4c76b
+
+<details>
+<summary>Prompt · English translation</summary>
+
+```text
+Make a 60-second music video inspired by Peter Gabriel's Sledgehammer and Big Time, but with contemporary references and characters. Compose the song too, making it sound like it would fit on Peter Gabriel's album So.
+```
+
+</details>
+
+<details>
+<summary>Prompt · Chinese version from Feishu</summary>
+
+```text
+制作一支60秒的音乐视频，风格参考Peter Gabriel的《Sledgehammer》和《Big Time》，但采用当代的参考元素与人物。同时创作这首歌，要让它听起来像是适合收录在Peter Gabriel的《So》专辑中的作品。
+```
+
+</details>
+
+*Source: [Feishu collection](https://aiwarts101.feishu.cn/wiki/LMEcwg5jHiTSnqkwNE1cum7DnLb) · [Feishu N23](https://aiwarts101.feishu.cn/wiki/LMEcwg5jHiTSnqkwNE1cum7DnLb)*
+
+---
+
+<a id="case-301"></a>
+
+### 301. A Music Machine Where Every Note Comes from a Collision
+
+*Use case: music · Style: N/A*
+
+https://github.com/user-attachments/assets/fbcd8088-ee21-49b0-bfd4-75da70fb9d70
+
+<details>
+<summary>Prompt · English translation</summary>
+
+```text
+Build a machine that runs for 45 seconds and plays an original piece of music, with every note coming from a visible collision.
+```
+
+</details>
+
+<details>
+<summary>Prompt · Chinese version from Feishu</summary>
+
+```text
+搭建一台运行45秒的机器，让它演奏一首原创乐曲，而且每个音符都必须来自一次看得见的碰撞。
+```
+
+</details>
+
+*Source: [Feishu collection](https://aiwarts101.feishu.cn/wiki/LMEcwg5jHiTSnqkwNE1cum7DnLb) · [Feishu N24](https://aiwarts101.feishu.cn/wiki/LMEcwg5jHiTSnqkwNE1cum7DnLb)*
+
+---
+
+<a id="case-302"></a>
+
+### 302. Kinetic Lyrics Synchronized to Vocals and Beats
+
+*Use case: music · Style: kinetic-type*
+
+https://github.com/user-attachments/assets/c9d294a4-6fb1-49f5-87d0-42efafcabe92
+
+<details>
+<summary>Prompt · English translation</summary>
+
+```text
+Create a kinetic typography motion graphics video using the attached music, with lyrics and animation perfectly synchronized to the vocals and beat. Make it look like a brilliant motion designer's resume showreel. Be creative and go all out.
+```
+
+</details>
+
+<details>
+<summary>Prompt · Chinese version from Feishu</summary>
+
+```text
+根据附上的音乐制作一支动态歌词动态图形视频，让歌词与动画同人声和节拍完美同步。让它看起来像是一位出色动效设计师用于简历的作品集展示片。放开手脚，全力以赴。
+```
+
+</details>
+
+*Source: [Feishu collection](https://aiwarts101.feishu.cn/wiki/LMEcwg5jHiTSnqkwNE1cum7DnLb) · [Feishu N25](https://aiwarts101.feishu.cn/wiki/LMEcwg5jHiTSnqkwNE1cum7DnLb)*
+
+---
+
+<a id="category-10"></a>
+
 ## 10. Branding & Logo Animation
 
-### 249. Apple Keynote Style Product Launch Film with Photo Morphing (140.7K views, 2,179 likes)
-*Use Case: branding | Style: 2d, photo-based, minimal*
+<a id="case-249"></a>
 
-**Prompt:**
-```
+### 249. Apple Keynote Style Product Launch Film with Photo Morphing (140.7K views, 2,179 likes)
+
+*Use case: branding · Style: 2d, photo-based, minimal*
+
+https://github.com/user-attachments/assets/f6f1d378-e77d-43b7-bc33-4635da5bc3a1
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 <inputs>
 Ask me for: a one-word brand name for the wordmark (a verb works best), 9 to 12 high-res photos, a royalty-free song around 120 BPM with a drop and a quiet breakdown (Mixkit, free for commercial use), and a free stock clip of a plain wall with moving plant shadows (Pexels).
 </inputs>
@@ -6365,17 +8748,59 @@ Ask me for the inputs, then show me the beat map and 4 stills (open, glass, stag
 </start>
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/twoclipping-496100/original.8f1c352eca.webp" width="400" alt="Apple Keynote Style Product Launch Film with Photo Morphing">
+</details>
 
-*Source: @twoclipping - [Post](https://x.com/twoclipping/status/2103835273813496100)*
+<details>
+<summary>Prompt · Chinese version from Feishu</summary>
+
+```text
+【输入材料】
+先向我索取：一个单词的品牌名称，用作字标（最好是动词）；9–12张高清照片；一首约120 BPM、含高潮段和安静间奏、可免版税使用的歌曲（例如Mixkit，允许商业使用）；以及一段普通墙面上有植物影子移动的免费素材视频（Pexels）。
+【创作方向】
+制作一支苹果发布会风格的产品发布片，只用2D，以一个连续镜头完成。每个场景都由前一个场景演变而来：不淡入淡出、不模糊转场、不切镜。改用物体形变：文字从遮罩线中升起，图标通过弹簧动画从零尺寸弹出，横条逐步展开，页面推进，黑色形状铺满全屏后收缩为下一场景。
+使用暖白背景、黑色界面，照片上叠加iOS 26液态玻璃效果。字标用Archivo字体（宽度轴125、字重800），界面用Geist。光标通过真实的点击、拖动和长按驱动每次变化。镜头像Screen Studio那样缩放，让每个关键时刻都充满方形画面；光标随镜头同比例缩放。
+禁止：交叉淡化、模糊淡入、靠亮度变化模拟显影、3D翻转、粒子、发光、超过1秒的停顿，以及任何模板感。
+【片段结构】
+120 BPM，共54拍，每一拍都有变化。
+开场：字标像手风琴一样挤向自身的句点；圆点变成黑色胶囊，标签从内部升起。点击后，六片光圈叶片闭合遮住标签，再迅速打开露出照片。圆形变成方形并缩小，网格像纸质地图一样从后方展开（中心、十字、四角），再重排成便当盒布局。点击放大其中一格，正好落在音乐高潮拍点。
+玻璃：玻璃文字逐字出现，融成水滴，再拉伸为玻璃工具栏。调整图标变成滑块。拖动时，照片从白天变成黄金时刻（用两张对齐照片）；按住滑块时，旋钮变成玻璃镜片。镜片升起成为玻璃球，下一张照片在球内以圆形打开，再扩展成锁屏：玻璃时钟数字、日期和底部横条；横条延伸成玻璃音乐播放器。
+展示：锁屏向后拉，屏幕边缘长出边框，形成手机。灵动岛像液体一样拉伸、分离、飞过去，再长成像百叶窗一样卷起的Mac窗口。长按壁纸，把它拖到Safari标签页；页面推进，放开后照片变成落地页的主视觉。滚动时，主视觉变成商品卡上的装裱照片，卡纸和边框从照片边缘生长出来。选择边框颜色（涂色展开）和尺寸，导航按钮飞到下方变成“订购相片”。
+订单：同一个黑色形状持续变形：已下单✓ → 正在打印% → 配送中（路线上的货车）→ 已送达✓。
+墙面：送达状态的圆形铺满整个画面，保持黑色一拍，再收缩成真实墙面素材上挂着的装裱照片。同一个光圈打开露出照片，再次闭合；边框铺满屏幕后收缩为胶囊→圆点→字母。字母随节拍返回弹出。最后一帧必须与第一帧相同。
+【制作要求】
+1. 只交付一个1440×1440的方形HTML文件。所有样式都在异步seek(t)中按时间计算：不使用CSS过渡、定时器，也不在帧之间保留状态。
+2. 弹簧使用闭式阶跃响应。一个数值有多个目标时，每次目标变化各加一个弹簧响应，再求和，使结果始终是时间的纯函数。
+3. 液态玻璃：每个玻璃元素持有背后场景的独立副本；用SVG feImage位移贴图（圆角矩形距离场），经过三个缩放略有差异的feDisplacementMap生成彩色边缘，再加轮廓光。玻璃字母用每个字形的Canvas距离场生成贴图、遮罩和高光。
+4. 黏液融合：先模糊，再做透明度阈值处理，最后把原始画面合成到上方，保证玻璃内部清晰。
+5. 光圈：六片叶片围绕六边形孔径排列。每片由两个顶点、两条边的延长线，以及两点之间的短圆弧构成。
+6. 字标挤压：每个字母按相同比例向句点移动，字形宽度同步变化（收窄wdth轴，其余部分缩放），保证字母始终接触。
+7. 素材视频：重新编码为全帧内压缩（ffmpeg -g 1），以blob URL加载；每帧绘制前等待seeked事件。
+8. 声音：每个事件使用下载的音效（Mixkit），不合成音效；按测得的峰值放置。歌曲从强拍开始：放大落在高潮，墙面段放在间奏，字标随节拍返回。用loudnorm归一化到-14 LUFS。
+9. 用Playwright渲染：每帧渲染4个子帧，通过ffmpeg tmix混合，60fps。逐拍检查静帧，再扫描单帧跳变（帧差峰值超过相邻帧3倍）。
+【注意事项】
+Chromium的backdrop-filter: url()会错误读取位移贴图，因此改用场景副本。铺满屏幕的形状必须超出四角，扩展过程约0.3秒，否则半屏可能在一帧内突然变化。父元素隐藏时，visibility: visible的子元素仍会露出，应使用inherit。形变容器里切换的文字需要独立遮罩。python http.server无法按范围定位视频，因此使用blob URL。
+【开始方式】
+先向我索取输入材料；在制作完整短片前，先给我节拍表和4张静帧（开场、玻璃、展示、墙面）。
+```
+
+</details>
+
+*Source: @twoclipping · [X post](https://x.com/twoclipping/status/2103835273813496100) · [Feishu M43](https://aiwarts101.feishu.cn/wiki/LMEcwg5jHiTSnqkwNE1cum7DnLb)*
 
 ---
 
-### 250. 22-Second Square Loop Product Demo with Morphing Shapes (49.1K views, 722 likes)
-*Use Case: branding | Style: 2d, minimal*
+<a id="case-250"></a>
 
-**Prompt:**
-```
+### 250. 22-Second Square Loop Product Demo with Morphing Shapes (49.1K views, 722 likes)
+
+*Use case: branding · Style: 2d, minimal*
+
+https://github.com/user-attachments/assets/473c2318-22d7-4412-a5a8-63fe6a50b762
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 <inputs>
 Ask me for: the one question a user asks my product and its one-line answer, two album covers, a royalty-free song around 110 BPM with a quiet intro and a hard drop (Mixkit, free for commercial use), and my logo for the ending. If I skip any, use the defaults: "is this all code?" / "yes. every frame.", two atmospheric photos, Mixkit "Head Bang".
 </inputs>
@@ -6399,17 +8824,24 @@ Ending: an "Ask [my product]" button grows out of the light, thins into a line, 
 </structure>
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/_prompts/twoclipping-762046/poster.d9fb9fe020.webp" width="400" alt="22-Second Square Loop Product Demo with Morphing Shapes">
+</details>
 
-*Source: @twoclipping - [Post](https://x.com/twoclipping/status/2104674464868762046)*
+*Source: @twoclipping · [X post](https://x.com/twoclipping/status/2104674464868762046)*
 
 ---
 
-### 251. Tech News Topic Motion Graphics Explainer (33.2K views, 272 likes)
-*Use Case: branding | Style: 2d, kinetic-type, minimal*
+<a id="case-251"></a>
 
-**Prompt:**
-```
+### 251. Tech News Topic Motion Graphics Explainer (33.2K views, 272 likes)
+
+*Use case: branding · Style: 2d, kinetic-type, minimal*
+
+https://github.com/user-attachments/assets/bbd231cb-67c1-4df4-8468-000679efc910
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 You are a world-class motion designer doing a 20.00s kinetic identity bumper for TechHalla — an AI creator known for stealable workflows, not vibes. This piece must feel like the best designer in the room made a street-poster that moves. Showreel stakes: if this is weak, you don’t get hired.
 
 DURATION: exactly 20.00 seconds. LOOPABLE: frame 0 == frame last (position, opacity, cursor if any).
@@ -6462,45 +8894,66 @@ Generic AI clichés (brains, robots, neural nets, sparkles), soft gradients, bou
 If Astra already blew our minds… Opus 5.5 is a monster 😱
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/techhalla-498547/original.fbdb194d58.webp" width="400" alt="Tech News Topic Motion Graphics Explainer">
+</details>
 
-*Source: @techhalla - [Post](https://x.com/techhalla/status/2103411244468498547)*
+*Source: @techhalla · [X post](https://x.com/techhalla/status/2103411244468498547)*
 
 ---
 
-### 252. Fire Animation Effects Showcase with Particle Systems (26.8K views, 118 likes)
-*Use Case: branding | Style: 2d, minimal*
+<a id="case-252"></a>
 
-**Prompt:**
-```
+### 252. Fire Animation Effects Showcase with Particle Systems (26.8K views, 118 likes)
+
+*Use case: branding · Style: 2d, minimal*
+
+https://github.com/user-attachments/assets/03c3b6bb-14d1-445b-ad10-5a39a782c897
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 I want to know how good a graphic designer you are. To prove this to me, I want you to prepare a 15-second motion graphics video. I want you to do an introduction related to my account. I'm sharing my logo and my X cover image, use those too.
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/fire-ozgur-130104/original.9df58f2d55.webp" width="400" alt="Fire Animation Effects Showcase with Particle Systems">
+</details>
 
-*Source: @fire_ozgur - [Post](https://x.com/fire_ozgur/status/2103459971174130104)*
+*Source: @fire_ozgur · [X post](https://x.com/fire_ozgur/status/2103459971174130104)*
 
 ---
 
-### 253. TypingMind Logo Slow Reveal Assembly Animation (24.3K views, 322 likes)
-*Use Case: branding | Style: 2d, minimal*
+<a id="case-253"></a>
 
-**Prompt:**
-```
+### 253. TypingMind Logo Slow Reveal Assembly Animation (24.3K views, 322 likes)
+
+*Use case: branding · Style: 2d, minimal*
+
+https://github.com/user-attachments/assets/ec7edeca-249b-479a-9e86-d1e2119fe6e6
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 Create an impressive motion design video of a slow-reveal transition that assembles and eventually reveals the TypingMind logo.
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/_prompts/tdinh-me-301409/poster.e99eade10a.webp" width="400" alt="TypingMind Logo Slow Reveal Assembly Animation">
+</details>
 
-*Source: @tdinh_me - [Post](https://x.com/tdinh_me/status/2103704250329301409)*
+*Source: @tdinh_me · [X post](https://x.com/tdinh_me/status/2103704250329301409)*
 
 ---
 
-### 254. Speaker Carousel Ring Animation in After Effects (18.0K views, 210 likes)
-*Use Case: branding | Style: 2d, kinetic-type*
+<a id="case-254"></a>
 
-**Prompt:**
-```
+### 254. Speaker Carousel Ring Animation in After Effects (18.0K views, 210 likes)
+
+*Use case: branding · Style: 2d, kinetic-type*
+
+https://github.com/user-attachments/assets/824fb4d2-36aa-4da0-ac0a-0459a1e5d17e
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 SPEAKER CAROUSEL
 <setup>
 Claude is connected directly to my open After Effects project through the AE MCP.
@@ -6508,31 +8961,45 @@ Work inside the Inner comp where the speaker ring already exists.
 </setup>
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/_prompts/johncodunayo-560372/poster.d53d26d25c.webp" width="400" alt="Speaker Carousel Ring Animation in After Effects">
+</details>
 
-*Source: @johncodunayo - [Post](https://x.com/johncodunayo/status/2105271353993560372)*
+*Source: @johncodunayo · [X post](https://x.com/johncodunayo/status/2105271353993560372)*
 
 ---
 
-### 255. PayBox Logo 10-Second Motion Reel (6.8K views, 36 likes)
-*Use Case: branding | Style: 2d, minimal*
+<a id="case-255"></a>
 
-**Prompt:**
-```
+### 255. PayBox Logo 10-Second Motion Reel (6.8K views, 36 likes)
+
+*Use case: branding · Style: 2d, minimal*
+
+https://github.com/user-attachments/assets/994377b1-448e-4da1-adfc-0106e895d76c
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 Make this PayBox logo into a reel. Pretend you are a world-class motion designer. Make a 10-second dynamic video like the reference
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/0xvalure-331584/original.241313ccf0.webp" width="400" alt="PayBox Logo 10-Second Motion Reel">
+</details>
 
-*Source: @0xValure - [Post](https://x.com/0xValure/status/2103603025579331584)*
+*Source: @0xValure · [X post](https://x.com/0xValure/status/2103603025579331584)*
 
 ---
 
-### 256. Spotify-Themed 18-Second Motion Graphics Video (3.7K views, 41 likes)
-*Use Case: branding | Style: 2d, minimal*
+<a id="case-256"></a>
 
-**Prompt:**
-```
+### 256. Spotify-Themed 18-Second Motion Graphics Video (3.7K views, 41 likes)
+
+*Use case: branding · Style: 2d, minimal*
+
+https://github.com/user-attachments/assets/d6260b00-ab95-4a0a-b977-420025e2d6d7
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 Create a complete, polished Spotify-themed motion graphics video from the following brief. This prompt is self-contained: no reference video or supplied assets are required.
 
 <deliverables> An 18-second MP4 at 1920×1080 and true 60 fps, with music and subtle sound effects Complete editable source Build, render, inspect, and refine the animation before delivering it Do not stop at a storyboard, still images, or an implementation plan </deliverables>
@@ -6696,17 +9163,24 @@ Fix visual defects before delivering the final MP4 and editable source
 </implementation_and_validation>
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/brainextends-606193/original.f7353b2aa2.webp" width="400" alt="Spotify-Themed 18-Second Motion Graphics Video">
+</details>
 
-*Source: @brainextends - [Post](https://x.com/brainextends/status/2103801834930606193)*
+*Source: @brainextends · [X post](https://x.com/brainextends/status/2103801834930606193)*
 
 ---
 
-### 257. Brand 5-Year Vision Word Coining Film (3.7K views, 27 likes)
-*Use Case: branding | Style: 2d, photo-based*
+<a id="case-257"></a>
 
-**Prompt:**
-```
+### 257. Brand 5-Year Vision Word Coining Film (3.7K views, 27 likes)
+
+*Use case: branding · Style: 2d, photo-based*
+
+https://github.com/user-attachments/assets/6f4d454d-0dbb-49f6-9e24-0c715575d3df
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 <inputs>
 Ask me for: a brand name, its logo (SVG or high-res PNG), one line of what it becomes in 5 years (not today's features), one coined word the film should teach (e.g. "signal"), a public-domain archival clip of the old way of doing it (https://t.co/t5EaRxnryq Prelinger), an archived web page from ~2000 where people asked for things (Wayback Machine), a royalty-free song ~100-120 BPM with a real drop (Mixkit, free for commercial use), and a free ElevenLabs key for the narrator (premade voices only).
 </inputs>
@@ -6739,20 +9213,27 @@ If the narrator pauses, the visuals must not stop. If a counter freezes, the ren
 </gotchas>
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/_prompts/notdwd-998633/poster.3ade3adf5d.webp" width="400" alt="Brand 5-Year Vision Word Coining Film">
+</details>
 
-*Source: @notdwd - [Post](https://x.com/notdwd/status/2103995183255998633)*
+*Source: @notdwd · [X post](https://x.com/notdwd/status/2103995183255998633)*
 
 ---
 
-### 258. 3D Pixel Renderer Binance-Style Cinematic Intro (Chinese) (3.5K views, 1 likes)
-*Use Case: branding | Style: pixel-art, 3d*
+<a id="case-258"></a>
 
-**Prompt:**
-```
+### 258. 3D Pixel Renderer Binance-Style Cinematic Intro (Chinese) (3.5K views, 1 likes)
+
+*Use case: branding · Style: pixel-art, 3d*
+
+https://github.com/user-attachments/assets/fb56571d-056c-40b2-a8c5-52d71d03623b
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 趁着今天有空回看和分析了一下整个视频
 
-审美在线的Opus 5.5确实顶 @claudeai 
+审美在线的Opus 5.5确实顶 @claudeai
 
 3D渲染器像素风
 
@@ -6765,140 +9246,207 @@ If the narrator pauses, the visuals must not stop. If a counter freezes, the ren
 #binance #claude
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/sciencedegens-843325/original.abafb28cc5.webp" width="400" alt="3D Pixel Renderer Binance-Style Cinematic Intro (Chinese)">
+</details>
 
-*Source: @sciencedegens - [Post](https://x.com/sciencedegens/status/2104114814536843325)*
+*Source: @sciencedegens · [X post](https://x.com/sciencedegens/status/2104114814536843325)*
 
 ---
 
-### 259. DreamFort 20-Second Motion Graphics Manifesto (1.1K views, 12 likes)
-*Use Case: branding | Style: 2d, kinetic-type*
+<a id="case-259"></a>
 
-**Prompt:**
-```
+### 259. DreamFort 20-Second Motion Graphics Manifesto (1.1K views, 12 likes)
+
+*Use case: branding · Style: 2d, kinetic-type*
+
+https://github.com/user-attachments/assets/cf91e720-11e9-4af4-af6b-f547fe2a06ad
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 make a 20-second motion graphics manifesto for DreamFort: "superintelligence should belong to everyone". every frame and every sound written in code, no image or video models.
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/advait-jayant-712107/original.472a46d88f.webp" width="400" alt="DreamFort 20-Second Motion Graphics Manifesto">
+</details>
 
-*Source: @advait_jayant - [Post](https://x.com/advait_jayant/status/2103565104243712107)*
+*Source: @advait_jayant · [X post](https://x.com/advait_jayant/status/2103565104243712107)*
 
 ---
+
+<a id="category-11"></a>
 
 ## 11. Social Media Content
 
-### 260. Talking Head Video Edit with Subtitles Graphics and Music (63.4K views, 301 likes)
-*Use Case: social | Style: 2d, kinetic-type*
+<a id="case-260"></a>
 
-**Prompt:**
-```
+### 260. Talking Head Video Edit with Subtitles Graphics and Music (63.4K views, 301 likes)
+
+*Use case: social · Style: 2d, kinetic-type*
+
+https://github.com/user-attachments/assets/1dc5403b-9d99-4b5c-b376-3240ac272354
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 Cut a raw talking-head clip into a punchy, fun edit with subtitles, graphics and music
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/sab8a-475686/original.550678accf.webp" width="400" alt="Talking Head Video Edit with Subtitles Graphics and Music">
+</details>
 
-*Source: @sab8a - [Post](https://x.com/sab8a/status/2103144778481475686)*
+*Source: @sab8a · [X post](https://x.com/sab8a/status/2103144778481475686)*
 
 ---
 
-### 261. Camera-Themed Motion Graphics Reel with Remotion and TTS (56.2K views, 494 likes)
-*Use Case: social | Style: 2d, minimal*
+<a id="case-261"></a>
 
-**Prompt:**
-```
-ما أعتقد في قفزة سواها Opus 5.5 تساوي القفزة اللي سواها في صناعة ال motion graphics، سواء من ناحية الجودة أو من ناحية التكلفة (استهلاك ال tokens) 
+### 261. Camera-Themed Motion Graphics Reel with Remotion and TTS (56.2K views, 494 likes)
+
+*Use case: social · Style: 2d, minimal*
+
+https://github.com/user-attachments/assets/3b849de7-023b-45e7-9849-3f7b74311945
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
+ما أعتقد في قفزة سواها Opus 5.5 تساوي القفزة اللي سواها في صناعة ال motion graphics، سواء من ناحية الجودة أو من ناحية التكلفة (استهلاك ال tokens)
 
 هذا الفيديو سويته بربع حد ال 5 ساعات 👇🏻
 
 【作者补充制作说明】
-الطريقة باختصار: 
-استخدمت claude بنموذج opus 5.5 - مستوى التفكير متوسط إلى عالي، و طلبت منه يستخدم remotion لتسريع عملية ال preview و كذلك طلبت منه يقتصر استخدامه في معظم المؤثرات الصوتية على أصوات الكاميرات و عدسات التصوير الشائعة في ال reels و استخدمت نموذج gemini 3.8 tts flash لإنتاج الصوت 
+الطريقة باختصار:
+استخدمت claude بنموذج opus 5.5 - مستوى التفكير متوسط إلى عالي، و طلبت منه يستخدم remotion لتسريع عملية ال preview و كذلك طلبت منه يقتصر استخدامه في معظم المؤثرات الصوتية على أصوات الكاميرات و عدسات التصوير الشائعة في ال reels و استخدمت نموذج gemini 3.8 tts flash لإنتاج الصوت
 أخذ معي حوالي ساعة و نصف من المحادثات معه لكن معظمها راح في تجريب أشياء مختلفة و التجربة ممتعة فعلا.
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/yarhmm-341449/original.00d7d78f49.webp" width="400" alt="Camera-Themed Motion Graphics Reel with Remotion and TTS">
+</details>
 
-*Source: @YarHmm - [Post](https://x.com/YarHmm/status/2103505435802341449)*
+*Source: @YarHmm · [X post](https://x.com/YarHmm/status/2103505435802341449)*
 
 ---
 
-### 262. Chaotic Brain Rot Video with Python and FFmpeg (7.1K views, 55 likes)
-*Use Case: social | Style: 2d, abstract*
+<a id="case-262"></a>
 
-**Prompt:**
-```
+### 262. Chaotic Brain Rot Video with Python and FFmpeg (7.1K views, 55 likes)
+
+*Use case: social · Style: 2d, abstract*
+
+https://github.com/user-attachments/assets/75e3a145-e205-488e-8f59-43bae4627776
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 Use Python to generate a 9:16 chaotic brain rot video with excellent motion + sound design and render it using ffmpeg. Put your own personal spin on it so it’s aligned with Anthropic’s new launch. Also fully express what it’s like to be a very creative LLM used by me every day from your POV to give it some extra personality.
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/kloss-xyz-941143/original.c77fc2a47b.webp" width="400" alt="Chaotic Brain Rot Video with Python and FFmpeg">
+</details>
 
-*Source: @kloss_xyz - [Post](https://x.com/kloss_xyz/status/2103664956482941143)*
+*Source: @kloss_xyz · [X post](https://x.com/kloss_xyz/status/2103664956482941143)*
 
 ---
 
-### 263. Canvas-Drawn Video with Web Audio Synthesized Music (Chinese) (5.7K views, 7 likes)
-*Use Case: social | Style: 2d*
+<a id="case-263"></a>
 
-**Prompt:**
-```
+### 263. Canvas-Drawn Video with Web Audio Synthesized Music (Chinese) (5.7K views, 7 likes)
+
+*Use case: social · Style: 2d*
+
+https://github.com/user-attachments/assets/e53a2e4e-866a-45ef-bf6d-01395a5b7481
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 提取帖子里的内容，用JS做个横版视频，需要包含配乐和音效。画面全部用 JS 在 Canvas 上画，配乐和音效用浏览器的 Web Audio 实时合成，没有用任何图片或音频素材。
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/_prompts/oxpsats-182908/poster.36a54ce2c8.webp" width="400" alt="Canvas-Drawn Video with Web Audio Synthesized Music (Chinese)">
+</details>
 
-*Source: @oxpsats - [Post](https://x.com/oxpsats/status/2104462072344182908)*
+*Source: @oxpsats · [X post](https://x.com/oxpsats/status/2104462072344182908)*
 
 ---
 
-### 264. GravityDex x Gojo Satoru Anime Edit (2.1K views, 19 likes)
-*Use Case: social | Style: 2d, cartoon*
+<a id="case-264"></a>
 
-**Prompt:**
-```
+### 264. GravityDex x Gojo Satoru Anime Edit (2.1K views, 19 likes)
+
+*Use case: social · Style: 2d, cartoon*
+
+https://github.com/user-attachments/assets/f5258f42-f686-4aa3-82e4-6406b956993d
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 Make a GravityDEX x Gojo Satoru edit that goes hard
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/micheleharmonic-244175/original.a7d8538869.webp" width="400" alt="GravityDex x Gojo Satoru Anime Edit">
+</details>
 
-*Source: @MicheleHarmonic - [Post](https://x.com/MicheleHarmonic/status/2103111448352244175)*
+*Source: @MicheleHarmonic · [X post](https://x.com/MicheleHarmonic/status/2103111448352244175)*
 
 ---
 
-### 265. Crypto-Themed Motion Graphics Variation (2.0K views, 6 likes)
-*Use Case: social | Style: 2d, minimal*
+<a id="case-265"></a>
 
-**Prompt:**
-```
+### 265. Crypto-Themed Motion Graphics Variation (2.0K views, 6 likes)
+
+*Use case: social · Style: 2d, minimal*
+
+https://github.com/user-attachments/assets/34de0756-c674-450f-a001-c2177f92dfb2
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 make a similar version but with a crypto reference
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/0xevinho-436195/original.b7325353a8.webp" width="400" alt="Crypto-Themed Motion Graphics Variation">
+</details>
 
-*Source: @0xEvinho - [Post](https://x.com/0xEvinho/status/2103212966703436195)*
+*Source: @0xEvinho · [X post](https://x.com/0xEvinho/status/2103212966703436195)*
 
 ---
 
-### 266. Steam Game Releases News Show from Gamer Perspective (1.5K views, 13 likes)
-*Use Case: social | Style: 2d, infographic*
+<a id="case-266"></a>
 
-**Prompt:**
-```
+### 266. Steam Game Releases News Show from Gamer Perspective (1.5K views, 13 likes)
+
+*Use case: social · Style: 2d, infographic*
+
+https://github.com/user-attachments/assets/e7ef6857-800a-4c11-b919-b3a4bb6610d2
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 Please create introductory news about games released on Steam from September 25th to September 26th. From a gamer's perspective, highlight what seems interesting about each game in an easy-to-view manner. Make it a motion graphics video of about 60 seconds.
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/_prompts/gigabit-million-959719/poster.b9905643cf.webp" width="400" alt="Steam Game Releases News Show from Gamer Perspective">
+</details>
 
-*Source: @gigabit_million - [Post](https://x.com/gigabit_million/status/2104068536041959719)*
+*Source: @gigabit_million · [X post](https://x.com/gigabit_million/status/2104068536041959719)*
 
 ---
 
+<a id="category-12"></a>
+
 ## 12. Tutorials & How-To
 
-### 267. Claude Code Agent System Configuration and Workflow Setup (36.2K views, 290 likes)
-*Use Case: tutorial | Style: 2d*
+<a id="case-267"></a>
 
-**Prompt:**
-```
+### 267. Claude Code Agent System Configuration and Workflow Setup (36.2K views, 290 likes)
+
+*Use case: tutorial · Style: 2d*
+
+https://github.com/user-attachments/assets/1ae4c99a-99ad-4938-b123-0879849cfa80
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 Rebuild my Claude Code setup around this tree:
 
 1. Look in ~/.claude/agents and .claude/agents for subagents that already cover explorer, worker and researcher. Draft new ones only for roles that are missing. Set each to model: opus, effort: medium. If an existing subagent is pinned to a different model, list it, don't touch it.
@@ -6912,45 +9460,75 @@ Rebuild my Claude Code setup around this tree:
 Show every change as a diff first. Don't touch anything until I say go.
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/_prompts/imryven-495965/poster.4b4e7c2ce0.webp" width="400" alt="Claude Code Agent System Configuration and Workflow Setup">
+</details>
 
-*Source: @imryven - [Post](https://x.com/imryven/status/2105719735438495965)*
+*Source: @imryven · [X post](https://x.com/imryven/status/2105719735438495965)*
 
 ---
 
-### 268. Calculus Derivative Concept Explainer with Manim and Edge TTS (23.2K views, 260 likes)
-*Use Case: tutorial | Style: 2d, infographic*
+<a id="case-268"></a>
 
-**Prompt:**
-```
+### 268. Calculus Derivative Concept Explainer with Manim and Edge TTS (23.2K views, 260 likes)
+
+*Use case: tutorial · Style: 2d, infographic*
+
+https://github.com/user-attachments/assets/cbde7b44-55dd-4032-b8e9-a44789d36302
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 请用Manim给我制作一个导数概念学习的视频，要求通俗易懂，并且有例子，引人思考。配音使用edge-tts
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/linearuncle-971663/original.090384a0ec.webp" width="400" alt="Calculus Derivative Concept Explainer with Manim and Edge TTS">
+</details>
 
-*Source: @LinearUncle - [Post](https://x.com/LinearUncle/status/2103128559174971663)*
+<details>
+<summary>Prompt · Chinese version from Feishu</summary>
+
+```text
+请用Manim给我制作一个导数概念学习的视频，要求通俗易懂，并且有例子，引人思考。配音使用edge-tts
+```
+
+</details>
+
+*Source: @LinearUncle · [X post](https://x.com/LinearUncle/status/2103128559174971663) · [Feishu N12](https://aiwarts101.feishu.cn/wiki/LMEcwg5jHiTSnqkwNE1cum7DnLb)*
 
 ---
 
-### 269. 5 Gmail Productivity Tips Explainer with Code-Drawn Graphics (19.6K views, 177 likes)
-*Use Case: tutorial | Style: 2d, infographic*
+<a id="case-269"></a>
 
-**Prompt:**
-```
+### 269. 5 Gmail Productivity Tips Explainer with Code-Drawn Graphics (19.6K views, 177 likes)
+
+*Use case: tutorial · Style: 2d, infographic*
+
+https://github.com/user-attachments/assets/6a660512-0a70-43f3-a498-4c07333d149c
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 SKILL.mdどおりに「仕事が速くなるGmailの機能5選」を作って。台本は5つの項目に構造化して、働きは公式ヘルプで確かめて、画像はコードで描いて、ゆっくり音声に合わせて秒単位で切り替えて
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/_prompts/claudecode-ut-314769/poster.ce21da414d.webp" width="400" alt="5 Gmail Productivity Tips Explainer with Code-Drawn Graphics">
+</details>
 
-*Source: @ClaudeCode_UT - [Post](https://x.com/ClaudeCode_UT/status/2106958663525314769)*
+*Source: @ClaudeCode_UT · [X post](https://x.com/ClaudeCode_UT/status/2106958663525314769)*
 
 ---
 
-### 270. Particle-Based Video Rebuilding from Footage with Depth Estimation (13.1K views, 86 likes)
-*Use Case: tutorial | Style: particle, 2d*
+<a id="case-270"></a>
 
-**Prompt:**
-```
+### 270. Particle-Based Video Rebuilding from Footage with Depth Estimation (13.1K views, 86 likes)
+
+*Use case: tutorial · Style: particle, 2d*
+
+https://github.com/user-attachments/assets/16570715-2f33-45db-8619-1be3b50f6ebb
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 公开我的制作方案，发给Opus5.5就能用
 
   1. 选素材
@@ -7023,17 +9601,24 @@ SKILL.mdどおりに「仕事が速くなるGmailの機能5選」を作って。
   - 所有随机都固定：保证同样的设置每次渲染结果一致，否则没法逐步修改。
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/_prompts/pluvio9yte-662953/poster.338ede46a5.webp" width="400" alt="Particle-Based Video Rebuilding from Footage with Depth Estimation">
+</details>
 
-*Source: @Pluvio9yte - [Post](https://x.com/Pluvio9yte/status/2107087191738662953)*
+*Source: @Pluvio9yte · [X post](https://x.com/Pluvio9yte/status/2107087191738662953)*
 
 ---
 
-### 271. 15-Second Vertical Product Usage Guide with Remotion (1.2K views, 0 likes)
-*Use Case: tutorial | Style: 2d, photo-based*
+<a id="case-271"></a>
 
-**Prompt:**
-```
+### 271. 15-Second Vertical Product Usage Guide with Remotion (1.2K views, 0 likes)
+
+*Use case: tutorial · Style: 2d, photo-based*
+
+https://github.com/user-attachments/assets/7ea65d17-1089-42e1-9d6a-da9cb275c2b5
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 请在当前项目做一支 15 秒的产品使用说明视频，使用 Remotion，竖版 1080×1920、30fps、共 450 帧。只用 assets 目录里提供的商品图和我给出的事实，不下载陌生素材，不补销售数据。
 
 第 0 至 3 秒展示商品与一句使用场景。第 3 至 9 秒演示两步操作，每步只出现一个动作。第 9 至 13 秒展示结果，并保留能看清的停留时间。最后 2 秒显示产品名称，不加购买引导。
@@ -7043,65 +9628,99 @@ SKILL.mdどおりに「仕事が速くなるGmailの機能5選」を作って。
 交付可编辑项目、启动与渲染命令、MP4，以及第 1、5、10、14 秒的静帧。缺少必要素材时停止并说明，不用假素材代替。”
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/_prompts/qianqiongge-246969/poster.32f18ca94d.webp" width="400" alt="15-Second Vertical Product Usage Guide with Remotion">
+</details>
 
-*Source: @qianqiongge - [Post](https://x.com/qianqiongge/status/2105902139902246969)*
+*Source: @qianqiongge · [X post](https://x.com/qianqiongge/status/2105902139902246969)*
 
 ---
+
+<a id="category-13"></a>
 
 ## 13. Data Visualization
 
-### 272. Portland Bus Transit System Data Visualization Animation (3.8M views, 20,545 likes)
-*Use Case: data-viz | Style: 2d, infographic*
+<a id="case-272"></a>
 
-**Prompt:**
-```
+### 272. Portland Bus Transit System Data Visualization Animation (3.8M views, 20,545 likes)
+
+*Use case: data-viz · Style: 2d, infographic*
+
+https://github.com/user-attachments/assets/5da410a4-4c8e-459d-96f9-6270de1e177b
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 Create a video of Portland, OR's bus service on a random Tuesday! Showcase Portland's different neighborhoods at a high level and then zoom in on specific routes in each quadrant (absorbing North Portland into NE and South Portland into SW for brevity). Use a light theme. Slow down the speed of the bus animation when zoomed in, without increasing the total duration too much so the viewer can appreciate some of the landscape and streets it travels through in a given loop.
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/_prompts/milos-gis-317580/poster.49671e7853.webp" width="400" alt="Portland Bus Transit System Data Visualization Animation">
+</details>
 
-*Source: @milos_gis - [Post](https://x.com/milos_gis/status/2103751211040317580)*
+*Source: @milos_gis · [X post](https://x.com/milos_gis/status/2103751211040317580)*
 
 ---
 
-### 273. Debris Flow Riverbed Sediment Accumulation 3D Visualization (15.6K views, 298 likes)
-*Use Case: data-viz | Style: 3d, infographic*
+<a id="case-273"></a>
 
-**Prompt:**
-```
+### 273. Debris Flow Riverbed Sediment Accumulation 3D Visualization (15.6K views, 298 likes)
+
+*Use case: data-viz · Style: 3d, infographic*
+
+https://github.com/user-attachments/assets/0dd2e675-de17-4cdf-8f9b-441b879308ed
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 Build a debris flow riverbed change calculation model. Create a visualization video showing where and how much sediment accumulated, using 3D illustrations or actual aerial photo-like textures. You can choose the terrain freely. Make it easy to see where deposition and flooding occur.
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/_prompts/kisaka-ki-859326/poster.815d0c91f0.webp" width="400" alt="Debris Flow Riverbed Sediment Accumulation 3D Visualization">
+</details>
 
-*Source: @kisaka_ki - [Post](https://x.com/kisaka_ki/status/2107054815255859326)*
+*Source: @kisaka_ki · [X post](https://x.com/kisaka_ki/status/2107054815255859326)*
 
 ---
+
+<a id="category-14"></a>
 
 ## 14. Event Intros & Stings
 
-### 274. Fox Chase Event 30-Second Hype Video with Music (3.0K views, 19 likes)
-*Use Case: event | Style: 2d*
+<a id="case-274"></a>
 
-**Prompt:**
-```
+### 274. Fox Chase Event 30-Second Hype Video with Music (3.0K views, 19 likes)
+
+*Use case: event · Style: 2d*
+
+https://github.com/user-attachments/assets/c9ad1e85-d659-4946-a9ff-c6a0b000b35f
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 Make a dope polished 30 second video for our Mackenzie Club fox chase event using whatever tools you think are best. tessaract, etc. it should be all code (that's what people on X are saying). Cool music. Hype video. Use Tessaract or Remotion or whatever you think is best. Make it amazing and interesting.
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/_prompts/daverogenmoser-899271/poster.4b8e08cfe1.webp" width="400" alt="Fox Chase Event 30-Second Hype Video with Music">
+</details>
 
-*Source: @DaveRogenmoser - [Post](https://x.com/DaveRogenmoser/status/2103249424075899271)*
+*Source: @DaveRogenmoser · [X post](https://x.com/DaveRogenmoser/status/2103249424075899271)*
 
 ---
 
+<a id="category-15"></a>
+
 ## 15. Other
 
-### 275. Gravitational Lensing Interactive Black Hole Visualization (127.2K views, 684 likes)
-*Use Case: None | Style: N/A*
+<a id="case-275"></a>
 
-**Prompt:**
-```
+### 275. Gravitational Lensing Interactive Black Hole Visualization (127.2K views, 684 likes)
+
+*Use case: None · Style: N/A*
+
+https://github.com/user-attachments/assets/0611b030-7d94-4c79-8d5e-0ae1ad4123b8
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 I asked Opus 5.5 to explain gravitational lensing by building an interactive black hole lab
 
 One prompt for the first version, then a dynamic workflow to polish it for three rounds while I slept. This is what I woke up to: 5h 28m end to end, $90 at API prices
@@ -7118,17 +9737,24 @@ Round 3: a design director deciding whether it ships + visual QA and performance
 Every P0 got fixed, the rest only if worth it. When the two reviewers disagreed, it picked one and wrote down why. It backed up before each round, checked screenshots after, and rolled back anything it couldn't fix.
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/voxyz-ai-345550/original.a3843bd0f9.webp" width="400" alt="Gravitational Lensing Interactive Black Hole Visualization">
+</details>
 
-*Source: @Voxyz_ai - [Post](https://x.com/Voxyz_ai/status/2103117246860345550)*
+*Source: @Voxyz_ai · [X post](https://x.com/Voxyz_ai/status/2103117246860345550)*
 
 ---
 
-### 276. Police Chase Top-Down Arcade Game Design Document (19.6K views, 228 likes)
-*Use Case: None | Style: N/A*
+<a id="case-276"></a>
 
-**Prompt:**
-```
+### 276. Police Chase Top-Down Arcade Game Design Document (19.6K views, 228 likes)
+
+*Use case: None · Style: N/A*
+
+https://github.com/user-attachments/assets/3a7324c0-0f77-4d36-8dad-53944888e650
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 PRD — Police Chase Arcade Game
 
 Working title: Heatwave
@@ -7963,37 +10589,51 @@ https://topdown-engine.moremountains.com/
 I want the game to be optimized for mobile, but should work on desktop while testing.
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/froessell-562325/original.eb54fc5e20.webp" width="400" alt="Police Chase Top-Down Arcade Game Design Document">
+</details>
 
-*Source: @froessell - [Post](https://x.com/froessell/status/2103789415323562325)*
+*Source: @froessell · [X post](https://x.com/froessell/status/2103789415323562325)*
 
 ---
 
-### 277. Annecy France 3D Boat Journey Experience (8.0K views, 188 likes)
-*Use Case: None | Style: N/A*
+<a id="case-277"></a>
 
-**Prompt:**
-```
+### 277. Annecy France 3D Boat Journey Experience (8.0K views, 188 likes)
+
+*Use case: None · Style: N/A*
+
+https://github.com/user-attachments/assets/4c6ff8a4-b449-43cc-b624-cef2ea7b69cb
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 I wanted to see if beautiful destinations could become playable 3D experiences. Annecy, France became the prototype: a boat journey through canals, bridges, waterfront, and the mountain lake, built with Claude Opus 5.5 using Three.js + TSL.
 
 I trimmed the navigation footage for the sake of keeping the video short and the post below below has a slightly longer version. The whole workflow behind this is simple:-
 - Explained the concept to Opus and asked it to list some ideas.
 - Shortlisted one and asked it to generate a prompt, with tech stack directions.
-- Thats it, needed few iterations and is still a work in progress with few issues needing ironing. 
+- Thats it, needed few iterations and is still a work in progress with few issues needing ironing.
 - The audio effects were added by Opus itself.
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/techartist-786274/original.701c9b781e.webp" width="400" alt="Annecy France 3D Boat Journey Experience">
+</details>
 
-*Source: @techartist_ - [Post](https://x.com/techartist_/status/2103933640392786274)*
+*Source: @techartist_ · [X post](https://x.com/techartist_/status/2103933640392786274)*
 
 ---
 
-### 278. GTA-Style 1990s City Game Build (4.8K views, 6 likes)
-*Use Case: None | Style: N/A*
+<a id="case-278"></a>
 
-**Prompt:**
-```
+### 278. GTA-Style 1990s City Game Build (4.8K views, 6 likes)
+
+*Use case: None · Style: N/A*
+
+https://github.com/user-attachments/assets/cf095d82-c441-4a73-9534-af41b53987c1
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 Can one developer + 3 AI agents build a GTA-style game?
 
 I’m trying.
@@ -8003,17 +10643,24 @@ FIXER is a 1990s city game I’m building with Astra, Opus 5.5 and Fable.
 This is the current playable build.
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/alex-vainshtein-195332/original.420b38c250.webp" width="400" alt="GTA-Style 1990s City Game Build">
+</details>
 
-*Source: @Alex_Vainshtein - [Post](https://x.com/Alex_Vainshtein/status/2104197450307195332)*
+*Source: @Alex_Vainshtein · [X post](https://x.com/Alex_Vainshtein/status/2104197450307195332)*
 
 ---
 
-### 279. Interactive 3D Jet Engine from Intake to Exhaust (4.3K views, 3 likes)
-*Use Case: None | Style: N/A*
+<a id="case-279"></a>
 
-**Prompt:**
-```
+### 279. Interactive 3D Jet Engine from Intake to Exhaust (4.3K views, 3 likes)
+
+*Use case: None · Style: N/A*
+
+https://github.com/user-attachments/assets/0dbe4c5e-a12d-4936-a569-07c71c4122ad
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 Build me a jet engine in interactive 3D, from intake to exhaust, in one HTML file with Three.js.
 
 Make it look real: the big front fan, the compressor stages, the combustion chamber glowing inside, the turbine and the nozzle. The fan and the shafts spin. I can drag to orbit around it and scroll to zoom.
@@ -8023,73 +10670,376 @@ Add an Explode button. When I press it, every part slides apart along the engine
 No images. Do not ask me any questions. Just build it.
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/_prompts/aichrislee-479847/poster.9b9d3b295d.webp" width="400" alt="Interactive 3D Jet Engine from Intake to Exhaust">
+</details>
 
-*Source: @aichrislee - [Post](https://x.com/aichrislee/status/2106535528149479847)*
+*Source: @aichrislee · [X post](https://x.com/aichrislee/status/2106535528149479847)*
 
 ---
 
-### 280. Deep-Sea Horror Game with Drone Soundtrack (3.6K views, 84 likes)
-*Use Case: None | Style: N/A*
+<a id="case-280"></a>
 
-**Prompt:**
-```
+### 280. Deep-Sea Horror Game with Drone Soundtrack (3.6K views, 84 likes)
+
+*Use case: None · Style: N/A*
+
+https://github.com/user-attachments/assets/9e891065-5a71-49b8-9931-ba4ebe4af5d7
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 I asked opus 5.5 to make a game within the confines and abilities of my engine, no other prompt. It made this deep-sea horror game, with a subtle drone soundtrack. And it's terrifying (if a bit unbalanced/unfair). Sound on.
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/ggsimm-535814/original.87b91721f4.webp" width="400" alt="Deep-Sea Horror Game with Drone Soundtrack">
+</details>
 
-*Source: @ggsimm - [Post](https://x.com/ggsimm/status/2102882622053535814)*
+*Source: @ggsimm · [X post](https://x.com/ggsimm/status/2102882622053535814)*
 
 ---
 
+<a id="case-281"></a>
+
 ### 281. BugSmash Casual 4MB Browser Game with Graphics (2.5K views, 12 likes)
-*Use Case: None | Style: N/A*
 
-**Prompt:**
-```
-Opus 5.5 releases 😍 
+*Use case: None · Style: N/A*
 
-Me: Woahh! Let's drill through our BugSmash backlog quickly. 
+https://github.com/user-attachments/assets/13b364cb-d730-4d0b-91c2-75d233ea9415
 
-My Co-founder @suhailpatel941: Hold my cup... let's make a game 🥲 
+<details>
+<summary>Prompt · original</summary>
+
+```text
+Opus 5.5 releases 😍
+
+Me: Woahh! Let's drill through our BugSmash backlog quickly.
+
+My Co-founder @suhailpatel941: Hold my cup... let's make a game 🥲
 
 All this graphics and the game is just - 4MB game - hosted on BugSmash Drop itself 🤯
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/nqaze-939886/original.911e3e6823.webp" width="400" alt="BugSmash Casual 4MB Browser Game with Graphics">
+</details>
 
-*Source: @nQaze - [Post](https://x.com/nQaze/status/2103853898301939886)*
+*Source: @nQaze · [X post](https://x.com/nQaze/status/2103853898301939886)*
 
 ---
 
-### 282. Neuroscience Study 60-Second Film and Interactive Lab (1.5K views, 13 likes)
-*Use Case: None | Style: N/A*
+<a id="case-282"></a>
 
-**Prompt:**
-```
+### 282. Neuroscience Study 60-Second Film and Interactive Lab (1.5K views, 13 likes)
+
+*Use case: None · Style: N/A*
+
+https://github.com/user-attachments/assets/d7ad04da-da4e-4c20-8a77-9b4433bf2127
+
+<details>
+<summary>Prompt · original</summary>
+
+```text
 Turn a 2025 neuroscience study about strangers' brain reactions to movies growing closer into a 60-second film and interactive lab. One HTML file.
 ```
 
-<img src="https://media.skillry.dev/opus-5-5/_prompts/curieuxexplorer-590917/poster.3bf8afe744.webp" width="400" alt="Neuroscience Study 60-Second Film and Interactive Lab">
+</details>
 
-*Source: @CurieuxExplorer - [Post](https://x.com/CurieuxExplorer/status/2104801713840590917)*
+*Source: @CurieuxExplorer · [X post](https://x.com/CurieuxExplorer/status/2104801713840590917)*
 
 ---
 
+<a id="category-16"></a>
 
-## 📊 Data
+## 16. Visual Styles & Illustration
 
-The full dataset with all metrics, tags, and classifications is available in [`videos_filtered.json`](./videos_filtered.json).
+<a id="case-287"></a>
 
-## 🏷️ Tag System
+### 287. Korean Chuseok Pixel-Art Night Animation
 
-Each video is tagged with:
+*Use case: fun · Style: pixel-art*
 
-- **Use Case:** launch, showreel, explainer, demo, ad, fun, story, game-fx, music, branding, social, tutorial, data-viz, event
-- **Style:** 2d, 3d, hand-drawn, pixel-art, kinetic-type, particle, realistic, cartoon, minimal, retro, abstract, photo-based, infographic, glitch
-- **Motion Score:** 0-100% confidence that the output is a motion video (vs. game, tool, or interactive demo)
+https://github.com/user-attachments/assets/52d19431-542b-4d6c-afd5-f801caf29af9
 
-## 📄 License
+<details>
+<summary>Prompt · English translation</summary>
 
-MIT
+```text
+Search for elements appropriate to Korean Chuseok, arrange them into a pixel animation, and build it.
+```
+
+</details>
+
+<details>
+<summary>Prompt · Chinese version from Feishu</summary>
+
+```text
+搜索适合韩国秋夕的元素，将它们组织成像素动画并制作出来。
+```
+
+</details>
+
+*Source: [Feishu collection](https://aiwarts101.feishu.cn/wiki/LMEcwg5jHiTSnqkwNE1cum7DnLb) · [Feishu N26](https://aiwarts101.feishu.cn/wiki/LMEcwg5jHiTSnqkwNE1cum7DnLb)*
+
+---
+
+<a id="case-288"></a>
+
+### 288. Hand-Drawn Animals Come Alive from a Sketchbook
+
+*Use case: fun · Style: hand-drawn*
+
+https://github.com/user-attachments/assets/a1b3b050-f97f-4a8d-b91e-377929c2aba8
+
+<details>
+<summary>Prompt · English translation</summary>
+
+```text
+You are a professional video creator. Use JavaScript to create a high-definition, creative, playful, joyful video that people enjoy watching, with sound that fits the visuals. Use as many of the supplied hand-drawn images as possible to make it more creative and more faithful to the input images. You may also draw inspiration from videos you made in video-examples/, but do not copy them, especially video-examples/twitter_claude.mp4. You are very creative, so make the best work you can.
+```
+
+</details>
+
+<details>
+<summary>Prompt · Chinese version from Feishu</summary>
+
+```text
+你是一位专业视频创作者。使用JavaScript，为我制作一支高清、有创意、俏皮、欢乐、让人乐于观看的视频，并配上与画面相匹配的声音。尽可能多地使用输入的手绘图片，让作品更有创意，也更忠于输入图片。你也可以从你在video-examples/中制作的视频汲取灵感，但不要照搬，尤其是这支：video-examples/twitter_claude.mp4。你很有创造力，所以请拿出你能做出的最佳作品。
+```
+
+</details>
+
+*Source: [Feishu collection](https://aiwarts101.feishu.cn/wiki/LMEcwg5jHiTSnqkwNE1cum7DnLb) · [Feishu N27](https://aiwarts101.feishu.cn/wiki/LMEcwg5jHiTSnqkwNE1cum7DnLb)*
+
+---
+
+<a id="case-289"></a>
+
+### 289. What Makes a Place Feel Like Home: Paper-Cut Shadow Theatre
+
+*Use case: story · Style: paper-cut*
+
+https://github.com/user-attachments/assets/440358b1-9185-40aa-a743-d4605399e4ef
+
+<details>
+<summary>Prompt · English translation</summary>
+
+```text
+Create a pure JavaScript animation, 30–60 seconds long, vertical 9:16, in the style of paper-cut shadow theatre, with gentle, fitting audio made in code. Theme: what makes a place feel like home?
+```
+
+</details>
+
+<details>
+<summary>Prompt · Chinese version from Feishu</summary>
+
+```text
+创建一段纯JavaScript动画。时长30至60秒，竖屏9:16，采用剪纸皮影剧场风格，配上柔和、贴切的音频（用代码制作），主题是：什么让一个地方有家的感觉？
+```
+
+</details>
+
+*Source: [Feishu collection](https://aiwarts101.feishu.cn/wiki/LMEcwg5jHiTSnqkwNE1cum7DnLb) · [Feishu N28](https://aiwarts101.feishu.cn/wiki/LMEcwg5jHiTSnqkwNE1cum7DnLb)*
+
+---
+
+<a id="case-290"></a>
+
+### 290. Risograph Studio Introduction
+
+*Use case: branding · Style: risograph*
+
+https://github.com/user-attachments/assets/147fcb20-5aa6-460e-9881-bda14d40fe03
+
+<details>
+<summary>Prompt · English translation</summary>
+
+```text
+Make something about my studio in a Risograph printmaking style.
+```
+
+</details>
+
+<details>
+<summary>Prompt · Chinese version from Feishu</summary>
+
+```text
+以Risograph孔版印刷风格，制作关于我的工作室的内容。
+```
+
+</details>
+
+*Source: [Feishu collection](https://aiwarts101.feishu.cn/wiki/LMEcwg5jHiTSnqkwNE1cum7DnLb) · [Feishu N29](https://aiwarts101.feishu.cn/wiki/LMEcwg5jHiTSnqkwNE1cum7DnLb)*
+
+---
+
+<a id="case-291"></a>
+
+### 291. Pixel-Art History of Large Language Models
+
+*Use case: story · Style: pixel-art*
+
+https://github.com/user-attachments/assets/6bbdcfd9-772d-459e-bc79-eab3d8d673aa
+
+<details>
+<summary>Prompt · English translation</summary>
+
+```text
+Render a ping-pong looping pixel-art animation showing the history of large language models. Then recursive self-improvement (RSI). Then things get fucking wild. Maximum 15 seconds. Make it a self-contained .html file.
+```
+
+</details>
+
+<details>
+<summary>Prompt · Chinese version from Feishu</summary>
+
+```text
+用像素艺术渲染一个来回循环播放的动画，呈现大语言模型的历史。接着是递归自我改进（RSI）。然后画面变得他妈的疯狂。最长15秒。做成一个自包含的.html文件。
+```
+
+</details>
+
+*Source: [Feishu collection](https://aiwarts101.feishu.cn/wiki/LMEcwg5jHiTSnqkwNE1cum7DnLb) · [Feishu N30](https://aiwarts101.feishu.cn/wiki/LMEcwg5jHiTSnqkwNE1cum7DnLb)*
+
+---
+
+<a id="category-17"></a>
+
+## 17. Motion Principles & UI Handoffs
+
+<a id="case-303"></a>
+
+### 303. Motion Principles: Shapes, Rhythm and Trajectories
+
+*Use case: showreel · Style: 2d*
+
+https://github.com/user-attachments/assets/a2fc1050-2470-4ce8-a038-6409977b57ed
+
+<details>
+<summary>Prompt · English translation</summary>
+
+```text
+Make a dynamic 15-second motion graphics video showing your extraordinary abilities as a motion designer, like a resume showreel. Go all out.
+```
+
+</details>
+
+<details>
+<summary>Prompt · Chinese version from Feishu</summary>
+
+```text
+制作一段动感十足的15秒动态图形视频，展现你作为动效设计师的非凡实力，就像用于简历的作品集展示片。全力以赴。
+```
+
+</details>
+
+*Source: [Feishu collection](https://aiwarts101.feishu.cn/wiki/LMEcwg5jHiTSnqkwNE1cum7DnLb) · [Feishu N08](https://aiwarts101.feishu.cn/wiki/LMEcwg5jHiTSnqkwNE1cum7DnLb)*
+
+---
+
+<a id="case-304"></a>
+
+### 304. White Ball UI Handoffs: Springs, Collisions and Continuous Paths
+
+*Use case: demo · Style: 2d, minimal*
+
+https://github.com/user-attachments/assets/36b5c075-c127-4bbb-831c-f7003208755e
+
+<details>
+<summary>Prompt · English translation</summary>
+
+```text
+<inputs>
+Ask me for: the slider's target value, three short notification messages, a reply to type, one accent colour, and a royalty-free song around 120 BPM. If I skip anything, use 100, 'Slider - Reached 100', 'Gravity - Something is falling', 'Messages - What now?', 'retry', and electric blue as defaults.
+</inputs>
+
+<direction>
+Create a 10-second, 16:9, 2D UI motion film. Place everything on a near-black canvas with a subtle dot grid. Use charcoal controls, crisp white type, one blue accent, and a white ball that moves throughout the film. A real cursor gives the opening click a physical feel; every later transition is led by the ball. Keep the UI clean and collisions precise, with only slight spring overshoot. Move the camera through one continuous layout so each interaction fills the frame.
+Banned: hard cuts, stock footage, glows, particle bursts, disconnected transitions, excessive bouncing, and blurry type during camera motion.
+</direction>
+
+<structure>
+About 10 seconds; something happens on every major beat.
+Toggle: the cursor clicks the blue toggle. Its white ball pops out and the camera follows it toward a horizontal slider.
+Slider: the ball lands on the knob and carries it along the track. The blue fill stays connected to the knob, and the value bubble above it rises to 100.
+Notifications: at 100, the ball continues forward and introduces three dark cards: 'Slider', 'Gravity', and 'Messages'. Each enters on its own beat. The camera follows the ball down to 'What now?'.
+Reply: a small Reply pill stretches into an input field. A keyboard rises below it, still part of the same scene.
+Keyboard: the ball strikes keys and 'retry' appears in the input. The ball lands on Return, the blue send button activates, and the reply collapses into a small blue message.
+Return: the camera pulls back to show the toggle, slider, cards, and keyboard together in one world. The ball returns to the first toggle. Match the ball position, cursor, and toggle state to the opening so the film loops smoothly.
+</structure>
+
+<build>
+1. One 1920×1080 HTML file at 60 fps. Compute all visuals from time inside seek(t): no CSS transitions, timers, or state carried between frames.
+2. Arrange every UI component in one world. Use one camera transform built from position and log-space zoom, so each close-up is a camera move through that world.
+3. Design one continuous ball path connecting the toggle, slider, cards, and keys. Use closed-form springs for landings and brief squash on impact.
+4. Compute the slider fill and number from the ball's horizontal position. Keep the value bubble centred above the knob until it reaches 100.
+5. Assign a fixed time to every keystroke. Show the portion of the reply typed by each time, allowing any frame to render independently.
+6. Align clicks, slider motion, card entries, typing, send, and return to measured beats. Add subtle UI sounds at each contact.
+7. Render a still on every beat to check pace and readability, then export the full film with Playwright at 60 fps. Inspect rapid camera moves and the loop boundary frame by frame.
+</build>
+
+<gotchas>
+Never teleport the ball between components: show the path through every handoff. Keep the value bubble attached to the slider knob. Leave enough space around notification cards to stay legible during camera moves. The keys struck by the ball must match the letters appearing in the input. Match the first and last frames, including the ball's direction and cursor position, to avoid a loop stutter.
+</gotchas>
+
+<start>
+Ask for the inputs first, then show a beat map and four stills—toggle, slider, notifications, and keyboard—before building the complete video.
+</start>
+```
+
+</details>
+
+<details>
+<summary>Prompt · Chinese version from Feishu</summary>
+
+```text
+<输入>
+向我询问：滑块的目标值、三条简短通知消息、一条要输入的回复、一种强调色，以及一首约120 BPM的免版税音乐。如果我跳过某项，使用100、“Slider - Reached 100”（滑块—达到100）、“Gravity - Something is falling”（重力—有东西正在落下）、“Messages - What now?”（消息—接下来怎么办？）、“retry”（重试）和电光蓝作为默认值。
+</输入>
+<方向>
+制作一支10秒、16:9的二维 UI 动效短片。将所有内容放在接近黑色、带有淡淡点阵网格的画布上。使用炭灰色控件、锐利的白色文字、一种蓝色强调色，以及一颗贯穿整部短片运动的白球。真实光标让开场点击具有物理触感；之后的每次转场都由白球引导。保持 UI 干净、碰撞精确，只允许轻微的弹簧过冲。让镜头穿行于一个连续布局之中，使每次交互都充满画面。
+禁止：硬切、素材库视频、发光、粒子爆发、缺乏联系的转场、过度弹跳，以及镜头运动时模糊的文字。
+</方向>
+<结构>
+约10秒，每个主要节拍上都要发生事情。
+开关：光标点击蓝色开关。开关中的白球弹出，镜头跟随它移向水平滑块。
+滑块：白球落在旋钮上，带着旋钮沿轨道移动。蓝色填充始终连接着旋钮，旋钮上方的数值气泡升至100。
+通知：达到100时，白球继续前进，同时引入三张深色卡片：“Slider”“Gravity”和“Messages”。每张卡片都在各自的节拍进入。镜头跟随白球向下移动至“What now?”。
+回复：小型“Reply”胶囊按钮拉伸成输入框。键盘在下方升起，仍属于同一场景。
+键盘：白球敲击按键，输入框中逐渐出现“retry”。白球落在 Return 键上，蓝色发送按钮激活，回复收缩为一条小型蓝色消息。
+返回：镜头拉远，展示开关、滑块、卡片和键盘共同处于一个世界中。白球返回第一个开关。让白球位置、光标和开关状态与开场画面匹配，使短片流畅循环。
+</结构>
+<实现>
+1. 制作一个1920×1080、60fps的 HTML 文件。在 seek(t) 内依据时间计算所有视觉：不使用 CSS 过渡、计时器，也不在帧间保留状态。
+2. 把全部 UI 组件布置于同一个世界。使用一个由位置和对数空间缩放构成的镜头变换，让每个特写都成为穿过这个世界的一次镜头移动。
+3. 给白球设计一条连接开关、滑块、卡片和按键的连续路线。落地使用闭式弹簧，并在碰撞时短暂压扁。
+4. 根据白球的水平位置计算滑块填充和数字。在达到100之前，让提示框始终居中位于旋钮上方。
+5. 为每次按键设定固定时间。根据对应时刻已经输入的部分展示回复，从而能够独立渲染任意帧。
+6. 将点击、滑块移动、卡片入场、敲键、发送与返回对齐到测得的节拍。在每次接触时加入细微的 UI 音效。
+7. 每拍先渲染一张静帧以检查节奏和可读性，然后用 Playwright 以60fps导出完整短片。逐帧检查快速镜头移动和循环边界。
+</实现>
+<注意事项>
+绝不能让白球在组件之间瞬移：每次交接都必须展示运动路径。让数值气泡始终连接滑块旋钮。为通知卡片预留足够空间，让它们在镜头运动中仍然清晰可读。白球敲击的按键必须与输入框中出现的文字一致。匹配首尾两帧，包括白球的运动方向和光标位置，避免循环卡顿。
+</注意事项>
+<开始>
+先向我询问输入，然后在制作完整视频之前，向我展示节拍图以及四张静帧：开关、滑块、通知和键盘。
+</开始>
+```
+
+</details>
+
+*Source: [Feishu collection](https://aiwarts101.feishu.cn/wiki/LMEcwg5jHiTSnqkwNE1cum7DnLb) · [Feishu N09](https://aiwarts101.feishu.cn/wiki/LMEcwg5jHiTSnqkwNE1cum7DnLb)*
+
+---
+
+<a id="data"></a>
+
+## Data & maintenance
+
+Browse [`data/cases.json`](./data/cases.json) for cases, [`data/feishu-import.json`](./data/feishu-import.json) for import and deduplication mappings, and [`data/media.json`](./data/media.json) for video attachments and availability.
+
+After editing the data, run `node scripts/build-readme.cjs` to regenerate both languages. Contributions should include creator credit, the original source, a complete prompt, and a suitable category.
+
+See [CONTRIBUTING.md](./CONTRIBUTING.md) for the video upload workflow.
+
+<a id="credits"></a>
+
+## Credits & license
+
+Thanks to the original creators and Karl’s AIwarts for the case collection. Repository code and editorial material use the [MIT license](./LICENSE). Referenced prompts, videos, brands, and third-party assets remain subject to their respective owners’ rights; the repository license does not grant additional rights to those materials.

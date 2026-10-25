@@ -2,15 +2,20 @@
 
 **English** | [简体中文](./README.zh-CN.md)
 
+![Awesome Claude Motion Graphics — 304 handpicked prompt cases, 30M+ source views, 17 clear categories](./assets/cover-en.png)
+
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/sindresorhus/awesome) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE) [![GitHub stars](https://img.shields.io/github/stars/ZeroLu/awesome-claude-motion-graphics?style=social)](https://github.com/ZeroLu/awesome-claude-motion-graphics/stargazers)
 
-> A curated collection of Claude motion graphics and code animation: videos, original prompts, and creator credits. Explore product launches, showreels, explainers, 3D, music videos, and more.
+> **Standout Claude motion graphics, handpicked by humans.** Hundreds of high-quality prompt cases, high-view inspiration, and clear categories to help you find ideas faster and turn great prompts into your next creation.
 
-Cases come from X and [Karl’s AIwarts Feishu collection](https://aiwarts101.feishu.cn/wiki/LMEcwg5jHiTSnqkwNE1cum7DnLb). Prompts retain their source language; Chinese versions from Feishu appear alongside matching cases. Some entries are interactive demos or games, and some prompts require the creator’s reference files, music, or tools.
+**304 curated cases · 30M+ source-post views · 17 clear categories · 303 playable videos**
 
-**304 cases · 303 playable videos · 17 categories · 37 Feishu records (22 added, 15 merged)**
+- **Human-curated for quality.** Selected for visual craft, prompt value, and what you can learn from the result.
+- **High-view examples with context.** Includes breakout work with millions of views, plus original view and like snapshots for comparison.
+- **Organized for discovery.** Explore 17 categories, from product launches and explainers to 3D, branding, and music videos, with use-case and style tags.
+- **Watch. Copy. Adapt.** Find the video, full original prompt, and creator credit together—from concise creative briefs to detailed production instructions.
 
-View and like counts are snapshots inherited from the original collection, not live metrics. New cases without public metrics omit them. Videos use native GitHub attachment players where available; remaining cases retain their original preview or source link.
+Start with a category, watch a result, then expand its prompt. Sourced from X and [Karl’s AIwarts Feishu collection](https://aiwarts101.feishu.cn/wiki/LMEcwg5jHiTSnqkwNE1cum7DnLb).
 
 ## Contents
 
@@ -11031,6 +11036,10 @@ Ask for the inputs first, then show a beat map and four stills—toggle, slider,
 <a id="data"></a>
 
 ## Data & maintenance
+
+30M+ is a conservative aggregate of source-post view snapshots, not live metrics or unique viewers. Individual cases retain their original view and like counts; missing metrics are omitted. The 37 Feishu records contribute 22 new cases and 15 merged matches.
+
+Prompts retain their source language, with Chinese versions from Feishu alongside matching cases. Some cases are interactive demos or games, and some prompts require the creator’s reference files, music, or tools. Videos use native GitHub attachment players; unavailable videos retain their preview and source.
 
 Browse [`data/cases.json`](./data/cases.json) for cases, [`data/feishu-import.json`](./data/feishu-import.json) for import and deduplication mappings, and [`data/media.json`](./data/media.json) for video attachments and availability.
 

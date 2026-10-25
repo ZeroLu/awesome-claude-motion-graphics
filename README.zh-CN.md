@@ -2,15 +2,20 @@
 
 [English](./README.md) | **简体中文**
 
+![Awesome Claude Motion Graphics — 304 handpicked prompt cases, 30M+ source views, 17 clear categories](./assets/cover-en.png)
+
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/sindresorhus/awesome) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE) [![GitHub stars](https://img.shields.io/github/stars/ZeroLu/awesome-claude-motion-graphics?style=social)](https://github.com/ZeroLu/awesome-claude-motion-graphics/stargazers)
 
-> Claude 动态图形与代码动画案例集：视频、原始提示词与创作者出处。涵盖产品发布、动效作品集、科普、3D、音乐 MV 等。
+> **优中选优，人工精选的 Claude 动效提示词案例库。** 数百个高质量案例、高播放量作品与清晰分类，帮助你更快找到灵感、学习优秀表达，把提示词用到自己的创作中。
 
-案例来自 X 与[卡尔的 AI 沃茨飞书文档](https://aiwarts101.feishu.cn/wiki/LMEcwg5jHiTSnqkwNE1cum7DnLb)。保留原始提示词语言；飞书提供的中文版本标注在对应案例下。部分条目是交互演示或游戏，部分提示词依赖作者的参考文件、音乐或工具。
+**304 个人工精选案例 · 来源帖子累计 30M+ 播放 · 17 个清晰分类 · 303 个可播放视频**
 
-**收录 304 个案例 · 303 个可播放视频 · 17 个分类 · 飞书 37 条记录（22 条新增、15 条合并）**
+- **人工筛选，优中选优。** 围绕画面表现、提示词价值与学习参考价值整理，方便你直接从优秀案例开始。
+- **高播放量作品，有据可看。** 收录获得百万级播放的作品，并保留原帖浏览与点赞快照，方便对照研究。
+- **分类清晰，按需找灵感。** 产品发布、动效作品集、科普、3D、品牌、音乐 MV 等 17 类，搭配用途与风格标签。
+- **看成片，复制提示词，动手改编。** 视频、完整原始提示词与创作者出处放在一起，覆盖简短创意指令到详细制作规范。
 
-浏览与点赞数沿用原仓库采集快照，并非实时数据；没有公开数据的新案例不补造指标。视频优先使用 GitHub 原生附件播放器，暂未取得视频的案例保留原预览或来源链接。
+从感兴趣的分类开始，观看成片，再展开提示词。案例来源于 X 与[卡尔的 AI 沃茨飞书精选](https://aiwarts101.feishu.cn/wiki/LMEcwg5jHiTSnqkwNE1cum7DnLb)。
 
 ## 目录
 
@@ -10783,6 +10788,10 @@ https://github.com/user-attachments/assets/36b5c075-c127-4bbb-831c-f7003208755e
 <a id="data"></a>
 
 ## 数据与维护
+
+30M+ 为来源帖子累计浏览快照的保守汇总，非实时数据或独立观众数；单条案例保留原有浏览与点赞记录，没有公开数据时省略。飞书 37 条记录已去重整理，其中新增 22 条、合并 15 条。
+
+提示词保留原始语言，飞书提供的中文版本与对应案例并列。部分案例是交互演示或游戏，部分提示词依赖作者的参考文件、音乐或工具。视频使用 GitHub 原生附件播放器；暂未取得视频的案例保留预览与来源。
 
 完整案例在 [`data/cases.json`](./data/cases.json)，飞书导入与去重对应关系在 [`data/feishu-import.json`](./data/feishu-import.json)，视频附件与获取状态在 [`data/media.json`](./data/media.json)。
 

@@ -40,19 +40,20 @@ function build(zh) {
     zh
       ? "[English](./README.md) | **简体中文**"
       : "**English** | [简体中文](./README.zh-CN.md)",
+    "![Awesome Claude Motion Graphics — 304 handpicked prompt cases, 30M+ source views, 17 clear categories](./assets/cover-en.png)",
     "[![Awesome](https://awesome.re/badge.svg)](https://github.com/sindresorhus/awesome) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE) [![GitHub stars](https://img.shields.io/github/stars/ZeroLu/awesome-claude-motion-graphics?style=social)](https://github.com/ZeroLu/awesome-claude-motion-graphics/stargazers)",
     zh
-      ? "> Claude 动态图形与代码动画案例集：视频、原始提示词与创作者出处。涵盖产品发布、动效作品集、科普、3D、音乐 MV 等。"
-      : "> A curated collection of Claude motion graphics and code animation: videos, original prompts, and creator credits. Explore product launches, showreels, explainers, 3D, music videos, and more.",
+      ? "> **优中选优，人工精选的 Claude 动效提示词案例库。** 数百个高质量案例、高播放量作品与清晰分类，帮助你更快找到灵感、学习优秀表达，把提示词用到自己的创作中。"
+      : "> **Standout Claude motion graphics, handpicked by humans.** Hundreds of high-quality prompt cases, high-view inspiration, and clear categories to help you find ideas faster and turn great prompts into your next creation.",
     zh
-      ? "案例来自 X 与[卡尔的 AI 沃茨飞书文档](https://aiwarts101.feishu.cn/wiki/LMEcwg5jHiTSnqkwNE1cum7DnLb)。保留原始提示词语言；飞书提供的中文版本标注在对应案例下。部分条目是交互演示或游戏，部分提示词依赖作者的参考文件、音乐或工具。"
-      : "Cases come from X and [Karl’s AIwarts Feishu collection](https://aiwarts101.feishu.cn/wiki/LMEcwg5jHiTSnqkwNE1cum7DnLb). Prompts retain their source language; Chinese versions from Feishu appear alongside matching cases. Some entries are interactive demos or games, and some prompts require the creator’s reference files, music, or tools.",
+      ? `**${cases.length} 个人工精选案例 · 来源帖子累计 30M+ 播放 · 17 个清晰分类 · ${playable} 个可播放视频**`
+      : `**${cases.length} curated cases · 30M+ source-post views · 17 clear categories · ${playable} playable videos**`,
     zh
-      ? `**收录 ${cases.length} 个案例 · ${playable} 个可播放视频 · 17 个分类 · 飞书 37 条记录（22 条新增、15 条合并）**`
-      : `**${cases.length} cases · ${playable} playable videos · 17 categories · 37 Feishu records (22 added, 15 merged)**`,
+      ? "- **人工筛选，优中选优。** 围绕画面表现、提示词价值与学习参考价值整理，方便你直接从优秀案例开始。\n- **高播放量作品，有据可看。** 收录获得百万级播放的作品，并保留原帖浏览与点赞快照，方便对照研究。\n- **分类清晰，按需找灵感。** 产品发布、动效作品集、科普、3D、品牌、音乐 MV 等 17 类，搭配用途与风格标签。\n- **看成片，复制提示词，动手改编。** 视频、完整原始提示词与创作者出处放在一起，覆盖简短创意指令到详细制作规范。"
+      : "- **Human-curated for quality.** Selected for visual craft, prompt value, and what you can learn from the result.\n- **High-view examples with context.** Includes breakout work with millions of views, plus original view and like snapshots for comparison.\n- **Organized for discovery.** Explore 17 categories, from product launches and explainers to 3D, branding, and music videos, with use-case and style tags.\n- **Watch. Copy. Adapt.** Find the video, full original prompt, and creator credit together—from concise creative briefs to detailed production instructions.",
     zh
-      ? "浏览与点赞数沿用原仓库采集快照，并非实时数据；没有公开数据的新案例不补造指标。视频优先使用 GitHub 原生附件播放器，暂未取得视频的案例保留原预览或来源链接。"
-      : "View and like counts are snapshots inherited from the original collection, not live metrics. New cases without public metrics omit them. Videos use native GitHub attachment players where available; remaining cases retain their original preview or source link.",
+      ? "从感兴趣的分类开始，观看成片，再展开提示词。案例来源于 X 与[卡尔的 AI 沃茨飞书精选](https://aiwarts101.feishu.cn/wiki/LMEcwg5jHiTSnqkwNE1cum7DnLb)。"
+      : "Start with a category, watch a result, then expand its prompt. Sourced from X and [Karl’s AIwarts Feishu collection](https://aiwarts101.feishu.cn/wiki/LMEcwg5jHiTSnqkwNE1cum7DnLb).",
     zh ? "## 目录" : "## Contents",
   ];
   out.push(
@@ -137,6 +138,12 @@ function build(zh) {
   out.push(
     '<a id="data"></a>',
     zh ? "## 数据与维护" : "## Data & maintenance",
+    zh
+      ? "30M+ 为来源帖子累计浏览快照的保守汇总，非实时数据或独立观众数；单条案例保留原有浏览与点赞记录，没有公开数据时省略。飞书 37 条记录已去重整理，其中新增 22 条、合并 15 条。"
+      : "30M+ is a conservative aggregate of source-post view snapshots, not live metrics or unique viewers. Individual cases retain their original view and like counts; missing metrics are omitted. The 37 Feishu records contribute 22 new cases and 15 merged matches.",
+    zh
+      ? "提示词保留原始语言，飞书提供的中文版本与对应案例并列。部分案例是交互演示或游戏，部分提示词依赖作者的参考文件、音乐或工具。视频使用 GitHub 原生附件播放器；暂未取得视频的案例保留预览与来源。"
+      : "Prompts retain their source language, with Chinese versions from Feishu alongside matching cases. Some cases are interactive demos or games, and some prompts require the creator’s reference files, music, or tools. Videos use native GitHub attachment players; unavailable videos retain their preview and source.",
     zh
       ? "完整案例在 [`data/cases.json`](./data/cases.json)，飞书导入与去重对应关系在 [`data/feishu-import.json`](./data/feishu-import.json)，视频附件与获取状态在 [`data/media.json`](./data/media.json)。"
       : "Browse [`data/cases.json`](./data/cases.json) for cases, [`data/feishu-import.json`](./data/feishu-import.json) for import and deduplication mappings, and [`data/media.json`](./data/media.json) for video attachments and availability.",
